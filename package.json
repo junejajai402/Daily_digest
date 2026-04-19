@@ -1,0 +1,20 @@
+{
+  "name": "daily-digest-framework",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Learning-first personal daily digest framework",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "send:digest": "node --env-file=.env --import tsx src/send-digest.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.5.9",
+    "resend": "^6.12.0"
+  }
+}

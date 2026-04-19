@@ -1,0 +1,51 @@
+name: Daily Digest Template
+
+# Purpose:
+# This is a learning-first GitHub Actions template for running the digest in the cloud.
+# It is intentionally not "fully magical" so you can understand each piece before turning
+# it into your real scheduled workflow.
+#
+# Good next learning steps:
+# - rename this file to daily-digest.yml when you want it to become active
+# - uncomment the schedule block after you confirm a manual run works
+# - add the required repository secrets in GitHub before the first real run
+
+on:
+  workflow_dispatch:
+
+  # GitHub cron uses UTC, not your local timezone.
+  # 11:00 UTC is 7:00 AM in New York during daylight saving time.
+  #
+  # schedule:
+  #   - cron: "0 11 * * *"
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+
+    # These env vars come from GitHub repository secrets.
+    # Add them in:
+    # Settings > Secrets and variables > Actions
+    env:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      DIGEST_TO_EMAIL: ${{ secrets.DIGEST_TO_EMAIL }}
+      DIGEST_FROM_EMAIL: ${{ secrets.DIGEST_FROM_EMAIL }}
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 25
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck before sending
+        run: npm run typecheck
+
+      - name: Build and send the digest
+        run: npm run send:digest

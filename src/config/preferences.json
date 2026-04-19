@@ -1,0 +1,45 @@
+{
+  "timezone": "America/New_York",
+  "deliveryHourLocal": 7,
+  "maxItemsPerDigest": 13,
+  "topicItemLimits": {
+    "security": 5,
+    "tech": 5,
+    "albums": 3
+  },
+  "topicWeights": {
+    "security": 1,
+    "albums": 0.7,
+    "tech": 0.9,
+    "world": 0.6,
+    "personal": 0.8
+  },
+  "sourceWeights": {
+    "BBC Technology": 0.7,
+    "Schneier on Security": 0.9,
+    "BBC World": 0.7,
+    "Hacker News": 0.85,
+    "The Guardian World": 0.75,
+    "The Guardian Tech": 0.7,
+    "SANS ISC": 0.9,
+    "Pitchfork Best New Albums": 0.8,
+    "Pitchfork Album Reviews": 0.75,
+    "NPR Music News": 0.72,
+    "NME Music News": 0.68
+  },
+  "preferredSources": [
+    "General Feed"
+  ],
+  "boostedKeywords": [
+    "zero-day",
+    "privacy",
+    "ai",
+    "release",
+    "latest",
+    "security"
+  ],
+  "mutedKeywords": [
+    "celebrity",
+    "gossip"
+  ]
+}
