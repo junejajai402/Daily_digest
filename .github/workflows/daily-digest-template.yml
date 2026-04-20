@@ -16,8 +16,8 @@ on:
   # GitHub cron uses UTC, not your local timezone.
   # 11:00 UTC is 7:00 AM in New York during daylight saving time.
   #
-  # schedule:
-  #   - cron: "0 11 * * *"
+  schedule:
+    - cron: "0 11 * * *"
 
 jobs:
   send-digest:
