@@ -46,6 +46,12 @@ It is intentionally small so you can understand how data moves through the app:
 2. Replace `re_xxxxxxxxx` with your real Resend API key and add the email addresses you want to use.
 3. For test sends, keep `DIGEST_FROM_EMAIL` on `onboarding@resend.dev`. Do not use `gmail.com` as the sender unless you later verify your own domain in Resend.
 4. Run `npm run send:digest` to send the current digest to yourself. The script now loads `.env` automatically.
+5. Run `npm run send:digest:dry-run` if you want to build the digest without actually sending the email.
+
+Optional safety flags:
+
+- `DRY_RUN=true`: builds the digest and logs success, but skips the Resend API call.
+- `MIN_DIGEST_ITEMS=8`: aborts sending if the digest is too thin to be useful.
 
 ## Current digest mix
 
@@ -77,6 +83,9 @@ If you want the digest to run even while your laptop is asleep, the easiest free
   - `RESEND_API_KEY`
   - `DIGEST_TO_EMAIL`
   - `DIGEST_FROM_EMAIL`
+- The template also includes:
+  - `DRY_RUN="true"` so your first cloud test does not send a real email
+  - `MIN_DIGEST_ITEMS=8` so low-quality runs abort instead of sending a weak digest
 - When you are ready to activate it, rename the file from `daily-digest-template.yml` to `daily-digest.yml`.
 
 The learning sequence I recommend is:
@@ -85,7 +94,9 @@ The learning sequence I recommend is:
 2. Add the three Actions secrets.
 3. Rename the template file so GitHub picks it up.
 4. Run it manually once from the Actions tab.
-5. Uncomment the cron schedule only after the manual run succeeds.
+5. Confirm the dry run looks right in the logs.
+6. Change `DRY_RUN` to `"false"`.
+7. Uncomment the cron schedule only after the manual run succeeds.
 
 ## Suggested learning path
 

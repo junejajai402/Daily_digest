@@ -30,6 +30,10 @@ jobs:
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
       DIGEST_TO_EMAIL: ${{ secrets.DIGEST_TO_EMAIL }}
       DIGEST_FROM_EMAIL: ${{ secrets.DIGEST_FROM_EMAIL }}
+      MIN_DIGEST_ITEMS: 8
+      # Set this to true while you are learning or testing the workflow manually.
+      # Change it back to false before relying on the scheduled send.
+      DRY_RUN: "true"
 
     steps:
       - name: Check out the repository

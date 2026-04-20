@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsx src/index.ts",
     "send:digest": "node --env-file=.env --import tsx src/send-digest.ts",
+    "send:digest:dry-run": "DRY_RUN=true node --env-file=.env --import tsx src/send-digest.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
