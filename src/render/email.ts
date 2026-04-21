@@ -7,7 +7,14 @@
 
 import type { DigestItem } from "../types";
 
-const SECTION_ORDER: DigestItem["topic"][] = ["security", "tech", "world", "albums", "personal"];
+const SECTION_ORDER: DigestItem["topic"][] = [
+  "security",
+  "tech",
+  "ai",
+  "world",
+  "albums",
+  "personal",
+];
 
 function sectionLabel(topic: DigestItem["topic"]): string {
   switch (topic) {
@@ -15,6 +22,8 @@ function sectionLabel(topic: DigestItem["topic"]): string {
       return "Security";
     case "tech":
       return "Tech";
+    case "ai":
+      return "AI Watch";
     case "world":
       return "World";
     case "albums":

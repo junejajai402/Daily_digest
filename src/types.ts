@@ -5,7 +5,7 @@
  * technologies later because every layer can agree on the same contract.
  */
 
-export type DigestTopic = "security" | "albums" | "tech" | "world" | "personal";
+export type DigestTopic = "security" | "tech" | "ai" | "world" | "albums" | "personal";
 export type DigestSource =
   | "BBC Technology"
   | "BBC World"
@@ -17,7 +17,9 @@ export type DigestSource =
   | "Pitchfork Best New Albums"
   | "Pitchfork Album Reviews"
   | "NPR Music News"
-  | "NME Music News";
+  | "NME Music News"
+  | "OpenAI News"
+  | "Google AI";
 
 
 export interface RawSourceItem {

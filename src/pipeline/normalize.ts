@@ -36,6 +36,8 @@ function fallbackSummary(item: RawSourceItem): string {
       return "Security write-up worth reviewing in the full digest.";
     case "tech":
       return "Tech story worth opening for more context.";
+    case "ai":
+      return "AI update worth opening for the full launch details or analysis.";
     case "world":
       return "World news item worth opening for the full details.";
     case "albums":

@@ -33,7 +33,7 @@ jobs:
       MIN_DIGEST_ITEMS: 8
       # Set this to true while you are learning or testing the workflow manually.
       # Change it back to false before relying on the scheduled send.
-      DRY_RUN: "true"
+      DRY_RUN: "false"
 
     steps:
       - name: Check out the repository

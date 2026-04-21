@@ -1,17 +1,19 @@
 {
   "timezone": "America/New_York",
   "deliveryHourLocal": 7,
-  "maxItemsPerDigest": 13,
+  "maxItemsPerDigest": 15,
   "topicItemLimits": {
     "security": 5,
     "tech": 5,
+    "ai": 2,
     "albums": 3
   },
   "topicWeights": {
     "security": 1,
-    "albums": 0.7,
     "tech": 0.9,
+    "ai": 0.95,
     "world": 0.6,
+    "albums": 0.7,
     "personal": 0.8
   },
   "sourceWeights": {
@@ -25,7 +27,9 @@
     "Pitchfork Best New Albums": 0.8,
     "Pitchfork Album Reviews": 0.75,
     "NPR Music News": 0.72,
-    "NME Music News": 0.68
+    "NME Music News": 0.68,
+    "OpenAI News": 0.92,
+    "Google AI": 0.88
   },
   "preferredSources": [
     "General Feed"
@@ -34,6 +38,9 @@
     "zero-day",
     "privacy",
     "ai",
+    "agents",
+    "model",
+    "reasoning",
     "release",
     "latest",
     "security"

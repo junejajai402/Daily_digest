@@ -16,12 +16,19 @@ import type { UserPreferences } from "../types";
 export const preferencesTemplate: UserPreferences = {
   timezone: "America/New_York",
   deliveryHourLocal: 7,
-  maxItemsPerDigest: 10,
+  maxItemsPerDigest: 15,
+  topicItemLimits: {
+    security: 5,
+    tech: 5,
+    ai: 2,
+    albums: 3,
+  },
   topicWeights: {
     security: 1,
-    albums: 0.8,
     tech: 0.9,
+    ai: 0.95,
     world: 0.7,
+    albums: 0.8,
     personal: 0.8,
   },
   sourceWeights: {

@@ -22,6 +22,8 @@ It is intentionally small so you can understand how data moves through the app:
 - `src/sources/guardian-world.ts`: real Guardian world RSS adapter
 - `src/sources/hacker-news.ts`: Hacker News RSS adapter
 - `src/sources/sans-isc.ts`: SANS ISC RSS adapter
+- `src/sources/openai-news.ts`: OpenAI official newsroom feed
+- `src/sources/google-ai.ts`: Google AI official feed
 - `src/sources/pitchfork-best-new-albums.ts`: Pitchfork music discovery feed
 - `src/sources/pitchfork-album-reviews.ts`: Pitchfork album review feed
 - `src/sources/npr-music-news.ts`: NPR music news feed
@@ -59,6 +61,7 @@ The digest currently aims for this section balance on each run:
 
 - `5` security items
 - `5` tech items
+- `2` AI items
 - `3` music items
 
 If one section does not have enough viable stories, the pipeline backfills with the next best ranked items from the remaining pool.

@@ -17,6 +17,8 @@ import { pitchforkBestNewAlbumsSource } from "./pitchfork-best-new-albums";
 import { pitchforkAlbumReviewsSource } from "./pitchfork-album-reviews";
 import { nprMusicNewsSource } from "./npr-music-news";
 import { nmeMusicNewsSource } from "./nme-music-news";
+import { openAiNewsSource } from "./openai-news";
+import { googleAiSource } from "./google-ai";
 
 export const sourceAdapters: SourceAdapter[] = [
   schneierSecuritySource,
@@ -26,6 +28,8 @@ export const sourceAdapters: SourceAdapter[] = [
   guardianTechSource,
   hackerNewsSource,
   sansIscSource,
+  openAiNewsSource,
+  googleAiSource,
   pitchforkBestNewAlbumsSource,
   pitchforkAlbumReviewsSource,
   nprMusicNewsSource,
