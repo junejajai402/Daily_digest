@@ -43,3 +43,22 @@ test("dedupeItems removes duplicates when titles normalize to the same value", (
   assert.equal(dedupedItems.length, 1);
   assert.equal(dedupedItems[0]?.id, "1");
 });
+
+test("dedupeItems does not title-dedupe very short or punctuation-sensitive headlines", () => {
+  const items = [
+    createDigestItem({
+      id: "1",
+      title: "C",
+      url: "https://example.com/c-language",
+    }),
+    createDigestItem({
+      id: "2",
+      title: "C++",
+      url: "https://example.com/cpp-language",
+    }),
+  ];
+
+  const dedupedItems = dedupeItems(items);
+
+  assert.equal(dedupedItems.length, 2);
+});

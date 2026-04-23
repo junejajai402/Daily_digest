@@ -55,6 +55,13 @@ function normalizeTitle(title: string): string {
     .trim();
 }
 
+function shouldUseTitleDedupe(normalizedTitle: string): boolean {
+  const tokens = normalizedTitle.split(" ").filter(Boolean);
+  const longTokens = tokens.filter((token) => token.length >= 3);
+
+  return longTokens.length >= 2 || (tokens.length >= 3 && normalizedTitle.length >= 16);
+}
+
 export function dedupeItems(items: DigestItem[]): DigestItem[] {
   const dedupedItems: DigestItem[] = [];
   const seenUrls = new Set<string>();
@@ -67,7 +74,10 @@ export function dedupeItems(items: DigestItem[]): DigestItem[] {
     const normalizedTitle = normalizeTitle(item.title);
 
     const hasSeenUrl = normalizedUrl.length > 0 && seenUrls.has(normalizedUrl);
-    const hasSeenTitle = normalizedTitle.length > 0 && seenTitles.has(normalizedTitle);
+    const hasSeenTitle =
+      normalizedTitle.length > 0 &&
+      shouldUseTitleDedupe(normalizedTitle) &&
+      seenTitles.has(normalizedTitle);
 
     if (hasSeenUrl) {
       duplicateUrlCount += 1;
@@ -87,7 +97,7 @@ export function dedupeItems(items: DigestItem[]): DigestItem[] {
       seenUrls.add(normalizedUrl);
     }
 
-    if (normalizedTitle.length > 0) {
+    if (normalizedTitle.length > 0 && shouldUseTitleDedupe(normalizedTitle)) {
       seenTitles.add(normalizedTitle);
     }
   }
