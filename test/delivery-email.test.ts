@@ -3,6 +3,10 @@ import assert from "node:assert/strict";
 
 import { parseRecipientList, validateSender } from "../src/delivery/email";
 
+test.afterEach(() => {
+  delete process.env.ALLOWED_SENDER_DOMAINS;
+});
+
 test("parseRecipientList splits, trims, de-duplicates, and normalizes recipients", () => {
   const recipients = parseRecipientList(
     "Jai@BuiltByJai.me, junejajai@gmail.com , jai@builtbyjai.me",
@@ -28,5 +32,17 @@ test("validateSender rejects consumer domains like gmail.com", () => {
 test("validateSender accepts verified-looking custom domains", () => {
   const sender = validateSender("Daily Digest <digest@updates.builtbyjai.me>");
 
+  assert.equal(sender, "digest@updates.builtbyjai.me");
+});
+
+test("validateSender uses ALLOWED_SENDER_DOMAINS to fail fast on wrong custom domains", () => {
+  process.env.ALLOWED_SENDER_DOMAINS = "updates.builtbyjai.me";
+
+  assert.throws(
+    () => validateSender("Daily Digest <digest@typo.builtbyjai.me>"),
+    /not in ALLOWED_SENDER_DOMAINS/,
+  );
+
+  const sender = validateSender("Daily Digest <digest@updates.builtbyjai.me>");
   assert.equal(sender, "digest@updates.builtbyjai.me");
 });

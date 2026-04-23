@@ -22,6 +22,7 @@ const BLOCKED_SENDER_DOMAINS = new Set([
   "hotmail.com",
   "icloud.com",
 ]);
+const RESEND_TEST_SENDER_DOMAIN = "resend.dev";
 
 function requiredEnv(name: string): string {
   const value = process.env[name];
@@ -60,11 +61,33 @@ export function parseRecipientList(rawRecipients: string): string[] {
 export function validateSender(rawSender: string): string {
   const email = extractEmailAddress(rawSender);
   const [, domain = ""] = email.split("@");
+  const allowedDomains = (process.env.ALLOWED_SENDER_DOMAINS ?? "")
+    .split(",")
+    .map((value) => value.trim().toLowerCase())
+    .filter(Boolean);
+
+  if (allowedDomains.length > 0) {
+    const isAllowed = allowedDomains.some(
+      (allowedDomain) => domain === allowedDomain || domain.endsWith(`.${allowedDomain}`),
+    );
+
+    if (!isAllowed) {
+      throw new Error(
+        `DIGEST_FROM_EMAIL uses ${domain}, which is not in ALLOWED_SENDER_DOMAINS. Add your verified sending domain there so misconfigured senders fail fast.`,
+      );
+    }
+
+    return email;
+  }
 
   if (BLOCKED_SENDER_DOMAINS.has(domain)) {
     throw new Error(
       `DIGEST_FROM_EMAIL uses ${domain}, which email providers like Resend do not allow as an unverified sender. Use onboarding@resend.dev for testing or a verified custom domain instead.`,
     );
+  }
+
+  if (domain === RESEND_TEST_SENDER_DOMAIN) {
+    return email;
   }
 
   return email;
