@@ -15,7 +15,11 @@ jobs:
   prepare-draft-pr:
     runs-on: ubuntu-latest
     if: github.event.issue.pull_request == null
+    concurrency:
+      group: issue-listener-${{ github.event.issue.number }}
+      cancel-in-progress: false
     env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
       AUTOMATION_LABEL: automation:ready
       AUTOMATION_COMMAND: /prepare-pr
       AUTOMATION_BRANCH_PREFIX: codex/issue-
@@ -47,12 +51,18 @@ jobs:
         id: prep
         run: npm run automation:issue-listener
 
-      - name: Acknowledge non-actionable issue
-        if: steps.prep.outputs.should_act != 'true'
-        run: gh issue comment "${{ steps.prep.outputs.issue_number }}" --body-file "$AUTOMATION_ACK_PATH"
+      - name: Check for existing remote branch
+        if: steps.prep.outputs.should_act == 'true'
+        id: branch_state
+        run: |
+          if git ls-remote --exit-code --heads origin "${{ steps.prep.outputs.branch_name }}" >/dev/null 2>&1; then
+            echo "branch_exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "branch_exists=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Create draft PR branch
-        if: steps.prep.outputs.should_act == 'true'
+        if: steps.prep.outputs.should_act == 'true' && steps.branch_state.outputs.branch_exists != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -60,12 +70,25 @@ jobs:
           git commit --allow-empty -m "chore: prepare issue #${{ steps.prep.outputs.issue_number }} automation branch"
           git push --set-upstream origin "${{ steps.prep.outputs.branch_name }}"
 
-      - name: Comment on issue
+      - name: Check for existing PR
         if: steps.prep.outputs.should_act == 'true'
-        run: gh issue comment "${{ steps.prep.outputs.issue_number }}" --body-file "$AUTOMATION_ACK_PATH"
+        id: pr_state
+        run: |
+          pr_url="$(gh pr list \
+            --head "${{ steps.prep.outputs.branch_name }}" \
+            --state all \
+            --json url \
+            --jq '.[0].url // ""')"
+
+          if [ -n "$pr_url" ]; then
+            echo "pr_exists=true" >> "$GITHUB_OUTPUT"
+            echo "pr_url=$pr_url" >> "$GITHUB_OUTPUT"
+          else
+            echo "pr_exists=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Open draft PR
-        if: steps.prep.outputs.should_act == 'true'
+        if: steps.prep.outputs.should_act == 'true' && steps.pr_state.outputs.pr_exists != 'true'
         run: |
           gh pr create \
             --base "${{ steps.prep.outputs.default_branch }}" \
@@ -73,3 +96,36 @@ jobs:
             --title "${{ steps.prep.outputs.pr_title }}" \
             --body-file "$AUTOMATION_PR_BODY_PATH" \
             --draft
+
+      - name: Comment on issue
+        if: steps.prep.outputs.should_act == 'true'
+        run: |
+          pr_url="${{ steps.pr_state.outputs.pr_url }}"
+
+          if [ -z "$pr_url" ]; then
+            pr_url="$(gh pr list \
+              --head "${{ steps.prep.outputs.branch_name }}" \
+              --state all \
+              --json url \
+              --jq '.[0].url // ""')"
+          fi
+
+          if [ "${{ steps.branch_state.outputs.branch_exists }}" = "true" ]; then
+            branch_status="Reused existing automation branch"
+          else
+            branch_status="Created automation branch"
+          fi
+
+          {
+            echo "Automation prepared work for issue #${{ steps.prep.outputs.issue_number }}."
+            echo
+            echo "- ${branch_status}: \`${{ steps.prep.outputs.branch_name }}\`"
+            if [ -n "$pr_url" ]; then
+              echo "- Draft PR: $pr_url"
+            else
+              echo "- Draft PR: pending manual follow-up"
+            fi
+            echo "- Validation gate: \`npm test\` and \`npm run typecheck\` must pass before merge."
+          } > "$AUTOMATION_ACK_PATH"
+
+          gh issue comment "${{ steps.prep.outputs.issue_number }}" --body-file "$AUTOMATION_ACK_PATH"

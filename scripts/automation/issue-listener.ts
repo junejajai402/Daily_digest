@@ -2,8 +2,19 @@ import fs from "node:fs";
 import path from "node:path";
 
 type IssueLabel = { name?: string };
+type AuthorAssociation =
+  | "COLLABORATOR"
+  | "CONTRIBUTOR"
+  | "FIRST_TIMER"
+  | "FIRST_TIME_CONTRIBUTOR"
+  | "MANNEQUIN"
+  | "MEMBER"
+  | "NONE"
+  | "OWNER";
 
-interface IssuePayload {
+const TRUSTED_AUTHOR_ASSOCIATIONS = new Set<AuthorAssociation>(["OWNER", "MEMBER", "COLLABORATOR"]);
+
+export interface IssuePayload {
   action?: string;
   issue?: {
     number: number;
@@ -17,6 +28,7 @@ interface IssuePayload {
   };
   comment?: {
     body?: string | null;
+    author_association?: AuthorAssociation;
     user?: {
       login?: string;
     };
@@ -36,7 +48,7 @@ function getRequiredEnv(name: string): string {
   return value;
 }
 
-function slugify(value: string): string {
+export function slugify(value: string): string {
   return value
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
@@ -65,7 +77,7 @@ function writeFileIfRequested(name: string, contents: string): void {
   fs.writeFileSync(filePath, contents, "utf8");
 }
 
-function buildPrBody(payload: IssuePayload, branchName: string): string {
+export function buildPrBody(payload: IssuePayload, branchName: string): string {
   const issue = payload.issue!;
   return `## Summary
 
@@ -97,22 +109,35 @@ Automation scaffold prepared a draft branch for this issue.
 `;
 }
 
-function buildAcknowledgement(payload: IssuePayload, branchName: string): string {
+export function buildAcknowledgement(payload: IssuePayload, branchName: string): string {
   const issue = payload.issue!;
   return `Automation is preparing a draft PR branch for issue #${issue.number}.\n\n- Branch: \`${branchName}\`\n- Next step: run tests, add implementation commits, and keep the PR in draft until validation passes.`;
 }
 
-function shouldAct(payload: IssuePayload, automationLabel: string, automationCommand: string): boolean {
+export function isTrustedCommenter(payload: IssuePayload): boolean {
+  const association = payload.comment?.author_association;
+  if (!association) {
+    return false;
+  }
+
+  return TRUSTED_AUTHOR_ASSOCIATIONS.has(association);
+}
+
+export function shouldAct(payload: IssuePayload, automationLabel: string, automationCommand: string): boolean {
   const labels = payload.issue?.labels?.map((label) => label.name ?? "") ?? [];
   if (labels.includes(automationLabel)) {
     return true;
   }
 
   const commentBody = payload.comment?.body ?? "";
-  return commentBody.includes(automationCommand);
+  if (!commentBody.includes(automationCommand)) {
+    return false;
+  }
+
+  return isTrustedCommenter(payload);
 }
 
-function main(): void {
+export function main(): void {
   const eventPath = getRequiredEnv("GITHUB_EVENT_PATH");
   const automationLabel = process.env.AUTOMATION_LABEL ?? "automation:ready";
   const automationCommand = process.env.AUTOMATION_COMMAND ?? "/prepare-pr";
@@ -138,7 +163,6 @@ function main(): void {
   });
 
   writeFileIfRequested("AUTOMATION_PR_BODY_PATH", prBody);
-  writeFileIfRequested("AUTOMATION_ACK_PATH", acknowledgement);
 
   if (!actionable) {
     console.log(
@@ -147,7 +171,14 @@ function main(): void {
     return;
   }
 
+  writeFileIfRequested("AUTOMATION_ACK_PATH", acknowledgement);
   console.log(`Prepared automation metadata for issue #${payload.issue.number} on ${branchName}.`);
 }
 
-main();
+const isMainModule =
+  process.argv[1] &&
+  path.resolve(process.argv[1]) === path.resolve(process.cwd(), "scripts/automation/issue-listener.ts");
+
+if (isMainModule) {
+  main();
+}

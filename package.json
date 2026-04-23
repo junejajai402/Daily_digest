@@ -8,7 +8,7 @@
     "send:digest": "node --env-file=.env --import tsx src/send-digest.ts",
     "send:digest:ci": "node --import tsx src/send-digest.ts",
     "send:digest:dry-run": "DRY_RUN=true node --env-file=.env --import tsx src/send-digest.ts",
-    "test": "node --import tsx --test test/*.test.ts",
+    "test": "node --import tsx --test test/all.test.ts",
     "automation:issue-listener": "node --import tsx scripts/automation/issue-listener.ts",
     "automation:pr-hygiene": "node --import tsx scripts/automation/pr-hygiene.ts",
     "typecheck": "tsc --noEmit"

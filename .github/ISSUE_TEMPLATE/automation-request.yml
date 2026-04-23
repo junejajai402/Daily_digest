@@ -1,9 +1,11 @@
 name: Automation request
 description: Structured issue template for the issue-listener agent workflow
 title: "[Automation] "
-labels:
-  - automation:ready
 body:
+  - type: markdown
+    attributes:
+      value: |
+        The issue-listener scaffold only prepares a draft PR after a maintainer adds the `automation:ready` label or comments `/prepare-pr`.
   - type: textarea
     id: problem
     attributes:
