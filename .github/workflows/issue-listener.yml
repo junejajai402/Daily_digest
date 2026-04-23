@@ -1,0 +1,75 @@
+name: Issue Listener Agent
+
+on:
+  issues:
+    types: [opened, reopened, edited, labeled]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  prepare-draft-pr:
+    runs-on: ubuntu-latest
+    if: github.event.issue.pull_request == null
+    env:
+      AUTOMATION_LABEL: automation:ready
+      AUTOMATION_COMMAND: /prepare-pr
+      AUTOMATION_BRANCH_PREFIX: codex/issue-
+      AUTOMATION_PR_BODY_PATH: .github/tmp/automation-pr-body.md
+      AUTOMATION_ACK_PATH: .github/tmp/automation-ack.md
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 25
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate repository before automation
+        run: |
+          npm test
+          npm run typecheck
+
+      - name: Prepare issue automation metadata
+        id: prep
+        run: npm run automation:issue-listener
+
+      - name: Acknowledge non-actionable issue
+        if: steps.prep.outputs.should_act != 'true'
+        run: gh issue comment "${{ steps.prep.outputs.issue_number }}" --body-file "$AUTOMATION_ACK_PATH"
+
+      - name: Create draft PR branch
+        if: steps.prep.outputs.should_act == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "${{ steps.prep.outputs.branch_name }}"
+          git commit --allow-empty -m "chore: prepare issue #${{ steps.prep.outputs.issue_number }} automation branch"
+          git push --set-upstream origin "${{ steps.prep.outputs.branch_name }}"
+
+      - name: Comment on issue
+        if: steps.prep.outputs.should_act == 'true'
+        run: gh issue comment "${{ steps.prep.outputs.issue_number }}" --body-file "$AUTOMATION_ACK_PATH"
+
+      - name: Open draft PR
+        if: steps.prep.outputs.should_act == 'true'
+        run: |
+          gh pr create \
+            --base "${{ steps.prep.outputs.default_branch }}" \
+            --head "${{ steps.prep.outputs.branch_name }}" \
+            --title "${{ steps.prep.outputs.pr_title }}" \
+            --body-file "$AUTOMATION_PR_BODY_PATH" \
+            --draft

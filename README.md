@@ -101,6 +101,23 @@ The learning sequence I recommend is:
 6. Change `DRY_RUN` to `"false"`.
 7. Uncomment the cron schedule only after the manual run succeeds.
 
+## Issue listener automation
+
+This repo also includes a scaffold for issue-driven automation.
+
+- `.github/workflows/issue-listener.yml` listens for new issues, issue edits, labels, and issue comments.
+- It only acts when the issue has the `automation:ready` label or a maintainer comments `/prepare-pr`.
+- The first version prepares a draft PR branch with an empty kickoff commit after `npm test` and `npm run typecheck` pass.
+- `.github/workflows/pr-hygiene.yml` enforces basic branch naming, PR body hygiene, tests, and typecheck on PR updates.
+- `scripts/automation/issue-listener.ts` generates branch/PR metadata from the GitHub issue payload.
+- `scripts/automation/pr-hygiene.ts` validates that the PR body and branch name follow the repo conventions.
+
+Required configuration notes:
+
+- Built-in `GITHUB_TOKEN` is enough for the scaffolded version.
+- If you later want model-backed code generation, add `OPENAI_API_KEY` as an Actions secret and extend `scripts/automation/issue-listener.ts`.
+- Keep the automation opening draft PRs only until you are confident in the workflow.
+
 ## Suggested learning path
 
 - Tune `src/config/preferences.json` and rerun the app to see how source and topic weights affect the digest.
