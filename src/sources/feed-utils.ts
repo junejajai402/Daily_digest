@@ -39,13 +39,13 @@ export async function fetchFeedText(
     });
 
     if (!response.ok) {
-      throw new Error(`Failed to fetch feed: ${response.status}`);
+      throw new Error(`Failed to fetch feed ${feedUrl}: ${response.status}`);
     }
 
     return await response.text();
   } catch (error) {
     if (error instanceof Error && error.name === "AbortError") {
-      throw new Error(`Feed request timed out after ${timeoutMs}ms`);
+      throw new Error(`Feed request timed out for ${feedUrl} after ${timeoutMs}ms`);
     }
 
     throw error;
