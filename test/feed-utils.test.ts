@@ -37,35 +37,40 @@ test("cleanSummary strips html, comments suffixes, and boilerplate", () => {
 
 test("fetchFeedText includes the source URL in HTTP failures", async () => {
   const originalFetch = globalThis.fetch;
-  globalThis.fetch = async () =>
-    ({
-      ok: false,
-      status: 503,
-    } as Response);
 
-  await assert.rejects(
-    () => fetchFeedText("https://example.com/feed.xml", 25),
-    /Failed to fetch feed https:\/\/example\.com\/feed\.xml: 503/,
-  );
+  try {
+    globalThis.fetch = async () =>
+      ({
+        ok: false,
+        status: 503,
+      } as Response);
 
-  globalThis.fetch = originalFetch;
+    await assert.rejects(
+      () => fetchFeedText("https://example.com/feed.xml", 25),
+      /Failed to fetch feed https:\/\/example\.com\/feed\.xml: 503/,
+    );
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
 });
 
 test("fetchFeedText includes the source URL in timeout failures", async () => {
   const originalFetch = globalThis.fetch;
-  globalThis.fetch = async (_input, init) =>
-    new Promise((_resolve, reject) => {
-      init?.signal?.addEventListener("abort", () => {
-        const abortError = new Error("The operation was aborted.");
-        abortError.name = "AbortError";
-        reject(abortError);
+  try {
+    globalThis.fetch = async (_input, init) =>
+      new Promise((_resolve, reject) => {
+        init?.signal?.addEventListener("abort", () => {
+          const abortError = new Error("The operation was aborted.");
+          abortError.name = "AbortError";
+          reject(abortError);
+        });
       });
-    });
 
-  await assert.rejects(
-    () => fetchFeedText("https://example.com/slow-feed.xml", 5),
-    /Feed request timed out for https:\/\/example\.com\/slow-feed\.xml after 5ms/,
-  );
-
-  globalThis.fetch = originalFetch;
+    await assert.rejects(
+      () => fetchFeedText("https://example.com/slow-feed.xml", 5),
+      /Feed request timed out for https:\/\/example\.com\/slow-feed\.xml after 5ms/,
+    );
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
 });
