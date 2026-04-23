@@ -13,6 +13,16 @@ export interface SendDigestEmailInput {
   text: string;
 }
 
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const BLOCKED_SENDER_DOMAINS = new Set([
+  "gmail.com",
+  "googlemail.com",
+  "yahoo.com",
+  "outlook.com",
+  "hotmail.com",
+  "icloud.com",
+]);
+
 function requiredEnv(name: string): string {
   const value = process.env[name];
   if (!value) {
@@ -21,28 +31,70 @@ function requiredEnv(name: string): string {
   return value;
 }
 
+function extractEmailAddress(input: string): string {
+  const trimmed = input.trim();
+  const angleBracketMatch = trimmed.match(/<([^>]+)>/);
+  const email = (angleBracketMatch?.[1] ?? trimmed).trim().toLowerCase();
+
+  if (!EMAIL_REGEX.test(email)) {
+    throw new Error(`Invalid email address format: ${input}`);
+  }
+
+  return email;
+}
+
+export function parseRecipientList(rawRecipients: string): string[] {
+  const recipients = rawRecipients
+    .split(",")
+    .map((recipient) => recipient.trim())
+    .filter(Boolean)
+    .map(extractEmailAddress);
+
+  if (recipients.length === 0) {
+    throw new Error("DIGEST_TO_EMAIL must contain at least one recipient email address.");
+  }
+
+  return [...new Set(recipients)];
+}
+
+export function validateSender(rawSender: string): string {
+  const email = extractEmailAddress(rawSender);
+  const [, domain = ""] = email.split("@");
+
+  if (BLOCKED_SENDER_DOMAINS.has(domain)) {
+    throw new Error(
+      `DIGEST_FROM_EMAIL uses ${domain}, which email providers like Resend do not allow as an unverified sender. Use onboarding@resend.dev for testing or a verified custom domain instead.`,
+    );
+  }
+
+  return email;
+}
+
 export async function sendDigestEmail(input: SendDigestEmailInput): Promise<void> {
   const apiKey = requiredEnv("RESEND_API_KEY");
-  const to = requiredEnv("DIGEST_TO_EMAIL");
+  const to = parseRecipientList(requiredEnv("DIGEST_TO_EMAIL"));
   const from = requiredEnv("DIGEST_FROM_EMAIL");
+  const validatedSender = validateSender(from);
   const resend = new Resend(apiKey);
 
   const { data, error } = await resend.emails.send({
     from,
-    to: [to],
+    to,
     subject: input.subject,
     html: input.html,
     text: input.text,
   });
 
   if (error) {
-    throw new Error(`Resend API error: ${JSON.stringify(error)}`);
+    throw new Error(
+      `Resend API error${error.statusCode ? ` (${error.statusCode})` : ""}: ${error.message}`,
+    );
   }
 
   console.log("Resend accepted email:", {
     id: data?.id,
-    from,
-    to,
+    fromDomain: validatedSender.split("@")[1],
+    recipientCount: to.length,
     subject: input.subject,
   });
 }

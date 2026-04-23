@@ -50,6 +50,12 @@ It is intentionally small so you can understand how data moves through the app:
 4. Run `npm run send:digest` to send the current digest to yourself. The script now loads `.env` automatically.
 5. Run `npm run send:digest:dry-run` if you want to build the digest without actually sending the email.
 
+Email config notes:
+
+- `DIGEST_TO_EMAIL` can be a comma-separated list like `one@example.com, two@example.com`.
+- `DIGEST_FROM_EMAIL` should use either `onboarding@resend.dev` for testing or a sender on your verified domain.
+- Consumer inbox domains like `gmail.com` are blocked as sender addresses before the Resend API call so configuration problems fail fast.
+
 Optional safety flags:
 
 - `DRY_RUN=true`: builds the digest and logs success, but skips the Resend API call.
