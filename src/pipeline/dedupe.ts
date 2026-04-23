@@ -51,7 +51,8 @@ function normalizeTitle(title: string): string {
     .trim()
     .toLowerCase()
     .replace(/[^\w\s]/g, " ")
-    .replace(/\s+/g, " ");
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 export function dedupeItems(items: DigestItem[]): DigestItem[] {
