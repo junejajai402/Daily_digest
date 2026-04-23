@@ -27,6 +27,7 @@ jobs:
     # Add them in:
     # Settings > Secrets and variables > Actions
     env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
       DIGEST_TO_EMAIL: ${{ secrets.DIGEST_TO_EMAIL }}
       DIGEST_FROM_EMAIL: ${{ secrets.DIGEST_FROM_EMAIL }}
@@ -50,6 +51,9 @@ jobs:
 
       - name: Typecheck before sending
         run: npm run typecheck
+
+      - name: Run tests before sending
+        run: npm test
 
       - name: Build and send the digest
         run: npm run send:digest:ci

@@ -101,6 +101,14 @@ The learning sequence I recommend is:
 6. Change `DRY_RUN` to `"false"`.
 7. Uncomment the cron schedule only after the manual run succeeds.
 
+## Continuous integration
+
+The repo also includes a dedicated CI workflow for code health.
+
+- `.github/workflows/ci.yml` runs on pushes and pull requests.
+- It installs dependencies, runs `npm test`, and runs `npm run typecheck`.
+- The scheduled digest workflow also runs tests before sending so a broken change cannot silently ship an email.
+
 ## Suggested learning path
 
 - Tune `src/config/preferences.json` and rerun the app to see how source and topic weights affect the digest.
