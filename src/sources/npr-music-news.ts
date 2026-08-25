@@ -23,10 +23,10 @@ export const nprMusicNewsSource: SourceAdapter = {
       title: textValue(item.title, "Untitled"),
       url: textValue(item.link, ""),
       source: SOURCE_NAME,
-      topic: "albums" as const,
+      topic: "music" as const,
       publishedAt: textValue(item.pubDate, new Date().toISOString()),
       summary: cleanSummary(textValue(item.description, "No summary available")),
-      tags: ["albums", "music", "rss", "npr"],
+      tags: ["music", "news", "rss", "npr"],
     }));
   },
 };
