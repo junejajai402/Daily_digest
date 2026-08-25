@@ -5,6 +5,8 @@
  * the daily digest before we automate scheduling.
  */
 
+import { createDigestArtifact } from "./artifact/create";
+import { writeDigestArtifact } from "./artifact/write";
 import { buildDigest } from "./digest/build";
 import { sendDigestEmail } from "./delivery/email";
 import { renderHtmlDigest } from "./render/email-html";
@@ -37,7 +39,8 @@ function createSubject(): string {
 }
 
 async function main() {
-  const { digestItems } = await buildDigest();
+  const builtDigest = await buildDigest();
+  const { digestItems } = builtDigest;
   const minimumDigestItems = parseNumberEnv("MIN_DIGEST_ITEMS", 8);
   const isDryRun = parseBooleanEnv("DRY_RUN");
 
@@ -51,6 +54,8 @@ async function main() {
     );
   }
 
+  const artifact = createDigestArtifact(builtDigest);
+  const writtenPaths = await writeDigestArtifact(artifact);
   const html = renderHtmlDigest(digestItems);
   const text = renderPlainTextDigest(digestItems);
 
@@ -59,6 +64,10 @@ async function main() {
       `Dry run: digest built successfully with ${digestItems.length} items. Email send skipped.`,
     );
     console.log(`Subject: ${createSubject()}`);
+    console.log(`Latest artifact: ${writtenPaths.latestPath}`);
+    if (writtenPaths.archivePath) {
+      console.log(`Archive artifact: ${writtenPaths.archivePath}`);
+    }
     return;
   }
 
@@ -69,6 +78,10 @@ async function main() {
   });
 
   console.log(`Sent digest email with ${digestItems.length} items.`);
+  console.log(`Latest artifact: ${writtenPaths.latestPath}`);
+  if (writtenPaths.archivePath) {
+    console.log(`Archive artifact: ${writtenPaths.archivePath}`);
+  }
 }
 
 main().catch((error) => {
