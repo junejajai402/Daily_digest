@@ -64,7 +64,7 @@ test("selectItemsByTopicLimits keeps top items for each configured topic before 
     createDigestItem({ id: "sec-2", topic: "security", score: 2.8 }),
     createDigestItem({ id: "tech-1", topic: "tech", score: 2.7 }),
     createDigestItem({ id: "ai-1", topic: "ai", score: 2.6 }),
-    createDigestItem({ id: "music-1", topic: "albums", score: 2.5 }),
+    createDigestItem({ id: "music-1", topic: "music", score: 2.5 }),
     createDigestItem({ id: "world-1", topic: "world", score: 2.4 }),
   ];
 

@@ -10,14 +10,22 @@ import { dedupeItems } from "../pipeline/dedupe";
 import { normalizeItems } from "../pipeline/normalize";
 import { rankItems, selectDiverseItems, selectItemsByTopicLimits } from "../pipeline/rank";
 import { sourceAdapters } from "../sources";
-import type { DigestItem, RawSourceItem } from "../types";
+import type { DigestArtifactSourceFailure, DigestItem, RawSourceItem } from "../types";
 
 const RETRY_DELAYS_MS = [1000, 2000, 4000];
 
 export interface BuiltDigest {
+  builtAt: string;
+  lastAttemptedAt: string;
+  sourceFailures: DigestArtifactSourceFailure[];
   rawItems: RawSourceItem[];
   dedupedItems: DigestItem[];
   digestItems: DigestItem[];
+}
+
+interface LoadedSourceItems {
+  rawItems: RawSourceItem[];
+  sourceFailures: DigestArtifactSourceFailure[];
 }
 
 async function wait(ms: number): Promise<void> {
@@ -53,7 +61,15 @@ async function fetchItemsWithRetry(
   throw lastError;
 }
 
-export async function loadSourceItems(): Promise<RawSourceItem[]> {
+function toErrorMessage(error: unknown): string {
+  if (error instanceof Error) {
+    return error.message;
+  }
+
+  return String(error);
+}
+
+export async function loadSourceItems(): Promise<LoadedSourceItems> {
   const settledResults = await Promise.all(
     sourceAdapters.map(async (adapter) => {
       try {
@@ -66,22 +82,30 @@ export async function loadSourceItems(): Promise<RawSourceItem[]> {
   );
 
   const rawItems: RawSourceItem[] = [];
+  const sourceFailures: DigestArtifactSourceFailure[] = [];
 
   for (const result of settledResults) {
     rawItems.push(...result.items);
 
-    if (result.error instanceof Error) {
-      console.error(`Source "${result.adapterName}" failed to load: ${result.error.message}`);
-    } else if (result.error) {
-      console.error(`Source "${result.adapterName}" failed to load:`, result.error);
+    if (result.error) {
+      const message = toErrorMessage(result.error);
+      sourceFailures.push({
+        source: result.adapterName,
+        message,
+      });
+      console.error(`Source "${result.adapterName}" failed to load: ${message}`);
     }
   }
 
-  return rawItems;
+  return {
+    rawItems,
+    sourceFailures,
+  };
 }
 
 export async function buildDigest(): Promise<BuiltDigest> {
-  const rawItems = await loadSourceItems();
+  const lastAttemptedAt = new Date().toISOString();
+  const { rawItems, sourceFailures } = await loadSourceItems();
   const normalizedItems = normalizeItems(rawItems);
   const dedupedItems = dedupeItems(normalizedItems);
   const rankedItems = rankItems(dedupedItems, defaultPreferences);
@@ -94,8 +118,12 @@ export async function buildDigest(): Promise<BuiltDigest> {
         defaultPreferences.maxItemsPerDigest,
       )
     : diverseItems.slice(0, defaultPreferences.maxItemsPerDigest);
+  const builtAt = new Date().toISOString();
 
   return {
+    builtAt,
+    lastAttemptedAt,
+    sourceFailures,
     rawItems,
     dedupedItems,
     digestItems,

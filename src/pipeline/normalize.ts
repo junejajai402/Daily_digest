@@ -40,7 +40,7 @@ function fallbackSummary(item: RawSourceItem): string {
       return "AI update worth opening for the full launch details or analysis.";
     case "world":
       return "World news item worth opening for the full details.";
-    case "albums":
+    case "music":
       return "Music item worth opening for the full review or release details.";
     case "personal":
       return "Picked for your interests - open for more context.";

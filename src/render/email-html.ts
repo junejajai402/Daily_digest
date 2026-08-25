@@ -12,7 +12,7 @@ const SECTION_ORDER: DigestItem["topic"][] = [
   "tech",
   "ai",
   "world",
-  "albums",
+  "music",
   "personal",
 ];
 
@@ -26,7 +26,7 @@ function sectionLabel(topic: DigestItem["topic"]): string {
       return "AI Watch";
     case "world":
       return "World";
-    case "albums":
+    case "music":
       return "Music";
     case "personal":
       return "Personal";

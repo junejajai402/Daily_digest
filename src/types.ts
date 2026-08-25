@@ -5,7 +5,7 @@
  * technologies later because every layer can agree on the same contract.
  */
 
-export type DigestTopic = "security" | "tech" | "ai" | "world" | "albums" | "personal";
+export type DigestTopic = "security" | "tech" | "ai" | "world" | "music" | "personal";
 export type DigestSource =
   | "BBC Technology"
   | "BBC World"
@@ -43,6 +43,51 @@ export interface DigestItem {
   score: number;
   tags: string[];
   whyItMatched?: string;
+}
+
+/**
+ * Purpose:
+ * These types define the canonical digest artifact that other surfaces can
+ * consume without needing to know how feeds were fetched or ranked.
+ *
+ * Design rules:
+ * - use `music` as the stable topic name across the project
+ * - keep the artifact JSON-safe
+ * - keep it sanitized so it can be served outside the email path later
+ */
+export interface DigestArtifactItem {
+  id: string;
+  title: string;
+  url: string;
+  source: string;
+  topic: DigestTopic;
+  publishedAt: string;
+  summary: string;
+  score: number;
+  tags: string[];
+}
+
+export interface DigestArtifactCounts {
+  rawItems: number;
+  dedupedItems: number;
+  digestItems: number;
+}
+
+export interface DigestArtifactSourceFailure {
+  source: string;
+  message: string;
+}
+
+export interface DigestArtifact {
+  schemaVersion: 1;
+  digestId: string;
+  builtAt: string;
+  lastAttemptedAt: string;
+  isStale: boolean;
+  counts: DigestArtifactCounts;
+  topicCounts: Partial<Record<DigestTopic, number>>;
+  sourceFailures: DigestArtifactSourceFailure[];
+  items: DigestArtifactItem[];
 }
 
 export interface UserPreferences {

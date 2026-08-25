@@ -21,14 +21,14 @@ export const preferencesTemplate: UserPreferences = {
     security: 5,
     tech: 5,
     ai: 2,
-    albums: 3,
+    music: 3,
   },
   topicWeights: {
     security: 1,
     tech: 0.9,
     ai: 0.95,
     world: 0.7,
-    albums: 0.8,
+    music: 0.8,
     personal: 0.8,
   },
   sourceWeights: {
