@@ -6,7 +6,7 @@ It is intentionally small so you can understand how data moves through the app:
 1. source adapters fetch raw items
 2. pipeline code normalizes and ranks them
 3. render code formats the digest
-4. delivery will be added later
+4. delivery sends email and exports a reusable digest artifact
 
 ## Project layout
 
@@ -35,12 +35,24 @@ It is intentionally small so you can understand how data moves through the app:
 - `src/pipeline/dedupe.ts`: removes duplicate or near-duplicate items before ranking
 - `src/pipeline/rank.ts`: scoring and diversity selection logic
 - `src/render/email.ts`: renders the digest into sectioned plain text
+- `src/render/email-html.ts`: renders the digest into HTML for email delivery
+- `src/artifact/create.ts`: shapes the canonical digest artifact
+- `src/artifact/write.ts`: writes the latest and archived digest artifact files
+- `src/artifact/paths.ts`: centralizes artifact output paths
+- `src/export-digest.ts`: artifact-only export entrypoint
+- `src/delivery/email.ts`: Resend-backed email delivery helper
 - `src/index.ts`: entrypoint that wires the system together
 
 ## Run locally
 
 1. `npm install`
 2. `npm run dev`
+
+Useful commands:
+
+- `npm run export:digest`: build the digest and write the canonical artifact without sending email
+- `npm run send:digest:dry-run`: build the digest, write the artifact, and skip the actual email send
+- `npm run send:digest`: build, write, and send the digest
 
 ## Email testing
 
@@ -49,6 +61,12 @@ It is intentionally small so you can understand how data moves through the app:
 3. For test sends, keep `DIGEST_FROM_EMAIL` on `onboarding@resend.dev`. Do not use `gmail.com` as the sender unless you later verify your own domain in Resend.
 4. Run `npm run send:digest` to send the current digest to yourself. The script now loads `.env` automatically.
 5. Run `npm run send:digest:dry-run` if you want to build the digest without actually sending the email.
+
+Artifact output:
+
+- local exports are written to `tmp/digest/latest-digest.json`
+- archive snapshots are written to `tmp/digest/archive/<digestId>.json`
+- you can override the output directory later with `DIGEST_OUTPUT_DIR`
 
 Optional safety flags:
 
@@ -75,31 +93,32 @@ When the manual send flow feels stable, the next step is to schedule it.
 - Add a safety check so the scheduled job does not send an empty digest if feeds fail.
 - Keep feed requests bounded with timeouts so one slow source does not block the whole morning job.
 
-## GitHub Actions template
+## GitHub Actions
 
 If you want the digest to run even while your laptop is asleep, the easiest free-ish learning path is GitHub Actions.
 
-- Start from [daily-digest-template.yml](/Users/jaideepjuneja/Documents/daily-digest-framework/.github/workflows/daily-digest-template.yml).
-- The template is manual-first with `workflow_dispatch` so you can test safely.
+- The workflow lives at [daily-digest.yml](/Users/jaideepjuneja/Documents/daily-digest-framework/.github/workflows/daily-digest.yml).
+- It supports both manual runs with `workflow_dispatch` and scheduled runs.
 - GitHub cron runs in `UTC`, so convert your morning send time before you uncomment the schedule.
 - Add these repository secrets before the first real run:
   - `RESEND_API_KEY`
   - `DIGEST_TO_EMAIL`
   - `DIGEST_FROM_EMAIL`
-- The template also includes:
-  - `DRY_RUN="true"` so your first cloud test does not send a real email
+- The workflow also includes:
   - `MIN_DIGEST_ITEMS=8` so low-quality runs abort instead of sending a weak digest
-- When you are ready to activate it, rename the file from `daily-digest-template.yml` to `daily-digest.yml`.
+  - `npm test` and `npm run typecheck` before the send step
+  - Node.js `24`, which is LTS as of August 26, 2026
+- Change `DRY_RUN` in the workflow env block if you want cloud runs to skip real email temporarily.
 
 The learning sequence I recommend is:
 
 1. Push the repo to GitHub.
 2. Add the three Actions secrets.
-3. Rename the template file so GitHub picks it up.
-4. Run it manually once from the Actions tab.
-5. Confirm the dry run looks right in the logs.
-6. Change `DRY_RUN` to `"false"`.
-7. Uncomment the cron schedule only after the manual run succeeds.
+3. Run it manually once from the Actions tab.
+4. Confirm the dry run or real send looks right in the logs.
+5. Keep an eye on the artifact paths and source-failure summary in the output.
+6. Adjust `DRY_RUN` only when you want to change cloud behavior.
+7. Keep the cron schedule enabled once the manual run is stable.
 
 ## Suggested learning path
 
@@ -107,7 +126,7 @@ The learning sequence I recommend is:
 - Improve `src/pipeline/dedupe.ts` so it catches more real duplicates by URL and title.
 - Clean up source-specific summaries, especially Guardian and SANS, so the digest reads more naturally.
 - Add one more real source using `src/sources/tech-template.ts` or `src/sources/music-template.ts`.
-- Add email delivery after the content quality and ranking feel solid.
+- Use the canonical artifact as the contract for the homepage before adding another rendering surface.
 - Move preferences into a database only after the JSON-based tuning flow feels right.
 
 ## Future Project Ideas

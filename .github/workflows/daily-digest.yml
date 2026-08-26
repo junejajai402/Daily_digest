@@ -1,14 +1,14 @@
-name: Daily Digest Template
+name: Daily Digest
 
 # Purpose:
-# This is a learning-first GitHub Actions template for running the digest in the cloud.
-# It is intentionally not "fully magical" so you can understand each piece before turning
-# it into your real scheduled workflow.
+# This workflow runs the digest in GitHub Actions on a schedule or manually.
+# It keeps the cloud path close to the local flow so the email send and artifact
+# export behavior stay easy to reason about.
 #
 # Good next learning steps:
-# - rename this file to daily-digest.yml when you want it to become active
-# - uncomment the schedule block after you confirm a manual run works
-# - add the required repository secrets in GitHub before the first real run
+# - keep the dry-run path handy when you change ranking or source logic
+# - inspect artifact output in the logs when a scheduled run looks suspicious
+# - add artifact publishing later when the homepage consumer is ready
 
 on:
   workflow_dispatch:
@@ -22,6 +22,8 @@ on:
 jobs:
   send-digest:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     # These env vars come from GitHub repository secrets.
     # Add them in:
@@ -37,16 +39,19 @@ jobs:
 
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 25
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Run tests before sending
+        run: npm test
 
       - name: Typecheck before sending
         run: npm run typecheck
