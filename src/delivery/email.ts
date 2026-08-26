@@ -14,7 +14,7 @@ export interface SendDigestEmailInput {
 }
 
 function requiredEnv(name: string): string {
-  const value = process.env[name];
+  const value = process.env[name]?.trim();
   if (!value) {
     throw new Error(`Missing required environment variable: ${name}`);
   }
@@ -41,8 +41,6 @@ export async function sendDigestEmail(input: SendDigestEmailInput): Promise<void
 
   console.log("Resend accepted email:", {
     id: data?.id,
-    from,
-    to,
-    subject: input.subject,
+    recipientCount: 1,
   });
 }
