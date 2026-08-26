@@ -97,9 +97,9 @@ When the manual send flow feels stable, the next step is to schedule it.
 
 If you want the digest to run even while your laptop is asleep, the easiest free-ish learning path is GitHub Actions.
 
-- The workflow lives at [daily-digest.yml](/Users/jaideepjuneja/Documents/daily-digest-framework/.github/workflows/daily-digest.yml).
+- The workflow lives at [`./.github/workflows/daily-digest.yml`](./.github/workflows/daily-digest.yml).
 - It supports both manual runs with `workflow_dispatch` and scheduled runs.
-- GitHub cron runs in `UTC`, so convert your morning send time before you uncomment the schedule.
+- GitHub cron runs in `UTC`, so the workflow schedules both `11:00` and `12:00` UTC and then gates execution to `7:00 AM` in `America/New_York` year-round.
 - Add these repository secrets before the first real run:
   - `RESEND_API_KEY`
   - `DIGEST_TO_EMAIL`
@@ -139,7 +139,7 @@ The learning sequence I recommend is:
 
 ## Database Roadmap
 
-See [docs/db-roadmap.md](/Users/jaideepjuneja/Documents/daily-digest-framework/docs/db-roadmap.md) for the planned storage phases, including the first `sent_items` table and the path toward saved preferences and feedback.
+See [`./docs/db-roadmap.md`](./docs/db-roadmap.md) for the planned storage phases, including the first `sent_items` table and the path toward saved preferences and feedback.
 
 ## Good first file to edit yourself
 

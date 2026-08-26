@@ -14,10 +14,11 @@ on:
   workflow_dispatch:
 
   # GitHub cron uses UTC, not your local timezone.
-  # 11:00 UTC is 7:00 AM in New York during daylight saving time.
-  #
+  # To keep a stable 7:00 AM New York send time across daylight saving changes,
+  # we schedule both possible UTC hours and gate the run inside the job.
   schedule:
     - cron: "0 11 * * *"
+    - cron: "0 12 * * *"
 
 jobs:
   send-digest:
@@ -38,23 +39,49 @@ jobs:
       DRY_RUN: "false"
 
     steps:
+      - name: Check New York send window
+        id: send_window
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Manual run detected. Continuing."
+            exit 0
+          fi
+
+          ny_hour="$(TZ=America/New_York date +%H)"
+
+          if [ "$ny_hour" = "07" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "It is 7 AM in New York. Continuing scheduled run."
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping scheduled run because New York local hour is $ny_hour, not 07."
+          fi
+
       - name: Check out the repository
-        uses: actions/checkout@v5
+        if: steps.send_window.outputs.should_run == 'true'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v5
+        if: steps.send_window.outputs.should_run == 'true'
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 24
           cache: npm
 
       - name: Install dependencies
+        if: steps.send_window.outputs.should_run == 'true'
         run: npm ci
 
       - name: Run tests before sending
+        if: steps.send_window.outputs.should_run == 'true'
         run: npm test
 
       - name: Typecheck before sending
+        if: steps.send_window.outputs.should_run == 'true'
         run: npm run typecheck
 
       - name: Build and send the digest
+        if: steps.send_window.outputs.should_run == 'true'
         run: npm run send:digest:ci
