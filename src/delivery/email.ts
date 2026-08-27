@@ -10,6 +10,7 @@ import { Resend } from "resend";
 export interface SendDigestEmailInput {
   subject: string;
   html: string;
+  idempotencyKey: string;
   text: string;
 }
 
@@ -33,6 +34,8 @@ export async function sendDigestEmail(input: SendDigestEmailInput): Promise<void
     subject: input.subject,
     html: input.html,
     text: input.text,
+  }, {
+    idempotencyKey: input.idempotencyKey,
   });
 
   if (error) {
@@ -41,6 +44,7 @@ export async function sendDigestEmail(input: SendDigestEmailInput): Promise<void
 
   console.log("Resend accepted email:", {
     id: data?.id,
+    idempotencyProtected: true,
     recipientCount: 1,
   });
 }

@@ -73,6 +73,12 @@ Optional safety flags:
 - `DRY_RUN=true`: builds the digest and logs success, but skips the Resend API call.
 - `MIN_DIGEST_ITEMS=8`: aborts sending if the digest is too thin to be useful.
 
+Duplicate-send protection:
+
+- the workflow now uses GitHub Actions `concurrency` so overlapping manual and scheduled runs do not execute at the same time
+- the email send now includes a deterministic Resend idempotency key based on the digest day and recipient
+- as committed on Thursday, August 27, 2026, the workflow file still has `DRY_RUN: "false"`, so manual dispatches from GitHub will attempt a real send if the secrets are present
+
 ## Current digest mix
 
 The digest currently aims for this section balance on each run:
@@ -108,6 +114,7 @@ If you want the digest to run even while your laptop is asleep, the easiest free
   - `MIN_DIGEST_ITEMS=8` so low-quality runs abort instead of sending a weak digest
   - `npm test` and `npm run typecheck` before the send step
   - Node.js `24`, which is LTS as of August 26, 2026
+  - workflow-level `concurrency` so overlapping runs queue instead of sending in parallel
 - Change `DRY_RUN` in the workflow env block if you want cloud runs to skip real email temporarily.
 
 The learning sequence I recommend is:
