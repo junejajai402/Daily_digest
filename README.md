@@ -110,12 +110,30 @@ If you want the digest to run even while your laptop is asleep, the easiest free
   - `RESEND_API_KEY`
   - `DIGEST_TO_EMAIL`
   - `DIGEST_FROM_EMAIL`
+- Add this extra repository secret if you want the homepage repo to refresh automatically after a successful send:
+  - `HOMEPAGE_REPO_DISPATCH_TOKEN`
 - The workflow also includes:
   - `MIN_DIGEST_ITEMS=8` so low-quality runs abort instead of sending a weak digest
   - `npm test` and `npm run typecheck` before the send step
   - Node.js `24`, which is LTS as of August 26, 2026
   - workflow-level `concurrency` so overlapping runs queue instead of sending in parallel
 - Change `DRY_RUN` in the workflow env block if you want cloud runs to skip real email temporarily.
+
+### Homepage Sync Automation
+
+The digest workflow can now trigger the homepage repo after a successful non-dry-run send.
+
+- the digest workflow sends a `repository_dispatch` event to the homepage repo
+- the homepage repo then clones this digest repo, copies `tmp/digest/latest-digest.json`, rebuilds the static site, and pushes the updated digest files
+- the dispatch only runs from the digest repo's default branch, so a feature-branch experiment does not accidentally update the live homepage
+- if `HOMEPAGE_REPO_DISPATCH_TOKEN` is missing, the digest still emails normally and simply skips the homepage sync step
+- if you want to override the target repo later, add an Actions variable named `HOMEPAGE_REPO_FULL_NAME`
+
+Recommended token setup:
+
+- create a fine-grained personal access token for `junejajai402/time-snapshot`
+- give it `Contents: Read and write`
+- store it in the digest repo as `HOMEPAGE_REPO_DISPATCH_TOKEN`
 
 The learning sequence I recommend is:
 

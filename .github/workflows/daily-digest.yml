@@ -12,7 +12,7 @@ concurrency:
 # Good next learning steps:
 # - keep the dry-run path handy when you change ranking or source logic
 # - inspect artifact output in the logs when a scheduled run looks suspicious
-# - add artifact publishing later when the homepage consumer is ready
+# - keep the homepage sync step pointed at the same canonical artifact
 # - keep workflow concurrency and email idempotency aligned so one digest does not send twice
 
 on:
@@ -38,6 +38,7 @@ jobs:
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
       DIGEST_TO_EMAIL: ${{ secrets.DIGEST_TO_EMAIL }}
       DIGEST_FROM_EMAIL: ${{ secrets.DIGEST_FROM_EMAIL }}
+      HOMEPAGE_REPO_DISPATCH_TOKEN: ${{ secrets.HOMEPAGE_REPO_DISPATCH_TOKEN }}
       MIN_DIGEST_ITEMS: 8
       # Set this to true while you are learning or testing the workflow manually.
       # Change it back to false before relying on the scheduled send.
@@ -90,3 +91,26 @@ jobs:
       - name: Build and send the digest
         if: steps.send_window.outputs.should_run == 'true'
         run: npm run send:digest:ci
+
+      - name: Trigger homepage digest sync
+        if: steps.send_window.outputs.should_run == 'true' && env.DRY_RUN != 'true' && env.HOMEPAGE_REPO_DISPATCH_TOKEN != '' && github.ref_name == github.event.repository.default_branch
+        shell: bash
+        env:
+          DISPATCH_TOKEN: ${{ env.HOMEPAGE_REPO_DISPATCH_TOKEN }}
+          HOMEPAGE_REPO_FULL_NAME: ${{ vars.HOMEPAGE_REPO_FULL_NAME }}
+        run: |
+          set -euo pipefail
+
+          target_repo="${HOMEPAGE_REPO_FULL_NAME:-junejajai402/time-snapshot}"
+
+          payload="$(node -e 'const fs = require("fs"); const artifact = JSON.parse(fs.readFileSync("tmp/digest/latest-digest.json", "utf8")); process.stdout.write(JSON.stringify({ event_type: "sync-digest-artifact", client_payload: { digest_artifact_path: "tmp/digest/latest-digest.json", digest_id: artifact.digestId, digest_ref: process.env.GITHUB_REF_NAME, digest_repo: process.env.GITHUB_REPOSITORY } }));')"
+
+          curl --fail-with-body --silent --show-error \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            "https://api.github.com/repos/$target_repo/dispatches" \
+            -d "$payload"
+
+          echo "Triggered homepage sync for $target_repo."
