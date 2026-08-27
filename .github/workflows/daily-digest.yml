@@ -1,5 +1,9 @@
 name: Daily Digest
 
+concurrency:
+  group: daily-digest-send
+  cancel-in-progress: false
+
 # Purpose:
 # This workflow runs the digest in GitHub Actions on a schedule or manually.
 # It keeps the cloud path close to the local flow so the email send and artifact
@@ -9,6 +13,7 @@ name: Daily Digest
 # - keep the dry-run path handy when you change ranking or source logic
 # - inspect artifact output in the logs when a scheduled run looks suspicious
 # - add artifact publishing later when the homepage consumer is ready
+# - keep workflow concurrency and email idempotency aligned so one digest does not send twice
 
 on:
   workflow_dispatch:

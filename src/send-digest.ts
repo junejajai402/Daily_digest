@@ -8,6 +8,7 @@
 import { createDigestArtifact } from "./artifact/create";
 import { writeDigestArtifact } from "./artifact/write";
 import { buildDigest } from "./digest/build";
+import { createDigestEmailIdempotencyKey, createDigestEmailSubject } from "./delivery/digest-email";
 import { sendDigestEmail } from "./delivery/email";
 import { renderHtmlDigest } from "./render/email-html";
 import { renderPlainTextDigest } from "./render/email";
@@ -28,14 +29,14 @@ function parseNumberEnv(name: string, fallback: number): number {
   return Number.isFinite(parsed) ? parsed : fallback;
 }
 
-function createSubject(): string {
-  const date = new Intl.DateTimeFormat("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  }).format(new Date());
+function requiredEnv(name: string): string {
+  const value = process.env[name]?.trim();
 
-  return `Daily Digest - ${date}`;
+  if (!value) {
+    throw new Error(`Missing required environment variable: ${name}`);
+  }
+
+  return value;
 }
 
 async function main() {
@@ -56,6 +57,9 @@ async function main() {
 
   const artifact = createDigestArtifact(builtDigest);
   const writtenPaths = await writeDigestArtifact(artifact);
+  const subject = createDigestEmailSubject(artifact.digestId);
+  const recipient = requiredEnv("DIGEST_TO_EMAIL");
+  const idempotencyKey = createDigestEmailIdempotencyKey(artifact.digestId, recipient);
   const html = renderHtmlDigest(digestItems);
   const text = renderPlainTextDigest(digestItems);
 
@@ -63,7 +67,8 @@ async function main() {
     console.log(
       `Dry run: digest built successfully with ${digestItems.length} items. Email send skipped.`,
     );
-    console.log(`Subject: ${createSubject()}`);
+    console.log(`Subject: ${subject}`);
+    console.log(`Idempotency key: ${idempotencyKey}`);
     console.log(`Latest artifact: ${writtenPaths.latestPath}`);
     if (writtenPaths.archivePath) {
       console.log(`Archive artifact: ${writtenPaths.archivePath}`);
@@ -72,8 +77,9 @@ async function main() {
   }
 
   await sendDigestEmail({
-    subject: createSubject(),
+    subject,
     html,
+    idempotencyKey,
     text,
   });
 
