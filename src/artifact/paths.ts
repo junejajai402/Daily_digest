@@ -7,7 +7,9 @@
 
 import { resolve } from "node:path";
 
-const DEFAULT_DIGEST_OUTPUT_DIR = "tmp/digest";
+// The latest artifact is a small, public data contract that the homepage pulls
+// from this repository. Keep it outside tmp so GitHub Actions can publish it.
+const DEFAULT_DIGEST_OUTPUT_DIR = "digests";
 
 export function resolveDigestOutputDir(outputDir = process.env.DIGEST_OUTPUT_DIR?.trim()): string {
   return resolve(process.cwd(), outputDir || DEFAULT_DIGEST_OUTPUT_DIR);

@@ -64,8 +64,8 @@ Useful commands:
 
 Artifact output:
 
-- local exports are written to `tmp/digest/latest-digest.json`
-- archive snapshots are written to `tmp/digest/archive/<digestId>.json`
+- the homepage-ready latest export is written to `digests/latest-digest.json` and committed by the cloud workflow
+- local archive snapshots are written to `digests/archive/<digestId>.json` and remain ignored by Git
 - you can override the output directory later with `DIGEST_OUTPUT_DIR`
 
 Optional safety flags:
@@ -105,7 +105,7 @@ If you want the digest to run even while your laptop is asleep, the easiest free
 
 - The workflow lives at [`./.github/workflows/daily-digest.yml`](./.github/workflows/daily-digest.yml).
 - It supports both manual runs with `workflow_dispatch` and scheduled runs.
-- GitHub cron runs in `UTC`, so the workflow schedules both `11:00` and `12:00` UTC and then gates execution to `7:00 AM` in `America/New_York` year-round.
+- GitHub cron runs in `UTC`, so the workflow checks twice each hour away from the busy top-of-hour boundary and only sends during the `7:00 AM` hour in `America/New_York`. This stays correct through daylight saving time and gives delayed GitHub jobs multiple chances to run.
 - Add these repository secrets before the first real run:
   - `RESEND_API_KEY`
   - `DIGEST_TO_EMAIL`
@@ -124,7 +124,7 @@ If you want the digest to run even while your laptop is asleep, the easiest free
 The digest workflow can now trigger the homepage repo after a successful non-dry-run send.
 
 - the digest workflow sends a `repository_dispatch` event to the homepage repo
-- the homepage repo then clones this digest repo, copies `tmp/digest/latest-digest.json`, rebuilds the static site, and pushes the updated digest files
+- after a successful email send, the digest workflow commits the newly generated `digests/latest-digest.json`; the homepage repo then clones that fresh artifact, rebuilds the static site, and pushes the updated digest files
 - the dispatch only runs from the digest repo's default branch, so a feature-branch experiment does not accidentally update the live homepage
 - if `HOMEPAGE_REPO_DISPATCH_TOKEN` is missing, the digest still emails normally and simply skips the homepage sync step
 - if you want to override the target repo later, add an Actions variable named `HOMEPAGE_REPO_FULL_NAME`

@@ -16,3 +16,6 @@ yarn-error.log*
 
 # Local preview or temp output
 tmp/
+
+# The current digest is committed for the homepage; historical copies stay local.
+digests/archive/
