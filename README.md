@@ -105,7 +105,7 @@ If you want the digest to run even while your laptop is asleep, the easiest free
 
 - The workflow lives at [`./.github/workflows/daily-digest.yml`](./.github/workflows/daily-digest.yml).
 - It supports both manual runs with `workflow_dispatch` and scheduled runs.
-- GitHub cron runs in `UTC`, so the workflow checks twice each hour away from the busy top-of-hour boundary and only sends during the `7:00 AM` hour in `America/New_York`. This stays correct through daylight saving time and gives delayed GitHub jobs multiple chances to run.
+- GitHub Actions now supports timezone-aware schedules, so the workflow runs at `7:17 AM` in `America/New_York` every day. The off-the-hour minute avoids a busy scheduler boundary and stays correct through daylight saving time.
 - Add these repository secrets before the first real run:
   - `RESEND_API_KEY`
   - `DIGEST_TO_EMAIL`

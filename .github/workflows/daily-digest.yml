@@ -18,12 +18,12 @@ concurrency:
 on:
   workflow_dispatch:
 
-  # GitHub cron uses UTC and scheduled jobs can start late, especially at the
-  # top of an hour. Run twice each hour away from that busy boundary, then gate
-  # the job to the 7 AM New York window below. Resend idempotency makes the
-  # second in-window attempt safe if the first one is delayed or retried.
+  # A timezone-aware schedule stays at 7:17 AM New York time through daylight
+  # saving changes. The off-the-hour minute avoids a busy scheduler boundary.
+  # If GitHub starts the job late, it still runs rather than silently skipping.
   schedule:
-    - cron: "17,47 * * * *"
+    - cron: "17 7 * * *"
+      timezone: "America/New_York"
 
 jobs:
   send-digest:
@@ -47,7 +47,7 @@ jobs:
       DRY_RUN: "false"
 
     steps:
-      - name: Check New York send window
+      - name: Confirm scheduled or manual run
         id: send_window
         shell: bash
         run: |
@@ -57,15 +57,8 @@ jobs:
             exit 0
           fi
 
-          ny_hour="$(TZ=America/New_York date +%H)"
-
-          if [ "$ny_hour" = "07" ]; then
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
-            echo "It is 7 AM in New York. Continuing scheduled run."
-          else
-            echo "should_run=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping scheduled run because New York local hour is $ny_hour, not 07."
-          fi
+          echo "should_run=true" >> "$GITHUB_OUTPUT"
+          echo "Scheduled run detected. Continuing even if GitHub started it late."
 
       - name: Check out the repository
         if: steps.send_window.outputs.should_run == 'true'
