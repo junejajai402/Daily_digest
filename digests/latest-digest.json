@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-05",
-  "builtAt": "2026-09-05T13:51:28.549Z",
-  "lastAttemptedAt": "2026-09-05T13:51:27.988Z",
+  "digestId": "2026-09-06",
+  "builtAt": "2026-09-06T14:09:47.996Z",
+  "lastAttemptedAt": "2026-09-06T14:09:47.472Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -25,7 +25,7 @@
       "topic": "security",
       "publishedAt": "2026-09-04T16:31:50Z",
       "summary": "It won't work : My suspicion was that GPT 5.6-Cyber would succeed, but the frequency and manner of its success removed all doubt. We have to reassess sandboxing quality for capable AI agents, and in general the software stack with which they interact. An off-the-shelf VM is not enough to contain a modern, cyber-capable AI agent. There is simply too much...",
-      "score": 2.75,
+      "score": 2.6,
       "tags": [
         "security",
         "feed"
@@ -39,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Sat, 05 Sep 2026 03:39:52 GMT",
       "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.65,
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -54,20 +54,6 @@
       "topic": "security",
       "publishedAt": "2026-09-04T10:35:19Z",
       "summary": "We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech companies. Of the 8,265 llms.txt and llms-full.txt files they found (many sites hosted both an llms.txt and an llms-full.txt file), 120 of them, each on a...",
-      "score": 2.6,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
-      "title": "AI Agents Are Now Emailing Me with Their Security Concerns",
-      "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-02T18:28:08Z",
-      "summary": "I received the two emails below earlier in the month. They're vaguely coherent. I suppose I shouldn't be surprised that the corpus that AIs are training on contain data suggesting that I am someone to write to with random computer and network security problems. After all, I observe that behavior in many humans as well. (Hi, humans. Glad you're still...",
       "score": 2.6,
       "tags": [
         "security",
@@ -90,6 +76,20 @@
       ]
     },
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
+      "title": "AI Agents Are Now Emailing Me with Their Security Concerns",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-02T18:28:08Z",
+      "summary": "I received the two emails below earlier in the month. They're vaguely coherent. I suppose I shouldn't be surprised that the corpus that AIs are training on contain data suggesting that I am someone to write to with random computer and network security problems. After all, I observe that behavior in many humans as well. (Hi, humans. Glad you're still...",
+      "score": 2.5,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/03/openai-artificial-general-intelligence-astra-release",
       "title": "OpenAI hails 'new era of artificial general intelligence' with Astra model release",
       "url": "https://www.theguardian.com/technology/2026/sep/03/openai-artificial-general-intelligence-astra-release",
@@ -105,12 +105,12 @@
       ]
     },
     {
-      "id": "hacker news:https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
-      "title": "AI handles incidents, engineers lose touch with their systems",
-      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "id": "hacker news:https://dub.uu.nl/en/column/pencil-case-model-creativity",
+      "title": "The pencil case model of creativity",
+      "url": "https://dub.uu.nl/en/column/pencil-case-model-creativity",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 05 Sep 2026 07:52:50 +0000",
+      "publishedAt": "Sun, 06 Sep 2026 12:05:34 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -128,21 +128,21 @@
       "topic": "tech",
       "publishedAt": "Fri, 04 Sep 2026 14:59:13 GMT",
       "summary": "OpenAI said it could not \"meaningfully respond\" to the report's findings because it hadn't been allowed to review it ahead of publication.",
-      "score": 2.25,
+      "score": 2.1,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
-      "title": "'We're plausibly close to crossing the line': are warnings of uncontrollable AI coming true?",
-      "url": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
+      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/sep/06/fix-victoria-ai-ads-flooding-social-media-election-who-is-behind-them",
+      "title": "Alarming AI ads are flooding social media in the lead-up to Victoria's election. But who is behind them?",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/06/fix-victoria-ai-ads-flooding-social-media-election-who-is-behind-them",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 05 Sep 2026 07:00:30 GMT",
-      "summary": "A spate of serious safety incidents have increased fears about the power and impenetrability of the most advanced models Picture humanity in a boat being swept down a raging river, praying there is no Niagara Falls ahead. Or imagine standing with the pioneering physicists in 1942 before they triggered the first self-sustaining nuclear fission chain...",
-      "score": 2.35,
+      "publishedAt": "Sat, 05 Sep 2026 20:00:46 GMT",
+      "summary": "A machete-wielding robber, a 'tsunami of debt' ... campaigns echoing opposition talking points outspend major parties Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast A man clad in a balaclava and brandishing a machete terrorises a worker at a petrol station before firebombing the building...",
+      "score": 2.25,
       "tags": [
         "tech",
         "rss",
@@ -150,12 +150,12 @@
       ]
     },
     {
-      "id": "hacker news:https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
-      "title": "Pentagon rescinds new testosterone screening policy without explanation",
-      "url": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
+      "id": "hacker news:https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "title": "Intellectual Fly Is Open",
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 05 Sep 2026 13:11:14 +0000",
+      "publishedAt": "Sun, 06 Sep 2026 11:56:43 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.1,
       "tags": [
@@ -198,35 +198,19 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/prince-estate-respond-fans-concern-rumours-of-ai-use-on-timeless-3967113?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=prince-estate-respond-fans-concern-rumours-of-ai-use-on-timeless",
-      "title": "Prince estate respond to fans' concern over rumours of AI use on new 'Timeless' release",
-      "url": "https://www.nme.com/news/music/prince-estate-respond-fans-concern-rumours-of-ai-use-on-timeless-3967113?utm_source=rss&utm_medium=rss&utm_campaign=prince-estate-respond-fans-concern-rumours-of-ai-use-on-timeless",
+      "id": "nme music news:https://www.nme.com/news/music/kid-cudi-explains-why-hes-working-with-kanye-west-again-3967195?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kid-cudi-explains-why-hes-working-with-kanye-west-again",
+      "title": "Kid Cudi explains why he's working with Kanye West again as he, Travis Scott, Young Thug, Rick Ross and more join controversial rapper at huge Chicago shows",
+      "url": "https://www.nme.com/news/music/kid-cudi-explains-why-hes-working-with-kanye-west-again-3967195?utm_source=rss&utm_medium=rss&utm_campaign=kid-cudi-explains-why-hes-working-with-kanye-west-again",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Fri, 04 Sep 2026 15:50:09 +0000",
-      "summary": "They have also requested for fans to raise their concerns with more \"kindness and respect\" going forward The post Prince estate respond to fans' concern over rumours of AI use on new 'Timeless' release appeared first on NME .",
-      "score": 2.03,
+      "publishedAt": "Sun, 06 Sep 2026 10:11:17 +0000",
+      "summary": "\"That man is my brother\" The post Kid Cudi explains why he's working with Kanye West again as he, Travis Scott, Young Thug, Rick Ross and more join controversial rapper at huge Chicago shows appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/alabama-shakes-i-must-be-dreaming/",
-      "title": "I Must Be Dreaming",
-      "url": "https://pitchfork.com/reviews/albums/alabama-shakes-i-must-be-dreaming/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Sat, 05 Sep 2026 04:00:00 +0000",
-      "summary": "After more than a decade away, Brittany Howard's influential rock band still has a knack for righteous, retro catharsis, but the signature moves can't help but feel a little safe.",
-      "score": 1.7999999999999998,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
       ]
     },
     {
@@ -241,6 +225,22 @@
       "tags": [
         "music",
         "albums",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/nina-winder-lind-wild-love/",
+      "title": "Wild Love",
+      "url": "https://pitchfork.com/reviews/albums/nina-winder-lind-wild-love/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Thu, 03 Sep 2026 04:01:00 +0000",
+      "summary": "The Swedish songwriter fills her solo debut of textural art-rock with ferocious portraits of girlhood and surges of gratitude for every sensation available to her.",
+      "score": 1.65,
+      "tags": [
+        "music",
+        "reviews",
         "rss",
         "pitchfork"
       ]
