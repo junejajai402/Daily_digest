@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-06",
-  "builtAt": "2026-09-06T14:09:47.996Z",
-  "lastAttemptedAt": "2026-09-06T14:09:47.472Z",
+  "digestId": "2026-09-07",
+  "builtAt": "2026-09-07T16:26:59.139Z",
+  "lastAttemptedAt": "2026-09-07T16:26:58.462Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -17,6 +17,35 @@
   },
   "sourceFailures": [],
   "items": [
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33314",
+      "title": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
+      "url": "https://isc.sans.edu/diary/rss/33314",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Sun, 06 Sep 2026 21:43:17 GMT",
+      "summary": "Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected devices to maintain access after a patch is installed.",
+      "score": 2.75,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html",
+      "title": "Automobile Camouflage to Hide from Flock Cameras",
+      "url": "https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-07T11:07:17Z",
+      "summary": "Not sure it's practical, but it's certainly striking .",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
     {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
       "title": "Using a VM to Contain an AI Agent",
@@ -54,35 +83,6 @@
       "topic": "security",
       "publishedAt": "2026-09-04T10:35:19Z",
       "summary": "We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech companies. Of the 8,265 llms.txt and llms-full.txt files they found (many sites hosted both an llms.txt and an llms-full.txt file), 120 of them, each on a...",
-      "score": 2.6,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33300",
-      "title": "Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)",
-      "url": "https://isc.sans.edu/diary/rss/33300",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 01 Sep 2026 21:30:18 GMT",
-      "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
-      "title": "AI Agents Are Now Emailing Me with Their Security Concerns",
-      "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-02T18:28:08Z",
-      "summary": "I received the two emails below earlier in the month. They're vaguely coherent. I suppose I shouldn't be surprised that the corpus that AIs are training on contain data suggesting that I am someone to write to with random computer and network security problems. After all, I observe that behavior in many humans as well. (Hi, humans. Glad you're still...",
       "score": 2.5,
       "tags": [
         "security",
@@ -90,14 +90,28 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/03/openai-artificial-general-intelligence-astra-release",
-      "title": "OpenAI hails 'new era of artificial general intelligence' with Astra model release",
-      "url": "https://www.theguardian.com/technology/2026/sep/03/openai-artificial-general-intelligence-astra-release",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=rss&amp;at_campaign=rss",
+      "title": "OpenAI chief scientist warns no-one is prepared for consequences of AI",
+      "url": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Mon, 07 Sep 2026 12:22:07 GMT",
+      "summary": "The post comes as the firm releases GPT-6 Astra, which it says is its most powerful product yet.",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/07/pixel-11-review-google-flagship-phones-battery-cameras-android",
+      "title": "Pixel 11 review: Google sets the bar for standard flagship phones",
+      "url": "https://www.theguardian.com/technology/2026/sep/07/pixel-11-review-google-flagship-phones-battery-cameras-android",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 03 Sep 2026 18:24:42 GMT",
-      "summary": "Astra's arrival comes days after Sam Altman, OpenAI's chief executive, described AGI as an 'irrelevant marketing term' The president of OpenAI, Greg Brockman, has claimed the world has entered a new era of artificial general intelligence after the release of his company's latest model, Astra, which it described as the \"world's most intelligent and aligned...",
-      "score": 2.5,
+      "publishedAt": "Mon, 07 Sep 2026 06:00:26 GMT",
+      "summary": "Longer battery life, faster chip, actually useful AI tools and better cameras keep quality Android ahead of competition Google's Pixel 11 continues to set the standard for what you should expect from the base model of a flagship phone with class-leading cameras, long software support and almost all the bells and whistles of its most expensive phones. The...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -105,12 +119,12 @@
       ]
     },
     {
-      "id": "hacker news:https://dub.uu.nl/en/column/pencil-case-model-creativity",
-      "title": "The pencil case model of creativity",
-      "url": "https://dub.uu.nl/en/column/pencil-case-model-creativity",
+      "id": "hacker news:https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/",
+      "title": "De-Brainrot Vacations",
+      "url": "https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 06 Sep 2026 12:05:34 +0000",
+      "publishedAt": "Mon, 07 Sep 2026 13:00:48 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -121,43 +135,14 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=rss&amp;at_campaign=rss",
-      "title": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
-      "url": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Fri, 04 Sep 2026 14:59:13 GMT",
-      "summary": "OpenAI said it could not \"meaningfully respond\" to the report's findings because it hadn't been allowed to review it ahead of publication.",
-      "score": 2.1,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/sep/06/fix-victoria-ai-ads-flooding-social-media-election-who-is-behind-them",
-      "title": "Alarming AI ads are flooding social media in the lead-up to Victoria's election. But who is behind them?",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/06/fix-victoria-ai-ads-flooding-social-media-election-who-is-behind-them",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Sat, 05 Sep 2026 20:00:46 GMT",
-      "summary": "A machete-wielding robber, a 'tsunami of debt' ... campaigns echoing opposition talking points outspend major parties Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast A man clad in a balaclava and brandishing a machete terrorises a worker at a petrol station before firebombing the building...",
-      "score": 2.25,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
-      "title": "Intellectual Fly Is Open",
-      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "id": "hacker news:https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532",
+      "title": "Smartphone makers don't bother to comply with EU repairability requirements",
+      "url": "https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 06 Sep 2026 11:56:43 +0000",
+      "publishedAt": "Mon, 07 Sep 2026 11:46:37 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -166,14 +151,28 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/path-to-astra",
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "url": "https://openai.com/index/path-to-astra",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c1wxppnrqlqo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death",
+      "url": "https://www.bbc.co.uk/news/articles/c1wxppnrqlqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Mon, 07 Sep 2026 11:30:27 GMT",
+      "summary": "Since Parton's death in late August, dozens of AI-generated songs, images and videos have appeared online.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/gpt-6-astra",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "url": "https://openai.com/index/gpt-6-astra",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Tue, 01 Sep 2026 13:00:00 GMT",
-      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "score": 2.67,
+      "publishedAt": "Thu, 03 Sep 2026 11:00:00 GMT",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "score": 2.47,
       "tags": [
         "ai",
         "official",
@@ -198,14 +197,14 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/kid-cudi-explains-why-hes-working-with-kanye-west-again-3967195?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kid-cudi-explains-why-hes-working-with-kanye-west-again",
-      "title": "Kid Cudi explains why he's working with Kanye West again as he, Travis Scott, Young Thug, Rick Ross and more join controversial rapper at huge Chicago shows",
-      "url": "https://www.nme.com/news/music/kid-cudi-explains-why-hes-working-with-kanye-west-again-3967195?utm_source=rss&utm_medium=rss&utm_campaign=kid-cudi-explains-why-hes-working-with-kanye-west-again",
+      "id": "nme music news:https://www.nme.com/news/music/release-announced-cameron-winter-paul-thomas-anderson-carnegie-hall-film-3967441?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=release-announced-cameron-winter-paul-thomas-anderson-carnegie-hall-film",
+      "title": "Premiere and MUBI release details announced for Cameron Winter's Paul Thomas Anderson-directed 'Live At Carnegie Hall' film",
+      "url": "https://www.nme.com/news/music/release-announced-cameron-winter-paul-thomas-anderson-carnegie-hall-film-3967441?utm_source=rss&utm_medium=rss&utm_campaign=release-announced-cameron-winter-paul-thomas-anderson-carnegie-hall-film",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sun, 06 Sep 2026 10:11:17 +0000",
-      "summary": "\"That man is my brother\" The post Kid Cudi explains why he's working with Kanye West again as he, Travis Scott, Young Thug, Rick Ross and more join controversial rapper at huge Chicago shows appeared first on NME .",
-      "score": 1.93,
+      "publishedAt": "Mon, 07 Sep 2026 15:45:33 +0000",
+      "summary": "The concert film will also be screened in cinemas across North America, and the audio from the show will be released next month as his first live album The post Premiere and MUBI release details announced for Cameron Winter's Paul Thomas Anderson-directed 'Live At Carnegie Hall' film appeared first on NME .",
+      "score": 2.13,
       "tags": [
         "music",
         "news",
@@ -230,19 +229,19 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/nina-winder-lind-wild-love/",
-      "title": "Wild Love",
-      "url": "https://pitchfork.com/reviews/albums/nina-winder-lind-wild-love/",
-      "source": "Pitchfork Album Reviews",
+      "id": "nme music news:https://www.nme.com/news/music/cage-the-elephant-announce-2027-dying-in-reverse-uk-european-tour-tickets-3967411?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cage-the-elephant-announce-2027-dying-in-reverse-uk-european-tour-tickets",
+      "title": "Cage The Elephant announce 2027 'Dying In Reverse' UK and European tour",
+      "url": "https://www.nme.com/news/music/cage-the-elephant-announce-2027-dying-in-reverse-uk-european-tour-tickets-3967411?utm_source=rss&utm_medium=rss&utm_campaign=cage-the-elephant-announce-2027-dying-in-reverse-uk-european-tour-tickets",
+      "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 03 Sep 2026 04:01:00 +0000",
-      "summary": "The Swedish songwriter fills her solo debut of textural art-rock with ferocious portraits of girlhood and surges of gratitude for every sensation available to her.",
-      "score": 1.65,
+      "publishedAt": "Mon, 07 Sep 2026 14:00:54 +0000",
+      "summary": "\"The audiences over there have always embraced us, and we can't wait to come back and play new songs\" The post Cage The Elephant announce 2027 'Dying In Reverse' UK and European tour appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
-        "reviews",
+        "news",
         "rss",
-        "pitchfork"
+        "nme"
       ]
     }
   ]
