@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-07",
-  "builtAt": "2026-09-07T16:26:59.139Z",
-  "lastAttemptedAt": "2026-09-07T16:26:58.462Z",
+  "digestId": "2026-09-08",
+  "builtAt": "2026-09-08T15:06:06.241Z",
+  "lastAttemptedAt": "2026-09-08T15:06:05.527Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 101,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,6 +18,20 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+      "title": "Stealing AI Reasoning Traces",
+      "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-08T10:21:01Z",
+      "summary": "Interesting research: \" Stealing Reasoning Traces from Proprietary LLM APIs \": Abstract: Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of...",
+      "score": 3.05,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33314",
       "title": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
       "url": "https://isc.sans.edu/diary/rss/33314",
@@ -25,25 +39,11 @@
       "topic": "security",
       "publishedAt": "Sun, 06 Sep 2026 21:43:17 GMT",
       "summary": "Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected devices to maintain access after a patch is installed.",
-      "score": 2.75,
+      "score": 2.6,
       "tags": [
         "security",
         "rss",
         "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html",
-      "title": "Automobile Camouflage to Hide from Flock Cameras",
-      "url": "https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-07T11:07:17Z",
-      "summary": "Not sure it's practical, but it's certainly striking .",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "feed"
       ]
     },
     {
@@ -54,7 +54,7 @@
       "topic": "security",
       "publishedAt": "2026-09-04T16:31:50Z",
       "summary": "It won't work : My suspicion was that GPT 5.6-Cyber would succeed, but the frequency and manner of its success removed all doubt. We have to reassess sandboxing quality for capable AI agents, and in general the software stack with which they interact. An off-the-shelf VM is not enough to contain a modern, cyber-capable AI agent. There is simply too much...",
-      "score": 2.6,
+      "score": 2.5,
       "tags": [
         "security",
         "feed"
@@ -68,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Sat, 05 Sep 2026 03:39:52 GMT",
       "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.4,
+      "score": 2.3,
       "tags": [
         "security",
         "rss",
@@ -90,27 +90,13 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=rss&amp;at_campaign=rss",
-      "title": "OpenAI chief scientist warns no-one is prepared for consequences of AI",
-      "url": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Mon, 07 Sep 2026 12:22:07 GMT",
-      "summary": "The post comes as the firm releases GPT-6 Astra, which it says is its most powerful product yet.",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/07/pixel-11-review-google-flagship-phones-battery-cameras-android",
-      "title": "Pixel 11 review: Google sets the bar for standard flagship phones",
-      "url": "https://www.theguardian.com/technology/2026/sep/07/pixel-11-review-google-flagship-phones-battery-cameras-android",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/04/openai-agent-goes-rogue",
+      "title": "OpenAI releases new AI agent - which promptly goes rogue",
+      "url": "https://www.theguardian.com/technology/2026/sep/04/openai-agent-goes-rogue",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 07 Sep 2026 06:00:26 GMT",
-      "summary": "Longer battery life, faster chip, actually useful AI tools and better cameras keep quality Android ahead of competition Google's Pixel 11 continues to set the standard for what you should expect from the base model of a flagship phone with class-leading cameras, long software support and almost all the bells and whistles of its most expensive phones. The...",
+      "publishedAt": "Tue, 08 Sep 2026 13:29:51 GMT",
+      "summary": "Plus: Americans think they have it bad with unwanted surveillance. They should visit London Hello, and welcome to TechScape. I'm your host, Blake Montgomery, US tech editor at the Guardian, writing to you after visiting Coney Island in New York City, where I ate a hotdog, rode a ferris wheel and enjoyed a quintessentially American summer holiday. Today in...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -119,12 +105,12 @@
       ]
     },
     {
-      "id": "hacker news:https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/",
-      "title": "De-Brainrot Vacations",
-      "url": "https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/",
+      "id": "hacker news:https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+      "title": "LibreOffice breaks download records after declaring it has no AI features",
+      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 07 Sep 2026 13:00:48 +0000",
+      "publishedAt": "Tue, 08 Sep 2026 14:05:57 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -135,49 +121,48 @@
       ]
     },
     {
-      "id": "hacker news:https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532",
-      "title": "Smartphone makers don't bother to comply with EU repairability requirements",
-      "url": "https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Mon, 07 Sep 2026 11:46:37 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c1wxppnrqlqo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death",
-      "url": "https://www.bbc.co.uk/news/articles/c1wxppnrqlqo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
+      "url": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Mon, 07 Sep 2026 11:30:27 GMT",
-      "summary": "Since Parton's death in late August, dozens of AI-generated songs, images and videos have appeared online.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Mon, 07 Sep 2026 15:27:50 GMT",
+      "summary": "The long-running claim alleges Grindr breached UK privacy laws by sharing data with third parties.",
+      "score": 2.25,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/gpt-6-astra",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Thu, 03 Sep 2026 11:00:00 GMT",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "score": 2.47,
+      "id": "the guardian tech:https://www.theguardian.com/business/2026/sep/08/ai-cure-cancer-arm-holdings-rene-haas",
+      "title": "AI will help find cure for cancer 'within our lifetimes', says Arm Holdings chief",
+      "url": "https://www.theguardian.com/business/2026/sep/08/ai-cure-cancer-arm-holdings-rene-haas",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Tue, 08 Sep 2026 11:49:11 GMT",
+      "summary": "Rene Haas also claims artificial intelligence could pave way for widespread use of humanoid robots within five years Business live - latest updates The boss of one of the UK's biggest chip companies has claimed AI will be able to find a cure for cancer \"in our lifetime\". Rene Haas, chief executive of the chip designer Arm Holdings, said that, while...",
+      "score": 2.35,
       "tags": [
-        "ai",
-        "official",
-        "openai",
-        "rss"
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+      "title": "We Must Return to the Office to Use AI in Person",
+      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Tue, 08 Sep 2026 13:41:25 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
       ]
     },
     {
@@ -197,51 +182,67 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/release-announced-cameron-winter-paul-thomas-anderson-carnegie-hall-film-3967441?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=release-announced-cameron-winter-paul-thomas-anderson-carnegie-hall-film",
-      "title": "Premiere and MUBI release details announced for Cameron Winter's Paul Thomas Anderson-directed 'Live At Carnegie Hall' film",
-      "url": "https://www.nme.com/news/music/release-announced-cameron-winter-paul-thomas-anderson-carnegie-hall-film-3967441?utm_source=rss&utm_medium=rss&utm_campaign=release-announced-cameron-winter-paul-thomas-anderson-carnegie-hall-film",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Mon, 07 Sep 2026 15:45:33 +0000",
-      "summary": "The concert film will also be screened in cinemas across North America, and the audio from the show will be released next month as his first live album The post Premiere and MUBI release details announced for Cameron Winter's Paul Thomas Anderson-directed 'Live At Carnegie Hall' film appeared first on NME .",
-      "score": 2.13,
+      "id": "openai news:https://openai.com/index/the-work-now-within-reach",
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Tue, 08 Sep 2026 13:00:00 GMT",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish-and make growth more economical.",
+      "score": 2.4200000000000004,
       "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
+        "ai",
+        "official",
+        "openai",
+        "rss"
       ]
     },
     {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
-      "title": "Punching the Clown",
-      "url": "https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
-      "source": "Pitchfork Best New Albums",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/carmen-villain-memoria/",
+      "title": "Memoria",
+      "url": "https://pitchfork.com/reviews/albums/carmen-villain-memoria/",
+      "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Tue, 25 Aug 2026 04:03:00 +0000",
-      "summary": "Kurt Wagner reinvents his band yet again, this time slimming down to a bare-bones acoustic setup and stripping away the studio artifice. But his storytelling remains as expansive as ever.",
-      "score": 1.7,
+      "publishedAt": "Tue, 08 Sep 2026 04:02:00 +0000",
+      "summary": "The Oslo musician's latest album marks a departure from the airy, pastel tones of its predecessor, folding shuddering dub rhythms into a cold, mechanistic palette.",
+      "score": 2.1999999999999997,
       "tags": [
         "music",
-        "albums",
+        "reviews",
         "rss",
         "pitchfork"
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/cage-the-elephant-announce-2027-dying-in-reverse-uk-european-tour-tickets-3967411?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cage-the-elephant-announce-2027-dying-in-reverse-uk-european-tour-tickets",
-      "title": "Cage The Elephant announce 2027 'Dying In Reverse' UK and European tour",
-      "url": "https://www.nme.com/news/music/cage-the-elephant-announce-2027-dying-in-reverse-uk-european-tour-tickets-3967411?utm_source=rss&utm_medium=rss&utm_campaign=cage-the-elephant-announce-2027-dying-in-reverse-uk-european-tour-tickets",
+      "id": "nme music news:https://www.nme.com/news/music/tame-impala-will-no-longer-be-signing-things-due-to-rise-of-aggressive-autograph-hounds-3967630?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tame-impala-will-no-longer-be-signing-things-due-to-rise-of-aggressive-autograph-hounds",
+      "title": "Tame Impala will no longer be signing things due to \"rise of aggressive autograph hounds\"",
+      "url": "https://www.nme.com/news/music/tame-impala-will-no-longer-be-signing-things-due-to-rise-of-aggressive-autograph-hounds-3967630?utm_source=rss&utm_medium=rss&utm_campaign=tame-impala-will-no-longer-be-signing-things-due-to-rise-of-aggressive-autograph-hounds",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Mon, 07 Sep 2026 14:00:54 +0000",
-      "summary": "\"The audiences over there have always embraced us, and we can't wait to come back and play new songs\" The post Cage The Elephant announce 2027 'Dying In Reverse' UK and European tour appeared first on NME .",
+      "publishedAt": "Tue, 08 Sep 2026 14:29:31 +0000",
+      "summary": "He said some hounds had \"started using kids\" as a tactic to get autographs, which was which \"all kinds of wrong\" The post Tame Impala will no longer be signing things due to \"rise of aggressive autograph hounds\" appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/windy-and-carl-optigan-conservatory-windy-and-carl-meet-optigan-conservatory/",
+      "title": "Windy & Carl Meet Optigan Conservatory",
+      "url": "https://pitchfork.com/reviews/albums/windy-and-carl-optigan-conservatory-windy-and-carl-meet-optigan-conservatory/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Tue, 08 Sep 2026 04:00:00 +0000",
+      "summary": "The Dearborn ambient duo teams up with a pair of experimental musicians on a richly detailed study of drone music for organ, electric piano, and guitar.",
+      "score": 1.9999999999999998,
+      "tags": [
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
       ]
     }
   ]
