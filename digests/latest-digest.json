@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-08",
-  "builtAt": "2026-09-08T15:06:06.241Z",
-  "lastAttemptedAt": "2026-09-08T15:06:05.527Z",
+  "digestId": "2026-09-09",
+  "builtAt": "2026-09-09T15:06:28.877Z",
+  "lastAttemptedAt": "2026-09-09T15:06:28.168Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 103,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
-      "title": "Stealing AI Reasoning Traces",
-      "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
+      "title": "AIs as Modern Genies",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-08T10:21:01Z",
-      "summary": "Interesting research: \" Stealing Reasoning Traces from Proprietary LLM APIs \": Abstract: Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of...",
-      "score": 3.05,
+      "publishedAt": "2026-09-08T17:12:58Z",
+      "summary": "This essay was written with Barath Raghavan, and originally appeared in Lawfare . In April, an artificial intelligence (AI) agent conducting a routine task at a company hit a snag, tried to solve it, and soon ended up deleting the company's database along with all of its backups. In July, OpenAI asked an unreleased AI model to attempt a hacking test....",
+      "score": 2.95,
       "tags": [
         "security",
         "feed"
@@ -47,28 +47,28 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
-      "title": "Using a VM to Contain an AI Agent",
-      "url": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+      "title": "Stealing AI Reasoning Traces",
+      "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-04T16:31:50Z",
-      "summary": "It won't work : My suspicion was that GPT 5.6-Cyber would succeed, but the frequency and manner of its success removed all doubt. We have to reassess sandboxing quality for capable AI agents, and in general the software stack with which they interact. An off-the-shelf VM is not enough to contain a modern, cyber-capable AI agent. There is simply too much...",
-      "score": 2.5,
+      "publishedAt": "2026-09-08T10:21:01Z",
+      "summary": "Interesting research: \" Stealing Reasoning Traces from Proprietary LLM APIs \": Abstract: Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of...",
+      "score": 2.8,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33312",
-      "title": "numbat - AI agent observability, (Fri, Sep 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33312",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33320",
+      "title": "September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33320",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sat, 05 Sep 2026 03:39:52 GMT",
-      "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.3,
+      "publishedAt": "Tue, 08 Sep 2026 19:20:30 GMT",
+      "summary": "This month, Microsoft released patches for a record-breaking 973 vulnerabilities, including 113 rated critical. It is by far the largest Patch Tuesday to date, well ahead of the previous high of 664 set in July 2026. Two vulnerabilities are listed as exploited in the wild, while none were publicly disclosed before Patch Tuesday. Notable fixes include...",
+      "score": 2.55,
       "tags": [
         "security",
         "rss",
@@ -76,72 +76,41 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
-      "title": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
-      "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html",
+      "title": "Claude Fable Solves a Historical Cipher",
+      "url": "https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-04T10:35:19Z",
-      "summary": "We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech companies. Of the 8,265 llms.txt and llms-full.txt files they found (many sites hosted both an llms.txt and an llms-full.txt file), 120 of them, each on a...",
-      "score": 2.5,
+      "publishedAt": "2026-09-09T11:08:45Z",
+      "summary": "Claude Fable 5.1 solved a 370-year-old cipher in forty-four minutes. This tracks with what I wrote about AIs doing mathematics: It's good at things that involve lots of searching and testing.",
+      "score": 2.65,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/04/openai-agent-goes-rogue",
-      "title": "OpenAI releases new AI agent - which promptly goes rogue",
-      "url": "https://www.theguardian.com/technology/2026/sep/04/openai-agent-goes-rogue",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Tue, 08 Sep 2026 13:29:51 GMT",
-      "summary": "Plus: Americans think they have it bad with unwanted surveillance. They should visit London Hello, and welcome to TechScape. I'm your host, Blake Montgomery, US tech editor at the Guardian, writing to you after visiting Coney Island in New York City, where I ate a hotdog, rode a ferris wheel and enjoyed a quintessentially American summer holiday. Today in...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-      "title": "LibreOffice breaks download records after declaring it has no AI features",
-      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Tue, 08 Sep 2026 14:05:57 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
-      "url": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Mon, 07 Sep 2026 15:27:50 GMT",
-      "summary": "The long-running claim alleges Grindr breached UK privacy laws by sharing data with third parties.",
-      "score": 2.25,
+      "publishedAt": "Wed, 09 Sep 2026 12:36:59 GMT",
+      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/business/2026/sep/08/ai-cure-cancer-arm-holdings-rene-haas",
-      "title": "AI will help find cure for cancer 'within our lifetimes', says Arm Holdings chief",
-      "url": "https://www.theguardian.com/business/2026/sep/08/ai-cure-cancer-arm-holdings-rene-haas",
+      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/sep/09/trump-administration-to-confront-australia-over-labors-social-media-algorithm-plan",
+      "title": "Trump administration to confront Australia over Labor's social media algorithm plan",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/09/trump-administration-to-confront-australia-over-labors-social-media-algorithm-plan",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 08 Sep 2026 11:49:11 GMT",
-      "summary": "Rene Haas also claims artificial intelligence could pave way for widespread use of humanoid robots within five years Business live - latest updates The boss of one of the UK's biggest chip companies has claimed AI will be able to find a cure for cancer \"in our lifetime\". Rene Haas, chief executive of the chip designer Arm Holdings, said that, while...",
+      "publishedAt": "Wed, 09 Sep 2026 06:51:08 GMT",
+      "summary": "White House warns trading partners against 'imposing digital services taxes, fines, and other forms of extortion' on US tech sector Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The Trump administration will confront Australia over its plan to force digital platforms to take down harmful...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -150,12 +119,12 @@
       ]
     },
     {
-      "id": "hacker news:https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-      "title": "We Must Return to the Office to Use AI in Person",
-      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+      "id": "hacker news:https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "title": "Tailwind Labs is joining Shopify",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 08 Sep 2026 13:41:25 +0000",
+      "publishedAt": "Wed, 09 Sep 2026 13:27:11 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -163,6 +132,37 @@
         "community",
         "rss",
         "hacker-news"
+      ]
+    },
+    {
+      "id": "hacker news:https://desertant.com/blog/introducing-desert-ant-labs/",
+      "title": "Desert Ant Labs: local, fast models that run on device",
+      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Wed, 09 Sep 2026 11:39:46 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/film/2026/sep/08/andrew-garfield-sam-altman-artificial-movie-openai",
+      "title": "Andrew Garfield takes on Sam Altman in creepy first teaser for Artificial",
+      "url": "https://www.theguardian.com/film/2026/sep/08/andrew-garfield-sam-altman-artificial-movie-openai",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Tue, 08 Sep 2026 16:31:02 GMT",
+      "summary": "Luca Guadagnino-directed film will be released by Neon after being dropped by Amazon amid OpenAI partnership Big tech goes to Hollywood: is Silicon Valley ready for a silver-screen reckoning? The first teaser trailer of Luca Guadagnino 's Artificial has been released. After being dropped by Amazon MGM Studios in June, the biopic of the OpenAI tech...",
+      "score": 2.25,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
       ]
     },
     {
@@ -182,14 +182,14 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/the-work-now-within-reach",
-      "title": "The Work Now Within Reach",
-      "url": "https://openai.com/index/the-work-now-within-reach",
+      "id": "openai news:https://openai.com/index/1password",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "url": "https://openai.com/index/1password",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Tue, 08 Sep 2026 13:00:00 GMT",
-      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish-and make growth more economical.",
-      "score": 2.4200000000000004,
+      "publishedAt": "Tue, 08 Sep 2026 00:00:00 GMT",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "score": 2.37,
       "tags": [
         "ai",
         "official",
@@ -198,14 +198,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/carmen-villain-memoria/",
-      "title": "Memoria",
-      "url": "https://pitchfork.com/reviews/albums/carmen-villain-memoria/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/adela-prima/",
+      "title": "PRIMA",
+      "url": "https://pitchfork.com/reviews/albums/adela-prima/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Tue, 08 Sep 2026 04:02:00 +0000",
-      "summary": "The Oslo musician's latest album marks a departure from the airy, pastel tones of its predecessor, folding shuddering dub rhythms into a cold, mechanistic palette.",
-      "score": 2.1999999999999997,
+      "publishedAt": "Wed, 09 Sep 2026 04:03:00 +0000",
+      "summary": "Born in Bratislava and boosted by reality TV, pop's latest aspirant arrives with a debut album that's got all the makings of an edgy cult fave. If only the music were more interesting.",
+      "score": 1.9999999999999998,
       "tags": [
         "music",
         "reviews",
@@ -214,13 +214,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/tame-impala-will-no-longer-be-signing-things-due-to-rise-of-aggressive-autograph-hounds-3967630?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tame-impala-will-no-longer-be-signing-things-due-to-rise-of-aggressive-autograph-hounds",
-      "title": "Tame Impala will no longer be signing things due to \"rise of aggressive autograph hounds\"",
-      "url": "https://www.nme.com/news/music/tame-impala-will-no-longer-be-signing-things-due-to-rise-of-aggressive-autograph-hounds-3967630?utm_source=rss&utm_medium=rss&utm_campaign=tame-impala-will-no-longer-be-signing-things-due-to-rise-of-aggressive-autograph-hounds",
+      "id": "nme music news:https://www.nme.com/news/music/man-60-becomes-third-person-to-die-at-burning-man-2026-3967909?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=man-60-becomes-third-person-to-die-at-burning-man-2026",
+      "title": "Man, 60, becomes third person to die at Burning Man 2026",
+      "url": "https://www.nme.com/news/music/man-60-becomes-third-person-to-die-at-burning-man-2026-3967909?utm_source=rss&utm_medium=rss&utm_campaign=man-60-becomes-third-person-to-die-at-burning-man-2026",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Tue, 08 Sep 2026 14:29:31 +0000",
-      "summary": "He said some hounds had \"started using kids\" as a tactic to get autographs, which was which \"all kinds of wrong\" The post Tame Impala will no longer be signing things due to \"rise of aggressive autograph hounds\" appeared first on NME .",
+      "publishedAt": "Wed, 09 Sep 2026 14:15:28 +0000",
+      "summary": "Local authorities have said that there were no signs of foul play in any of the three deaths The post Man, 60, becomes third person to die at Burning Man 2026 appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -230,19 +230,19 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/windy-and-carl-optigan-conservatory-windy-and-carl-meet-optigan-conservatory/",
-      "title": "Windy & Carl Meet Optigan Conservatory",
-      "url": "https://pitchfork.com/reviews/albums/windy-and-carl-optigan-conservatory-windy-and-carl-meet-optigan-conservatory/",
-      "source": "Pitchfork Album Reviews",
+      "id": "npr music news:https://www.npr.org/2026/09/09/nx-s1-5961504/economy-coupon-inflation-retirement-wages",
+      "title": "Cost-cutting, quiet guilt and the inflation generation",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5961504/economy-coupon-inflation-retirement-wages",
+      "source": "NPR Music News",
       "topic": "music",
-      "publishedAt": "Tue, 08 Sep 2026 04:00:00 +0000",
-      "summary": "The Dearborn ambient duo teams up with a pair of experimental musicians on a richly detailed study of drone music for organ, electric piano, and guitar.",
-      "score": 1.9999999999999998,
+      "publishedAt": "Wed, 09 Sep 2026 07:00:00 +0000",
+      "summary": "In this economy it is boom times and doom times all at once. The statistics aren't really capturing it. K-shaped only goes so far as a metaphor. So ... we asked you to help. And you delivered! One one hand, the stock market is on a prolonged, upward trajectory. Unemployment is low and inflation has come down from its peak. But on the other hand, inflation...",
+      "score": 1.77,
       "tags": [
         "music",
-        "reviews",
+        "news",
         "rss",
-        "pitchfork"
+        "npr"
       ]
     }
   ]
