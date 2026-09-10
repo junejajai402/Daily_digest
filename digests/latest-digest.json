@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-09",
-  "builtAt": "2026-09-09T15:06:28.877Z",
-  "lastAttemptedAt": "2026-09-09T15:06:28.168Z",
+  "digestId": "2026-09-10",
+  "builtAt": "2026-09-10T14:58:39.197Z",
+  "lastAttemptedAt": "2026-09-10T14:58:38.707Z",
   "isStale": false,
   "counts": {
-    "rawItems": 103,
-    "dedupedItems": 102,
+    "rawItems": 104,
+    "dedupedItems": 104,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,6 +18,35 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
+      "title": "AIs Compress Exploit Timeline",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-10T10:41:04Z",
+      "summary": "Give an AI agent a mere rumor of an exploit, and it's enough for them to find it. What's worse, I found I could use my own agents to find the exploit just by knowing roughly what it was about and so could have been exploiting it well before the public patch was available! Given that just the rumour of a security issue seems enough to give attackers enough...",
+      "score": 2.85,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33326",
+      "title": "Redtail Payload Analysis [Guest Diary], (Wed, Sep 9th)",
+      "url": "https://isc.sans.edu/diary/rss/33326",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Thu, 10 Sep 2026 12:58:10 GMT",
+      "summary": "[This is a Guest Diary by Aaron Ng, an ISC intern as part of the SANS.edu BACS program]",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
       "title": "AIs as Modern Genies",
       "url": "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
@@ -25,25 +54,10 @@
       "topic": "security",
       "publishedAt": "2026-09-08T17:12:58Z",
       "summary": "This essay was written with Barath Raghavan, and originally appeared in Lawfare . In April, an artificial intelligence (AI) agent conducting a routine task at a company hit a snag, tried to solve it, and soon ended up deleting the company's database along with all of its backups. In July, OpenAI asked an unreleased AI model to attempt a hacking test....",
-      "score": 2.95,
+      "score": 2.8,
       "tags": [
         "security",
         "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33314",
-      "title": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
-      "url": "https://isc.sans.edu/diary/rss/33314",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Sun, 06 Sep 2026 21:43:17 GMT",
-      "summary": "Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected devices to maintain access after a patch is installed.",
-      "score": 2.6,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
       ]
     },
     {
@@ -61,14 +75,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33320",
-      "title": "September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)",
-      "url": "https://isc.sans.edu/diary/rss/33320",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33314",
+      "title": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
+      "url": "https://isc.sans.edu/diary/rss/33314",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Tue, 08 Sep 2026 19:20:30 GMT",
-      "summary": "This month, Microsoft released patches for a record-breaking 973 vulnerabilities, including 113 rated critical. It is by far the largest Patch Tuesday to date, well ahead of the previous high of 664 set in July 2026. Two vulnerabilities are listed as exploited in the wild, while none were publicly disclosed before Patch Tuesday. Notable fixes include...",
-      "score": 2.55,
+      "publishedAt": "Sun, 06 Sep 2026 21:43:17 GMT",
+      "summary": "Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected devices to maintain access after a patch is installed.",
+      "score": 2.5,
       "tags": [
         "security",
         "rss",
@@ -76,17 +90,19 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html",
-      "title": "Claude Fable Solves a Historical Cipher",
-      "url": "https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-09T11:08:45Z",
-      "summary": "Claude Fable 5.1 solved a 370-year-old cipher in forty-four minutes. This tracks with what I wrote about AIs doing mathematics: It's good at things that involve lots of searching and testing.",
-      "score": 2.65,
+      "id": "hacker news:https://news.ycombinator.com/item?id=49643556",
+      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+      "url": "https://news.ycombinator.com/item?id=49643556",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Thu, 10 Sep 2026 13:39:53 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
       "tags": [
-        "security",
-        "feed"
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
       ]
     },
     {
@@ -95,74 +111,74 @@
       "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Wed, 09 Sep 2026 12:36:59 GMT",
+      "publishedAt": "Wed, 09 Sep 2026 15:34:09 GMT",
       "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
-      "score": 2.35,
+      "score": 2.25,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/sep/09/trump-administration-to-confront-australia-over-labors-social-media-algorithm-plan",
-      "title": "Trump administration to confront Australia over Labor's social media algorithm plan",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/09/trump-administration-to-confront-australia-over-labors-social-media-algorithm-plan",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction",
+      "title": "Anthropic researchers say AI could cause human extinction by 2030",
+      "url": "https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Wed, 09 Sep 2026 06:51:08 GMT",
-      "summary": "White House warns trading partners against 'imposing digital services taxes, fines, and other forms of extortion' on US tech sector Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The Trump administration will confront Australia over its plan to force digital platforms to take down harmful...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "title": "Tailwind Labs is joining Shopify",
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Wed, 09 Sep 2026 13:27:11 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "hacker news:https://desertant.com/blog/introducing-desert-ant-labs/",
-      "title": "Desert Ant Labs: local, fast models that run on device",
-      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Wed, 09 Sep 2026 11:39:46 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/film/2026/sep/08/andrew-garfield-sam-altman-artificial-movie-openai",
-      "title": "Andrew Garfield takes on Sam Altman in creepy first teaser for Artificial",
-      "url": "https://www.theguardian.com/film/2026/sep/08/andrew-garfield-sam-altman-artificial-movie-openai",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Tue, 08 Sep 2026 16:31:02 GMT",
-      "summary": "Luca Guadagnino-directed film will be released by Neon after being dropped by Amazon amid OpenAI partnership Big tech goes to Hollywood: is Silicon Valley ready for a silver-screen reckoning? The first teaser trailer of Luca Guadagnino 's Artificial has been released. After being dropped by Amazon MGM Studios in June, the biopic of the OpenAI tech...",
+      "publishedAt": "Thu, 10 Sep 2026 00:14:08 GMT",
+      "summary": "One researcher who resigned said many in industry believe that without regulation AI could kill off humanity Artificial intelligence could kill off humanity within the decade, according to three researchers with the industry giant Anthropic , one of whom has quit his job in protest. The latest doom-laden predictions came in posts on social media on Tuesday...",
       "score": 2.25,
       "tags": [
         "tech",
         "rss",
         "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
+      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Thu, 10 Sep 2026 13:07:14 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
+      "title": "OpenAI not on track to reduce risk of 'catastrophic' loss of control, says board member",
+      "url": "https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Thu, 10 Sep 2026 12:23:21 GMT",
+      "summary": "US government adviser Paul Christiano warns of risks to AI industry as he joins OpenAI's non-profit foundation OpenAI is not on track to reduce the risk of \"catastrophic\" loss of control to an acceptable level, a member of its non-profit board has said, amid spreading public and political concern that super-advanced AIs could one day wipe out humanity....",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/gpt-6-astra-next-generation-work",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Wed, 09 Sep 2026 11:00:00 GMT",
+      "summary": "Meet GPT-6 Astra, OpenAI's most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "score": 2.5700000000000003,
+      "tags": [
+        "ai",
+        "official",
+        "openai",
+        "rss"
       ]
     },
     {
@@ -182,46 +198,14 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/1password",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "url": "https://openai.com/index/1password",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Tue, 08 Sep 2026 00:00:00 GMT",
-      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "score": 2.37,
-      "tags": [
-        "ai",
-        "official",
-        "openai",
-        "rss"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/adela-prima/",
-      "title": "PRIMA",
-      "url": "https://pitchfork.com/reviews/albums/adela-prima/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Wed, 09 Sep 2026 04:03:00 +0000",
-      "summary": "Born in Bratislava and boosted by reality TV, pop's latest aspirant arrives with a debut album that's got all the makings of an edgy cult fave. If only the music were more interesting.",
-      "score": 1.9999999999999998,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/man-60-becomes-third-person-to-die-at-burning-man-2026-3967909?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=man-60-becomes-third-person-to-die-at-burning-man-2026",
-      "title": "Man, 60, becomes third person to die at Burning Man 2026",
-      "url": "https://www.nme.com/news/music/man-60-becomes-third-person-to-die-at-burning-man-2026-3967909?utm_source=rss&utm_medium=rss&utm_campaign=man-60-becomes-third-person-to-die-at-burning-man-2026",
+      "id": "nme music news:https://www.nme.com/news/music/bruce-springsteen-land-of-hope-and-dreams-philadelphia-freedom-cut-footage-3968049?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bruce-springsteen-land-of-hope-and-dreams-philadelphia-freedom-cut-footage",
+      "title": "Bruce Springsteen shares 'Land Of Hope And Dreams American Tour (Philadelphia Freedom Cut)' in bid to \"reclaim the flag\"",
+      "url": "https://www.nme.com/news/music/bruce-springsteen-land-of-hope-and-dreams-philadelphia-freedom-cut-footage-3968049?utm_source=rss&utm_medium=rss&utm_campaign=bruce-springsteen-land-of-hope-and-dreams-philadelphia-freedom-cut-footage",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Wed, 09 Sep 2026 14:15:28 +0000",
-      "summary": "Local authorities have said that there were no signs of foul play in any of the three deaths The post Man, 60, becomes third person to die at Burning Man 2026 appeared first on NME .",
-      "score": 1.93,
+      "publishedAt": "Thu, 10 Sep 2026 09:55:35 +0000",
+      "summary": "Footage of the first seven songs are out now, and the remainder of the show will be released later this year The post Bruce Springsteen shares 'Land Of Hope And Dreams American Tour (Philadelphia Freedom Cut)' in bid to \"reclaim the flag\" appeared first on NME .",
+      "score": 2.13,
       "tags": [
         "music",
         "news",
@@ -230,19 +214,35 @@
       ]
     },
     {
-      "id": "npr music news:https://www.npr.org/2026/09/09/nx-s1-5961504/economy-coupon-inflation-retirement-wages",
-      "title": "Cost-cutting, quiet guilt and the inflation generation",
-      "url": "https://www.npr.org/2026/09/09/nx-s1-5961504/economy-coupon-inflation-retirement-wages",
-      "source": "NPR Music News",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/beyonce-bday-20th-anniversary-edition/",
+      "title": "B'DAY (20th ANNIVERSARY EDITION)",
+      "url": "https://pitchfork.com/reviews/albums/beyonce-bday-20th-anniversary-edition/",
+      "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Wed, 09 Sep 2026 07:00:00 +0000",
-      "summary": "In this economy it is boom times and doom times all at once. The statistics aren't really capturing it. K-shaped only goes so far as a metaphor. So ... we asked you to help. And you delivered! One one hand, the stock market is on a prolonged, upward trajectory. Unemployment is low and inflation has come down from its peak. But on the other hand, inflation...",
-      "score": 1.77,
+      "publishedAt": "Thu, 10 Sep 2026 04:03:00 +0000",
+      "summary": "With independent spirit and fresh inspiration from New York rap, Beyoncé's 2006 solo album was a creative breakthrough, but this prestige reissue does little to contextualize its pivotal moment in her career.",
+      "score": 1.7999999999999998,
       "tags": [
         "music",
-        "news",
+        "reviews",
         "rss",
-        "npr"
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
+      "title": "Punching the Clown",
+      "url": "https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
+      "source": "Pitchfork Best New Albums",
+      "topic": "music",
+      "publishedAt": "Tue, 25 Aug 2026 04:03:00 +0000",
+      "summary": "Kurt Wagner reinvents his band yet again, this time slimming down to a bare-bones acoustic setup and stripping away the studio artifice. But his storytelling remains as expansive as ever.",
+      "score": 1.7,
+      "tags": [
+        "music",
+        "albums",
+        "rss",
+        "pitchfork"
       ]
     }
   ]
