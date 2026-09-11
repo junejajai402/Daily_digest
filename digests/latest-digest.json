@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-10",
-  "builtAt": "2026-09-10T14:58:39.197Z",
-  "lastAttemptedAt": "2026-09-10T14:58:38.707Z",
+  "digestId": "2026-09-11",
+  "builtAt": "2026-09-11T15:00:07.957Z",
+  "lastAttemptedAt": "2026-09-11T15:00:07.050Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 104,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -17,35 +17,6 @@
   },
   "sourceFailures": [],
   "items": [
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
-      "title": "AIs Compress Exploit Timeline",
-      "url": "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-10T10:41:04Z",
-      "summary": "Give an AI agent a mere rumor of an exploit, and it's enough for them to find it. What's worse, I found I could use my own agents to find the exploit just by knowing roughly what it was about and so could have been exploiting it well before the public patch was available! Given that just the rumour of a security issue seems enough to give attackers enough...",
-      "score": 2.85,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33326",
-      "title": "Redtail Payload Analysis [Guest Diary], (Wed, Sep 9th)",
-      "url": "https://isc.sans.edu/diary/rss/33326",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Thu, 10 Sep 2026 12:58:10 GMT",
-      "summary": "[This is a Guest Diary by Aaron Ng, an ISC intern as part of the SANS.edu BACS program]",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
     {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
       "title": "AIs as Modern Genies",
@@ -61,6 +32,21 @@
       ]
     },
     {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33332",
+      "title": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
+      "url": "https://isc.sans.edu/diary/rss/33332",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Fri, 11 Sep 2026 14:40:32 GMT",
+      "summary": "I identified an attacker using a semi-autonomous coding agent to run an offensive operation: finding poorly secured LLM resale gateways, acquiring API access through ordinary web flaws and account farming, validating the resulting inference capacity, and aggregating it behind a single gateway of their own.",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
       "title": "Stealing AI Reasoning Traces",
       "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
@@ -68,7 +54,7 @@
       "topic": "security",
       "publishedAt": "2026-09-08T10:21:01Z",
       "summary": "Interesting research: \" Stealing Reasoning Traces from Proprietary LLM APIs \": Abstract: Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of...",
-      "score": 2.8,
+      "score": 2.7,
       "tags": [
         "security",
         "feed"
@@ -90,12 +76,26 @@
       ]
     },
     {
-      "id": "hacker news:https://news.ycombinator.com/item?id=49643556",
-      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-      "url": "https://news.ycombinator.com/item?id=49643556",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
+      "title": "AIs Compress Exploit Timeline",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-10T10:41:04Z",
+      "summary": "Give an AI agent a mere rumor of an exploit, and it's enough for them to find it. What's worse, I found I could use my own agents to find the exploit just by knowing roughly what it was about and so could have been exploiting it well before the public patch was available! Given that just the rumour of a security issue seems enough to give attackers enough...",
+      "score": 2.6,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.researchagenda.news/articles/the-waymo-effect.html",
+      "title": "The Waymo effect: how AI is quietly making research less collaborative",
+      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 10 Sep 2026 13:39:53 +0000",
+      "publishedAt": "Fri, 11 Sep 2026 11:17:50 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -106,27 +106,13 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
-      "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Wed, 09 Sep 2026 15:34:09 GMT",
-      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
-      "score": 2.25,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction",
-      "title": "Anthropic researchers say AI could cause human extinction by 2030",
-      "url": "https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction",
+      "id": "the guardian tech:https://www.theguardian.com/media/2026/sep/11/i-turned-off-my-instagram-algorithm-opt-out-social-media-reforms-australia",
+      "title": "I turned off my algorithm for 24 hours. Is this how social media used to be?",
+      "url": "https://www.theguardian.com/media/2026/sep/11/i-turned-off-my-instagram-algorithm-opt-out-social-media-reforms-australia",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 10 Sep 2026 00:14:08 GMT",
-      "summary": "One researcher who resigned said many in industry believe that without regulation AI could kill off humanity Artificial intelligence could kill off humanity within the decade, according to three researchers with the industry giant Anthropic , one of whom has quit his job in protest. The latest doom-laden predictions came in posts on social media on Tuesday...",
+      "publishedAt": "Thu, 10 Sep 2026 15:00:43 GMT",
+      "summary": "Thanks to a little-known feature in Instagram, I try to travel back to 2012 - before everything on the internet was an ad Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast I have a confession. I love my social media algorithm. It is a perfectly curated window into my insane and inquiring...",
       "score": 2.25,
       "tags": [
         "tech",
@@ -135,12 +121,26 @@
       ]
     },
     {
-      "id": "hacker news:https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
-      "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
-      "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+      "id": "bbc technology:https://www.bbc.co.uk/news/videos/c5yjk63ww1ro?at_medium=rss&amp;at_campaign=rss",
+      "title": "Does this AI comic make you laugh?",
+      "url": "https://www.bbc.co.uk/news/videos/c5yjk63ww1ro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Fri, 11 Sep 2026 12:49:30 GMT",
+      "summary": "Comedian Garrett Millerick has created an AI avatar based on his own material. Is it any good?",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://news.ycombinator.com/item?id=49657850",
+      "title": "Ask HN: Can we please limit the AI news flood?",
+      "url": "https://news.ycombinator.com/item?id=49657850",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 10 Sep 2026 13:07:14 +0000",
+      "publishedAt": "Fri, 11 Sep 2026 13:11:04 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -151,13 +151,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
-      "title": "OpenAI not on track to reduce risk of 'catastrophic' loss of control, says board member",
-      "url": "https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
+      "id": "the guardian tech:https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
+      "title": "UK economy unexpectedly grows 0.4% in July boosted by AI",
+      "url": "https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 10 Sep 2026 12:23:21 GMT",
-      "summary": "US government adviser Paul Christiano warns of risks to AI industry as he joins OpenAI's non-profit foundation OpenAI is not on track to reduce the risk of \"catastrophic\" loss of control to an acceptable level, a member of its non-profit board has said, amid spreading public and political concern that super-advanced AIs could one day wipe out humanity....",
+      "publishedAt": "Fri, 11 Sep 2026 08:10:36 GMT",
+      "summary": "Welcome boost for chancellor with unexpected rise put down to rapid growth of AI in services sector outweighing Iran war fallout The UK economy grew in July as the rapid expansion of AI appeared to outweigh the economic damage from the Iran war, in a welcome boost for John Healey. Figures from the Office for National Statistics (ONS) showed a surprise 0.4%...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -198,13 +198,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/bruce-springsteen-land-of-hope-and-dreams-philadelphia-freedom-cut-footage-3968049?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bruce-springsteen-land-of-hope-and-dreams-philadelphia-freedom-cut-footage",
-      "title": "Bruce Springsteen shares 'Land Of Hope And Dreams American Tour (Philadelphia Freedom Cut)' in bid to \"reclaim the flag\"",
-      "url": "https://www.nme.com/news/music/bruce-springsteen-land-of-hope-and-dreams-philadelphia-freedom-cut-footage-3968049?utm_source=rss&utm_medium=rss&utm_campaign=bruce-springsteen-land-of-hope-and-dreams-philadelphia-freedom-cut-footage",
+      "id": "nme music news:https://www.nme.com/news/music/artist-fund-touring-fac-ukat-300k-levy-apply-3968296?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=artist-fund-touring-fac-ukat-300k-levy-apply",
+      "title": "Artists who can't to tour invited to apply for latest in £300k funding: \"An even bigger step to making live music more inclusive\"",
+      "url": "https://www.nme.com/news/music/artist-fund-touring-fac-ukat-300k-levy-apply-3968296?utm_source=rss&utm_medium=rss&utm_campaign=artist-fund-touring-fac-ukat-300k-levy-apply",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 10 Sep 2026 09:55:35 +0000",
-      "summary": "Footage of the first seven songs are out now, and the remainder of the show will be released later this year The post Bruce Springsteen shares 'Land Of Hope And Dreams American Tour (Philadelphia Freedom Cut)' in bid to \"reclaim the flag\" appeared first on NME .",
+      "publishedAt": "Fri, 11 Sep 2026 14:12:19 +0000",
+      "summary": "Phase two of the FAC's UKAT fund closes this weekend, and comes from ticket levy money raised by Wolf Alice, Harry Styles, Lorde, Radiohead and more The post Artists who can't to tour invited to apply for latest in £300k funding: \"An even bigger step to making live music more inclusive\" appeared first on NME .",
       "score": 2.13,
       "tags": [
         "music",
@@ -214,14 +214,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/beyonce-bday-20th-anniversary-edition/",
-      "title": "B'DAY (20th ANNIVERSARY EDITION)",
-      "url": "https://pitchfork.com/reviews/albums/beyonce-bday-20th-anniversary-edition/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/russian-circles-nine/",
+      "title": "Nine",
+      "url": "https://pitchfork.com/reviews/albums/russian-circles-nine/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Thu, 10 Sep 2026 04:03:00 +0000",
-      "summary": "With independent spirit and fresh inspiration from New York rap, Beyoncé's 2006 solo album was a creative breakthrough, but this prestige reissue does little to contextualize its pivotal moment in her career.",
-      "score": 1.7999999999999998,
+      "publishedAt": "Fri, 11 Sep 2026 04:00:00 +0000",
+      "summary": "The instrumental trio spends its ninth album almost entirely in attack mode, pulling from death metal and hardcore for one of its heaviest and most riff-forward releases to date.",
+      "score": 1.9999999999999998,
       "tags": [
         "music",
         "reviews",
