@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-11",
-  "builtAt": "2026-09-11T15:00:07.957Z",
-  "lastAttemptedAt": "2026-09-11T15:00:07.050Z",
+  "digestId": "2026-09-12",
+  "builtAt": "2026-09-12T14:06:42.645Z",
+  "lastAttemptedAt": "2026-09-12T14:06:42.058Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 103,
+    "dedupedItems": 104,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
-      "title": "AIs as Modern Genies",
-      "url": "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html",
+      "title": "My Talk at DEF CON",
+      "url": "https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-08T17:12:58Z",
-      "summary": "This essay was written with Barath Raghavan, and originally appeared in Lawfare . In April, an artificial intelligence (AI) agent conducting a routine task at a company hit a snag, tried to solve it, and soon ended up deleting the company's database along with all of its backups. In July, OpenAI asked an unreleased AI model to attempt a hacking test....",
-      "score": 2.8,
+      "publishedAt": "2026-09-11T18:06:52Z",
+      "summary": "Last month, I gave a talk at DEF CON on AI hacking: what happens when AIs become hackers. It's a combination of the potentialities I raised in my 2022 book A Hacker's Mind and the lessons we're learning from current AI models engaging in hacking behavior. I'm really proud of the talk, and the fact that it gained over 100K views on YouTube in just a few...",
+      "score": 2.75,
       "tags": [
         "security",
         "feed"
@@ -39,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Fri, 11 Sep 2026 14:40:32 GMT",
       "summary": "I identified an attacker using a semi-autonomous coding agent to run an offensive operation: finding poorly secured LLM resale gateways, acquiring API access through ordinary web flaws and account farming, validating the resulting inference capacity, and aggregating it behind a single gateway of their own.",
-      "score": 2.65,
+      "score": 2.55,
       "tags": [
         "security",
         "rss",
@@ -47,13 +47,13 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
-      "title": "Stealing AI Reasoning Traces",
-      "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
+      "title": "AIs as Modern Genies",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-08T10:21:01Z",
-      "summary": "Interesting research: \" Stealing Reasoning Traces from Proprietary LLM APIs \": Abstract: Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of...",
+      "publishedAt": "2026-09-08T17:12:58Z",
+      "summary": "This essay was written with Barath Raghavan, and originally appeared in Lawfare . In April, an artificial intelligence (AI) agent conducting a routine task at a company hit a snag, tried to solve it, and soon ended up deleting the company's database along with all of its backups. In July, OpenAI asked an unreleased AI model to attempt a hacking test....",
       "score": 2.7,
       "tags": [
         "security",
@@ -76,28 +76,73 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
-      "title": "AIs Compress Exploit Timeline",
-      "url": "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+      "title": "Stealing AI Reasoning Traces",
+      "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-10T10:41:04Z",
-      "summary": "Give an AI agent a mere rumor of an exploit, and it's enough for them to find it. What's worse, I found I could use my own agents to find the exploit just by knowing roughly what it was about and so could have been exploiting it well before the public patch was available! Given that just the rumour of a security issue seems enough to give attackers enough...",
-      "score": 2.6,
+      "publishedAt": "2026-09-08T10:21:01Z",
+      "summary": "Interesting research: \" Stealing Reasoning Traces from Proprietary LLM APIs \": Abstract: Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of...",
+      "score": 2.7,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://www.researchagenda.news/articles/the-waymo-effect.html",
-      "title": "The Waymo effect: how AI is quietly making research less collaborative",
-      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+      "id": "the guardian tech:https://www.theguardian.com/science/2026/sep/12/openai-mathematicians-millennium-prize-problem",
+      "title": "'Immature playground boasting': Mathematicians uneasy at OpenAI's latest scalp",
+      "url": "https://www.theguardian.com/science/2026/sep/12/openai-mathematicians-millennium-prize-problem",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Sat, 12 Sep 2026 08:00:28 GMT",
+      "summary": "As OpenAI model cracks Millennium Prize Problem that puzzled experts for decades, many feel shocked at pace of change It was a week that left mathematicians reeling. Hot on the heels of a flurry of cases of artificial intelligence furthering the field , OpenAI declared a major scalp: its latest AI model had cracked a Millennium Prize Problem, a puzzle with...",
+      "score": 2.5500000000000003,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+      "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
+      "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 11 Sep 2026 11:17:50 +0000",
+      "publishedAt": "Sat, 12 Sep 2026 11:13:38 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Wed, 09 Sep 2026 15:34:09 GMT",
+      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
+      "score": 2.1,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://mathandai.org/",
+      "title": "A misalignment of AI in mathematics",
+      "url": "https://mathandai.org/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Fri, 11 Sep 2026 17:45:12 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.2,
       "tags": [
         "tech",
         "community",
@@ -113,7 +158,7 @@
       "topic": "tech",
       "publishedAt": "Thu, 10 Sep 2026 15:00:43 GMT",
       "summary": "Thanks to a little-known feature in Instagram, I try to travel back to 2012 - before everything on the internet was an ad Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast I have a confession. I love my social media algorithm. It is a perfectly curated window into my insane and inquiring...",
-      "score": 2.25,
+      "score": 2.1,
       "tags": [
         "tech",
         "rss",
@@ -121,59 +166,14 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/videos/c5yjk63ww1ro?at_medium=rss&amp;at_campaign=rss",
-      "title": "Does this AI comic make you laugh?",
-      "url": "https://www.bbc.co.uk/news/videos/c5yjk63ww1ro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Fri, 11 Sep 2026 12:49:30 GMT",
-      "summary": "Comedian Garrett Millerick has created an AI avatar based on his own material. Is it any good?",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://news.ycombinator.com/item?id=49657850",
-      "title": "Ask HN: Can we please limit the AI news flood?",
-      "url": "https://news.ycombinator.com/item?id=49657850",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Fri, 11 Sep 2026 13:11:04 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
-      "title": "UK economy unexpectedly grows 0.4% in July boosted by AI",
-      "url": "https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Fri, 11 Sep 2026 08:10:36 GMT",
-      "summary": "Welcome boost for chancellor with unexpected rise put down to rapid growth of AI in services sector outweighing Iran war fallout The UK economy grew in July as the rapid expansion of AI appeared to outweigh the economic damage from the Iran war, in a welcome boost for John Healey. Figures from the Office for National Statistics (ONS) showed a surprise 0.4%...",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "openai news:https://openai.com/index/gpt-6-astra-next-generation-work",
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "id": "openai news:https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 09 Sep 2026 11:00:00 GMT",
-      "summary": "Meet GPT-6 Astra, OpenAI's most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "score": 2.5700000000000003,
+      "publishedAt": "Mon, 14 Sep 2026 00:00:00 GMT",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "score": 2.62,
       "tags": [
         "ai",
         "official",
@@ -198,29 +198,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/artist-fund-touring-fac-ukat-300k-levy-apply-3968296?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=artist-fund-touring-fac-ukat-300k-levy-apply",
-      "title": "Artists who can't to tour invited to apply for latest in £300k funding: \"An even bigger step to making live music more inclusive\"",
-      "url": "https://www.nme.com/news/music/artist-fund-touring-fac-ukat-300k-levy-apply-3968296?utm_source=rss&utm_medium=rss&utm_campaign=artist-fund-touring-fac-ukat-300k-levy-apply",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Fri, 11 Sep 2026 14:12:19 +0000",
-      "summary": "Phase two of the FAC's UKAT fund closes this weekend, and comes from ticket levy money raised by Wolf Alice, Harry Styles, Lorde, Radiohead and more The post Artists who can't to tour invited to apply for latest in £300k funding: \"An even bigger step to making live music more inclusive\" appeared first on NME .",
-      "score": 2.13,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/russian-circles-nine/",
-      "title": "Nine",
-      "url": "https://pitchfork.com/reviews/albums/russian-circles-nine/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/mac-demarco-dog-on-the-rock-seven-off-the-two-seaplane-dog-the-view-from-tian-tan/",
+      "title": "Dog on the Rock / Seven Off the Two / Seaplane Dog / The View from Tian Tan",
+      "url": "https://pitchfork.com/reviews/albums/mac-demarco-dog-on-the-rock-seven-off-the-two-seaplane-dog-the-view-from-tian-tan/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Fri, 11 Sep 2026 04:00:00 +0000",
-      "summary": "The instrumental trio spends its ninth album almost entirely in attack mode, pulling from death metal and hardcore for one of its heaviest and most riff-forward releases to date.",
+      "publishedAt": "Sat, 12 Sep 2026 04:00:00 +0000",
+      "summary": "Originally issued as tour-only CD-Rs, these four diaristic albums from the singer-songwriter bundle together half-formed suites of slow, seasick recordings aimed squarely at the die-hards.",
       "score": 1.9999999999999998,
       "tags": [
         "music",
@@ -230,19 +214,35 @@
       ]
     },
     {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
-      "title": "Punching the Clown",
-      "url": "https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
-      "source": "Pitchfork Best New Albums",
+      "id": "nme music news:https://www.nme.com/news/music/charli-xcx-explains-only-six-dates-on-uk-european-tour-3968404?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=charli-xcx-explains-only-six-dates-on-uk-european-tour",
+      "title": "Charli XCX explains why there are only six dates on upcoming UK and European tour: \"Touring is really emotionally and physically hard for me\"",
+      "url": "https://www.nme.com/news/music/charli-xcx-explains-only-six-dates-on-uk-european-tour-3968404?utm_source=rss&utm_medium=rss&utm_campaign=charli-xcx-explains-only-six-dates-on-uk-european-tour",
+      "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Tue, 25 Aug 2026 04:03:00 +0000",
-      "summary": "Kurt Wagner reinvents his band yet again, this time slimming down to a bare-bones acoustic setup and stripping away the studio artifice. But his storytelling remains as expansive as ever.",
-      "score": 1.7,
+      "publishedAt": "Sat, 12 Sep 2026 10:36:39 +0000",
+      "summary": "\"Perhaps one day I will be built for the kind of touring you expect from me but right now I am not\" The post Charli XCX explains why there are only six dates on upcoming UK and European tour: \"Touring is really emotionally and physically hard for me\" appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
-        "albums",
+        "news",
         "rss",
-        "pitchfork"
+        "nme"
+      ]
+    },
+    {
+      "id": "npr music news:https://www.npr.org/2026/09/11/nx-s1-5966574/baltimore-foreclosure-crisis-dscr-loan",
+      "title": "The loan at the heart of a new foreclosure crisis",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5966574/baltimore-foreclosure-crisis-dscr-loan",
+      "source": "NPR Music News",
+      "topic": "music",
+      "publishedAt": "Fri, 11 Sep 2026 21:00:00 +0000",
+      "summary": "There is a new type of loan that is sweeping through the country right now. It's advertised as a super quick and super easy way to get a mortgage to buy a home. In recent years, Wall Street has been funneling billions of dollars into these loans. But these loans are also raising questions. Are they a financial innovation that's helping the housing market?...",
+      "score": 1.8699999999999999,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "npr"
       ]
     }
   ]
