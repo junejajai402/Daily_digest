@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-13",
-  "builtAt": "2026-09-13T14:54:54.402Z",
-  "lastAttemptedAt": "2026-09-13T14:54:53.766Z",
+  "digestId": "2026-09-14",
+  "builtAt": "2026-09-14T16:57:27.958Z",
+  "lastAttemptedAt": "2026-09-14T16:57:27.345Z",
   "isStale": false,
   "counts": {
-    "rawItems": 104,
+    "rawItems": 103,
     "dedupedItems": 103,
     "digestItems": 15
   },
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
-      "title": "AIs as Modern Genies",
-      "url": "https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
+      "title": "Using AI for Weapons Development",
+      "url": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-08T17:12:58Z",
-      "summary": "This essay was written with Barath Raghavan, and originally appeared in Lawfare . In April, an artificial intelligence (AI) agent conducting a routine task at a company hit a snag, tried to solve it, and soon ended up deleting the company's database along with all of its backups. In July, OpenAI asked an unreleased AI model to attempt a hacking test....",
-      "score": 2.7,
+      "publishedAt": "2026-09-14T16:07:56Z",
+      "summary": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I'm still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing...",
+      "score": 3.05,
       "tags": [
         "security",
         "feed"
@@ -47,32 +47,17 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
-      "title": "Stealing AI Reasoning Traces",
-      "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html",
+      "title": "Claude Fable Solves a Historical Cipher",
+      "url": "https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-08T10:21:01Z",
-      "summary": "Interesting research: \" Stealing Reasoning Traces from Proprietary LLM APIs \": Abstract: Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of...",
-      "score": 2.7,
+      "publishedAt": "2026-09-14T13:01:58Z",
+      "summary": "Claude Fable 5.1 solved a 370-year-old cipher in forty-four minutes. This tracks with what I wrote about AIs doing mathematics: It's good at things that involve lots of searching and testing. EDITED TO ADD (9/14): I'm not sure if this result is correct . The blog comments have more discussion.",
+      "score": 2.65,
       "tags": [
         "security",
         "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33332",
-      "title": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
-      "url": "https://isc.sans.edu/diary/rss/33332",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Fri, 11 Sep 2026 14:40:32 GMT",
-      "summary": "I identified an attacker using a semi-autonomous coding agent to run an offensive operation: finding poorly secured LLM resale gateways, acquiring API access through ordinary web flaws and account farming, validating the resulting inference capacity, and aggregating it behind a single gateway of their own.",
-      "score": 2.4,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
       ]
     },
     {
@@ -90,14 +75,29 @@
       ]
     },
     {
-      "id": "hacker news:https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-      "title": "Why are AI agents lying, cheating and coordinating?",
-      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33332",
+      "title": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
+      "url": "https://isc.sans.edu/diary/rss/33332",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Fri, 11 Sep 2026 14:40:32 GMT",
+      "summary": "I identified an attacker using a semi-autonomous coding agent to run an offensive operation: finding poorly secured LLM resale gateways, acquiring API access through ordinary web flaws and account farming, validating the resulting inference capacity, and aggregating it behind a single gateway of their own.",
+      "score": 2.3,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents",
+      "title": "Hacking AI customer service agents",
+      "url": "https://www.intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 13 Sep 2026 01:22:31 +0000",
+      "publishedAt": "Mon, 14 Sep 2026 16:26:03 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.4,
+      "score": 2.5,
       "tags": [
         "tech",
         "community",
@@ -106,28 +106,14 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-      "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Sat, 12 Sep 2026 21:16:47 GMT",
-      "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
-      "score": 2.25,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development",
-      "title": "OpenAI boss and Elon Musk back calls to put brakes on 'reckless' AI development",
-      "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/14/pixel-11-pro-fold-review-the-foldable-with-the-best-triple-camera",
+      "title": "Pixel 11 Pro Fold review: the foldable with the best triple camera",
+      "url": "https://www.theguardian.com/technology/2026/sep/14/pixel-11-pro-fold-review-the-foldable-with-the-best-triple-camera",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sun, 13 Sep 2026 14:02:24 GMT",
-      "summary": "Rare show of unity from rival developers after safety warnings from Anthropic boss and AI researchers The Guardian view on controlling AI: humanity cannot outsource its survival Sam Altman and Elon Musk have backed a call from the head of Anthropic, Dario Amodei, to \"slow the pace\" of AI development after he warned that an AI swarm could otherwise become...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Mon, 14 Sep 2026 06:00:24 GMT",
+      "summary": "Big screen folder with slick software and advanced AI is just like a regular Android when closed Google's latest folding phone sticks with its tried and tested design of a traditional phone shape when closed and almost square when open, in the face of new competition from Apple's squat iPhone fold . The Pixel 11 Pro Fold is Google's fourth-generation...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -135,12 +121,41 @@
       ]
     },
     {
-      "id": "hacker news:https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
-      "title": "US Customs supervisor busted for stealing hardware from Homeland Security PCs",
-      "url": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c2l799gxjjpo?at_medium=rss&amp;at_campaign=rss",
+      "title": "What is AI, how does it work and why are some people concerned about it?",
+      "url": "https://www.bbc.co.uk/news/articles/c2l799gxjjpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Mon, 14 Sep 2026 16:09:56 GMT",
+      "summary": "AI is transforming modern life, but not without worry for some that it may be abused or have an adverse environmental impact.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/business/live/2026/sep/14/ai-stocks-fall-development-slowdown-anthropic-openai-investors-latest-news-updates",
+      "title": "UK government moves to acquire Speciality Steel UK; AI stocks hit by calls for slowdown - as it happened",
+      "url": "https://www.theguardian.com/business/live/2026/sep/14/ai-stocks-fall-development-slowdown-anthropic-openai-investors-latest-news-updates",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Mon, 14 Sep 2026 16:41:41 GMT",
+      "summary": "Rolling coverage of the latest economic and financial news AI-linked stocks fall after tech bosses call for slowdown in 'reckless' development AI CEOs say they need to slow the pace of development. But will they? The Guardian view on controlling AI: humanity cannot outsource its survival Companies threatened by the march of AI are seeing their share prices...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://sungeuns.github.io/foundation-model-engineering/",
+      "title": "Foundation Model Engineering: From Theory to Production",
+      "url": "https://sungeuns.github.io/foundation-model-engineering/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 13 Sep 2026 13:24:28 +0000",
+      "publishedAt": "Mon, 14 Sep 2026 15:27:48 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -151,28 +166,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/13/ai-bootcamps-uk-youth-unemployment-neets-preston",
-      "title": "'Really helpful': the AI bootcamps aimed at addressing UK youth unemployment",
-      "url": "https://www.theguardian.com/technology/2026/sep/13/ai-bootcamps-uk-youth-unemployment-neets-preston",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Sun, 13 Sep 2026 09:00:04 GMT",
-      "summary": "Pilot project in Preston comes with apprenticeship offer for Neets at end of three-week course In a youth centre opposite Preston bus station , the UK government is trying to address two of the greatest challenges facing the national economy: AI and youth unemployment. The hope is that one will solve - rather than cause - the other. In a room at the...",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "openai news:https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "id": "openai news:https://openai.com/index/fyxer",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Mon, 14 Sep 2026 00:00:00 GMT",
-      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "publishedAt": "Mon, 14 Sep 2026 12:00:00 GMT",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user's voice.",
       "score": 2.62,
       "tags": [
         "ai",
@@ -198,13 +198,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/unanimous-vote-sees-nashville-airport-move-to-rename-itself-after-dolly-parton-3968563?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=unanimous-vote-sees-nashville-airport-move-to-rename-itself-after-dolly-parton",
-      "title": "Unanimous vote sees Nashville Airport move to rename itself after Dolly Parton",
-      "url": "https://www.nme.com/news/music/unanimous-vote-sees-nashville-airport-move-to-rename-itself-after-dolly-parton-3968563?utm_source=rss&utm_medium=rss&utm_campaign=unanimous-vote-sees-nashville-airport-move-to-rename-itself-after-dolly-parton",
+      "id": "nme music news:https://www.nme.com/news/music/megadeth-dave-mustaine-on-who-would-make-modern-big-four-thrash-metal-3968784?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=megadeth-dave-mustaine-on-who-would-make-modern-big-four-thrash-metal",
+      "title": "Megadeth's Dave Mustaine shares who he thinks would make the modern 'Big Four' of thrash metal",
+      "url": "https://www.nme.com/news/music/megadeth-dave-mustaine-on-who-would-make-modern-big-four-thrash-metal-3968784?utm_source=rss&utm_medium=rss&utm_campaign=megadeth-dave-mustaine-on-who-would-make-modern-big-four-thrash-metal",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sun, 13 Sep 2026 12:08:49 +0000",
-      "summary": "\"At a place where Tennessee welcomes the world, it is fitting that Nashville International Airport would bear the name of our state's favourite daughter\" The post Unanimous vote sees Nashville Airport move to rename itself after Dolly Parton appeared first on NME .",
+      "publishedAt": "Mon, 14 Sep 2026 15:20:45 +0000",
+      "summary": "\"I do believe that there are ways to do a new 'Big Four'\" The post Megadeth's Dave Mustaine shares who he thinks would make the modern 'Big Four' of thrash metal appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -214,14 +214,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/art-of-noise-in-visible-silence/",
-      "title": "In Visible Silence",
-      "url": "https://pitchfork.com/reviews/albums/art-of-noise-in-visible-silence/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/valerie-june-brighter-blue-ep/",
+      "title": "Brighter Blue EP",
+      "url": "https://pitchfork.com/reviews/albums/valerie-june-brighter-blue-ep/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Sun, 13 Sep 2026 04:00:00 +0000",
-      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the second album from a mischievous group of provocateurs whose high-tech hijinks anticipated a sea change in pop, dance, and hip-hop.",
-      "score": 1.7999999999999998,
+      "publishedAt": "Mon, 14 Sep 2026 04:02:00 +0000",
+      "summary": "On her latest covers EP, the singer-songwriter offers refreshing, timely interpretations of blues and gospel classics.",
+      "score": 1.9,
       "tags": [
         "music",
         "reviews",
