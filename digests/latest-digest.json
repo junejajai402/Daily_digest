@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-15",
-  "builtAt": "2026-09-15T15:33:29.240Z",
-  "lastAttemptedAt": "2026-09-15T15:33:28.487Z",
+  "digestId": "2026-09-16",
+  "builtAt": "2026-09-16T15:25:15.767Z",
+  "lastAttemptedAt": "2026-09-16T15:25:15.113Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -25,7 +25,7 @@
       "topic": "security",
       "publishedAt": "2026-09-14T16:07:56Z",
       "summary": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I'm still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing...",
-      "score": 2.95,
+      "score": 2.8,
       "tags": [
         "security",
         "feed"
@@ -39,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Mon, 14 Sep 2026 18:33:44 GMT",
       "summary": "Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabilities Apple has ever patched, but the increase is not as significant as other vendors' \"post-AI\" patch releases.",
-      "score": 2.75,
+      "score": 2.6,
       "tags": [
         "security",
         "rss",
@@ -61,14 +61,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33340",
-      "title": "MacOS 27 - First Boot, (Tue, Sep 15th)",
-      "url": "https://isc.sans.edu/diary/rss/33340",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33332",
+      "title": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
+      "url": "https://isc.sans.edu/diary/rss/33332",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Tue, 15 Sep 2026 15:23:45 GMT",
-      "summary": "I have not done this type of diary in a while: What traffic will you see from a system on boot, before a user logs in? I just took a quick look at macOS 27 \"Golden Gate\" to see what traffic you should expect. Here are some of the highlights:",
-      "score": 2.45,
+      "publishedAt": "Fri, 11 Sep 2026 14:40:32 GMT",
+      "summary": "I identified an attacker using a semi-autonomous coding agent to run an offensive operation: finding poorly secured LLM resale gateways, acquiring API access through ordinary web flaws and account farming, validating the resulting inference capacity, and aggregating it behind a single gateway of their own.",
+      "score": 2.3,
       "tags": [
         "security",
         "rss",
@@ -76,13 +76,13 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "title": "25 Years of Mass Surveillance Is Enough",
-      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html",
+      "title": "Fake CAPTCHA Scams",
+      "url": "https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-15T11:02:00Z",
-      "summary": "This essay was written with Cindy Cohn, and originally appeared in Lawfare . One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance-such as individual wiretaps or pen register/trap and trace orders-to mass surveillance techniques-such as tapping into the internet backbone or mass collection of...",
+      "publishedAt": "2026-09-16T11:25:27Z",
+      "summary": "New variant of an old scam: Use the framing of a CAPTCHA to get an unsuspecting user to download and run a malicious program.",
       "score": 2.45,
       "tags": [
         "security",
@@ -90,14 +90,14 @@
       ]
     },
     {
-      "id": "hacker news:https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/orgglmn75hfewp7yl3zlghlyhvibjdyt/",
-      "title": "Java 27 Released",
-      "url": "https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT/",
+      "id": "hacker news:https://news.ycombinator.com/item?id=49728159",
+      "title": "Show HN: Free WhatsApp MCP (+UI) - Give Your AI Agents Access to WhatsApp",
+      "url": "https://news.ycombinator.com/item?id=49728159",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 15 Sep 2026 13:13:43 +0000",
+      "publishedAt": "Wed, 16 Sep 2026 15:04:08 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.5,
       "tags": [
         "tech",
         "community",
@@ -106,14 +106,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/15/trump-ai-guardrails-democrats-republicans",
-      "title": "Trump facing AI backlash in Congress as push for guardrails intensifies",
-      "url": "https://www.theguardian.com/technology/2026/sep/15/trump-ai-guardrails-democrats-republicans",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/16/building-frankenstein-jd-vance-dismisses-ai-regulation",
+      "title": "'If you're building Frankenstein, stop': JD Vance dismisses calls for AI regulation",
+      "url": "https://www.theguardian.com/technology/2026/sep/16/building-frankenstein-jd-vance-dismisses-ai-regulation",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 15 Sep 2026 06:39:40 GMT",
-      "summary": "President has dismissed anxieties over AI's dangerous potential even as Democrats and some Republicans acknowledge risks Analysis: Why a decade of doomsday warnings failed to slow AI race Donald Trump is facing a rare backlash from the US Congress as Democrats and some Republicans push for guardrails on the world's most powerful AI companies. Concerns over...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Wed, 16 Sep 2026 10:42:07 GMT",
+      "summary": "US vice-president's comments come as former Anthropic researcher revisits recent claim AI could destroy humanity The US vice-president has dismissed calls for global regulation of AI safety risks, telling companies creating the most advanced models: \"If you're building Frankenstein, stop.\" In remarks addressed towards Dario Amodei, the co-founder of...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -121,26 +121,41 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-      "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
+      "url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Sat, 12 Sep 2026 21:16:47 GMT",
-      "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
-      "score": 2.1,
+      "publishedAt": "Wed, 16 Sep 2026 14:16:14 GMT",
+      "summary": "Mustafa Suleyman says he believes the AI giant is in effect teaching Claude it \"may be conscious\".",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "hacker news:https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
-      "title": "Global bond yields hit 2008 highs, raising stakes for big borrowers",
-      "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/16/amazon-ring-neighbours-app-uk-doorbell-privacy-safety",
+      "title": "Amazon to launch Ring 'neighbourhood watch' app in UK amid US privacy fears",
+      "url": "https://www.theguardian.com/technology/2026/sep/16/amazon-ring-neighbours-app-uk-doorbell-privacy-safety",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Wed, 16 Sep 2026 14:00:21 GMT",
+      "summary": "Doorbell firm aims to replace WhatsApp or Facebook groups with platform where people can post about safety or lost pets Amazon's doorbell camera maker Ring is to launch its Neighbours community app in the UK in an attempt to supplant neighbourhood WhatsApp or Facebook groups. The service is intended as a modern equivalent of a community message board,...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+      "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
+      "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 15 Sep 2026 14:07:01 +0000",
+      "publishedAt": "Wed, 16 Sep 2026 12:19:55 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -151,29 +166,30 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/15/ai-grief-bot-death-isolation",
-      "title": "'I created my mom and talk to her': AI ghosts and deathslop are changing the way we mourn",
-      "url": "https://www.theguardian.com/technology/2026/sep/15/ai-grief-bot-death-isolation",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Tue, 15 Sep 2026 12:30:43 GMT",
-      "summary": "The rise of AI-generated tributes and bots for 'talking' to the dead has experts concerned more people will grieve in isolation Tributes rolled in after the death of Dolly Parton last month. Jack White performed Jolene at a London gig. Kesha sang Old Flames (Can't Hold a Candle to You), a single her mother wrote for the country music titan. Even Pitbull...",
-      "score": 2.1500000000000004,
+      "id": "openai news:https://openai.com/index/reimagining-advertising-with-ai",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Wed, 16 Sep 2026 13:00:00 GMT",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "score": 2.62,
       "tags": [
-        "tech",
-        "rss",
-        "guardian"
+        "ai",
+        "official",
+        "openai",
+        "rss"
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-      "title": "New insights from Google's AI & Economy ATLAS",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "title": "AI for everyone in every language",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Tue, 15 Sep 2026 13:00:00 +0000",
-      "summary": "We've translated ATLAS's millions of global data points into an interactive, open-access experience.",
-      "score": 2.3800000000000003,
+      "publishedAt": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "summary": "We're moving beyond traditional text translation to build models that understand the world's rich, living languages exactly as they are expressed.",
+      "score": 2.48,
       "tags": [
         "ai",
         "official",
@@ -182,19 +198,35 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/fyxer",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Mon, 14 Sep 2026 12:00:00 GMT",
-      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user's voice.",
-      "score": 2.37,
+      "id": "nme music news:https://www.nme.com/news/music/david-byrne-releases-who-is-the-sky-expanded-edition-with-two-new-songs-3969230?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=david-byrne-releases-who-is-the-sky-expanded-edition-with-two-new-songs",
+      "title": "David Byrne releases 'Who Is The Sky?' expanded edition with two new songs",
+      "url": "https://www.nme.com/news/music/david-byrne-releases-who-is-the-sky-expanded-edition-with-two-new-songs-3969230?utm_source=rss&utm_medium=rss&utm_campaign=david-byrne-releases-who-is-the-sky-expanded-edition-with-two-new-songs",
+      "source": "NME Music News",
+      "topic": "music",
+      "publishedAt": "Wed, 16 Sep 2026 14:00:40 +0000",
+      "summary": "The former Talking Heads frontman originally released his latest solo album in September 2025 The post David Byrne releases 'Who Is The Sky?' expanded edition with two new songs appeared first on NME .",
+      "score": 2.13,
       "tags": [
-        "ai",
-        "official",
-        "openai",
-        "rss"
+        "music",
+        "news",
+        "rss",
+        "nme"
+      ]
+    },
+    {
+      "id": "npr music news:https://www.npr.org/2026/09/16/nx-s1-5970391/margin-calls-sports-betting-investing",
+      "title": "How investing is getting riskier (Two Indicators)",
+      "url": "https://www.npr.org/2026/09/16/nx-s1-5970391/margin-calls-sports-betting-investing",
+      "source": "NPR Music News",
+      "topic": "music",
+      "publishedAt": "Wed, 16 Sep 2026 07:00:00 +0000",
+      "summary": "Margin borrowing and sports gambling \"investments\" are both on the rise! Today on the show, two stories from Planet Money's daily podcast The Indicator about the ways investing is changing, and getting riskier. According to one study, more than half of Gen Zers are using investment dollars for sports gambling. On average, this is not a smart strategy for...",
+      "score": 1.97,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "npr"
       ]
     },
     {
@@ -205,39 +237,7 @@
       "topic": "music",
       "publishedAt": "Tue, 15 Sep 2026 04:01:00 +0000",
       "summary": "The 32-year-old rapper made his name with audacious punchlines and moments of startling candor, but his latest album is weighed down by a pervasive air of exhaustion.",
-      "score": 2.1999999999999997,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/suno-admits-using-music-from-youtube-to-train-ai-models-3969000?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=suno-admits-using-music-from-youtube-to-train-ai-models",
-      "title": "Suno admits using music from YouTube to train AI models",
-      "url": "https://www.nme.com/news/music/suno-admits-using-music-from-youtube-to-train-ai-models-3969000?utm_source=rss&utm_medium=rss&utm_campaign=suno-admits-using-music-from-youtube-to-train-ai-models",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Tue, 15 Sep 2026 15:12:24 +0000",
-      "summary": "Recent court filings have seen the AI music creation company admit to using audio from the site The post Suno admits using music from YouTube to train AI models appeared first on NME .",
-      "score": 2.13,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/angela-autumn-believer/",
-      "title": "Believer",
-      "url": "https://pitchfork.com/reviews/albums/angela-autumn-believer/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Tue, 15 Sep 2026 04:03:00 +0000",
-      "summary": "The Nashville-based songwriter channels her Appalachian roots into empathetic, slightly psychedelic banjo- and guitar-led songs that explore what a leap of faith can offer when certainty is gone.",
-      "score": 1.9999999999999998,
+      "score": 1.9500000000000002,
       "tags": [
         "music",
         "reviews",
