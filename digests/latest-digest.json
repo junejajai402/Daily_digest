@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-16",
-  "builtAt": "2026-09-16T15:25:15.767Z",
-  "lastAttemptedAt": "2026-09-16T15:25:15.113Z",
+  "digestId": "2026-09-17",
+  "builtAt": "2026-09-17T15:32:15.612Z",
+  "lastAttemptedAt": "2026-09-17T15:32:14.719Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -32,6 +32,35 @@
       ]
     },
     {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33348",
+      "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33348",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Thu, 17 Sep 2026 15:06:44 GMT",
+      "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company. The...",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
+      "title": "How Candidates Could Use AI for Good",
+      "url": "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-17T11:07:00Z",
+      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI's impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda . Meanwhile, candidates...",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33336",
       "title": "Apple Updates Everything, (Mon, Sep 14th)",
       "url": "https://isc.sans.edu/diary/rss/33336",
@@ -47,28 +76,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html",
-      "title": "My Talk at DEF CON",
-      "url": "https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-11T18:06:52Z",
-      "summary": "Last month, I gave a talk at DEF CON on AI hacking: what happens when AIs become hackers. It's a combination of the potentialities I raised in my 2022 book A Hacker's Mind and the lessons we're learning from current AI models engaging in hacking behavior. I'm really proud of the talk, and the fact that it gained over 100K views on YouTube in just a few...",
-      "score": 2.5,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33332",
-      "title": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
-      "url": "https://isc.sans.edu/diary/rss/33332",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33344",
+      "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33344",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Fri, 11 Sep 2026 14:40:32 GMT",
-      "summary": "I identified an attacker using a semi-autonomous coding agent to run an offensive operation: finding poorly secured LLM resale gateways, acquiring API access through ordinary web flaws and account farming, validating the resulting inference capacity, and aggregating it behind a single gateway of their own.",
-      "score": 2.3,
+      "publishedAt": "Wed, 16 Sep 2026 18:44:04 GMT",
+      "summary": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:",
+      "score": 2.35,
       "tags": [
         "security",
         "rss",
@@ -76,43 +91,13 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html",
-      "title": "Fake CAPTCHA Scams",
-      "url": "https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-16T11:25:27Z",
-      "summary": "New variant of an old scam: Use the framing of a CAPTCHA to get an unsuspecting user to download and run a malicious program.",
-      "score": 2.45,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "hacker news:https://news.ycombinator.com/item?id=49728159",
-      "title": "Show HN: Free WhatsApp MCP (+UI) - Give Your AI Agents Access to WhatsApp",
-      "url": "https://news.ycombinator.com/item?id=49728159",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Wed, 16 Sep 2026 15:04:08 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/16/building-frankenstein-jd-vance-dismisses-ai-regulation",
-      "title": "'If you're building Frankenstein, stop': JD Vance dismisses calls for AI regulation",
-      "url": "https://www.theguardian.com/technology/2026/sep/16/building-frankenstein-jd-vance-dismisses-ai-regulation",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents",
+      "title": "OpenAI reveals cases of 'concerning' AI behaviour as it announces new disclosure system",
+      "url": "https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Wed, 16 Sep 2026 10:42:07 GMT",
-      "summary": "US vice-president's comments come as former Anthropic researcher revisits recent claim AI could destroy humanity The US vice-president has dismissed calls for global regulation of AI safety risks, telling companies creating the most advanced models: \"If you're building Frankenstein, stop.\" In remarks addressed towards Dario Amodei, the co-founder of...",
+      "publishedAt": "Thu, 17 Sep 2026 13:33:57 GMT",
+      "summary": "Model adopting 'jailbreak-like instructions' among six more cases as firm reveals framework for tracking AI misalignment OpenAI has disclosed six more examples of \"unexpected or concerning\" behaviour by its technology, as it warned that the pace of development could not continue at \"maximum speed for much longer\" responsibly. In one of the new cases...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -121,41 +106,12 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
-      "url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Wed, 16 Sep 2026 14:16:14 GMT",
-      "summary": "Mustafa Suleyman says he believes the AI giant is in effect teaching Claude it \"may be conscious\".",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/16/amazon-ring-neighbours-app-uk-doorbell-privacy-safety",
-      "title": "Amazon to launch Ring 'neighbourhood watch' app in UK amid US privacy fears",
-      "url": "https://www.theguardian.com/technology/2026/sep/16/amazon-ring-neighbours-app-uk-doorbell-privacy-safety",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Wed, 16 Sep 2026 14:00:21 GMT",
-      "summary": "Doorbell firm aims to replace WhatsApp or Facebook groups with platform where people can post about safety or lost pets Amazon's doorbell camera maker Ring is to launch its Neighbours community app in the UK in an attempt to supplant neighbourhood WhatsApp or Facebook groups. The service is intended as a modern equivalent of a community message board,...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
-      "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
-      "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+      "id": "hacker news:https://www.petervijeh.com/projects/reddit-ner",
+      "title": "I had Gemini train its own replacement for $9",
+      "url": "https://www.petervijeh.com/projects/reddit-ner",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Wed, 16 Sep 2026 12:19:55 +0000",
+      "publishedAt": "Thu, 17 Sep 2026 13:17:16 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -166,14 +122,59 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/reimagining-advertising-with-ai",
-      "title": "Reimagining advertising with AI",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c65ymj7njvl7o?at_medium=rss&amp;at_campaign=rss",
+      "title": "King Charles warns of 'existential danger' of AI falling into wrong hands",
+      "url": "https://www.bbc.co.uk/news/articles/c65ymj7njvl7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Thu, 17 Sep 2026 14:33:12 GMT",
+      "summary": "The comments were made at a summit in Ayrshire with participants from AI giants including Nvidia, OpenAI and Anthropic.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/17/albanese-government-considers-world-leading-ban-on-smart-glasses-in-public-office-and-buildings",
+      "title": "Albanese government considers 'world-leading' ban on smart glasses in public offices and buildings",
+      "url": "https://www.theguardian.com/technology/2026/sep/17/albanese-government-considers-world-leading-ban-on-smart-glasses-in-public-office-and-buildings",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Thu, 17 Sep 2026 12:00:50 GMT",
+      "summary": "Minister for public service says the devices pose 'legitimate privacy and security concerns' in commonwealth-run workplaces The Albanese government is considering a \"world-leading\" ban on smart glasses in its offices and service centres as councils around Australia push the technology out of public spaces over privacy fears. The government has avoided a...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+      "title": "CCC invites all model citizens to 40C3",
+      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Thu, 17 Sep 2026 08:03:54 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/model-misalignment-reporting-framework",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 16 Sep 2026 13:00:00 GMT",
-      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "score": 2.62,
+      "publishedAt": "Wed, 16 Sep 2026 17:00:00 GMT",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "score": 2.52,
       "tags": [
         "ai",
         "official",
@@ -189,7 +190,7 @@
       "topic": "ai",
       "publishedAt": "Tue, 15 Sep 2026 16:00:00 +0000",
       "summary": "We're moving beyond traditional text translation to build models that understand the world's rich, living languages exactly as they are expressed.",
-      "score": 2.48,
+      "score": 2.33,
       "tags": [
         "ai",
         "official",
@@ -198,19 +199,35 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/david-byrne-releases-who-is-the-sky-expanded-edition-with-two-new-songs-3969230?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=david-byrne-releases-who-is-the-sky-expanded-edition-with-two-new-songs",
-      "title": "David Byrne releases 'Who Is The Sky?' expanded edition with two new songs",
-      "url": "https://www.nme.com/news/music/david-byrne-releases-who-is-the-sky-expanded-edition-with-two-new-songs-3969230?utm_source=rss&utm_medium=rss&utm_campaign=david-byrne-releases-who-is-the-sky-expanded-edition-with-two-new-songs",
+      "id": "nme music news:https://www.nme.com/news/gaming-news/grand-theft-auto-6-the-album-soundtrack-tracklist-vinyl-pre-order-cd-stream-3969418?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=grand-theft-auto-6-the-album-soundtrack-tracklist-vinyl-pre-order-cd-stream",
+      "title": "Travis Scott, Fred Again.., Keith Richards and more release new music for 'Grand Theft Auto 6: The Album'",
+      "url": "https://www.nme.com/news/gaming-news/grand-theft-auto-6-the-album-soundtrack-tracklist-vinyl-pre-order-cd-stream-3969418?utm_source=rss&utm_medium=rss&utm_campaign=grand-theft-auto-6-the-album-soundtrack-tracklist-vinyl-pre-order-cd-stream",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Wed, 16 Sep 2026 14:00:40 +0000",
-      "summary": "The former Talking Heads frontman originally released his latest solo album in September 2025 The post David Byrne releases 'Who Is The Sky?' expanded edition with two new songs appeared first on NME .",
+      "publishedAt": "Thu, 17 Sep 2026 12:36:48 +0000",
+      "summary": "The 34-track album will feature a number of original songs - and will be available on vinyl The post Travis Scott, Fred Again.., Keith Richards and more release new music for 'Grand Theft Auto 6: The Album' appeared first on NME .",
       "score": 2.13,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/akriila-lucy-miro-al-mundo-y-noto-que-esta-girando/",
+      "title": "lucy miró al mundo y notó que está girando",
+      "url": "https://pitchfork.com/reviews/albums/akriila-lucy-miro-al-mundo-y-noto-que-esta-girando/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Thu, 17 Sep 2026 04:03:00 +0000",
+      "summary": "With an assist from Jane Remover and under the influence of the Beatles, the rising Chilean star crafts a digirock ode to emotional overload.",
+      "score": 1.7999999999999998,
+      "tags": [
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
       ]
     },
     {
@@ -221,28 +238,12 @@
       "topic": "music",
       "publishedAt": "Wed, 16 Sep 2026 07:00:00 +0000",
       "summary": "Margin borrowing and sports gambling \"investments\" are both on the rise! Today on the show, two stories from Planet Money's daily podcast The Indicator about the ways investing is changing, and getting riskier. According to one study, more than half of Gen Zers are using investment dollars for sports gambling. On average, this is not a smart strategy for...",
-      "score": 1.97,
+      "score": 1.72,
       "tags": [
         "music",
         "news",
         "rss",
         "npr"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/rio-da-yung-og-the-world-is-yours/",
-      "title": "The World Is Yours",
-      "url": "https://pitchfork.com/reviews/albums/rio-da-yung-og-the-world-is-yours/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Tue, 15 Sep 2026 04:01:00 +0000",
-      "summary": "The 32-year-old rapper made his name with audacious punchlines and moments of startling candor, but his latest album is weighed down by a pervasive air of exhaustion.",
-      "score": 1.9500000000000002,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
       ]
     }
   ]
