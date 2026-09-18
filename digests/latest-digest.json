@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-17",
-  "builtAt": "2026-09-17T15:32:15.612Z",
-  "lastAttemptedAt": "2026-09-17T15:32:14.719Z",
+  "digestId": "2026-09-18",
+  "builtAt": "2026-09-18T14:58:45.878Z",
+  "lastAttemptedAt": "2026-09-18T14:58:45.239Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
-      "title": "Using AI for Weapons Development",
-      "url": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
+      "title": "Are AIs Still Struggling with CAPTCHAs?",
+      "url": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-14T16:07:56Z",
-      "summary": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I'm still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing...",
-      "score": 2.8,
+      "publishedAt": "2026-09-18T11:05:54Z",
+      "summary": "Anthropic's recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping access to it appeared to slam its virtual head against the wall solving a simple image identification test. In a test where the agent was asked to identify a...",
+      "score": 2.85,
       "tags": [
         "security",
         "feed"
@@ -39,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Thu, 17 Sep 2026 15:06:44 GMT",
       "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company. The...",
-      "score": 2.65,
+      "score": 2.55,
       "tags": [
         "security",
         "rss",
@@ -47,14 +47,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
-      "title": "How Candidates Could Use AI for Good",
-      "url": "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
+      "title": "Using AI for Weapons Development",
+      "url": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-17T11:07:00Z",
-      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI's impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda . Meanwhile, candidates...",
-      "score": 2.65,
+      "publishedAt": "2026-09-14T16:07:56Z",
+      "summary": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I'm still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing...",
+      "score": 2.7,
       "tags": [
         "security",
         "feed"
@@ -68,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Mon, 14 Sep 2026 18:33:44 GMT",
       "summary": "Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabilities Apple has ever patched, but the increase is not as significant as other vendors' \"post-AI\" patch releases.",
-      "score": 2.6,
+      "score": 2.5,
       "tags": [
         "security",
         "rss",
@@ -76,14 +76,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33344",
-      "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33344",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33352",
+      "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33352",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Wed, 16 Sep 2026 18:44:04 GMT",
-      "summary": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:",
-      "score": 2.35,
+      "publishedAt": "Fri, 18 Sep 2026 06:05:26 GMT",
+      "summary": "In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it&#x27s the first new standard HTTP verb since \"PATCH\" in 2010!",
+      "score": 2.45,
       "tags": [
         "security",
         "rss",
@@ -91,14 +91,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents",
-      "title": "OpenAI reveals cases of 'concerning' AI behaviour as it announces new disclosure system",
-      "url": "https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
+      "title": "OpenAI 'ethically hacked' with help of Anthropic's Claude chatbot",
+      "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 17 Sep 2026 13:33:57 GMT",
-      "summary": "Model adopting 'jailbreak-like instructions' among six more cases as firm reveals framework for tracking AI misalignment OpenAI has disclosed six more examples of \"unexpected or concerning\" behaviour by its technology, as it warned that the pace of development could not continue at \"maximum speed for much longer\" responsibly. In one of the new cases...",
-      "score": 2.35,
+      "publishedAt": "Fri, 18 Sep 2026 11:20:44 GMT",
+      "summary": "US cybersecurity researchers who conducted hack say 'scope of what we could theoretically access was huge' Cybersecurity researchers have hacked into OpenAI with the help of Anthropic's Claude chatbot, in the latest example of security issues at the company. A team at a US-based startup compromised a number of OpenAI employees' ChatGPT accounts, starting a...",
+      "score": 2.5500000000000003,
       "tags": [
         "tech",
         "rss",
@@ -106,12 +106,12 @@
       ]
     },
     {
-      "id": "hacker news:https://www.petervijeh.com/projects/reddit-ner",
-      "title": "I had Gemini train its own replacement for $9",
-      "url": "https://www.petervijeh.com/projects/reddit-ner",
+      "id": "hacker news:https://arxiv.org/abs/2609.20804",
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "url": "https://arxiv.org/abs/2609.20804",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 17 Sep 2026 13:17:16 +0000",
+      "publishedAt": "Fri, 18 Sep 2026 13:06:30 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -119,20 +119,6 @@
         "community",
         "rss",
         "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c65ymj7njvl7o?at_medium=rss&amp;at_campaign=rss",
-      "title": "King Charles warns of 'existential danger' of AI falling into wrong hands",
-      "url": "https://www.bbc.co.uk/news/articles/c65ymj7njvl7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Thu, 17 Sep 2026 14:33:12 GMT",
-      "summary": "The comments were made at a summit in Ayrshire with participants from AI giants including Nvidia, OpenAI and Anthropic.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
       ]
     },
     {
@@ -142,8 +128,8 @@
       "source": "The Guardian Tech",
       "topic": "tech",
       "publishedAt": "Thu, 17 Sep 2026 12:00:50 GMT",
-      "summary": "Minister for public service says the devices pose 'legitimate privacy and security concerns' in commonwealth-run workplaces The Albanese government is considering a \"world-leading\" ban on smart glasses in its offices and service centres as councils around Australia push the technology out of public spaces over privacy fears. The government has avoided a...",
-      "score": 2.35,
+      "summary": "Minister for public service says the devices pose 'legitimate privacy and security concerns' in commonwealth-run workplaces Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The Albanese government is considering a \"world-leading\" ban on smart glasses in its offices and service centres as...",
+      "score": 2.5,
       "tags": [
         "tech",
         "rss",
@@ -151,12 +137,12 @@
       ]
     },
     {
-      "id": "hacker news:https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
-      "title": "CCC invites all model citizens to 40C3",
-      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+      "id": "hacker news:https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
+      "title": "Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him",
+      "url": "https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 17 Sep 2026 08:03:54 +0000",
+      "publishedAt": "Fri, 18 Sep 2026 11:01:44 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -167,30 +153,28 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/model-misalignment-reporting-framework",
-      "title": "Our framework for reporting model misalignment",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Wed, 16 Sep 2026 17:00:00 GMT",
-      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-      "score": 2.52,
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c79g0j3d4q9o?at_medium=rss&amp;at_campaign=rss",
+      "title": "The virtual worlds where robots are trained",
+      "url": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Thu, 17 Sep 2026 23:00:47 GMT",
+      "summary": "Training systems that allow robots to negotiate the real world are getting more sophisticated.",
+      "score": 2.0500000000000003,
       "tags": [
-        "ai",
-        "official",
-        "openai",
+        "tech",
         "rss"
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "title": "AI for everyone in every language",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "title": "New experts join Google's AI & Economy team",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Tue, 15 Sep 2026 16:00:00 +0000",
-      "summary": "We're moving beyond traditional text translation to build models that understand the world's rich, living languages exactly as they are expressed.",
-      "score": 2.33,
+      "publishedAt": "Fri, 18 Sep 2026 14:00:00 +0000",
+      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "score": 2.3800000000000003,
       "tags": [
         "ai",
         "official",
@@ -199,14 +183,30 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/gaming-news/grand-theft-auto-6-the-album-soundtrack-tracklist-vinyl-pre-order-cd-stream-3969418?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=grand-theft-auto-6-the-album-soundtrack-tracklist-vinyl-pre-order-cd-stream",
-      "title": "Travis Scott, Fred Again.., Keith Richards and more release new music for 'Grand Theft Auto 6: The Album'",
-      "url": "https://www.nme.com/news/gaming-news/grand-theft-auto-6-the-album-soundtrack-tracklist-vinyl-pre-order-cd-stream-3969418?utm_source=rss&utm_medium=rss&utm_campaign=grand-theft-auto-6-the-album-soundtrack-tracklist-vinyl-pre-order-cd-stream",
+      "id": "openai news:https://openai.com/index/reimagining-advertising-with-ai",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Wed, 16 Sep 2026 13:00:00 GMT",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "score": 2.37,
+      "tags": [
+        "ai",
+        "official",
+        "openai",
+        "rss"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/talking-heads-to-reunite-or-siriusxm-channel-launch-event-with-este-haim-3969540?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=talking-heads-to-reunite-or-siriusxm-channel-launch-event-with-este-haim",
+      "title": "Talking Heads to reunite for SiriusXM channel launch event with Este Haim",
+      "url": "https://www.nme.com/news/music/talking-heads-to-reunite-or-siriusxm-channel-launch-event-with-este-haim-3969540?utm_source=rss&utm_medium=rss&utm_campaign=talking-heads-to-reunite-or-siriusxm-channel-launch-event-with-este-haim",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 17 Sep 2026 12:36:48 +0000",
-      "summary": "The 34-track album will feature a number of original songs - and will be available on vinyl The post Travis Scott, Fred Again.., Keith Richards and more release new music for 'Grand Theft Auto 6: The Album' appeared first on NME .",
-      "score": 2.13,
+      "publishedAt": "Fri, 18 Sep 2026 11:53:00 +0000",
+      "summary": "The group will take part in a Q&A hosted by Este Haim The post Talking Heads to reunite for SiriusXM channel launch event with Este Haim appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
         "news",
@@ -215,13 +215,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/akriila-lucy-miro-al-mundo-y-noto-que-esta-girando/",
-      "title": "lucy miró al mundo y notó que está girando",
-      "url": "https://pitchfork.com/reviews/albums/akriila-lucy-miro-al-mundo-y-noto-que-esta-girando/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/carly-rae-jepsen-day-and-night/",
+      "title": "Day and Night",
+      "url": "https://pitchfork.com/reviews/albums/carly-rae-jepsen-day-and-night/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Thu, 17 Sep 2026 04:03:00 +0000",
-      "summary": "With an assist from Jane Remover and under the influence of the Beatles, the rising Chilean star crafts a digirock ode to emotional overload.",
+      "publishedAt": "Fri, 18 Sep 2026 04:03:00 +0000",
+      "summary": "Carly Rae Jepsen's sprawling new double album celebrates full-time love and commitment with sweet, sunny tracks for Day and sleeker, dancier songs for Night.",
       "score": 1.7999999999999998,
       "tags": [
         "music",
