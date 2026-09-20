@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-19",
-  "builtAt": "2026-09-19T14:24:27.251Z",
-  "lastAttemptedAt": "2026-09-19T14:24:26.746Z",
+  "digestId": "2026-09-20",
+  "builtAt": "2026-09-20T14:41:26.970Z",
+  "lastAttemptedAt": "2026-09-20T14:41:26.383Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -61,14 +61,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33352",
-      "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33352",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33348",
+      "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33348",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sat, 19 Sep 2026 04:51:46 GMT",
-      "summary": "In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it&#x27s the first new standard HTTP verb since \"PATCH\" in 2010!",
-      "score": 2.45,
+      "publishedAt": "Thu, 17 Sep 2026 15:06:44 GMT",
+      "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company. The...",
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -83,20 +83,20 @@
       "topic": "security",
       "publishedAt": "2026-09-17T11:07:00Z",
       "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI's impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda . Meanwhile, candidates...",
-      "score": 2.4,
+      "score": 2.3,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei",
-      "title": "China bogeyman looms large over American firms' AI doomsday scenario",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei",
+      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/sep/20/intergenerational-report-australian-life-expectancy-forecast-to-rise",
+      "title": "More Australians to live into their 90s as life expectancy forecast to rise over coming decades",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/20/intergenerational-report-australian-life-expectancy-forecast-to-rise",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 19 Sep 2026 10:00:45 GMT",
-      "summary": "Silicon Valley China hawks, Anthropic CEO Dario Amodei among them, fear the country surpassing US's AI lead as much as superintelligence destroying humanity When reporters asked Donald Trump this week if he supported calls to slow down the development of artificial intelligence out of growing fears for cybersecurity, public safety and the fate of humanity,...",
+      "publishedAt": "Sun, 20 Sep 2026 04:32:26 GMT",
+      "summary": "Treasury's latest intergenerational report projects life expectancy at birth will reach 89 for women and 86 for men by 2066 Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Australian households will shrink but more people can expect to live well into their 90s, according to the latest...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -105,75 +105,74 @@
       ]
     },
     {
-      "id": "hacker news:https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "title": "AI-generated posters don't have to be horrible",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sat, 19 Sep 2026 09:20:58 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "hacker news:https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
-      "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
-      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sat, 19 Sep 2026 05:48:50 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/18/a-critical-moment-concern-uk-is-not-up-to-speed-in-acting-on-ai-risks",
-      "title": "'A critical moment': concern UK is not up to speed in acting on AI risks",
-      "url": "https://www.theguardian.com/technology/2026/sep/18/a-critical-moment-concern-uk-is-not-up-to-speed-in-acting-on-ai-risks",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Fri, 18 Sep 2026 14:57:11 GMT",
-      "summary": "Andy Burnham's focus on immediate domestic problems leads some to fear issue has dropped off government's radar Towards the end of Keir Starmer's time in office, his senior ministers, alarmed by the latest developments in artificial intelligence, began drawing up plans for a new AI safety law. They ordered a review of existing legislation to see what...",
-      "score": 2.25,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c79g0j3d4q9o?at_medium=rss&amp;at_campaign=rss",
-      "title": "The virtual worlds where robots are trained",
-      "url": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Google's Gemini AI hacked three companies in security test",
+      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 17 Sep 2026 23:00:47 GMT",
-      "summary": "Training systems that allow robots to negotiate the real world are getting more sophisticated.",
-      "score": 1.9000000000000001,
+      "publishedAt": "Sat, 19 Sep 2026 13:39:32 GMT",
+      "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/model-misalignment-reporting-framework",
-      "title": "Our framework for reporting model misalignment",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "id": "hacker news:https://softwarecrisis.dev/letters/llmentalist/",
+      "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
+      "url": "https://softwarecrisis.dev/letters/llmentalist/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sun, 20 Sep 2026 12:20:13 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "hacker news:https://qwen.ai/blog?id=qwen-image-2.1",
+      "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sun, 20 Sep 2026 13:09:25 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.1,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Not all AI workers think the tech could kill everyone",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Sat, 19 Sep 2026 23:01:57 GMT",
+      "summary": "In text exchanges and conversations, multiple people who have worked for leading companies are sceptical of the warnings.",
+      "score": 2.0500000000000003,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/reimagining-advertising-with-ai",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 16 Sep 2026 17:00:00 GMT",
-      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-      "score": 2.37,
+      "publishedAt": "Wed, 16 Sep 2026 13:00:00 GMT",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "score": 2.27,
       "tags": [
         "ai",
         "official",
@@ -198,19 +197,35 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/papa-roach-cancel-louder-than-life-slot-following-bassists-health-emergency-3969694?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=papa-roach-cancel-louder-than-life-slot-following-bassists-health-emergency",
-      "title": "Papa Roach cancel Louder Than Life slot following bassist's health \"emergency\"",
-      "url": "https://www.nme.com/news/music/papa-roach-cancel-louder-than-life-slot-following-bassists-health-emergency-3969694?utm_source=rss&utm_medium=rss&utm_campaign=papa-roach-cancel-louder-than-life-slot-following-bassists-health-emergency",
+      "id": "nme music news:https://www.nme.com/news/music/sylvan-esso-makes-music-available-on-spotify-again-after-year-long-boycott-3969751?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sylvan-esso-makes-music-available-on-spotify-again-after-year-long-boycott",
+      "title": "Sylvan Esso makes music available on Spotify again after year-long boycott",
+      "url": "https://www.nme.com/news/music/sylvan-esso-makes-music-available-on-spotify-again-after-year-long-boycott-3969751?utm_source=rss&utm_medium=rss&utm_campaign=sylvan-esso-makes-music-available-on-spotify-again-after-year-long-boycott",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sat, 19 Sep 2026 12:04:18 +0000",
-      "summary": "Bowing out of the scheduled slot, the band said their \"immediate concern\" was the health of bassist Tobin Esperance The post Papa Roach cancel Louder Than Life slot following bassist's health \"emergency\" appeared first on NME .",
+      "publishedAt": "Sun, 20 Sep 2026 09:55:44 +0000",
+      "summary": "\"I don't fucking like it, and I'm really frustrated by this reality\" The post Sylvan Esso makes music available on Spotify again after year-long boycott appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/various-artists-easy-rider-music-from-the-soundtrack/",
+      "title": "Easy Rider (Music From the Soundtrack)",
+      "url": "https://pitchfork.com/reviews/albums/various-artists-easy-rider-music-from-the-soundtrack/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Sun, 20 Sep 2026 04:00:00 +0000",
+      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the blockbuster soundtrack for the 1969 biker classic: a generational bounty of radio hits that, taken together, sounds like a dying dream.",
+      "score": 1.7999999999999998,
+      "tags": [
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
       ]
     },
     {
@@ -221,28 +236,12 @@
       "topic": "music",
       "publishedAt": "Fri, 18 Sep 2026 20:00:00 +0000",
       "summary": "Did a pizza restaurant's humble status page change how we wait forever? When you order a Lyft or Uber, you get texts every few minutes about your car approaching and arriving. When you have a package coming, you get a notification when it's shipped, when it's en route, and when it's out for delivery. Why do so many companies send these constant updates? We...",
-      "score": 1.8699999999999999,
+      "score": 1.72,
       "tags": [
         "music",
         "news",
         "rss",
         "npr"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/neil-young-and-the-chrome-hearts-second-song/",
-      "title": "Second Song",
-      "url": "https://pitchfork.com/reviews/albums/neil-young-and-the-chrome-hearts-second-song/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Sat, 19 Sep 2026 04:00:00 +0000",
-      "summary": "The 80-year-old musician's 50th studio album emphasizes atmosphere over songcraft, but its long, rambling tracks offer ample reminders of his melodic dexterity and lyrical gifts.",
-      "score": 1.7999999999999998,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
       ]
     }
   ]
