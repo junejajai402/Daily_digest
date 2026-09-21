@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-20",
-  "builtAt": "2026-09-20T14:41:26.970Z",
-  "lastAttemptedAt": "2026-09-20T14:41:26.383Z",
+  "digestId": "2026-09-21",
+  "builtAt": "2026-09-21T17:02:35.655Z",
+  "lastAttemptedAt": "2026-09-21T17:02:35.034Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -18,28 +18,28 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
-      "title": "Using AI for Weapons Development",
-      "url": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
+      "title": "Reverse-Engineering Flock Cameras",
+      "url": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-14T16:07:56Z",
-      "summary": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I'm still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing...",
-      "score": 2.7,
+      "publishedAt": "2026-09-21T14:37:45Z",
+      "summary": "Hackers captured a Flock camera and got a look (alternate link ) at the software: While much of the automatic license plate reader's (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and...",
+      "score": 2.65,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33336",
-      "title": "Apple Updates Everything, (Mon, Sep 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33336",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33318",
+      "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33318",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Mon, 14 Sep 2026 18:33:44 GMT",
-      "summary": "Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabilities Apple has ever patched, but the increase is not as significant as other vendors' \"post-AI\" patch releases.",
-      "score": 2.5,
+      "publishedAt": "Mon, 21 Sep 2026 10:33:53 GMT",
+      "summary": "Microsoft Security Research published an interesting blog post \" TerminalFix campaign deploys a reverse tunnel through multistage intrusion \" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for...",
+      "score": 2.65,
       "tags": [
         "security",
         "rss",
@@ -54,7 +54,7 @@
       "topic": "security",
       "publishedAt": "2026-09-18T11:05:54Z",
       "summary": "Anthropic's recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping access to it appeared to slam its virtual head against the wall solving a simple image identification test. In a test where the agent was asked to identify a...",
-      "score": 2.6,
+      "score": 2.5,
       "tags": [
         "security",
         "feed"
@@ -68,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Thu, 17 Sep 2026 15:06:44 GMT",
       "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company. The...",
-      "score": 2.4,
+      "score": 2.3,
       "tags": [
         "security",
         "rss",
@@ -90,13 +90,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/sep/20/intergenerational-report-australian-life-expectancy-forecast-to-rise",
-      "title": "More Australians to live into their 90s as life expectancy forecast to rise over coming decades",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/20/intergenerational-report-australian-life-expectancy-forecast-to-rise",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
+      "title": "Nvidia boss says there is '0% chance' AI destroys the world by 2030",
+      "url": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sun, 20 Sep 2026 04:32:26 GMT",
-      "summary": "Treasury's latest intergenerational report projects life expectancy at birth will reach 89 for women and 86 for men by 2066 Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast Australian households will shrink but more people can expect to live well into their 90s, according to the latest...",
+      "publishedAt": "Mon, 21 Sep 2026 10:31:47 GMT",
+      "summary": "Jensen Huang dismisses warnings from former Anthropic researcher and others as 'doomsday narratives' Business live - latest updates The boss of the chipmaker Nvidia has said AI will not develop to a point that will lead to the extinction of the human race within a few years, rejecting such assertions as overblown \"doomsday narratives\". Jensen Huang, the...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -119,12 +119,12 @@
       ]
     },
     {
-      "id": "hacker news:https://softwarecrisis.dev/letters/llmentalist/",
-      "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
-      "url": "https://softwarecrisis.dev/letters/llmentalist/",
+      "id": "hacker news:https://github.com/naw103/foremerge",
+      "title": "Show HN: Foremerge - Catch Intent Conflicts Between Parallel Coding Agents",
+      "url": "https://github.com/naw103/foremerge",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 20 Sep 2026 12:20:13 +0000",
+      "publishedAt": "Mon, 21 Sep 2026 16:22:06 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -135,14 +135,14 @@
       ]
     },
     {
-      "id": "hacker news:https://qwen.ai/blog?id=qwen-image-2.1",
-      "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "id": "hacker news:https://github.com/jaredpalmer/kev/tree/main",
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 20 Sep 2026 13:09:25 +0000",
+      "publishedAt": "Mon, 21 Sep 2026 07:11:55 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -151,28 +151,29 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Not all AI workers think the tech could kill everyone",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/sep/21/jim-chalmers-intergenerational-report-2026-deaths-outnumber-births-australia2060s",
+      "title": "More Australians will be dying than being born in 40 years as major report predicts future of lower growth",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/21/jim-chalmers-intergenerational-report-2026-deaths-outnumber-births-australia2060s",
+      "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 19 Sep 2026 23:01:57 GMT",
-      "summary": "In text exchanges and conversations, multiple people who have worked for leading companies are sceptical of the warnings.",
-      "score": 2.0500000000000003,
+      "publishedAt": "Mon, 21 Sep 2026 02:30:32 GMT",
+      "summary": "Seventh intergenerational report also outlines how Australia is on the brink of an uncertain age of artificial intelligence Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast There will be more Australians dying than being born in 40 years' time, according to the government's latest...",
+      "score": 2.25,
       "tags": [
         "tech",
-        "rss"
+        "rss",
+        "guardian"
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/reimagining-advertising-with-ai",
-      "title": "Reimagining advertising with AI",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "id": "openai news:https://openai.com/index/v7",
+      "title": "How V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 16 Sep 2026 13:00:00 GMT",
-      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "score": 2.27,
+      "publishedAt": "Mon, 21 Sep 2026 00:00:00 GMT",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "score": 2.52,
       "tags": [
         "ai",
         "official",
@@ -197,35 +198,19 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/sylvan-esso-makes-music-available-on-spotify-again-after-year-long-boycott-3969751?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sylvan-esso-makes-music-available-on-spotify-again-after-year-long-boycott",
-      "title": "Sylvan Esso makes music available on Spotify again after year-long boycott",
-      "url": "https://www.nme.com/news/music/sylvan-esso-makes-music-available-on-spotify-again-after-year-long-boycott-3969751?utm_source=rss&utm_medium=rss&utm_campaign=sylvan-esso-makes-music-available-on-spotify-again-after-year-long-boycott",
+      "id": "nme music news:https://www.nme.com/news/music/snl-uk-takes-aim-at-ed-sheeran-and-wealthy-corpse-maxxer-robert-kraft-amid-palestine-controversy-3970003?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=snl-uk-takes-aim-at-ed-sheeran-and-wealthy-corpse-maxxer-robert-kraft-amid-palestine-controversy",
+      "title": "'SNL UK' takes aim at Ed Sheeran and \"wealthy corpse-maxxer\" Robert Kraft amid Palestine controversy",
+      "url": "https://www.nme.com/news/music/snl-uk-takes-aim-at-ed-sheeran-and-wealthy-corpse-maxxer-robert-kraft-amid-palestine-controversy-3970003?utm_source=rss&utm_medium=rss&utm_campaign=snl-uk-takes-aim-at-ed-sheeran-and-wealthy-corpse-maxxer-robert-kraft-amid-palestine-controversy",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sun, 20 Sep 2026 09:55:44 +0000",
-      "summary": "\"I don't fucking like it, and I'm really frustrated by this reality\" The post Sylvan Esso makes music available on Spotify again after year-long boycott appeared first on NME .",
+      "publishedAt": "Mon, 21 Sep 2026 16:13:25 +0000",
+      "summary": "\"Will Sheeran have to cancel the tour? There's a very real risk that he won't\" The post 'SNL UK' takes aim at Ed Sheeran and \"wealthy corpse-maxxer\" Robert Kraft amid Palestine controversy appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/various-artists-easy-rider-music-from-the-soundtrack/",
-      "title": "Easy Rider (Music From the Soundtrack)",
-      "url": "https://pitchfork.com/reviews/albums/various-artists-easy-rider-music-from-the-soundtrack/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Sun, 20 Sep 2026 04:00:00 +0000",
-      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the blockbuster soundtrack for the 1969 biker classic: a generational bounty of radio hits that, taken together, sounds like a dying dream.",
-      "score": 1.7999999999999998,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
       ]
     },
     {
@@ -242,6 +227,22 @@
         "news",
         "rss",
         "npr"
+      ]
+    },
+    {
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
+      "title": "Punching the Clown",
+      "url": "https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
+      "source": "Pitchfork Best New Albums",
+      "topic": "music",
+      "publishedAt": "Tue, 25 Aug 2026 04:03:00 +0000",
+      "summary": "Kurt Wagner reinvents his band yet again, this time slimming down to a bare-bones acoustic setup and stripping away the studio artifice. But his storytelling remains as expansive as ever.",
+      "score": 1.7,
+      "tags": [
+        "music",
+        "albums",
+        "rss",
+        "pitchfork"
       ]
     }
   ]
