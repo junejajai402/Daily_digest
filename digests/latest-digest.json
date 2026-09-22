@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-21",
-  "builtAt": "2026-09-21T17:02:35.655Z",
-  "lastAttemptedAt": "2026-09-21T17:02:35.034Z",
+  "digestId": "2026-09-22",
+  "builtAt": "2026-09-22T15:31:09.768Z",
+  "lastAttemptedAt": "2026-09-22T15:31:09.055Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -18,27 +18,13 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
-      "title": "Reverse-Engineering Flock Cameras",
-      "url": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-21T14:37:45Z",
-      "summary": "Hackers captured a Flock camera and got a look (alternate link ) at the software: While much of the automatic license plate reader's (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and...",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33318",
-      "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33318",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33358",
+      "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33358",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Mon, 21 Sep 2026 10:33:53 GMT",
-      "summary": "Microsoft Security Research published an interesting blog post \" TerminalFix campaign deploys a reverse tunnel through multistage intrusion \" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for...",
+      "publishedAt": "Tue, 22 Sep 2026 14:48:38 GMT",
+      "summary": "On Friday, Xavier talked about the newly introduced HTTP Query method. This new method was introduced to allow \"GET\" requests that include a body. The main reason for this was that GET requests typically do not contain a body. But what if they do?",
       "score": 2.65,
       "tags": [
         "security",
@@ -66,9 +52,9 @@
       "url": "https://isc.sans.edu/diary/rss/33348",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Thu, 17 Sep 2026 15:06:44 GMT",
-      "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company. The...",
-      "score": 2.3,
+      "publishedAt": "Tue, 22 Sep 2026 13:10:20 GMT",
+      "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.",
+      "score": 2.65,
       "tags": [
         "security",
         "rss",
@@ -76,32 +62,62 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
-      "title": "How Candidates Could Use AI for Good",
-      "url": "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
+      "title": "GPT-6 Astra Breaks an Old Enigma Message",
+      "url": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-17T11:07:00Z",
-      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI's impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda . Meanwhile, candidates...",
-      "score": 2.3,
+      "publishedAt": "2026-09-22T11:03:01Z",
+      "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT6 Astra did it entirely on its own. Carter Leffer only directed GPT6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most...",
+      "score": 2.45,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
-      "title": "Nvidia boss says there is '0% chance' AI destroys the world by 2030",
-      "url": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
+      "title": "Reverse-Engineering Flock Cameras",
+      "url": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-21T14:37:45Z",
+      "summary": "Hackers captured a Flock camera and got a look (alternate link ) at the software: While much of the automatic license plate reader's (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and...",
+      "score": 2.4,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/politics/2026/sep/22/george-osborne-ai-datacentre-nimbys-holding-back-britain",
+      "title": "OpenAI's George Osborne says datacentre nimbys holding back Britain",
+      "url": "https://www.theguardian.com/politics/2026/sep/22/george-osborne-ai-datacentre-nimbys-holding-back-britain",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 21 Sep 2026 10:31:47 GMT",
-      "summary": "Jensen Huang dismisses warnings from former Anthropic researcher and others as 'doomsday narratives' Business live - latest updates The boss of the chipmaker Nvidia has said AI will not develop to a point that will lead to the extinction of the human race within a few years, rejecting such assertions as overblown \"doomsday narratives\". Jensen Huang, the...",
+      "publishedAt": "Tue, 22 Sep 2026 11:46:01 GMT",
+      "summary": "Former chancellor, now senior figure at OpenAI, says UK needs datacentres to maintain 'sovereignty' over AI tech UK politics live - latest updates Datacentre nimbys are holding Britain back, George Osborne has said in reaction to nationwide protests about the giant water- and energy-guzzling structures. The former Tory chancellor is now the head of AI for...",
       "score": 2.35,
       "tags": [
         "tech",
         "rss",
         "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "title": "OpenAI GPT-6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Tue, 22 Sep 2026 13:52:15 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
       ]
     },
     {
@@ -112,19 +128,19 @@
       "topic": "tech",
       "publishedAt": "Sat, 19 Sep 2026 13:39:32 GMT",
       "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
-      "score": 2.3000000000000003,
+      "score": 2.2,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "hacker news:https://github.com/naw103/foremerge",
-      "title": "Show HN: Foremerge - Catch Intent Conflicts Between Parallel Coding Agents",
-      "url": "https://github.com/naw103/foremerge",
+      "id": "hacker news:https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "title": "OpenAI is about to eat Jev's lunch - Arcturus Labs",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 21 Sep 2026 16:22:06 +0000",
+      "publishedAt": "Tue, 22 Sep 2026 14:42:59 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -135,30 +151,14 @@
       ]
     },
     {
-      "id": "hacker news:https://github.com/jaredpalmer/kev/tree/main",
-      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
-      "url": "https://github.com/jaredpalmer/kev/tree/main",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Mon, 21 Sep 2026 07:11:55 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/sep/21/jim-chalmers-intergenerational-report-2026-deaths-outnumber-births-australia2060s",
-      "title": "More Australians will be dying than being born in 40 years as major report predicts future of lower growth",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/21/jim-chalmers-intergenerational-report-2026-deaths-outnumber-births-australia2060s",
+      "id": "the guardian tech:https://www.theguardian.com/technology/ng-interactive/2026/sep/22/animal-language-recordings-ai",
+      "title": "Using AI to 'talk to animals' might make us feel clever - but what, if anything, does it do for them?",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/22/animal-language-recordings-ai",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 21 Sep 2026 02:30:32 GMT",
-      "summary": "Seventh intergenerational report also outlines how Australia is on the brink of an uncertain age of artificial intelligence Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast There will be more Australians dying than being born in 40 years' time, according to the government's latest...",
-      "score": 2.25,
+      "publishedAt": "Tue, 22 Sep 2026 12:00:54 GMT",
+      "summary": "As animal behaviorists increasingly use AI in their research, they grapple with how to wield the technology responsibly I'm sitting in a small boat in Shark Bay, Australia, eavesdropping on a conversation between some of Earth's most intelligent beings. The motor is off, the turquoise sea is glassy, and Stephanie King and I are motionless, transfixed by...",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -173,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Mon, 21 Sep 2026 00:00:00 GMT",
       "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-      "score": 2.52,
+      "score": 2.37,
       "tags": [
         "ai",
         "official",
@@ -198,13 +198,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/snl-uk-takes-aim-at-ed-sheeran-and-wealthy-corpse-maxxer-robert-kraft-amid-palestine-controversy-3970003?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=snl-uk-takes-aim-at-ed-sheeran-and-wealthy-corpse-maxxer-robert-kraft-amid-palestine-controversy",
-      "title": "'SNL UK' takes aim at Ed Sheeran and \"wealthy corpse-maxxer\" Robert Kraft amid Palestine controversy",
-      "url": "https://www.nme.com/news/music/snl-uk-takes-aim-at-ed-sheeran-and-wealthy-corpse-maxxer-robert-kraft-amid-palestine-controversy-3970003?utm_source=rss&utm_medium=rss&utm_campaign=snl-uk-takes-aim-at-ed-sheeran-and-wealthy-corpse-maxxer-robert-kraft-amid-palestine-controversy",
+      "id": "nme music news:https://www.nme.com/news/music/patrick-wolf-to-celebrate-20-years-of-the-magic-position-at-orchestral-london-show-3970203?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=patrick-wolf-to-celebrate-20-years-of-the-magic-position-at-orchestral-london-show",
+      "title": "Patrick Wolf to celebrate 20 years of 'The Magic Position' at orchestral London show",
+      "url": "https://www.nme.com/news/music/patrick-wolf-to-celebrate-20-years-of-the-magic-position-at-orchestral-london-show-3970203?utm_source=rss&utm_medium=rss&utm_campaign=patrick-wolf-to-celebrate-20-years-of-the-magic-position-at-orchestral-london-show",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Mon, 21 Sep 2026 16:13:25 +0000",
-      "summary": "\"Will Sheeran have to cancel the tour? There's a very real risk that he won't\" The post 'SNL UK' takes aim at Ed Sheeran and \"wealthy corpse-maxxer\" Robert Kraft amid Palestine controversy appeared first on NME .",
+      "publishedAt": "Tue, 22 Sep 2026 14:14:41 +0000",
+      "summary": "\"I decided to give 'The Magic Position' one spectacular sonic and visual moment,\" Wolf said of the landmark gig. \"One night only\" The post Patrick Wolf to celebrate 20 years of 'The Magic Position' at orchestral London show appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -214,19 +214,19 @@
       ]
     },
     {
-      "id": "npr music news:https://www.npr.org/2026/09/18/nx-s1-5974101/dominos-pizza-tracker-labor-illusion",
-      "title": "The Domino's Pizza Tracker Theory of Everything",
-      "url": "https://www.npr.org/2026/09/18/nx-s1-5974101/dominos-pizza-tracker-labor-illusion",
-      "source": "NPR Music News",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/actress-radical-frame/",
+      "title": "Radical Frame",
+      "url": "https://pitchfork.com/reviews/albums/actress-radical-frame/",
+      "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Fri, 18 Sep 2026 20:00:00 +0000",
-      "summary": "Did a pizza restaurant's humble status page change how we wait forever? When you order a Lyft or Uber, you get texts every few minutes about your car approaching and arriving. When you have a package coming, you get a notification when it's shipped, when it's en route, and when it's out for delivery. Why do so many companies send these constant updates? We...",
-      "score": 1.72,
+      "publishedAt": "Tue, 22 Sep 2026 04:03:00 +0000",
+      "summary": "Depressive electro epics, mangled bursts of spoken word, self-destructing rap anthems: The UK avant-techno producer sounds unusually prickly on his 10th album.",
+      "score": 1.7999999999999998,
       "tags": [
         "music",
-        "news",
+        "reviews",
         "rss",
-        "npr"
+        "pitchfork"
       ]
     },
     {
