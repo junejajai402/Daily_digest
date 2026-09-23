@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-22",
-  "builtAt": "2026-09-22T15:31:09.768Z",
-  "lastAttemptedAt": "2026-09-22T15:31:09.055Z",
+  "digestId": "2026-09-23",
+  "builtAt": "2026-09-23T15:26:45.457Z",
+  "lastAttemptedAt": "2026-09-23T15:26:44.689Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 103,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,43 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
+      "title": "Research on Models Engaging in Genie-Like Behavior",
+      "url": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-23T11:04:24Z",
+      "summary": "New paper: \" Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .\" Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains,...",
+      "score": 3.05,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33360",
+      "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33360",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Wed, 23 Sep 2026 00:55:11 GMT",
+      "summary": "Security write-up worth reviewing in the full digest.",
+      "score": 2.55,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33358",
       "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
       "url": "https://isc.sans.edu/diary/rss/33358",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Tue, 22 Sep 2026 14:48:38 GMT",
+      "publishedAt": "Tue, 22 Sep 2026 19:06:15 GMT",
       "summary": "On Friday, Xavier talked about the newly introduced HTTP Query method. This new method was introduced to allow \"GET\" requests that include a body. The main reason for this was that GET requests typically do not contain a body. But what if they do?",
-      "score": 2.65,
+      "score": 2.55,
       "tags": [
         "security",
         "rss",
@@ -47,35 +76,6 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33348",
-      "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
-      "url": "https://isc.sans.edu/diary/rss/33348",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 22 Sep 2026 13:10:20 GMT",
-      "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
-      "title": "GPT-6 Astra Breaks an Old Enigma Message",
-      "url": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-22T11:03:01Z",
-      "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT6 Astra did it entirely on its own. Carter Leffer only directed GPT6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most...",
-      "score": 2.45,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
       "title": "Reverse-Engineering Flock Cameras",
       "url": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
@@ -90,13 +90,27 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/politics/2026/sep/22/george-osborne-ai-datacentre-nimbys-holding-back-britain",
-      "title": "OpenAI's George Osborne says datacentre nimbys holding back Britain",
-      "url": "https://www.theguardian.com/politics/2026/sep/22/george-osborne-ai-datacentre-nimbys-holding-back-britain",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c90kly26d7pzo?at_medium=rss&amp;at_campaign=rss",
+      "title": "OpenAI gives cyber defence tools to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/c90kly26d7pzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Wed, 23 Sep 2026 12:01:37 GMT",
+      "summary": "Ukraine will get access to OpenAI's advanced GPT 5.6 Sol model under the deal - a rival to Anthropic's Mythos and Fable",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/23/andy-burnham-national-centre-russian-disinformation-deepfakes",
+      "title": "New UK agency to fight 'information warfare' from likes of Russia, Burnham tells UN",
+      "url": "https://www.theguardian.com/technology/2026/sep/23/andy-burnham-national-centre-russian-disinformation-deepfakes",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 22 Sep 2026 11:46:01 GMT",
-      "summary": "Former chancellor, now senior figure at OpenAI, says UK needs datacentres to maintain 'sovereignty' over AI tech UK politics live - latest updates Datacentre nimbys are holding Britain back, George Osborne has said in reaction to nationwide protests about the giant water- and energy-guzzling structures. The former Tory chancellor is now the head of AI for...",
+      "publishedAt": "Wed, 23 Sep 2026 07:52:20 GMT",
+      "summary": "PM aims to 'stem poisonous tide' of disinformation and deepfakes with National Centre for Information Defence Security chiefs will set up a new national centre to tackle disinformation and deepfakes from hostile states such as Russia, Andy Burnham has announced, saying the government had a duty to \"stem the poisonous tide\" from damaging British interests....",
       "score": 2.35,
       "tags": [
         "tech",
@@ -105,12 +119,12 @@
       ]
     },
     {
-      "id": "hacker news:https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "title": "OpenAI GPT-6 Astra breaks Enigma message that has resisted solution since 2005",
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "id": "hacker news:https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+      "title": "Stripe's Knowledge AI Platform",
+      "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 22 Sep 2026 13:52:15 +0000",
+      "publishedAt": "Wed, 23 Sep 2026 13:38:00 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -121,26 +135,12 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Google's Gemini AI hacked three companies in security test",
-      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Sat, 19 Sep 2026 13:39:32 GMT",
-      "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
-      "score": 2.2,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-      "title": "OpenAI is about to eat Jev's lunch - Arcturus Labs",
-      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "id": "hacker news:https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 22 Sep 2026 14:42:59 +0000",
+      "publishedAt": "Wed, 23 Sep 2026 12:15:33 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -151,13 +151,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/ng-interactive/2026/sep/22/animal-language-recordings-ai",
-      "title": "Using AI to 'talk to animals' might make us feel clever - but what, if anything, does it do for them?",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/22/animal-language-recordings-ai",
+      "id": "the guardian tech:https://www.theguardian.com/us-news/live/2026/sep/23/donald-trump-xi-jinping-ai-china-us-politics-latest-news-updates",
+      "title": "Trump lawyers defend president banning journalists from White House ahead of court hearing - live",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/23/donald-trump-xi-jinping-ai-china-us-politics-latest-news-updates",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 22 Sep 2026 12:00:54 GMT",
-      "summary": "As animal behaviorists increasingly use AI in their research, they grapple with how to wield the technology responsibly I'm sitting in a small boat in Shark Bay, Australia, eavesdropping on a conversation between some of Earth's most intelligent beings. The motor is off, the turquoise sea is glassy, and Stephanie King and I are motionless, transfixed by...",
+      "publishedAt": "Wed, 23 Sep 2026 15:13:02 GMT",
+      "summary": "Trump lawyers say White House access is 'a privilege, not a right'; CNN, Politico and MS Now to present case in court after president banned outlets from White House grounds Sign up for US Breaking News emails In a speech to the United Nations following on the heels of President Trump's threats to \"annihilate\" his country, Iran's president, Masoud...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -166,14 +166,14 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/v7",
-      "title": "How V7 gives AI agents institutional memory",
-      "url": "https://openai.com/index/v7",
+      "id": "openai news:https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Mon, 21 Sep 2026 00:00:00 GMT",
-      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-      "score": 2.37,
+      "publishedAt": "Tue, 22 Sep 2026 12:00:00 GMT",
+      "summary": "GPT‑6 Astra allowed Parallel's agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "score": 2.5700000000000003,
       "tags": [
         "ai",
         "official",
@@ -198,13 +198,29 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/patrick-wolf-to-celebrate-20-years-of-the-magic-position-at-orchestral-london-show-3970203?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=patrick-wolf-to-celebrate-20-years-of-the-magic-position-at-orchestral-london-show",
-      "title": "Patrick Wolf to celebrate 20 years of 'The Magic Position' at orchestral London show",
-      "url": "https://www.nme.com/news/music/patrick-wolf-to-celebrate-20-years-of-the-magic-position-at-orchestral-london-show-3970203?utm_source=rss&utm_medium=rss&utm_campaign=patrick-wolf-to-celebrate-20-years-of-the-magic-position-at-orchestral-london-show",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/boy-harsher-get-mean/",
+      "title": "GET MEAN",
+      "url": "https://pitchfork.com/reviews/albums/boy-harsher-get-mean/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Wed, 23 Sep 2026 04:03:00 +0000",
+      "summary": "On its major-label debut, the industrial-dance duo embraces brighter tones and wider vistas, but traces of the group's claustrophobic murk remain.",
+      "score": 1.9999999999999998,
+      "tags": [
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/sombr-hits-back-at-incredibly-insane-nepo-baby-claims-3970428?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sombr-hits-back-at-incredibly-insane-nepo-baby-claims",
+      "title": "Sombr hits back at \"incredibly insane\" nepo baby claims",
+      "url": "https://www.nme.com/news/music/sombr-hits-back-at-incredibly-insane-nepo-baby-claims-3970428?utm_source=rss&utm_medium=rss&utm_campaign=sombr-hits-back-at-incredibly-insane-nepo-baby-claims",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Tue, 22 Sep 2026 14:14:41 +0000",
-      "summary": "\"I decided to give 'The Magic Position' one spectacular sonic and visual moment,\" Wolf said of the landmark gig. \"One night only\" The post Patrick Wolf to celebrate 20 years of 'The Magic Position' at orchestral London show appeared first on NME .",
+      "publishedAt": "Wed, 23 Sep 2026 13:43:20 +0000",
+      "summary": "The singer's father previously worked as a musician before moving into HIV/AIDS fundraising and events production The post Sombr hits back at \"incredibly insane\" nepo baby claims appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -214,35 +230,19 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/actress-radical-frame/",
-      "title": "Radical Frame",
-      "url": "https://pitchfork.com/reviews/albums/actress-radical-frame/",
-      "source": "Pitchfork Album Reviews",
+      "id": "npr music news:https://www.npr.org/2026/09/23/nx-s1-5978114/national-debt-rogoff-dynan-red-line",
+      "title": "Is our national debt finally too much? (update)",
+      "url": "https://www.npr.org/2026/09/23/nx-s1-5978114/national-debt-rogoff-dynan-red-line",
+      "source": "NPR Music News",
       "topic": "music",
-      "publishedAt": "Tue, 22 Sep 2026 04:03:00 +0000",
-      "summary": "Depressive electro epics, mangled bursts of spoken word, self-destructing rap anthems: The UK avant-techno producer sounds unusually prickly on his 10th album.",
-      "score": 1.7999999999999998,
+      "publishedAt": "Wed, 23 Sep 2026 07:00:00 +0000",
+      "summary": "(Note: A version of this episode originally ran in 2024 .) $40,000,000,000,000. Four commas. Thirteen zeroes. It's an eye-popping, almost infinite-sounding pile of money. And every time the debt passes a big round number, almost everyone asks the same question: How much debt is too much? It's maybe the most important question in macroeconomics. It's also...",
+      "score": 1.77,
       "tags": [
         "music",
-        "reviews",
+        "news",
         "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
-      "title": "Punching the Clown",
-      "url": "https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
-      "source": "Pitchfork Best New Albums",
-      "topic": "music",
-      "publishedAt": "Tue, 25 Aug 2026 04:03:00 +0000",
-      "summary": "Kurt Wagner reinvents his band yet again, this time slimming down to a bare-bones acoustic setup and stripping away the studio artifice. But his storytelling remains as expansive as ever.",
-      "score": 1.7,
-      "tags": [
-        "music",
-        "albums",
-        "rss",
-        "pitchfork"
+        "npr"
       ]
     }
   ]
