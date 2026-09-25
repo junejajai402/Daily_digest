@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-24",
-  "builtAt": "2026-09-24T15:48:53.942Z",
-  "lastAttemptedAt": "2026-09-24T15:48:53.488Z",
+  "digestId": "2026-09-25",
+  "builtAt": "2026-09-25T15:48:49.043Z",
+  "lastAttemptedAt": "2026-09-25T15:48:48.068Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
@@ -17,6 +17,35 @@
   },
   "sourceFailures": [],
   "items": [
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
+      "title": "On Anthropic's AI Misuse Report",
+      "url": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-25T11:07:55Z",
+      "summary": "Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI agents increasingly handled reconnaissance, exploitation, data theft, propaganda production, surveillance workflows, and research while humans selected targets,...",
+      "score": 2.85,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33368",
+      "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33368",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Fri, 25 Sep 2026 12:45:19 GMT",
+      "summary": "Security write-up worth reviewing in the full digest.",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
     {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
       "title": "Research on Models Engaging in Genie-Like Behavior",
@@ -39,36 +68,7 @@
       "topic": "security",
       "publishedAt": "Thu, 24 Sep 2026 06:25:06 GMT",
       "summary": "Yesterday, we received a phishing email with an interesting link. At first sight, it looks like garbage, but every piece of it has been carefully crafted to confuse basic security controls. Here is the defanged link:",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
-      "title": "Malicious npm Packages That Evade Defenses",
-      "url": "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-24T11:08:24Z",
-      "summary": "This is an impressive piece of malware . Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution.",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33360",
-      "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/33360",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Wed, 23 Sep 2026 16:14:37 GMT",
-      "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.55,
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -90,28 +90,44 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9n74574elljo?at_medium=rss&amp;at_campaign=rss",
-      "title": "FBI investigating claim hackers have stolen details of all its agents",
-      "url": "https://www.bbc.co.uk/news/articles/c9n74574elljo?at_medium=RSS&at_campaign=rss",
+      "id": "hacker news:https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "title": "Classified Estimates Show the NSA Is Paying Billions to Test AI Models",
+      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Fri, 25 Sep 2026 15:27:35 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.5,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=rss&amp;at_campaign=rss",
+      "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
+      "url": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 24 Sep 2026 12:23:52 GMT",
-      "summary": "The hackers claim they have every agent's name, role, badge number and personal details including home address, phone numbers and spouse information.",
-      "score": 2.35,
+      "publishedAt": "Fri, 25 Sep 2026 09:48:33 GMT",
+      "summary": "The EU had said X \"deceives users\" by selling blue ticks without \"meaningfully verifying\" accounts.",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/24/nick-clegg-plays-down-fears-godlike-ai-could-exterminate-humanity",
-      "title": "Nick Clegg plays down fears 'godlike' AI could exterminate humanity",
-      "url": "https://www.theguardian.com/technology/2026/sep/24/nick-clegg-plays-down-fears-godlike-ai-could-exterminate-humanity",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/25/ai-anxiety-comedy",
+      "title": "The comedians turning AI anxiety into punchlines: 'It's so good, it'll completely alter our grasp on reality'",
+      "url": "https://www.theguardian.com/technology/2026/sep/25/ai-anxiety-comedy",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 24 Sep 2026 09:19:28 GMT",
-      "summary": "Former deputy PM now involved in tech industry says many within sector are 'winding themselves up into a lather' UK politics live - latest updates Nick Clegg has dismissed fears over AI's \"godlike power to exterminate humanity\", calling it a sign that tech bosses are \"breathing their own fumes\". The former UK deputy prime minister said that tech bosses...",
-      "score": 2.35,
+      "publishedAt": "Fri, 25 Sep 2026 12:00:50 GMT",
+      "summary": "Across videos, standup and cartoons, humorists are skewering big tech's attempt to make AI ubiquitous and inevitable \"Best case scenario, we never have to do any admin again,\" says an AI CEO . \"Worst case, we all die.\" A young man struggles to the top of a beautiful mountain , words echoing in his ears: \"AI will most likely lead to the end of the world,...",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -119,46 +135,29 @@
       ]
     },
     {
-      "id": "hacker news:https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
-      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-      "source": "Hacker News",
+      "id": "the guardian tech:https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
+      "title": "Trump told Xi Jinping that China helping Iran is 'unacceptable', official says - live",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
+      "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 24 Sep 2026 15:09:38 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "publishedAt": "Fri, 25 Sep 2026 15:29:39 GMT",
+      "summary": "Xi is expected to depart DC after touring the nation's vault of records, where the Declaration of Independence, the Constitution and the Bill of Rights are held Sign up for US Breaking News emails Questioned by a CNN reporter about his thoughts on Trump's ban on several news organizations from the White House, Pope Leo XIV said that he believed strong...",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
-        "community",
         "rss",
-        "hacker-news"
+        "guardian"
       ]
     },
     {
-      "id": "hacker news:https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/",
-      "title": "Disney+ and Hulu raise prices by up to 13 percent after doubling profits",
-      "url": "https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Thu, 24 Sep 2026 15:15:40 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6eq8egl3wd2o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Are we back in big tech's 'move fast and break things' era?",
-      "url": "https://www.bbc.co.uk/news/articles/c6eq8egl3wd2o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9n74574elljo?at_medium=rss&amp;at_campaign=rss",
+      "title": "FBI investigating claim hackers have stolen details of all its agents",
+      "url": "https://www.bbc.co.uk/news/articles/c9n74574elljo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 24 Sep 2026 11:29:20 GMT",
-      "summary": "Despite promises to make safe AI, examples of bots behaving badly are now coming at us thick and fast.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Thu, 24 Sep 2026 12:23:52 GMT",
+      "summary": "The hackers claim they have every agent's name, role, badge number and personal details including home address, phone numbers and spouse information.",
+      "score": 2.1,
       "tags": [
         "tech",
         "rss"
@@ -197,13 +196,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/kim-ximya-dogma/",
-      "title": "Dogma",
-      "url": "https://pitchfork.com/reviews/albums/kim-ximya-dogma/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/tom-morello-everyone-gets-everything-they-want/",
+      "title": "Everyone Gets Everything They Want",
+      "url": "https://pitchfork.com/reviews/albums/tom-morello-everyone-gets-everything-they-want/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Thu, 24 Sep 2026 04:00:00 +0000",
-      "summary": "The combative Korean rapper leans into club music on his first album in six years, wrapping rhythmically inventive bilingual refrains around tough, futuristic beats.",
+      "publishedAt": "Fri, 25 Sep 2026 04:01:00 +0000",
+      "summary": "The Rage Against the Machine guitarist's towering legacy and sincere political convictions are at painful odds with the sanitized blues-rawk and tedious folk poetry on his new solo album.",
       "score": 1.9999999999999998,
       "tags": [
         "music",
@@ -213,13 +212,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/gaming-news/apocalyptica-control-resonant-anthem-upperhand-kalandra-3970567?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apocalyptica-control-resonant-anthem-upperhand-kalandra",
-      "title": "Apocalyptica share epic metal 'Control: Resonant' anthem 'Upperhand'",
-      "url": "https://www.nme.com/news/gaming-news/apocalyptica-control-resonant-anthem-upperhand-kalandra-3970567?utm_source=rss&utm_medium=rss&utm_campaign=apocalyptica-control-resonant-anthem-upperhand-kalandra",
+      "id": "nme music news:https://www.nme.com/news/music/portrait-of-the-1975s-matty-healy-shortlisted-at-british-photography-awards-3970840?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=portrait-of-the-1975s-matty-healy-shortlisted-at-british-photography-awards",
+      "title": "Portrait of The 1975's Matty Healy shortlisted at British Photography Awards",
+      "url": "https://www.nme.com/news/music/portrait-of-the-1975s-matty-healy-shortlisted-at-british-photography-awards-3970840?utm_source=rss&utm_medium=rss&utm_campaign=portrait-of-the-1975s-matty-healy-shortlisted-at-british-photography-awards",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 24 Sep 2026 14:00:46 +0000",
-      "summary": "\"It reflects the uneasy emotions of the main character in transition to the unknown\" The post Apocalyptica share epic metal 'Control: Resonant' anthem 'Upperhand' appeared first on NME .",
+      "publishedAt": "Fri, 25 Sep 2026 15:41:37 +0000",
+      "summary": "\"I literally only had a minute to do the photo,\" said Newcastle photographer Neil Ferry of his \"timeless\" piece The post Portrait of The 1975's Matty Healy shortlisted at British Photography Awards appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -229,14 +228,14 @@
       ]
     },
     {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
-      "title": "Punching the Clown",
-      "url": "https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/gilla-band-pugnello/",
+      "title": "Pugnello",
+      "url": "https://pitchfork.com/reviews/albums/gilla-band-pugnello/",
       "source": "Pitchfork Best New Albums",
       "topic": "music",
-      "publishedAt": "Tue, 25 Aug 2026 04:03:00 +0000",
-      "summary": "Kurt Wagner reinvents his band yet again, this time slimming down to a bare-bones acoustic setup and stripping away the studio artifice. But his storytelling remains as expansive as ever.",
-      "score": 1.7,
+      "publishedAt": "Fri, 25 Sep 2026 04:03:00 +0000",
+      "summary": "Exploding its signature blend of noise-punk and dance music to masterful extremes, the Irish band gets louder, rawer, funnier, and more methodical on its exhilarating fourth album.",
+      "score": 1.85,
       "tags": [
         "music",
         "albums",
