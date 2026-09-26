@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-25",
-  "builtAt": "2026-09-25T15:48:49.043Z",
-  "lastAttemptedAt": "2026-09-25T15:48:48.068Z",
+  "digestId": "2026-09-26",
+  "builtAt": "2026-09-26T14:58:18.896Z",
+  "lastAttemptedAt": "2026-09-26T14:58:18.334Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
-      "title": "On Anthropic's AI Misuse Report",
-      "url": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
+      "title": "Research on Models Engaging in Genie-Like Behavior",
+      "url": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-25T11:07:55Z",
-      "summary": "Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI agents increasingly handled reconnaissance, exploitation, data theft, propaganda production, surveillance workflows, and research while humans selected targets,...",
-      "score": 2.85,
+      "publishedAt": "2026-09-23T11:04:24Z",
+      "summary": "New paper: \" Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .\" Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains,...",
+      "score": 2.7,
       "tags": [
         "security",
         "feed"
@@ -39,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Fri, 25 Sep 2026 12:45:19 GMT",
       "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.65,
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -47,14 +47,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
-      "title": "Research on Models Engaging in Genie-Like Behavior",
-      "url": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
+      "title": "On Anthropic's AI Misuse Report",
+      "url": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-23T11:04:24Z",
-      "summary": "New paper: \" Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .\" Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains,...",
-      "score": 2.8,
+      "publishedAt": "2026-09-25T11:07:55Z",
+      "summary": "Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI agents increasingly handled reconnaissance, exploitation, data theft, propaganda production, surveillance workflows, and research while humans selected targets,...",
+      "score": 2.6,
       "tags": [
         "security",
         "feed"
@@ -90,14 +90,29 @@
       ]
     },
     {
-      "id": "hacker news:https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
-      "title": "Classified Estimates Show the NSA Is Paying Billions to Test AI Models",
-      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+      "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
+      "url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Sat, 26 Sep 2026 00:24:43 GMT",
+      "summary": "Disclosure reveals ⁠new area of privacy risk for the company and illustrates ​how difficult it is to inventory unauthorized activity tied to its agents Two ⁠months after OpenAI disclosed the accidental hacking of Hugging Face, the ChatGPT maker is still working to understand the full scope of its rogue agent activity, two people briefed on the matter told...",
+      "score": 2.6500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://swarmtraces.org/",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 25 Sep 2026 15:27:35 +0000",
+      "publishedAt": "Fri, 25 Sep 2026 21:09:27 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
+      "score": 2.4,
       "tags": [
         "tech",
         "community",
@@ -106,28 +121,14 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=rss&amp;at_campaign=rss",
-      "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
-      "url": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Fri, 25 Sep 2026 09:48:33 GMT",
-      "summary": "The EU had said X \"deceives users\" by selling blue ticks without \"meaningfully verifying\" accounts.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/25/ai-anxiety-comedy",
-      "title": "The comedians turning AI anxiety into punchlines: 'It's so good, it'll completely alter our grasp on reality'",
-      "url": "https://www.theguardian.com/technology/2026/sep/25/ai-anxiety-comedy",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
+      "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
+      "url": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Fri, 25 Sep 2026 12:00:50 GMT",
-      "summary": "Across videos, standup and cartoons, humorists are skewering big tech's attempt to make AI ubiquitous and inevitable \"Best case scenario, we never have to do any admin again,\" says an AI CEO . \"Worst case, we all die.\" A young man struggles to the top of a beautiful mountain , words echoing in his ears: \"AI will most likely lead to the end of the world,...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Sat, 26 Sep 2026 11:00:36 GMT",
+      "summary": "University staff voice concerns over reputational risk of partnering with company behind ChatGPT The University of Oxford has allowed the company behind ChatGPT to train its AI models on historical texts from its Bodleian Library, as tech companies scour academic institutions for fresh data. The Bodleian material digitised by OpenAI has been used to...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -135,28 +136,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
-      "title": "Trump told Xi Jinping that China helping Iran is 'unacceptable', official says - live",
-      "url": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Fri, 25 Sep 2026 15:29:39 GMT",
-      "summary": "Xi is expected to depart DC after touring the nation's vault of records, where the Declaration of Independence, the Constitution and the Bill of Rights are held Sign up for US Breaking News emails Questioned by a CNN reporter about his thoughts on Trump's ban on several news organizations from the White House, Pope Leo XIV said that he believed strong...",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9n74574elljo?at_medium=rss&amp;at_campaign=rss",
-      "title": "FBI investigating claim hackers have stolen details of all its agents",
-      "url": "https://www.bbc.co.uk/news/articles/c9n74574elljo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Special agents' blood and urine test results stolen in FBI hack",
+      "url": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 24 Sep 2026 12:23:52 GMT",
-      "summary": "The hackers claim they have every agent's name, role, badge number and personal details including home address, phone numbers and spouse information.",
+      "publishedAt": "Fri, 25 Sep 2026 13:56:16 GMT",
+      "summary": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
       "score": 2.1,
       "tags": [
         "tech",
@@ -164,14 +150,30 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/sam-altman-un-security-council-remarks",
-      "title": "Sam Altman's remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "id": "hacker news:https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+      "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+      "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sat, 26 Sep 2026 13:05:36 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/proaction",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "score": 2.37,
+      "publishedAt": "Fri, 25 Sep 2026 19:00:00 GMT",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "score": 2.3200000000000003,
       "tags": [
         "ai",
         "official",
@@ -196,19 +198,19 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/tom-morello-everyone-gets-everything-they-want/",
-      "title": "Everyone Gets Everything They Want",
-      "url": "https://pitchfork.com/reviews/albums/tom-morello-everyone-gets-everything-they-want/",
-      "source": "Pitchfork Album Reviews",
+      "id": "npr music news:https://www.npr.org/2026/09/25/nx-s1-5981194/stealthy-wealthy-everywhere-millionaires-pass-through",
+      "title": "Middlegarchs are the new Oligarchs",
+      "url": "https://www.npr.org/2026/09/25/nx-s1-5981194/stealthy-wealthy-everywhere-millionaires-pass-through",
+      "source": "NPR Music News",
       "topic": "music",
-      "publishedAt": "Fri, 25 Sep 2026 04:01:00 +0000",
-      "summary": "The Rage Against the Machine guitarist's towering legacy and sincere political convictions are at painful odds with the sanitized blues-rawk and tedious folk poetry on his new solo album.",
-      "score": 1.9999999999999998,
+      "publishedAt": "Fri, 25 Sep 2026 21:46:44 +0000",
+      "summary": "Wanna know who is really in the top 1%? And how they use their influence? It may not be who you think. Look beyond Silicon Valley. Look beyond Wall Street. Look beyond the \"oligarchs\". There's a much larger class of wealthy Americans hiding in plain sight. And, often, they got rich in mundane ways. They own car dealerships. They sell hot dogs and frozen...",
+      "score": 1.8699999999999999,
       "tags": [
         "music",
-        "reviews",
+        "news",
         "rss",
-        "pitchfork"
+        "npr"
       ]
     },
     {
@@ -219,7 +221,7 @@
       "topic": "music",
       "publishedAt": "Fri, 25 Sep 2026 15:41:37 +0000",
       "summary": "\"I literally only had a minute to do the photo,\" said Newcastle photographer Neil Ferry of his \"timeless\" piece The post Portrait of The 1975's Matty Healy shortlisted at British Photography Awards appeared first on NME .",
-      "score": 1.93,
+      "score": 1.8299999999999998,
       "tags": [
         "music",
         "news",
@@ -228,17 +230,17 @@
       ]
     },
     {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/gilla-band-pugnello/",
-      "title": "Pugnello",
-      "url": "https://pitchfork.com/reviews/albums/gilla-band-pugnello/",
-      "source": "Pitchfork Best New Albums",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/joy-division-eternal-live/",
+      "title": "Eternal (Live)",
+      "url": "https://pitchfork.com/reviews/albums/joy-division-eternal-live/",
+      "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Fri, 25 Sep 2026 04:03:00 +0000",
-      "summary": "Exploding its signature blend of noise-punk and dance music to masterful extremes, the Irish band gets louder, rawer, funnier, and more methodical on its exhilarating fourth album.",
-      "score": 1.85,
+      "publishedAt": "Sat, 26 Sep 2026 04:00:00 +0000",
+      "summary": "A 16-disc box set captures 14 months of live sets from the post-punk titans' prime. Despite their dour reputation, they prove consistently thrilling on stage, led by Ian Curtis' whirlwind intensity.",
+      "score": 1.7999999999999998,
       "tags": [
         "music",
-        "albums",
+        "reviews",
         "rss",
         "pitchfork"
       ]
