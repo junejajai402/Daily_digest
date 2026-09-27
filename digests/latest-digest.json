@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-26",
-  "builtAt": "2026-09-26T14:58:18.896Z",
-  "lastAttemptedAt": "2026-09-26T14:58:18.334Z",
+  "digestId": "2026-09-27",
+  "builtAt": "2026-09-27T15:39:22.923Z",
+  "lastAttemptedAt": "2026-09-27T15:39:21.936Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 102,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -32,14 +32,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33368",
-      "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33368",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33372",
+      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+      "url": "https://isc.sans.edu/diary/rss/33372",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Fri, 25 Sep 2026 12:45:19 GMT",
-      "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.4,
+      "publishedAt": "Sun, 27 Sep 2026 15:04:49 GMT",
+      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
+      "score": 2.65,
       "tags": [
         "security",
         "rss",
@@ -61,13 +61,13 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33366",
-      "title": "One URL, Three Different Tricks, (Thu, Sep 24th)",
-      "url": "https://isc.sans.edu/diary/rss/33366",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33368",
+      "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33368",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Thu, 24 Sep 2026 06:25:06 GMT",
-      "summary": "Yesterday, we received a phishing email with an interesting link. At first sight, it looks like garbage, but every piece of it has been carefully crafted to confuse basic security controls. Here is the defanged link:",
+      "publishedAt": "Fri, 25 Sep 2026 12:45:19 GMT",
+      "summary": "Security write-up worth reviewing in the full digest.",
       "score": 2.4,
       "tags": [
         "security",
@@ -90,45 +90,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
-      "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
-      "url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+      "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+      "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 26 Sep 2026 00:24:43 GMT",
-      "summary": "Disclosure reveals ⁠new area of privacy risk for the company and illustrates ​how difficult it is to inventory unauthorized activity tied to its agents Two ⁠months after OpenAI disclosed the accidental hacking of Hugging Face, the ChatGPT maker is still working to understand the full scope of its rogue agent activity, two people briefed on the matter told...",
+      "publishedAt": "Sun, 27 Sep 2026 01:10:21 GMT",
+      "summary": "Decision follows disclosures that OpenAI agents searching government websites had acted in unexpected ways OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount. The decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents from...",
       "score": 2.6500000000000004,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://swarmtraces.org/",
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "url": "https://swarmtraces.org/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Fri, 25 Sep 2026 21:09:27 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.4,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-      "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
-      "url": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Sat, 26 Sep 2026 11:00:36 GMT",
-      "summary": "University staff voice concerns over reputational risk of partnering with company behind ChatGPT The University of Oxford has allowed the company behind ChatGPT to train its AI models on historical texts from its Bodleian Library, as tech companies scour academic institutions for fresh data. The Bodleian material digitised by OpenAI has been used to...",
-      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -150,14 +119,14 @@
       ]
     },
     {
-      "id": "hacker news:https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-      "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-      "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+      "id": "hacker news:https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+      "title": "\"They had no concept of a duty of care to their users.\"",
+      "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 26 Sep 2026 13:05:36 +0000",
+      "publishedAt": "Sun, 27 Sep 2026 14:45:07 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -166,14 +135,45 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/proaction",
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
+      "id": "the guardian tech:https://www.theguardian.com/us-news/2026/sep/27/bill-gates-artificial-intelligence-kristen-welker",
+      "title": "Bill Gates says unchecked AI could 'cause a billion deaths' in call for regulation",
+      "url": "https://www.theguardian.com/us-news/2026/sep/27/bill-gates-artificial-intelligence-kristen-welker",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Sun, 27 Sep 2026 09:00:01 GMT",
+      "summary": "Microsoft co-founder and philanthropist speaks with NBC's Kristen Welker in interview airing on Sunday Bill Gates has called on the US's federal legislators and law enforcers to regulate the development of artificial intelligence ( AI ), saying in an interview airing on Sunday that the technology left unchecked could cause \"a billion deaths\" and \"no one...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "title": "In an $80 Motel Room, a Discovery to Shed Light on the Origins of Life",
+      "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sun, 27 Sep 2026 14:30:55 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.1,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/sam-altman-un-security-council-remarks",
+      "title": "Sam Altman's remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Fri, 25 Sep 2026 19:00:00 GMT",
-      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "score": 2.3200000000000003,
+      "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "score": 2.27,
       "tags": [
         "ai",
         "official",
@@ -198,30 +198,14 @@
       ]
     },
     {
-      "id": "npr music news:https://www.npr.org/2026/09/25/nx-s1-5981194/stealthy-wealthy-everywhere-millionaires-pass-through",
-      "title": "Middlegarchs are the new Oligarchs",
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5981194/stealthy-wealthy-everywhere-millionaires-pass-through",
-      "source": "NPR Music News",
-      "topic": "music",
-      "publishedAt": "Fri, 25 Sep 2026 21:46:44 +0000",
-      "summary": "Wanna know who is really in the top 1%? And how they use their influence? It may not be who you think. Look beyond Silicon Valley. Look beyond Wall Street. Look beyond the \"oligarchs\". There's a much larger class of wealthy Americans hiding in plain sight. And, often, they got rich in mundane ways. They own car dealerships. They sell hot dogs and frozen...",
-      "score": 1.8699999999999999,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "npr"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/portrait-of-the-1975s-matty-healy-shortlisted-at-british-photography-awards-3970840?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=portrait-of-the-1975s-matty-healy-shortlisted-at-british-photography-awards",
-      "title": "Portrait of The 1975's Matty Healy shortlisted at British Photography Awards",
-      "url": "https://www.nme.com/news/music/portrait-of-the-1975s-matty-healy-shortlisted-at-british-photography-awards-3970840?utm_source=rss&utm_medium=rss&utm_campaign=portrait-of-the-1975s-matty-healy-shortlisted-at-british-photography-awards",
+      "id": "nme music news:https://www.nme.com/news/tv/watch-snl-uk-turn-oasis-into-russian-spies-in-andy-burnham-sketch-3970928?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-snl-uk-turn-oasis-into-russian-spies-in-andy-burnham-sketch",
+      "title": "Watch 'SNL UK' turn Oasis into Russian spies in Andy Burnham sketch",
+      "url": "https://www.nme.com/news/tv/watch-snl-uk-turn-oasis-into-russian-spies-in-andy-burnham-sketch-3970928?utm_source=rss&utm_medium=rss&utm_campaign=watch-snl-uk-turn-oasis-into-russian-spies-in-andy-burnham-sketch",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Fri, 25 Sep 2026 15:41:37 +0000",
-      "summary": "\"I literally only had a minute to do the photo,\" said Newcastle photographer Neil Ferry of his \"timeless\" piece The post Portrait of The 1975's Matty Healy shortlisted at British Photography Awards appeared first on NME .",
-      "score": 1.8299999999999998,
+      "publishedAt": "Sun, 27 Sep 2026 10:35:48 +0000",
+      "summary": "The skit also took aim at Manchester City reportedly being found guilty of their 115 Premier League charges The post Watch 'SNL UK' turn Oasis into Russian spies in Andy Burnham sketch appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
         "news",
@@ -230,19 +214,35 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/joy-division-eternal-live/",
-      "title": "Eternal (Live)",
-      "url": "https://pitchfork.com/reviews/albums/joy-division-eternal-live/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/sasha-john-digweed-northern-exposure/",
+      "title": "Northern Exposure",
+      "url": "https://pitchfork.com/reviews/albums/sasha-john-digweed-northern-exposure/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Sat, 26 Sep 2026 04:00:00 +0000",
-      "summary": "A 16-disc box set captures 14 months of live sets from the post-punk titans' prime. Despite their dour reputation, they prove consistently thrilling on stage, led by Ian Curtis' whirlwind intensity.",
+      "publishedAt": "Sun, 27 Sep 2026 04:00:00 +0000",
+      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the British DJs' monumental 1996 mix, a virtuosic blend of after-hours grooves and floor-filling intensity that helped to canonize the elusive sound of progressive house.",
       "score": 1.7999999999999998,
       "tags": [
         "music",
         "reviews",
         "rss",
         "pitchfork"
+      ]
+    },
+    {
+      "id": "npr music news:https://www.npr.org/2026/09/25/nx-s1-5981194/stealthy-wealthy-everywhere-millionaires-pass-through",
+      "title": "Middlegarchs are the new Oligarchs",
+      "url": "https://www.npr.org/2026/09/25/nx-s1-5981194/stealthy-wealthy-everywhere-millionaires-pass-through",
+      "source": "NPR Music News",
+      "topic": "music",
+      "publishedAt": "Fri, 25 Sep 2026 21:46:44 +0000",
+      "summary": "Wanna know who is really in the top 1%? And how they use their influence? It may not be who you think. Look beyond Silicon Valley. Look beyond Wall Street. Look beyond the \"oligarchs\". There's a much larger class of wealthy Americans hiding in plain sight. And, often, they got rich in mundane ways. They own car dealerships. They sell hot dogs and frozen...",
+      "score": 1.72,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "npr"
       ]
     }
   ]
