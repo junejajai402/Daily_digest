@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-27",
-  "builtAt": "2026-09-27T15:39:22.923Z",
-  "lastAttemptedAt": "2026-09-27T15:39:21.936Z",
+  "digestId": "2026-09-28",
+  "builtAt": "2026-09-28T18:35:48.967Z",
+  "lastAttemptedAt": "2026-09-28T18:35:48.272Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
@@ -32,6 +32,20 @@
       ]
     },
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
+      "title": "New Attack Against RSA",
+      "url": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-28T11:03:31Z",
+      "summary": "ArsTechnica is reporting on a \"new\" attack against RSA, one that bypasses factoring. First, this attack isn't new. The original research is from 2007 . What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works...",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33372",
       "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
       "url": "https://isc.sans.edu/diary/rss/33372",
@@ -39,7 +53,22 @@
       "topic": "security",
       "publishedAt": "Sun, 27 Sep 2026 15:04:49 GMT",
       "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
-      "score": 2.65,
+      "score": 2.4,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33368",
+      "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33368",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Fri, 25 Sep 2026 12:45:19 GMT",
+      "summary": "Security write-up worth reviewing in the full digest.",
+      "score": 2.3,
       "tags": [
         "security",
         "rss",
@@ -54,39 +83,41 @@
       "topic": "security",
       "publishedAt": "2026-09-25T11:07:55Z",
       "summary": "Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI agents increasingly handled reconnaissance, exploitation, data theft, propaganda production, surveillance workflows, and research while humans selected targets,...",
-      "score": 2.6,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33368",
-      "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33368",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Fri, 25 Sep 2026 12:45:19 GMT",
-      "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.4,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
-      "title": "Are AIs Still Struggling with CAPTCHAs?",
-      "url": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-18T11:05:54Z",
-      "summary": "Anthropic's recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping access to it appeared to slam its virtual head against the wall solving a simple image identification test. In a test where the agent was asked to identify a...",
       "score": 2.5,
       "tags": [
         "security",
         "feed"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback",
+      "title": "Nvidia unveils security platform to rein in AI agents and $150bn stock buyback",
+      "url": "https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Mon, 28 Sep 2026 15:32:57 GMT",
+      "summary": "Chipmaker says new system was designed to prevent AI agents from going rogue amid incidents at top companies Nvidia on Monday unveiled a new security platform that the chipmaker said can stop artificial intelligence agents from going rogue. The company announced a $150bn stock buyback the same day.",
+      "score": 2.5500000000000003,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://git.mills.io/prologic/parley",
+      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "url": "https://git.mills.io/prologic/parley",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Mon, 28 Sep 2026 10:30:54 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
       ]
     },
     {
@@ -97,7 +128,7 @@
       "topic": "tech",
       "publishedAt": "Sun, 27 Sep 2026 01:10:21 GMT",
       "summary": "Decision follows disclosures that OpenAI agents searching government websites had acted in unexpected ways OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount. The decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents from...",
-      "score": 2.6500000000000004,
+      "score": 2.5,
       "tags": [
         "tech",
         "rss",
@@ -105,28 +136,28 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Special agents' blood and urine test results stolen in FBI hack",
-      "url": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Apple ordered to pay $5.7bn after losing vibration tech patent suit",
+      "url": "https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Fri, 25 Sep 2026 13:56:16 GMT",
-      "summary": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
-      "score": 2.1,
+      "publishedAt": "Mon, 28 Sep 2026 11:16:08 GMT",
+      "summary": "Audio firm Taction Technology claimed Apple infringed its patents for tech used to power device vibrations.",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "hacker news:https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
-      "title": "\"They had no concept of a duty of care to their users.\"",
-      "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+      "id": "hacker news:https://www.newyorker.com/culture/photo-booth/the-teen-portraits-that-captivated-sofia-coppola",
+      "title": "The Teen Portraits That Captivated Sofia Coppola",
+      "url": "https://www.newyorker.com/culture/photo-booth/the-teen-portraits-that-captivated-sofia-coppola",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 27 Sep 2026 14:45:07 +0000",
+      "publishedAt": "Mon, 28 Sep 2026 17:41:28 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -135,45 +166,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/us-news/2026/sep/27/bill-gates-artificial-intelligence-kristen-welker",
-      "title": "Bill Gates says unchecked AI could 'cause a billion deaths' in call for regulation",
-      "url": "https://www.theguardian.com/us-news/2026/sep/27/bill-gates-artificial-intelligence-kristen-welker",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Sun, 27 Sep 2026 09:00:01 GMT",
-      "summary": "Microsoft co-founder and philanthropist speaks with NBC's Kristen Welker in interview airing on Sunday Bill Gates has called on the US's federal legislators and law enforcers to regulate the development of artificial intelligence ( AI ), saying in an interview airing on Sunday that the technology left unchecked could cause \"a billion deaths\" and \"no one...",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
-      "title": "In an $80 Motel Room, a Discovery to Shed Light on the Origins of Life",
-      "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sun, 27 Sep 2026 14:30:55 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "openai news:https://openai.com/index/sam-altman-un-security-council-remarks",
-      "title": "Sam Altman's remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "id": "openai news:https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "score": 2.27,
+      "publishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "score": 2.4200000000000004,
       "tags": [
         "ai",
         "official",
@@ -198,13 +198,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/tv/watch-snl-uk-turn-oasis-into-russian-spies-in-andy-burnham-sketch-3970928?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-snl-uk-turn-oasis-into-russian-spies-in-andy-burnham-sketch",
-      "title": "Watch 'SNL UK' turn Oasis into Russian spies in Andy Burnham sketch",
-      "url": "https://www.nme.com/news/tv/watch-snl-uk-turn-oasis-into-russian-spies-in-andy-burnham-sketch-3970928?utm_source=rss&utm_medium=rss&utm_campaign=watch-snl-uk-turn-oasis-into-russian-spies-in-andy-burnham-sketch",
+      "id": "nme music news:https://www.nme.com/news/music/u2-album-track-about-extraordinary-artist-rosalia-bono-3971156?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=u2-album-track-about-extraordinary-artist-rosalia-bono",
+      "title": "U2's new album features track about \"extraordinary artist\" Rosalía, reveals Bono",
+      "url": "https://www.nme.com/news/music/u2-album-track-about-extraordinary-artist-rosalia-bono-3971156?utm_source=rss&utm_medium=rss&utm_campaign=u2-album-track-about-extraordinary-artist-rosalia-bono",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sun, 27 Sep 2026 10:35:48 +0000",
-      "summary": "The skit also took aim at Manchester City reportedly being found guilty of their 115 Premier League charges The post Watch 'SNL UK' turn Oasis into Russian spies in Andy Burnham sketch appeared first on NME .",
+      "publishedAt": "Mon, 28 Sep 2026 17:32:30 +0000",
+      "summary": "\"We normally just write songs about people in jail or dead people... It's just a little embarrassing that she became so popular before we put out the song\" The post U2's new album features track about \"extraordinary artist\" Rosalía, reveals Bono appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -214,14 +214,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/sasha-john-digweed-northern-exposure/",
-      "title": "Northern Exposure",
-      "url": "https://pitchfork.com/reviews/albums/sasha-john-digweed-northern-exposure/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/orville-peck-mule/",
+      "title": "Mule",
+      "url": "https://pitchfork.com/reviews/albums/orville-peck-mule/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Sun, 27 Sep 2026 04:00:00 +0000",
-      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the British DJs' monumental 1996 mix, a virtuosic blend of after-hours grooves and floor-filling intensity that helped to canonize the elusive sound of progressive house.",
-      "score": 1.7999999999999998,
+      "publishedAt": "Mon, 28 Sep 2026 04:01:00 +0000",
+      "summary": "The South African-born country singer's latest album is a hell-and-back tale of addiction and redemption. But where other artists might opt for austerity, Peck goes all in on his usual pomp.",
+      "score": 1.9,
       "tags": [
         "music",
         "reviews",
