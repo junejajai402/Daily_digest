@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-28",
-  "builtAt": "2026-09-28T18:35:48.967Z",
-  "lastAttemptedAt": "2026-09-28T18:35:48.272Z",
+  "digestId": "2026-09-29",
+  "builtAt": "2026-09-29T16:53:13.889Z",
+  "lastAttemptedAt": "2026-09-29T16:53:13.282Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 103,
+    "dedupedItems": 104,
     "digestItems": 15
   },
   "topicCounts": {
@@ -32,43 +32,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
-      "title": "New Attack Against RSA",
-      "url": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-28T11:03:31Z",
-      "summary": "ArsTechnica is reporting on a \"new\" attack against RSA, one that bypasses factoring. First, this attack isn't new. The original research is from 2007 . What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works...",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33372",
-      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33372",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33376",
+      "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
+      "url": "https://isc.sans.edu/diary/rss/33376",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sun, 27 Sep 2026 15:04:49 GMT",
-      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
-      "score": 2.4,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33368",
-      "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33368",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Fri, 25 Sep 2026 12:45:19 GMT",
-      "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.3,
+      "publishedAt": "Mon, 28 Sep 2026 22:35:35 GMT",
+      "summary": "Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploited. iOS and macOS 27 are not affected. Today's update for the current \"27\" branch does not address security issues, but fixes some...",
+      "score": 2.55,
       "tags": [
         "security",
         "rss",
@@ -90,29 +61,43 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback",
-      "title": "Nvidia unveils security platform to rein in AI agents and $150bn stock buyback",
-      "url": "https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Mon, 28 Sep 2026 15:32:57 GMT",
-      "summary": "Chipmaker says new system was designed to prevent AI agents from going rogue amid incidents at top companies Nvidia on Monday unveiled a new security platform that the chipmaker said can stop artificial intelligence agents from going rogue. The company announced a $150bn stock buyback the same day.",
-      "score": 2.5500000000000003,
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33382",
+      "title": "Scans for Wordfence Protected Websites, (Tue, Sep 29th)",
+      "url": "https://isc.sans.edu/diary/rss/33382",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Tue, 29 Sep 2026 13:29:33 GMT",
+      "summary": "Starting yesterday, our sensors picked up a small number of scans for \"wordfence-waf.php\". This particular script is used by Wordfence, a solution to protect WordPress sites. During the Wordfence install, the wordpress-waf.php file will be created in the site's root directory [1].",
+      "score": 2.45,
       "tags": [
-        "tech",
+        "security",
         "rss",
-        "guardian"
+        "sans"
       ]
     },
     {
-      "id": "hacker news:https://git.mills.io/prologic/parley",
-      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
-      "url": "https://git.mills.io/prologic/parley",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html",
+      "title": "Using Device Linking to Eavesdrop on WhatsApp and Signal",
+      "url": "https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-29T11:03:07Z",
+      "summary": "Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are taking advantage of this capability: Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers. Germany's Customs Office has been using these features to connect a...",
+      "score": 2.45,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "hacker news:https://jorgegarciaherrero.com/wp-content/interactivos/20260916-prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 28 Sep 2026 10:30:54 +0000",
+      "publishedAt": "Tue, 29 Sep 2026 09:03:41 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.7,
       "tags": [
         "tech",
         "community",
@@ -121,43 +106,43 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
-      "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
-      "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Sun, 27 Sep 2026 01:10:21 GMT",
-      "summary": "Decision follows disclosures that OpenAI agents searching government websites had acted in unexpected ways OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount. The decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents from...",
-      "score": 2.5,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Apple ordered to pay $5.7bn after losing vibration tech patent suit",
-      "url": "https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=rss&amp;at_campaign=rss",
+      "title": "OpenAI scraps rollout of new model over safety concerns",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Mon, 28 Sep 2026 11:16:08 GMT",
-      "summary": "Audio firm Taction Technology claimed Apple infringed its patents for tech used to power device vibrations.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Tue, 29 Sep 2026 09:14:13 GMT",
+      "summary": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "hacker news:https://www.newyorker.com/culture/photo-booth/the-teen-portraits-that-captivated-sofia-coppola",
-      "title": "The Teen Portraits That Captivated Sofia Coppola",
-      "url": "https://www.newyorker.com/culture/photo-booth/the-teen-portraits-that-captivated-sofia-coppola",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/29/mac-mini-m6-review",
+      "title": "Mac mini M6 review: truly mighty but now more pricey",
+      "url": "https://www.theguardian.com/technology/2026/sep/29/mac-mini-m6-review",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Tue, 29 Sep 2026 06:00:55 GMT",
+      "summary": "Apple's cheapest desktop computer is no longer a bargain but its newest, fastest chip makes it a pocket powerhouse Apple's latest Mac mini brings real speed and power for far more than everyday tasks in a practically pocketable form you can fit almost anywhere. The impressive new desktop machine is the first to receive an update to Apple's latest M6 chip...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://github.com/posthog/jeeves",
+      "title": "Jeeves. Reasoning improves Jev-like decision models",
+      "url": "https://github.com/PostHog/jeeves",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 28 Sep 2026 17:41:28 +0000",
+      "publishedAt": "Tue, 29 Sep 2026 11:13:54 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.5,
       "tags": [
         "tech",
         "community",
@@ -166,14 +151,29 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude",
+      "title": "Anthropic 'warns of existential AI risks to humanity' in IPO document",
+      "url": "https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Tue, 29 Sep 2026 10:17:58 GMT",
+      "summary": "Reported admission to investors of AI's 'self-preserving behaviours' comes as company prepares for a potential $2tn flotation Anthropic is telling investors that advanced AI could pose \"catastrophic or existential risks to humanity\", according to reports, as it prepares for a potential $2tn (£1.5tn) flotation. The warning inside the startup's IPO...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/how-we-will-do-better-for-australia",
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
-      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "score": 2.4200000000000004,
+      "publishedAt": "Mon, 28 Sep 2026 19:00:00 GMT",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia's cyber defences.",
+      "score": 2.3200000000000003,
       "tags": [
         "ai",
         "official",
@@ -182,14 +182,14 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "title": "AI for everyone in every language",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Tue, 15 Sep 2026 16:00:00 +0000",
-      "summary": "We're moving beyond traditional text translation to build models that understand the world's rich, living languages exactly as they are expressed.",
-      "score": 2.23,
+      "publishedAt": "Mon, 28 Sep 2026 19:00:00 +0000",
+      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "score": 2.2800000000000002,
       "tags": [
         "ai",
         "official",
@@ -198,13 +198,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/u2-album-track-about-extraordinary-artist-rosalia-bono-3971156?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=u2-album-track-about-extraordinary-artist-rosalia-bono",
-      "title": "U2's new album features track about \"extraordinary artist\" Rosalía, reveals Bono",
-      "url": "https://www.nme.com/news/music/u2-album-track-about-extraordinary-artist-rosalia-bono-3971156?utm_source=rss&utm_medium=rss&utm_campaign=u2-album-track-about-extraordinary-artist-rosalia-bono",
+      "id": "nme music news:https://www.nme.com/news/music/johnny-marr-interview-age-of-everything-fontaines-d-c-the-cure-andy-burnham-smiths-3971291?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=johnny-marr-interview-age-of-everything-fontaines-d-c-the-cure-andy-burnham-smiths",
+      "title": "Johnny Marr on Fontaines D.C. and fighting \"dodgy views\": \"The current young generation are really switched on\"",
+      "url": "https://www.nme.com/news/music/johnny-marr-interview-age-of-everything-fontaines-d-c-the-cure-andy-burnham-smiths-3971291?utm_source=rss&utm_medium=rss&utm_campaign=johnny-marr-interview-age-of-everything-fontaines-d-c-the-cure-andy-burnham-smiths",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Mon, 28 Sep 2026 17:32:30 +0000",
-      "summary": "\"We normally just write songs about people in jail or dead people... It's just a little embarrassing that she became so popular before we put out the song\" The post U2's new album features track about \"extraordinary artist\" Rosalía, reveals Bono appeared first on NME .",
+      "publishedAt": "Tue, 29 Sep 2026 12:00:13 +0000",
+      "summary": "The guitar icon spoke to NME about new solo album 'The Age Of Everything', his love of The Cure, hope for the future, and why PM Andy Burnham isn't forbidden from listening to The Smiths The post Johnny Marr on Fontaines D.C. and fighting \"dodgy views\": \"The current young generation are really switched on\" appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -221,7 +221,7 @@
       "topic": "music",
       "publishedAt": "Mon, 28 Sep 2026 04:01:00 +0000",
       "summary": "The South African-born country singer's latest album is a hell-and-back tale of addiction and redemption. But where other artists might opt for austerity, Peck goes all in on his usual pomp.",
-      "score": 1.9,
+      "score": 1.75,
       "tags": [
         "music",
         "reviews",
@@ -230,19 +230,19 @@
       ]
     },
     {
-      "id": "npr music news:https://www.npr.org/2026/09/25/nx-s1-5981194/stealthy-wealthy-everywhere-millionaires-pass-through",
-      "title": "Middlegarchs are the new Oligarchs",
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5981194/stealthy-wealthy-everywhere-millionaires-pass-through",
-      "source": "NPR Music News",
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
+      "title": "Punching the Clown",
+      "url": "https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
+      "source": "Pitchfork Best New Albums",
       "topic": "music",
-      "publishedAt": "Fri, 25 Sep 2026 21:46:44 +0000",
-      "summary": "Wanna know who is really in the top 1%? And how they use their influence? It may not be who you think. Look beyond Silicon Valley. Look beyond Wall Street. Look beyond the \"oligarchs\". There's a much larger class of wealthy Americans hiding in plain sight. And, often, they got rich in mundane ways. They own car dealerships. They sell hot dogs and frozen...",
-      "score": 1.72,
+      "publishedAt": "Tue, 25 Aug 2026 04:03:00 +0000",
+      "summary": "Kurt Wagner reinvents his band yet again, this time slimming down to a bare-bones acoustic setup and stripping away the studio artifice. But his storytelling remains as expansive as ever.",
+      "score": 1.7,
       "tags": [
         "music",
-        "news",
+        "albums",
         "rss",
-        "npr"
+        "pitchfork"
       ]
     }
   ]
