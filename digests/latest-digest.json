@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-29",
-  "builtAt": "2026-09-29T16:53:13.889Z",
-  "lastAttemptedAt": "2026-09-29T16:53:13.282Z",
+  "digestId": "2026-09-30",
+  "builtAt": "2026-09-30T16:49:11.512Z",
+  "lastAttemptedAt": "2026-09-30T16:49:10.577Z",
   "isStale": false,
   "counts": {
-    "rawItems": 104,
-    "dedupedItems": 104,
+    "rawItems": 103,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -32,6 +32,20 @@
       ]
     },
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
+      "title": "I Want Better Reporting on AI Genie Behavior",
+      "url": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-30T11:05:52Z",
+      "summary": "AI systems are regularly completing tasks in ways that their prompters don't want or intend. Some of them are disturbing, and some of them are dangerous. This is something I've been calling \" genie behavior ,\" because I think that really gets at the core of what's happening. I wish the popular press would report on this better. I don't like the \"going...",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33376",
       "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
       "url": "https://isc.sans.edu/diary/rss/33376",
@@ -39,7 +53,22 @@
       "topic": "security",
       "publishedAt": "Mon, 28 Sep 2026 22:35:35 GMT",
       "summary": "Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploited. iOS and macOS 27 are not affected. Today's update for the current \"27\" branch does not address security issues, but fixes some...",
-      "score": 2.55,
+      "score": 2.4,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33372",
+      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+      "url": "https://isc.sans.edu/diary/rss/33372",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Sun, 27 Sep 2026 15:04:49 GMT",
+      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
+      "score": 2.3,
       "tags": [
         "security",
         "rss",
@@ -61,58 +90,28 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33382",
-      "title": "Scans for Wordfence Protected Websites, (Tue, Sep 29th)",
-      "url": "https://isc.sans.edu/diary/rss/33382",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 29 Sep 2026 13:29:33 GMT",
-      "summary": "Starting yesterday, our sensors picked up a small number of scans for \"wordfence-waf.php\". This particular script is used by Wordfence, a solution to protect WordPress sites. During the Wordfence install, the wordpress-waf.php file will be created in the site's root directory [1].",
-      "score": 2.45,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html",
-      "title": "Using Device Linking to Eavesdrop on WhatsApp and Signal",
-      "url": "https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-29T11:03:07Z",
-      "summary": "Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are taking advantage of this capability: Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers. Germany's Customs Office has been using these features to connect a...",
-      "score": 2.45,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "hacker news:https://jorgegarciaherrero.com/wp-content/interactivos/20260916-prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "source": "Hacker News",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/30/intervene-ai-growing-threat-bank-of-england-boss",
+      "title": "We need 'right to intervene' in AI amid growing threat, says Bank of England boss",
+      "url": "https://www.theguardian.com/technology/2026/sep/30/intervene-ai-growing-threat-bank-of-england-boss",
+      "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 29 Sep 2026 09:03:41 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.7,
+      "publishedAt": "Wed, 30 Sep 2026 15:22:25 GMT",
+      "summary": "Andrew Bailey's comments come as fears grow that rogue models could take financial system hostage Business live - latest updates The governor of the Bank of England has called for the \"right to intervene\" in the AI industry amid growing fears that rogue models could take the financial system hostage. Andrew Bailey said the risks posed by frontier AI models...",
+      "score": 2.5500000000000003,
       "tags": [
         "tech",
-        "community",
         "rss",
-        "hacker-news"
+        "guardian"
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=rss&amp;at_campaign=rss",
-      "title": "OpenAI scraps rollout of new model over safety concerns",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=rss&amp;at_campaign=rss",
+      "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model",
+      "url": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Tue, 29 Sep 2026 09:14:13 GMT",
-      "summary": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
+      "publishedAt": "Wed, 30 Sep 2026 05:18:13 GMT",
+      "summary": "Sam Altman spoke in San Francisco during OpenAI's annual event for tech developers.",
       "score": 2.35,
       "tags": [
         "tech",
@@ -120,29 +119,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/29/mac-mini-m6-review",
-      "title": "Mac mini M6 review: truly mighty but now more pricey",
-      "url": "https://www.theguardian.com/technology/2026/sep/29/mac-mini-m6-review",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Tue, 29 Sep 2026 06:00:55 GMT",
-      "summary": "Apple's cheapest desktop computer is no longer a bargain but its newest, fastest chip makes it a pocket powerhouse Apple's latest Mac mini brings real speed and power for far more than everyday tasks in a practically pocketable form you can fit almost anywhere. The impressive new desktop machine is the first to receive an update to Apple's latest M6 chip...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://github.com/posthog/jeeves",
-      "title": "Jeeves. Reasoning improves Jev-like decision models",
-      "url": "https://github.com/PostHog/jeeves",
+      "id": "hacker news:https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
+      "title": "The AI Race Just Got Awkward",
+      "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 29 Sep 2026 11:13:54 +0000",
+      "publishedAt": "Wed, 30 Sep 2026 15:50:11 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -151,14 +135,30 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude",
-      "title": "Anthropic 'warns of existential AI risks to humanity' in IPO document",
-      "url": "https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude",
+      "id": "hacker news:https://earendil.com/posts/you-said-no-mcp/",
+      "title": "You Said No MCP",
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Wed, 30 Sep 2026 09:55:23 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/29/oura-ring-public-offering",
+      "title": "Smart ring maker Oura puts off initial public offering due to market 'uncertainty'",
+      "url": "https://www.theguardian.com/technology/2026/sep/29/oura-ring-public-offering",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 29 Sep 2026 10:17:58 GMT",
-      "summary": "Reported admission to investors of AI's 'self-preserving behaviours' comes as company prepares for a potential $2tn flotation Anthropic is telling investors that advanced AI could pose \"catastrophic or existential risks to humanity\", according to reports, as it prepares for a potential $2tn (£1.5tn) flotation. The warning inside the startup's IPO...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Tue, 29 Sep 2026 17:57:01 GMT",
+      "summary": "Researchers say the IPO market was off to a solid start but tailed off in the third quarter Smart ring maker Oura Inc says it is postponing a planned initial public offering due to market \"uncertainty\". In a Tuesday press release, Oura said it is delaying the stock market float \"despite strong demand\".",
+      "score": 2.25,
       "tags": [
         "tech",
         "rss",
@@ -166,14 +166,14 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/how-we-will-do-better-for-australia",
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "id": "openai news:https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Mon, 28 Sep 2026 19:00:00 GMT",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia's cyber defences.",
-      "score": 2.3200000000000003,
+      "publishedAt": "Wed, 30 Sep 2026 10:00:00 GMT",
+      "summary": "OpenAI is partnering with America's SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "score": 2.4200000000000004,
       "tags": [
         "ai",
         "official",
@@ -182,14 +182,14 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "title": "AI for everyone in every language",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Mon, 28 Sep 2026 19:00:00 +0000",
-      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "score": 2.2800000000000002,
+      "publishedAt": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "summary": "We're moving beyond traditional text translation to build models that understand the world's rich, living languages exactly as they are expressed.",
+      "score": 2.23,
       "tags": [
         "ai",
         "official",
@@ -198,30 +198,14 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/johnny-marr-interview-age-of-everything-fontaines-d-c-the-cure-andy-burnham-smiths-3971291?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=johnny-marr-interview-age-of-everything-fontaines-d-c-the-cure-andy-burnham-smiths",
-      "title": "Johnny Marr on Fontaines D.C. and fighting \"dodgy views\": \"The current young generation are really switched on\"",
-      "url": "https://www.nme.com/news/music/johnny-marr-interview-age-of-everything-fontaines-d-c-the-cure-andy-burnham-smiths-3971291?utm_source=rss&utm_medium=rss&utm_campaign=johnny-marr-interview-age-of-everything-fontaines-d-c-the-cure-andy-burnham-smiths",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Tue, 29 Sep 2026 12:00:13 +0000",
-      "summary": "The guitar icon spoke to NME about new solo album 'The Age Of Everything', his love of The Cure, hope for the future, and why PM Andy Burnham isn't forbidden from listening to The Smiths The post Johnny Marr on Fontaines D.C. and fighting \"dodgy views\": \"The current young generation are really switched on\" appeared first on NME .",
-      "score": 1.93,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/orville-peck-mule/",
-      "title": "Mule",
-      "url": "https://pitchfork.com/reviews/albums/orville-peck-mule/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/jhene-aiko-westside-whimsy/",
+      "title": "Westside Whimsy",
+      "url": "https://pitchfork.com/reviews/albums/jhene-aiko-westside-whimsy/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Mon, 28 Sep 2026 04:01:00 +0000",
-      "summary": "The South African-born country singer's latest album is a hell-and-back tale of addiction and redemption. But where other artists might opt for austerity, Peck goes all in on his usual pomp.",
-      "score": 1.75,
+      "publishedAt": "Wed, 30 Sep 2026 04:02:00 +0000",
+      "summary": "After records steeped in grief and heartbreak, the singer's latest album is framed as a laid-back ode to Los Angeles, but it can be tough to tease out the substance behind the sunny vibes.",
+      "score": 2.1,
       "tags": [
         "music",
         "reviews",
@@ -230,19 +214,35 @@
       ]
     },
     {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
-      "title": "Punching the Clown",
-      "url": "https://pitchfork.com/reviews/albums/lambchop-punching-the-clown/",
-      "source": "Pitchfork Best New Albums",
+      "id": "npr music news:https://www.npr.org/2026/09/30/nx-s1-5985851/social-security-payment-solutions-retirees",
+      "title": "Who's gonna pay for your Social Security?",
+      "url": "https://www.npr.org/2026/09/30/nx-s1-5985851/social-security-payment-solutions-retirees",
+      "source": "NPR Music News",
       "topic": "music",
-      "publishedAt": "Tue, 25 Aug 2026 04:03:00 +0000",
-      "summary": "Kurt Wagner reinvents his band yet again, this time slimming down to a bare-bones acoustic setup and stripping away the studio artifice. But his storytelling remains as expansive as ever.",
-      "score": 1.7,
+      "publishedAt": "Wed, 30 Sep 2026 14:55:43 +0000",
+      "summary": "Very soon, Social Security may not have enough money to make full payments to retirees. Very soon. Like by 2032, just six years from now. So what are we gonna do about it? Today on the show, we look at some of the most talked about possible solutions; and exactly whose wallets we'll have to rifle through to find the money to pay for each. Then we'll run...",
+      "score": 1.97,
       "tags": [
         "music",
-        "albums",
+        "news",
         "rss",
-        "pitchfork"
+        "npr"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/fontaines-dc-release-new-single-tongue-listen-3971561?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fontaines-dc-release-new-single-tongue-listen",
+      "title": "Listen to Fontaines D.C.'s eerie and twisted new single 'Tongue'",
+      "url": "https://www.nme.com/news/music/fontaines-dc-release-new-single-tongue-listen-3971561?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-dc-release-new-single-tongue-listen",
+      "source": "NME Music News",
+      "topic": "music",
+      "publishedAt": "Wed, 30 Sep 2026 16:00:56 +0000",
+      "summary": "The band's fifth album 'Dopamine Chamber' arrives next month The post Listen to Fontaines D.C.'s eerie and twisted new single 'Tongue' appeared first on NME .",
+      "score": 1.93,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "nme"
       ]
     }
   ]
