@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-09-30",
-  "builtAt": "2026-09-30T16:49:11.512Z",
-  "lastAttemptedAt": "2026-09-30T16:49:10.577Z",
+  "digestId": "2026-10-01",
+  "builtAt": "2026-10-01T17:21:58.763Z",
+  "lastAttemptedAt": "2026-10-01T17:21:58.192Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 101,
+    "dedupedItems": 100,
     "digestItems": 15
   },
   "topicCounts": {
@@ -32,14 +32,29 @@
       ]
     },
     {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33388",
+      "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33388",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Thu, 01 Oct 2026 05:32:13 GMT",
+      "summary": "Threat Actors do not always use top-notch techniques or very complex malware to perform their attacks. Sometimes, they just abuse of existing applications.",
+      "score": 2.45,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
       "title": "I Want Better Reporting on AI Genie Behavior",
       "url": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-30T11:05:52Z",
+      "publishedAt": "2026-09-30T17:24:20Z",
       "summary": "AI systems are regularly completing tasks in ways that their prompters don't want or intend. Some of them are disturbing, and some of them are dangerous. This is something I've been calling \" genie behavior ,\" because I think that really gets at the core of what's happening. I wish the popular press would report on this better. I don't like the \"going...",
-      "score": 2.65,
+      "score": 2.55,
       "tags": [
         "security",
         "feed"
@@ -61,21 +76,6 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33372",
-      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33372",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Sun, 27 Sep 2026 15:04:49 GMT",
-      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
       "title": "On Anthropic's AI Misuse Report",
       "url": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
@@ -90,14 +90,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/30/intervene-ai-growing-threat-bank-of-england-boss",
-      "title": "We need 'right to intervene' in AI amid growing threat, says Bank of England boss",
-      "url": "https://www.theguardian.com/technology/2026/sep/30/intervene-ai-growing-threat-bank-of-england-boss",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
+      "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
+      "url": "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Wed, 30 Sep 2026 15:22:25 GMT",
-      "summary": "Andrew Bailey's comments come as fears grow that rogue models could take financial system hostage Business live - latest updates The governor of the Bank of England has called for the \"right to intervene\" in the AI industry amid growing fears that rogue models could take the financial system hostage. Andrew Bailey said the risks posed by frontier AI models...",
-      "score": 2.5500000000000003,
+      "publishedAt": "Thu, 01 Oct 2026 16:47:29 GMT",
+      "summary": "Tech company releases Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers Google on Wednesday said it would withhold its most powerful artificial intelligence model from the public for now, releasing Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers. \"Safely releasing frontier...",
+      "score": 2.75,
       "tags": [
         "tech",
         "rss",
@@ -105,60 +105,44 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=rss&amp;at_campaign=rss",
-      "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model",
-      "url": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
+      "id": "hacker news:https://blog.cloudflare.com/clef-decision-models/",
+      "title": "Clef: our open-source decision models",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Thu, 01 Oct 2026 16:18:57 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=rss&amp;at_campaign=rss",
+      "title": "AI boom could trigger market shocks, Bank of England boss warns",
+      "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Wed, 30 Sep 2026 05:18:13 GMT",
-      "summary": "Sam Altman spoke in San Francisco during OpenAI's annual event for tech developers.",
-      "score": 2.35,
+      "publishedAt": "Thu, 01 Oct 2026 10:05:25 GMT",
+      "summary": "Andrew Bailey says the central bank is watching the waves of cash being invested in artificial intelligence \"very carefully\".",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "hacker news:https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
-      "title": "The AI Race Just Got Awkward",
-      "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Wed, 30 Sep 2026 15:50:11 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "hacker news:https://earendil.com/posts/you-said-no-mcp/",
-      "title": "You Said No MCP",
-      "url": "https://earendil.com/posts/you-said-no-mcp/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Wed, 30 Sep 2026 09:55:23 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/sep/29/oura-ring-public-offering",
-      "title": "Smart ring maker Oura puts off initial public offering due to market 'uncertainty'",
-      "url": "https://www.theguardian.com/technology/2026/sep/29/oura-ring-public-offering",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/01/cars-smart-features-spy-gps-chinese-imports",
+      "title": "Tech in cars can be used to snoop on you, Dutch spy chiefs warn",
+      "url": "https://www.theguardian.com/technology/2026/oct/01/cars-smart-features-spy-gps-chinese-imports",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 29 Sep 2026 17:57:01 GMT",
-      "summary": "Researchers say the IPO market was off to a solid start but tailed off in the third quarter Smart ring maker Oura Inc says it is postponing a planned initial public offering due to market \"uncertainty\". In a Tuesday press release, Oura said it is delaying the stock market float \"despite strong demand\".",
-      "score": 2.25,
+      "publishedAt": "Thu, 01 Oct 2026 10:49:24 GMT",
+      "summary": "Hostile states could access cameras, microphones or GPS, says intelligence agency amid concerns over Chinese imports Drivers have been warned that the smart features built into modern cars such as microphones, cameras and GPS trackers could be used by hostile states to spy on them. The Dutch General Intelligence and Security Service (AIVD) called for...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -166,14 +150,30 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "id": "hacker news:https://openid.net/wp-content/uploads/2025/10/identity-management-for-agentic-ai.pdf",
+      "title": "Identity Management for Agentic AI [pdf] (2025)",
+      "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Thu, 01 Oct 2026 15:11:10 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 30 Sep 2026 10:00:00 GMT",
-      "summary": "OpenAI is partnering with America's SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "score": 2.4200000000000004,
+      "publishedAt": "Wed, 30 Sep 2026 10:30:00 GMT",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "score": 2.5700000000000003,
       "tags": [
         "ai",
         "official",
@@ -205,7 +205,7 @@
       "topic": "music",
       "publishedAt": "Wed, 30 Sep 2026 04:02:00 +0000",
       "summary": "After records steeped in grief and heartbreak, the singer's latest album is framed as a laid-back ode to Los Angeles, but it can be tough to tease out the substance behind the sunny vibes.",
-      "score": 2.1,
+      "score": 1.9500000000000002,
       "tags": [
         "music",
         "reviews",
@@ -214,29 +214,29 @@
       ]
     },
     {
-      "id": "npr music news:https://www.npr.org/2026/09/30/nx-s1-5985851/social-security-payment-solutions-retirees",
-      "title": "Who's gonna pay for your Social Security?",
-      "url": "https://www.npr.org/2026/09/30/nx-s1-5985851/social-security-payment-solutions-retirees",
-      "source": "NPR Music News",
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/300skullsandcounting-jenny-sparks-this-is-spa-town/",
+      "title": "THIS IS SPA TOWN!",
+      "url": "https://pitchfork.com/reviews/albums/300skullsandcounting-jenny-sparks-this-is-spa-town/",
+      "source": "Pitchfork Best New Albums",
       "topic": "music",
-      "publishedAt": "Wed, 30 Sep 2026 14:55:43 +0000",
-      "summary": "Very soon, Social Security may not have enough money to make full payments to retirees. Very soon. Like by 2032, just six years from now. So what are we gonna do about it? Today on the show, we look at some of the most talked about possible solutions; and exactly whose wallets we'll have to rifle through to find the money to pay for each. Then we'll run...",
-      "score": 1.97,
+      "publishedAt": "Thu, 01 Oct 2026 04:03:00 +0000",
+      "summary": "The UK artist brings a frenzy of club-grime provocation and internet humor to his glitched-out emo, but his portrayal of small-town malaise is what makes it a riot.",
+      "score": 1.95,
       "tags": [
         "music",
-        "news",
+        "albums",
         "rss",
-        "npr"
+        "pitchfork"
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/fontaines-dc-release-new-single-tongue-listen-3971561?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fontaines-dc-release-new-single-tongue-listen",
-      "title": "Listen to Fontaines D.C.'s eerie and twisted new single 'Tongue'",
-      "url": "https://www.nme.com/news/music/fontaines-dc-release-new-single-tongue-listen-3971561?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-dc-release-new-single-tongue-listen",
+      "id": "nme music news:https://www.nme.com/news/music/brit-awards-2026-5million-boost-manchester-outside-london-3971776?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=brit-awards-2026-5million-boost-manchester-outside-london",
+      "title": "The BRIT Awards 2026 deliver £5million boost to Manchester in first year outside London",
+      "url": "https://www.nme.com/news/music/brit-awards-2026-5million-boost-manchester-outside-london-3971776?utm_source=rss&utm_medium=rss&utm_campaign=brit-awards-2026-5million-boost-manchester-outside-london",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Wed, 30 Sep 2026 16:00:56 +0000",
-      "summary": "The band's fifth album 'Dopamine Chamber' arrives next month The post Listen to Fontaines D.C.'s eerie and twisted new single 'Tongue' appeared first on NME .",
+      "publishedAt": "Thu, 01 Oct 2026 11:44:28 +0000",
+      "summary": "\"It was a recognition not only of our unmatched music heritage, but our growing reputation for putting on national and global events and making a success of them,\" said the Mayor of Greater Manchester The post The BRIT Awards 2026 deliver £5million boost to Manchester in first year outside London appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
