@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-01",
-  "builtAt": "2026-10-01T17:21:58.763Z",
-  "lastAttemptedAt": "2026-10-01T17:21:58.192Z",
+  "digestId": "2026-10-02",
+  "builtAt": "2026-10-02T16:37:51.696Z",
+  "lastAttemptedAt": "2026-10-02T16:37:51.158Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 100,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,43 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
-      "title": "Research on Models Engaging in Genie-Like Behavior",
-      "url": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
+      "title": "How American Political Campaigns Are Using AI-and What They're Spending on the Tools",
+      "url": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-09-23T11:04:24Z",
-      "summary": "New paper: \" Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .\" Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains,...",
-      "score": 2.7,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33388",
-      "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
-      "url": "https://isc.sans.edu/diary/rss/33388",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Thu, 01 Oct 2026 05:32:13 GMT",
-      "summary": "Threat Actors do not always use top-notch techniques or very complex malware to perform their attacks. Sometimes, they just abuse of existing applications.",
-      "score": 2.45,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
-      "title": "I Want Better Reporting on AI Genie Behavior",
-      "url": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-30T17:24:20Z",
-      "summary": "AI systems are regularly completing tasks in ways that their prompters don't want or intend. Some of them are disturbing, and some of them are dangerous. This is something I've been calling \" genie behavior ,\" because I think that really gets at the core of what's happening. I wish the popular press would report on this better. I don't like the \"going...",
-      "score": 2.55,
+      "publishedAt": "2026-10-02T11:03:09Z",
+      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . New campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them. Candidates', parties' and committees' spending reveals that AI is fast becoming an essential tool of politics. The candidates...",
+      "score": 2.65,
       "tags": [
         "security",
         "feed"
@@ -68,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Mon, 28 Sep 2026 22:35:35 GMT",
       "summary": "Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploited. iOS and macOS 27 are not affected. Today's update for the current \"27\" branch does not address security issues, but fixes some...",
-      "score": 2.4,
+      "score": 2.3,
       "tags": [
         "security",
         "rss",
@@ -90,6 +61,35 @@
       ]
     },
     {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33372",
+      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+      "url": "https://isc.sans.edu/diary/rss/33372",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Sun, 27 Sep 2026 15:04:49 GMT",
+      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
+      "score": 2.3,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html",
+      "title": "Unidentified Flock Cameras in Florida",
+      "url": "https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-02T15:30:13Z",
+      "summary": "St. Lucie County in Florida discovered ( alt link ) a dozen Flock cameras whose ownership it can't identify, and that the county government had not permitted. I am reminded of the decade-old story of StingRay cell phone surveillance devices in Washington, DC, whose operators were also unknown. My guess is that in the StingRay case, the devices were...",
+      "score": 2.45,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
       "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
       "url": "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
@@ -97,7 +97,7 @@
       "topic": "tech",
       "publishedAt": "Thu, 01 Oct 2026 16:47:29 GMT",
       "summary": "Tech company releases Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers Google on Wednesday said it would withhold its most powerful artificial intelligence model from the public for now, releasing Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers. \"Safely releasing frontier...",
-      "score": 2.75,
+      "score": 2.6500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -105,29 +105,13 @@
       ]
     },
     {
-      "id": "hacker news:https://blog.cloudflare.com/clef-decision-models/",
-      "title": "Clef: our open-source decision models",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Thu, 01 Oct 2026 16:18:57 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=rss&amp;at_campaign=rss",
-      "title": "AI boom could trigger market shocks, Bank of England boss warns",
-      "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=rss&amp;at_campaign=rss",
+      "title": "OpenAI fires workers for 'mishandling sensitive information'",
+      "url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 01 Oct 2026 10:05:25 GMT",
-      "summary": "Andrew Bailey says the central bank is watching the waves of cash being invested in artificial intelligence \"very carefully\".",
+      "publishedAt": "Fri, 02 Oct 2026 08:20:32 GMT",
+      "summary": "The former employees were investigated for sharing data with an outside AI evaluation group.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -135,13 +119,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/01/cars-smart-features-spy-gps-chinese-imports",
-      "title": "Tech in cars can be used to snoop on you, Dutch spy chiefs warn",
-      "url": "https://www.theguardian.com/technology/2026/oct/01/cars-smart-features-spy-gps-chinese-imports",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/02/feeld-dating-app-pays-founders-sales-jump",
+      "title": "Kinky dating app Feeld's founders share in record £3.8m dividend after sales jump",
+      "url": "https://www.theguardian.com/technology/2026/oct/02/feeld-dating-app-pays-founders-sales-jump",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 01 Oct 2026 10:49:24 GMT",
-      "summary": "Hostile states could access cameras, microphones or GPS, says intelligence agency amid concerns over Chinese imports Drivers have been warned that the smart features built into modern cars such as microphones, cameras and GPS trackers could be used by hostile states to spy on them. The Dutch General Intelligence and Security Service (AIVD) called for...",
+      "publishedAt": "Fri, 02 Oct 2026 09:58:19 GMT",
+      "summary": "Platform 'for the curious' says users outside the UK account for nearly 90% of its revenues Business live - latest updates Feeld, a UK-based dating app aimed at non-monogamous, queer and kinky users, has reported strong sales growth and paid its largest-ever dividend as it attracts users from more \"vanilla\" rivals. Revenues jumped by 32% to £64m following...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -150,14 +134,14 @@
       ]
     },
     {
-      "id": "hacker news:https://openid.net/wp-content/uploads/2025/10/identity-management-for-agentic-ai.pdf",
-      "title": "Identity Management for Agentic AI [pdf] (2025)",
-      "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+      "id": "hacker news:https://www.home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours/",
+      "title": "Big Tech ruined the cloud, so we're renaming ours",
+      "url": "https://www.home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 01 Oct 2026 15:11:10 +0000",
+      "publishedAt": "Fri, 02 Oct 2026 14:57:22 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -166,14 +150,30 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "id": "hacker news:https://supabase.com/blog/supabase-is-acquiring-turso",
+      "title": "Supabase Is Acquiring Turso",
+      "url": "https://supabase.com/blog/supabase-is-acquiring-turso",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Fri, 02 Oct 2026 15:43:03 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.1,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/practical-guide-building-gpt-6",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 30 Sep 2026 10:30:00 GMT",
-      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "score": 2.5700000000000003,
+      "publishedAt": "Fri, 02 Oct 2026 16:15:00 GMT",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "score": 2.8200000000000003,
       "tags": [
         "ai",
         "official",
@@ -182,14 +182,14 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "title": "AI for everyone in every language",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Tue, 15 Sep 2026 16:00:00 +0000",
-      "summary": "We're moving beyond traditional text translation to build models that understand the world's rich, living languages exactly as they are expressed.",
-      "score": 2.23,
+      "publishedAt": "Fri, 02 Oct 2026 15:00:00 +0000",
+      "summary": "Here are Google's latest AI updates from September 2026",
+      "score": 2.58,
       "tags": [
         "ai",
         "official",
@@ -198,14 +198,30 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/jhene-aiko-westside-whimsy/",
-      "title": "Westside Whimsy",
-      "url": "https://pitchfork.com/reviews/albums/jhene-aiko-westside-whimsy/",
+      "id": "nme music news:https://www.nme.com/news/music/stray-kids-join-bts-in-boycotting-2027-grammys-following-introduction-of-asian-pop-category-3971988?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=stray-kids-join-bts-in-boycotting-2027-grammys-following-introduction-of-asian-pop-category",
+      "title": "Stray Kids join BTS in boycotting 2027 Grammys following introduction of Asian Pop category",
+      "url": "https://www.nme.com/news/music/stray-kids-join-bts-in-boycotting-2027-grammys-following-introduction-of-asian-pop-category-3971988?utm_source=rss&utm_medium=rss&utm_campaign=stray-kids-join-bts-in-boycotting-2027-grammys-following-introduction-of-asian-pop-category",
+      "source": "NME Music News",
+      "topic": "music",
+      "publishedAt": "Fri, 02 Oct 2026 14:32:45 +0000",
+      "summary": "BTS previously said that they wanted their music to be \"heard and loved for what it is, rather than being divided by region or language\" The post Stray Kids join BTS in boycotting 2027 Grammys following introduction of Asian Pop category appeared first on NME .",
+      "score": 1.93,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "nme"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/the-beatles-rubber-soul-super-deluxe/",
+      "title": "Rubber Soul (Super Deluxe)",
+      "url": "https://pitchfork.com/reviews/albums/the-beatles-rubber-soul-super-deluxe/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Wed, 30 Sep 2026 04:02:00 +0000",
-      "summary": "After records steeped in grief and heartbreak, the singer's latest album is framed as a laid-back ode to Los Angeles, but it can be tough to tease out the substance behind the sunny vibes.",
-      "score": 1.9500000000000002,
+      "publishedAt": "Fri, 02 Oct 2026 04:03:00 +0000",
+      "summary": "Pop and art, stereo and mono, Britain and America, John and Paul: An expansive reissue of one of the 20th century's most important works of art suspends its heady contradictions in a state of perfect flux.",
+      "score": 1.9,
       "tags": [
         "music",
         "reviews",
@@ -221,28 +237,12 @@
       "topic": "music",
       "publishedAt": "Thu, 01 Oct 2026 04:03:00 +0000",
       "summary": "The UK artist brings a frenzy of club-grime provocation and internet humor to his glitched-out emo, but his portrayal of small-town malaise is what makes it a riot.",
-      "score": 1.95,
+      "score": 1.8,
       "tags": [
         "music",
         "albums",
         "rss",
         "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/brit-awards-2026-5million-boost-manchester-outside-london-3971776?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=brit-awards-2026-5million-boost-manchester-outside-london",
-      "title": "The BRIT Awards 2026 deliver £5million boost to Manchester in first year outside London",
-      "url": "https://www.nme.com/news/music/brit-awards-2026-5million-boost-manchester-outside-london-3971776?utm_source=rss&utm_medium=rss&utm_campaign=brit-awards-2026-5million-boost-manchester-outside-london",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Thu, 01 Oct 2026 11:44:28 +0000",
-      "summary": "\"It was a recognition not only of our unmatched music heritage, but our growing reputation for putting on national and global events and making a success of them,\" said the Mayor of Greater Manchester The post The BRIT Awards 2026 deliver £5million boost to Manchester in first year outside London appeared first on NME .",
-      "score": 1.93,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
       ]
     }
   ]
