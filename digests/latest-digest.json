@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-03",
-  "builtAt": "2026-10-03T15:08:29.117Z",
-  "lastAttemptedAt": "2026-10-03T15:08:28.301Z",
+  "digestId": "2026-10-04",
+  "builtAt": "2026-10-04T15:48:03.993Z",
+  "lastAttemptedAt": "2026-10-04T15:48:03.153Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33392",
-      "title": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
-      "url": "https://isc.sans.edu/diary/rss/33392",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33394",
+      "title": "User Agent Strings Curiosities, (Sun, Oct 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33394",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sat, 03 Oct 2026 14:40:21 GMT",
-      "summary": "YARA-X's 1.21.0 release brings 5 improvements and 4 bugfixes.",
-      "score": 2.65,
+      "publishedAt": "Sun, 04 Oct 2026 07:58:51 GMT",
+      "summary": "Sometimes I have to smile, or my interest is triggered, when I review new User Agent Strings in the honeypot logs.",
+      "score": 2.45,
       "tags": [
         "security",
         "rss",
@@ -47,28 +47,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
-      "title": "I Want Better Reporting on AI Genie Behavior",
-      "url": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-30T17:24:20Z",
-      "summary": "AI systems are regularly completing tasks in ways that their prompters don't want or intend. Some of them are disturbing, and some of them are dangerous. This is something I've been calling \" genie behavior ,\" because I think that really gets at the core of what's happening. I wish the popular press would report on this better. I don't like the \"going...",
-      "score": 2.4,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33376",
-      "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33376",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33392",
+      "title": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
+      "url": "https://isc.sans.edu/diary/rss/33392",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Mon, 28 Sep 2026 22:35:35 GMT",
-      "summary": "Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploited. iOS and macOS 27 are not affected. Today's update for the current \"27\" branch does not address security issues, but fixes some...",
-      "score": 2.3,
+      "publishedAt": "Sat, 03 Oct 2026 14:40:21 GMT",
+      "summary": "YARA-X's 1.21.0 release brings 5 improvements and 4 bugfixes.",
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -76,14 +62,28 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
-      "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
-      "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
+      "title": "I Want Better Reporting on AI Genie Behavior",
+      "url": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-02T21:02:21Z",
-      "summary": "The EU is recommending import controls to combat unregulated squid fishing in the Southwest Atlantic. I'm not optimistic. As usual, you can also use this squid post to talk about the security stories in the news that I haven't covered. Blog moderation policy.",
-      "score": 2.35,
+      "publishedAt": "2026-09-30T17:24:20Z",
+      "summary": "AI systems are regularly completing tasks in ways that their prompters don't want or intend. Some of them are disturbing, and some of them are dangerous. This is something I've been calling \" genie behavior ,\" because I think that really gets at the core of what's happening. I wish the popular press would report on this better. I don't like the \"going...",
+      "score": 2.3,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
+      "title": "New Attack Against RSA",
+      "url": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-09-28T11:03:31Z",
+      "summary": "ArsTechnica is reporting on a \"new\" attack against RSA, one that bypasses factoring. First, this attack isn't new. The original research is from 2007 . What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works...",
+      "score": 2.3,
       "tags": [
         "security",
         "feed"
@@ -105,43 +105,12 @@
       ]
     },
     {
-      "id": "hacker news:https://tej.as/blog/aleph-alpha-kolibri",
-      "title": "Show HN: Germany's new sovereign AI model Kolibri",
-      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "id": "hacker news:https://github.com/allenv0/scm",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 03 Oct 2026 10:43:51 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
-      "title": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day",
-      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Sat, 03 Oct 2026 05:39:22 GMT",
-      "summary": "Company says it is reviewing 50 petabytes of data after its agents accessed websites including Medicare without authorisation Get our breaking news email , free app or daily news podcast OpenAI says its review in response to the Medicare and Hugging Face agent attacks is costing the company more than US$500,000 per day, as it deploys AI to examine data...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sat, 03 Oct 2026 09:36:04 +0000",
+      "publishedAt": "Sun, 04 Oct 2026 09:24:52 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -149,6 +118,37 @@
         "community",
         "rss",
         "hacker-news"
+      ]
+    },
+    {
+      "id": "hacker news:https://liao.gg/blog/agents-dont-need-memory",
+      "title": "Agents don't need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sat, 03 Oct 2026 17:03:37 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.2,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Sun, 04 Oct 2026 07:48:54 GMT",
+      "summary": "David Robinson joins other insiders in urging industry to take more care over rapidly developing technology A safety leader at OpenAI has quit the company, warning that its culture was broken and that AI firms were not \"being nearly careful enough\" about developing the technology. David Robinson, who led the writing of safety reports that accompanied the...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
       ]
     },
     {
@@ -173,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Fri, 02 Oct 2026 16:15:00 GMT",
       "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "score": 2.72,
+      "score": 2.5700000000000003,
       "tags": [
         "ai",
         "official",
@@ -198,35 +198,35 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/elvis-costello-my-aim-is-true-49th-anniversary-edition/",
-      "title": "My Aim Is True (49th Anniversary Edition)",
-      "url": "https://pitchfork.com/reviews/albums/elvis-costello-my-aim-is-true-49th-anniversary-edition/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Sat, 03 Oct 2026 04:00:00 +0000",
-      "summary": "A 104-track box set fleshes out the seemingly out-of-nowhere brilliance of Elvis Costello's debut: a portrait of the artist as a fidgety young man, trying on literal and figurative hats.",
-      "score": 1.9999999999999998,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/watch-bernie-sanders-aoc-introduce-the-strokes-nyc-3972046?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-bernie-sanders-aoc-introduce-the-strokes-nyc",
-      "title": "Watch Bernie Sanders and AOC introduce The Strokes at huge NYC homecoming show",
-      "url": "https://www.nme.com/news/music/watch-bernie-sanders-aoc-introduce-the-strokes-nyc-3972046?utm_source=rss&utm_medium=rss&utm_campaign=watch-bernie-sanders-aoc-introduce-the-strokes-nyc",
+      "id": "nme music news:https://www.nme.com/news/music/watch-dave-grohl-join-ac-dc-highway-to-hell-power-up-3972071?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-dave-grohl-join-ac-dc-highway-to-hell-power-up",
+      "title": "Watch Dave Grohl join AC/DC for 'Highway To Hell' at final 'Power Up' tour show",
+      "url": "https://www.nme.com/news/music/watch-dave-grohl-join-ac-dc-highway-to-hell-power-up-3972071?utm_source=rss&utm_medium=rss&utm_campaign=watch-dave-grohl-join-ac-dc-highway-to-hell-power-up",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sat, 03 Oct 2026 09:35:48 +0000",
-      "summary": "Sanders praised the band for \"standing up for economic justice, fighting racism, understanding that healthcare is a human right\" The post Watch Bernie Sanders and AOC introduce The Strokes at huge NYC homecoming show appeared first on NME .",
+      "publishedAt": "Sun, 04 Oct 2026 09:31:58 +0000",
+      "summary": "\"I'm going to live my childhood dream again, tonight\" The post Watch Dave Grohl join AC/DC for 'Highway To Hell' at final 'Power Up' tour show appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/bowery-electric-beat/",
+      "title": "Beat",
+      "url": "https://pitchfork.com/reviews/albums/bowery-electric-beat/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Sun, 04 Oct 2026 04:00:00 +0000",
+      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the New York duo's brilliant second album, a synthesis of shoegaze, ambient, and trip-hop that permeated the boundaries of rock and electronic music.",
+      "score": 1.7999999999999998,
+      "tags": [
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
       ]
     },
     {
@@ -237,7 +237,7 @@
       "topic": "music",
       "publishedAt": "Fri, 02 Oct 2026 23:14:21 +0000",
       "summary": "It's getting pretty wild in the beverage aisle these days - from the rainbow wall of seltzers, to the increasingly strange flavors of Pepsi, to the new \"functional\" sodas with added fiber or supplements that supposedly offer health benefits. Where are all these new drinks coming from? And why does it seem like the options are multiplying faster than ever?...",
-      "score": 1.8699999999999999,
+      "score": 1.72,
       "tags": [
         "music",
         "news",
