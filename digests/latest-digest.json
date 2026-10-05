@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-04",
-  "builtAt": "2026-10-04T15:48:03.993Z",
-  "lastAttemptedAt": "2026-10-04T15:48:03.153Z",
+  "digestId": "2026-10-05",
+  "builtAt": "2026-10-05T19:42:10.784Z",
+  "lastAttemptedAt": "2026-10-05T19:42:09.672Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -18,32 +18,32 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33394",
-      "title": "User Agent Strings Curiosities, (Sun, Oct 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33394",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
+      "title": "Another Historic Cipher Falls to AI",
+      "url": "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-05T11:04:48Z",
+      "summary": "This one is from 1809, written by Napoleon's nephew.",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33396",
+      "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33396",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sun, 04 Oct 2026 07:58:51 GMT",
-      "summary": "Sometimes I have to smile, or my interest is triggered, when I review new User Agent Strings in the honeypot logs.",
-      "score": 2.45,
+      "publishedAt": "Mon, 05 Oct 2026 00:15:00 GMT",
+      "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
+      "score": 2.55,
       "tags": [
         "security",
         "rss",
         "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
-      "title": "How American Political Campaigns Are Using AI-and What They're Spending on the Tools",
-      "url": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-02T11:03:09Z",
-      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . New campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them. Candidates', parties' and committees' spending reveals that AI is fast becoming an essential tool of politics. The candidates...",
-      "score": 2.4,
-      "tags": [
-        "security",
-        "feed"
       ]
     },
     {
@@ -62,6 +62,20 @@
       ]
     },
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
+      "title": "How American Political Campaigns Are Using AI-and What They're Spending on the Tools",
+      "url": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-02T11:03:09Z",
+      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . New campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them. Candidates', parties' and committees' spending reveals that AI is fast becoming an essential tool of politics. The candidates...",
+      "score": 2.3,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
       "title": "I Want Better Reporting on AI Genie Behavior",
       "url": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
@@ -76,28 +90,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
-      "title": "New Attack Against RSA",
-      "url": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-09-28T11:03:31Z",
-      "summary": "ArsTechnica is reporting on a \"new\" attack against RSA, one that bypasses factoring. First, this attack isn't new. The original research is from 2007 . What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works...",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
-      "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
-      "url": "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
+      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/oct/06/openai-must-explain-action-taken-to-stop-ai-hacking-australians-private-data-chair-of-federal-inquiry-says",
+      "title": "OpenAI must explain action taken to stop AI hacking Australians' private data, chair of federal inquiry says",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/06/openai-must-explain-action-taken-to-stop-ai-hacking-australians-private-data-chair-of-federal-inquiry-says",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 01 Oct 2026 16:47:29 GMT",
-      "summary": "Tech company releases Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers Google on Wednesday said it would withhold its most powerful artificial intelligence model from the public for now, releasing Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers. \"Safely releasing frontier...",
-      "score": 2.5,
+      "publishedAt": "Mon, 05 Oct 2026 14:00:27 GMT",
+      "summary": "Unions, employer groups, banks and industry experts will appear at the four-day hearings along with OpenAI, Anthropic, Microsoft and Google Get our new political email , free app or daily news podcast OpenAI must explain how they will stop their models from inappropriately accessing Australian data, the Labor chair of the parliament's committee on...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -105,12 +105,12 @@
       ]
     },
     {
-      "id": "hacker news:https://github.com/allenv0/scm",
-      "title": "Show HN: AI search for every photo and every frame of video on macOS",
-      "url": "https://github.com/allenv0/SCM",
+      "id": "hacker news:https://reflection.ai/blog/introducing-beam",
+      "title": "Beam: Reflection's 501B open-weight model",
+      "url": "https://reflection.ai/blog/introducing-beam",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 04 Oct 2026 09:24:52 +0000",
+      "publishedAt": "Mon, 05 Oct 2026 19:16:35 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -121,14 +121,28 @@
       ]
     },
     {
-      "id": "hacker news:https://liao.gg/blog/agents-dont-need-memory",
-      "title": "Agents don't need memory, they need documentation",
-      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Trump chooses top spy boss to run new AI taskforce",
+      "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Mon, 05 Oct 2026 10:03:38 GMT",
+      "summary": "The US president said his national intelligence chief will lead the group as worries over AI grow.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://deadparrotbbs.com/why-plain-text-is-still-one-of-the-best-technologies-we-have/",
+      "title": "Why Plain Text Is Still One of the Best Technologies We Have",
+      "url": "https://deadparrotbbs.com/why-plain-text-is-still-one-of-the-best-technologies-we-have/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 03 Oct 2026 17:03:37 +0000",
+      "publishedAt": "Mon, 05 Oct 2026 18:54:00 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.2,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -137,32 +151,18 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/05/apple-iphone-18-pro-review-battery-life-screen-siri-camera-variable-aperture-ios-27",
+      "title": "Apple iPhone 18 Pro review: big changes for small differences",
+      "url": "https://www.theguardian.com/technology/2026/oct/05/apple-iphone-18-pro-review-battery-life-screen-siri-camera-variable-aperture-ios-27",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sun, 04 Oct 2026 07:48:54 GMT",
-      "summary": "David Robinson joins other insiders in urging industry to take more care over rapidly developing technology A safety leader at OpenAI has quit the company, warning that its culture was broken and that AI firms were not \"being nearly careful enough\" about developing the technology. David Robinson, who led the writing of safety reports that accompanied the...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Mon, 05 Oct 2026 06:00:49 GMT",
+      "summary": "Longer battery life, better screen, upgraded Siri and new variable aperture camera in refreshed design from last year's model Apple's smaller Pro iPhone gets the best kind of spec bump for 2026: longer battery life, faster chips and a fancy new variable aperture for the main camera. The iPhone 18 Pro is one of a pair of slab phones launched alongside...",
+      "score": 2.25,
       "tags": [
         "tech",
         "rss",
         "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=rss&amp;at_campaign=rss",
-      "title": "OpenAI fires workers for 'mishandling sensitive information'",
-      "url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Fri, 02 Oct 2026 08:20:32 GMT",
-      "summary": "The former employees were investigated for sharing data with an outside AI evaluation group.",
-      "score": 1.9000000000000001,
-      "tags": [
-        "tech",
-        "rss"
       ]
     },
     {
@@ -173,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Fri, 02 Oct 2026 16:15:00 GMT",
       "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "score": 2.5700000000000003,
+      "score": 2.47,
       "tags": [
         "ai",
         "official",
@@ -189,7 +189,7 @@
       "topic": "ai",
       "publishedAt": "Fri, 02 Oct 2026 15:00:00 +0000",
       "summary": "Here are Google's latest AI updates from September 2026",
-      "score": 2.33,
+      "score": 2.23,
       "tags": [
         "ai",
         "official",
@@ -198,35 +198,35 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/watch-dave-grohl-join-ac-dc-highway-to-hell-power-up-3972071?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-dave-grohl-join-ac-dc-highway-to-hell-power-up",
-      "title": "Watch Dave Grohl join AC/DC for 'Highway To Hell' at final 'Power Up' tour show",
-      "url": "https://www.nme.com/news/music/watch-dave-grohl-join-ac-dc-highway-to-hell-power-up-3972071?utm_source=rss&utm_medium=rss&utm_campaign=watch-dave-grohl-join-ac-dc-highway-to-hell-power-up",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/emily-a-sprague-cyano/",
+      "title": "Cyano",
+      "url": "https://pitchfork.com/reviews/albums/emily-a-sprague-cyano/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Mon, 05 Oct 2026 04:03:00 +0000",
+      "summary": "The Florist musician's latest ambient release blends her intuitive, associative songwriting with her increasingly immersive voice as a composer for modular synth.",
+      "score": 2.1,
+      "tags": [
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/bowie80-to-celebrate-late-icons-milestone-birthday-in-2027-with-special-events-releases-collaborations-and-more-3972189?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bowie80-to-celebrate-late-icons-milestone-birthday-in-2027-with-special-events-releases-collaborations-and-more",
+      "title": "'Bowie80' to celebrate late icon's milestone birthday in 2027 - with special events, releases, collaborations and more",
+      "url": "https://www.nme.com/news/music/bowie80-to-celebrate-late-icons-milestone-birthday-in-2027-with-special-events-releases-collaborations-and-more-3972189?utm_source=rss&utm_medium=rss&utm_campaign=bowie80-to-celebrate-late-icons-milestone-birthday-in-2027-with-special-events-releases-collaborations-and-more",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sun, 04 Oct 2026 09:31:58 +0000",
-      "summary": "\"I'm going to live my childhood dream again, tonight\" The post Watch Dave Grohl join AC/DC for 'Highway To Hell' at final 'Power Up' tour show appeared first on NME .",
+      "publishedAt": "Mon, 05 Oct 2026 13:00:11 +0000",
+      "summary": "Events will be taking place at the Rock & Roll Hall of Fame in Cleveland, London's V&A, and more The post 'Bowie80' to celebrate late icon's milestone birthday in 2027 - with special events, releases, collaborations and more appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/bowery-electric-beat/",
-      "title": "Beat",
-      "url": "https://pitchfork.com/reviews/albums/bowery-electric-beat/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Sun, 04 Oct 2026 04:00:00 +0000",
-      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the New York duo's brilliant second album, a synthesis of shoegaze, ambient, and trip-hop that permeated the boundaries of rock and electronic music.",
-      "score": 1.7999999999999998,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
       ]
     },
     {
