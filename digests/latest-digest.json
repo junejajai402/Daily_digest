@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-06",
-  "builtAt": "2026-10-06T17:10:45.092Z",
-  "lastAttemptedAt": "2026-10-06T17:10:43.979Z",
+  "digestId": "2026-10-07",
+  "builtAt": "2026-10-07T17:48:52.161Z",
+  "lastAttemptedAt": "2026-10-07T17:48:51.555Z",
   "isStale": false,
   "counts": {
-    "rawItems": 103,
-    "dedupedItems": 103,
+    "rawItems": 104,
+    "dedupedItems": 104,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,27 +18,27 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
-      "title": "Possible Vulnerability in Apple's Automatic Reboot",
-      "url": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "title": "Apple's Verified Photography System",
+      "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-06T11:07:20Z",
-      "summary": "404Media is reporting (alternate link ) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn't been used for 72 hours. The new technology to get around inactivity reboot was developed by Magnet...",
-      "score": 2.45,
+      "publishedAt": "2026-10-07T11:07:37Z",
+      "summary": "Apple just released a system called \"Reference Image.\" It can verify the image is exactly as taken by an iPhone-new models only-without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own...",
+      "score": 2.85,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33400",
-      "title": "More RMM Tools In the Wild, (Tue, Oct 6th)",
-      "url": "https://isc.sans.edu/diary/rss/33400",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33406",
+      "title": "Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)",
+      "url": "https://isc.sans.edu/diary/rss/33406",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Tue, 06 Oct 2026 13:16:02 GMT",
-      "summary": "It seems that a trend startedâ¦ I continue my journey discovering more RMM (\"Remote Management & Monitoring\") tools abused by threat actors! A few days ago, I wrote a diary[ 1 ] about ScreenConnect used in the wild. Today, I found another one.",
+      "publishedAt": "Wed, 07 Oct 2026 14:59:33 GMT",
+      "summary": "On October 5th, Atlassian published patchesÂ for multiple products to fix an \"Arbitrary File Access\" vulnerability [ CVE-2026-21589 ]. An attacker can read arbitrary files in the web application's directory, potentially exposing sensitive information such as configuration files.",
       "score": 2.45,
       "tags": [
         "security",
@@ -90,30 +90,14 @@
       ]
     },
     {
-      "id": "hacker news:https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
-      "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
-      "url": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Tue, 06 Oct 2026 12:45:49 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/06/openai-delivers-a-mea-culpa-to-the-australian-government-in-person-but-answers-still-elude",
-      "title": "OpenAI delivers a mea culpa to the Australian government in person - but answers still elude",
-      "url": "https://www.theguardian.com/technology/2026/oct/06/openai-delivers-a-mea-culpa-to-the-australian-government-in-person-but-answers-still-elude",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
+      "title": "OpenAI's release of mathematical findings draws concerns from experts",
+      "url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 06 Oct 2026 11:12:41 GMT",
-      "summary": "Jason Kwon's answers were provided in a helpful, quiet and calm manner. For a company under intense scrutiny, there were no missteps Open AI's Jason Kwon flew 15 hours from San Francisco to Sydney to give the company's first in-person mea culpa after it admitted - in an unsigned email, to a public departmental inbox - that one of its AI agents had accessed...",
-      "score": 2.35,
+      "publishedAt": "Wed, 07 Oct 2026 15:40:51 GMT",
+      "summary": "Leaders worry OpenAI is not doing due diligence to vet results and that AI models aren't accessible to broader field of mathematicians OpenAI has astounded mathematicians after releasing hundreds of new mathematical findings on Tuesday. The company published over 370 mathematical results across a variety of topics such as algebra, theoretical computer...",
+      "score": 2.5500000000000003,
       "tags": [
         "tech",
         "rss",
@@ -121,26 +105,12 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckly0g1ljq2yo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Italian PM files to trademark her voice against AI threats",
-      "url": "https://www.bbc.co.uk/news/articles/ckly0g1ljq2yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Tue, 06 Oct 2026 11:24:10 GMT",
-      "summary": "Giorgia Meloni submitted a four-second audio to a EU agency in a bid to protect her voice from deepfakes.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://github.com/fesens/opentpu",
-      "title": "AI is now capable of developing its own inference hardware",
-      "url": "https://github.com/FeSens/openTPU",
+      "id": "hacker news:https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+      "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 06 Oct 2026 16:23:25 +0000",
+      "publishedAt": "Wed, 07 Oct 2026 09:51:43 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -151,13 +121,28 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq8jzyey8e2ro?at_medium=rss&amp;at_campaign=rss",
-      "title": "Ofcom investigates Meta over Instagram Instants feature",
-      "url": "https://www.bbc.co.uk/news/articles/cq8jzyey8e2ro?at_medium=RSS&at_campaign=rss",
+      "id": "the guardian tech:https://www.theguardian.com/business/2026/oct/07/jaguar-launch-type-01-electric-vehicle",
+      "title": "Jaguar targets young Americans with Type 01 EV - but it's too long for UK parking spaces",
+      "url": "https://www.theguardian.com/business/2026/oct/07/jaguar-launch-type-01-electric-vehicle",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Wed, 07 Oct 2026 00:00:28 GMT",
+      "summary": "Latest model is launching in New York to target rich US buyers - and is more than 5.2 metres long and 2 metres wide It has no rear window, will not fit into a UK parking space and - starting at £130,000 - ($172,000) is aimed squarely at rich tech industry buyers driving the wide open roads of America. Jaguar's electric car, the Type 01, was launched in New...",
+      "score": 2.45,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c64g71j4lgyjo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Rainmakers: The drones used to seed clouds",
+      "url": "https://www.bbc.co.uk/news/articles/c64g71j4lgyjo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Tue, 06 Oct 2026 09:04:02 GMT",
-      "summary": "The regulator said Instagram had not fully assessed risks posed by its Instants feature prior to launching it.",
+      "publishedAt": "Wed, 07 Oct 2026 07:09:32 GMT",
+      "summary": "Cloud seeding is gaining attention as countries look to boost rainfall - will drones help?",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -165,14 +150,30 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/atlassian-partnership",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
+      "id": "hacker news:https://github.com/queuingtheorydotcom/11squaresformalized",
+      "title": "AI-assisted proof of optimal packing for 11 squares",
+      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Wed, 07 Oct 2026 14:10:55 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/teens-learn-and-plan",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Tue, 06 Oct 2026 16:00:00 GMT",
-      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "score": 2.62,
+      "publishedAt": "Wed, 07 Oct 2026 12:00:00 GMT",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "score": 2.4200000000000004,
       "tags": [
         "ai",
         "official",
@@ -181,14 +182,14 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "title": "The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Fri, 02 Oct 2026 15:00:00 +0000",
-      "summary": "Here are Google's latest AI updates from September 2026",
-      "score": 2.23,
+      "publishedAt": "Wed, 07 Oct 2026 12:00:00 +0000",
+      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "score": 2.3800000000000003,
       "tags": [
         "ai",
         "official",
@@ -197,30 +198,30 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/emily-a-sprague-cyano/",
-      "title": "Cyano",
-      "url": "https://pitchfork.com/reviews/albums/emily-a-sprague-cyano/",
-      "source": "Pitchfork Album Reviews",
+      "id": "npr music news:https://www.npr.org/2026/10/07/nx-s1-5992800/charles-ponzis-scheme-plus-a-new-scam",
+      "title": "Charles Ponzi's scheme (plus a new scam)",
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5992800/charles-ponzis-scheme-plus-a-new-scam",
+      "source": "NPR Music News",
       "topic": "music",
-      "publishedAt": "Mon, 05 Oct 2026 04:03:00 +0000",
-      "summary": "The Florist musician's latest ambient release blends her intuitive, associative songwriting with her increasingly immersive voice as a composer for modular synth.",
-      "score": 1.9500000000000002,
+      "publishedAt": "Wed, 07 Oct 2026 07:00:00 +0000",
+      "summary": "Charles Ponzi was down on his luck. In 1919, the Italian immigrant had spent a decade and a half in the U.S. He was looking for a way to get rich and tried his hand at everything - including bookkeeping, sign painting, grocery clerk, dishwasher, and librarian. He caught a lucky break in August, when he received a letter from Europe. In the envelope was an...",
+      "score": 1.97,
       "tags": [
         "music",
-        "reviews",
+        "news",
         "rss",
-        "pitchfork"
+        "npr"
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/rare-led-zeppelin-record-that-band-wanted-destroyed-unearthed-on-antiques-roadshow-3972327?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rare-led-zeppelin-record-that-band-wanted-destroyed-unearthed-on-antiques-roadshow",
-      "title": "Rare Led Zeppelin record that band wanted destroyed unearthed on 'Antiques Roadshow'",
-      "url": "https://www.nme.com/news/music/rare-led-zeppelin-record-that-band-wanted-destroyed-unearthed-on-antiques-roadshow-3972327?utm_source=rss&utm_medium=rss&utm_campaign=rare-led-zeppelin-record-that-band-wanted-destroyed-unearthed-on-antiques-roadshow",
+      "id": "nme music news:https://www.nme.com/news/music/record-store-day-black-friday-2026-check-out-the-full-list-of-releases-3972499?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=record-store-day-black-friday-2026-check-out-the-full-list-of-releases",
+      "title": "Record Store Day Black Friday 2026: check out the full list of releases",
+      "url": "https://www.nme.com/news/music/record-store-day-black-friday-2026-check-out-the-full-list-of-releases-3972499?utm_source=rss&utm_medium=rss&utm_campaign=record-store-day-black-friday-2026-check-out-the-full-list-of-releases",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Tue, 06 Oct 2026 13:41:08 +0000",
-      "summary": "The owner had owned the 7-inch vinyl since the early '70s and was told on the show that it \"shouldn't really exist\" in the UK The post Rare Led Zeppelin record that band wanted destroyed unearthed on 'Antiques Roadshow' appeared first on NME .",
-      "score": 1.73,
+      "publishedAt": "Wed, 07 Oct 2026 14:03:57 +0000",
+      "summary": "Exclusive and limited edition releases come from Sombr, Florence + The Machine, KATSEYE, Jessie Ware and more The post Record Store Day Black Friday 2026: check out the full list of releases appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
         "news",
@@ -229,17 +230,17 @@
       ]
     },
     {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/300skullsandcounting-jenny-sparks-this-is-spa-town/",
-      "title": "THIS IS SPA TOWN!",
-      "url": "https://pitchfork.com/reviews/albums/300skullsandcounting-jenny-sparks-this-is-spa-town/",
-      "source": "Pitchfork Best New Albums",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/klein-my-own-fairytale/",
+      "title": "my own fairytale",
+      "url": "https://pitchfork.com/reviews/albums/klein-my-own-fairytale/",
+      "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Thu, 01 Oct 2026 04:03:00 +0000",
-      "summary": "The UK artist brings a frenzy of club-grime provocation and internet humor to his glitched-out emo, but his portrayal of small-town malaise is what makes it a riot.",
-      "score": 1.7,
+      "publishedAt": "Wed, 07 Oct 2026 04:01:00 +0000",
+      "summary": "The South London artist channels Disney soundtrack tropes into claustrophobic strings and drones, while a handful of vocal tracks hint darkly at real-world family drama.",
+      "score": 1.9,
       "tags": [
         "music",
-        "albums",
+        "reviews",
         "rss",
         "pitchfork"
       ]
