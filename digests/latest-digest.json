@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-08",
-  "builtAt": "2026-10-08T17:52:19.698Z",
-  "lastAttemptedAt": "2026-10-08T17:52:17.842Z",
+  "digestId": "2026-10-09",
+  "builtAt": "2026-10-09T17:26:18.354Z",
+  "lastAttemptedAt": "2026-10-09T17:26:17.794Z",
   "isStale": false,
   "counts": {
-    "rawItems": 104,
-    "dedupedItems": 104,
+    "rawItems": 103,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,21 +18,6 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33410",
-      "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
-      "url": "https://isc.sans.edu/diary/rss/33410",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Thu, 08 Oct 2026 16:52:53 GMT",
-      "summary": "We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8Â of the most popular AI coding assistants andÂ agents including Claude Code, Codex, Gemini CLI, Cursor, Copilot, Warp, Windsurf, and Qwen Code. I've been using Claude Code and a little bit of...",
-      "score": 2.85,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
       "title": "Apple's Verified Photography System",
       "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
@@ -40,10 +25,25 @@
       "topic": "security",
       "publishedAt": "2026-10-08T05:44:43Z",
       "summary": "Apple just released a system called \"Reference Image.\" It can verify the image is exactly as taken by an iPhone-new models only-without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own...",
-      "score": 2.75,
+      "score": 2.6,
       "tags": [
         "security",
         "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33410",
+      "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33410",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Thu, 08 Oct 2026 16:52:53 GMT",
+      "summary": "We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8Â of the most popular AI coding assistants andÂ agents including Claude Code, Codex, Gemini CLI, Cursor, Copilot, Warp, Windsurf, and Qwen Code. I've been using Claude Code and a little bit of...",
+      "score": 2.6,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
       ]
     },
     {
@@ -54,7 +54,7 @@
       "topic": "security",
       "publishedAt": "2026-10-08T11:08:05Z",
       "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs . Two weeks after Moscow's full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor's head that read: \"Stop the war. Don't believe...",
-      "score": 2.65,
+      "score": 2.4,
       "tags": [
         "security",
         "feed"
@@ -90,43 +90,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/08/co-op-legal-services-ai-customer-phone-call-surveillance",
-      "title": "'Dystopian': Co-op becomes latest firm to put staff under AI surveillance",
-      "url": "https://www.theguardian.com/technology/2026/oct/08/co-op-legal-services-ai-customer-phone-call-surveillance",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Thu, 08 Oct 2026 09:00:16 GMT",
-      "summary": "Whistleblower says recording and analysis of all probate calls in Co-op Legal Services is oppressive The Co-op has become the latest employer to place workers under AI surveillance with an automated listening technology that rates every phone call some of them make to customers. In a system described as \"oppressive and dystopian\" by a whistleblower, Co-op...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=rss&amp;at_campaign=rss",
-      "title": "AI chip boom pushes Samsung profits to record $80bn",
-      "url": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Thu, 08 Oct 2026 01:59:54 GMT",
-      "summary": "The tech giant is also expected to get a boost from its latest folding devices that were launched in August.",
-      "score": 2.25,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://cactuscompute.com/blog/whistle",
-      "title": "Whistle: Speech to Text in 16.9 MB",
-      "url": "https://cactuscompute.com/blog/whistle",
+      "id": "hacker news:https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 08 Oct 2026 16:59:39 +0000",
+      "publishedAt": "Fri, 09 Oct 2026 11:03:48 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
+      "score": 2.5,
       "tags": [
         "tech",
         "community",
@@ -135,14 +106,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
-      "title": "OpenAI's release of mathematical findings draws concerns from experts",
-      "url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
+      "id": "the guardian tech:https://www.theguardian.com/film/2026/oct/09/the-new-darth-vader-how-tech-execs-became-the-film-villains-of-our-age",
+      "title": "The new Darth Vader: how tech execs became the film villains of our age",
+      "url": "https://www.theguardian.com/film/2026/oct/09/the-new-darth-vader-how-tech-execs-became-the-film-villains-of-our-age",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Wed, 07 Oct 2026 15:40:51 GMT",
-      "summary": "Leaders worry OpenAI is not doing due diligence to vet results and that AI models aren't accessible to broader field of mathematicians OpenAI has astounded mathematicians after releasing hundreds of new mathematical findings on Tuesday. The company published over 370 mathematical results across a variety of topics such as algebra, theoretical computer...",
-      "score": 2.3000000000000003,
+      "publishedAt": "Fri, 09 Oct 2026 11:05:42 GMT",
+      "summary": "Jeremy Strong's portrayal of Mark Zuckerberg in The Social Reckoning shows how public opinion has changed around billionaire CEOs since The Social Network's release When The Social Network came out, Mark Zuckerberg organised a staff viewing of a film he described as \"fun\" . A group corporate outing to the sequel is unlikely.",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -150,13 +121,13 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Asos hackers took more personal details than first revealed, BBC finds",
-      "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cr86z33pdy9vo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Prize-winning image which sparked backlash was AI-generated, Nikon rules",
+      "url": "https://www.bbc.co.uk/news/articles/cr86z33pdy9vo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 08 Oct 2026 16:29:33 GMT",
-      "summary": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact details\"",
+      "publishedAt": "Fri, 09 Oct 2026 15:32:30 GMT",
+      "summary": "The camera-maker says it is now re-evaluating the rules and procedures of its Small World in Motion contest.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -164,13 +135,42 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/oracle",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "url": "https://openai.com/index/oracle",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
+      "title": "OpenAI projected to bring in $20bn less in revenue than expected",
+      "url": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Fri, 09 Oct 2026 08:06:09 GMT",
+      "summary": "Questions raised over AI growth as ChatGPT maker forecasts this year's revenue at $50bn, way below the $70bn signalled before Business live - latest updates OpenAI has revealed that it is making about $20bn less in projected revenue than it had recently indicated to investors, raising questions about the break-neck growth rate in demand for AI. The...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Anthropic bans users from being 'cruel' to its AI systems",
+      "url": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Fri, 09 Oct 2026 12:34:27 GMT",
+      "summary": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/sophos",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Thu, 08 Oct 2026 16:00:00 GMT",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "summary": "Discover how Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "score": 2.4200000000000004,
       "tags": [
         "ai",
@@ -196,13 +196,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/turnstile-announce-huge-free-show-at-washington-monument-to-raise-money-for-palestine-sudan-and-lebanon-3972691?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=turnstile-announce-huge-free-show-at-washington-monument-to-raise-money-for-palestine-sudan-and-lebanon",
-      "title": "Turnstile announce huge free show at Washington Monument to raise money for Palestine, Sudan, and Lebanon",
-      "url": "https://www.nme.com/news/music/turnstile-announce-huge-free-show-at-washington-monument-to-raise-money-for-palestine-sudan-and-lebanon-3972691?utm_source=rss&utm_medium=rss&utm_campaign=turnstile-announce-huge-free-show-at-washington-monument-to-raise-money-for-palestine-sudan-and-lebanon",
+      "id": "nme music news:https://www.nme.com/news/music/fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm-3972825?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm",
+      "title": "Fontaines D.C. announce intimate London Roundhouse show next week to raise money for mental health charity CALM",
+      "url": "https://www.nme.com/news/music/fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm-3972825?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 08 Oct 2026 15:47:20 +0000",
-      "summary": "The show will be in collaboration with Human Concern International, and will mark the final show of their ongoing North American tour The post Turnstile announce huge free show at Washington Monument to raise money for Palestine, Sudan, and Lebanon appeared first on NME .",
+      "publishedAt": "Fri, 09 Oct 2026 15:46:32 +0000",
+      "summary": "CALM CEO Simon Gunning said that the gig will both be a \"unique shared experience for fans\" and raise money that \"will undoubtedly save lives\" The post Fontaines D.C. announce intimate London Roundhouse show next week to raise money for mental health charity CALM appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -212,13 +212,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/helen-lindas-head/",
-      "title": "Linda's Head",
-      "url": "https://pitchfork.com/reviews/albums/helen-lindas-head/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/remi-wolf-mud/",
+      "title": "Mud",
+      "url": "https://pitchfork.com/reviews/albums/remi-wolf-mud/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Thu, 08 Oct 2026 04:03:00 +0000",
-      "summary": "Over a decade since its debut, the shoegaze trio fronted by Grouper's Liz Harris returns for a brisk new album with its eyes trained on the sky.",
+      "publishedAt": "Fri, 09 Oct 2026 04:01:00 +0000",
+      "summary": "The pop singer's dynamic but uneven third record provides a portrait of semi-reformed adulthood, powered mostly by her sheer charisma and impressive voice.",
       "score": 1.9,
       "tags": [
         "music",
@@ -228,19 +228,19 @@
       ]
     },
     {
-      "id": "npr music news:https://www.npr.org/2026/10/07/nx-s1-5992800/charles-ponzis-scheme-plus-a-new-scam",
-      "title": "Charles Ponzi's scheme (plus a new scam)",
-      "url": "https://www.npr.org/2026/10/07/nx-s1-5992800/charles-ponzis-scheme-plus-a-new-scam",
-      "source": "NPR Music News",
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/cameron-winter-live-at-carnegie-hall/",
+      "title": "Live at Carnegie Hall",
+      "url": "https://pitchfork.com/reviews/albums/cameron-winter-live-at-carnegie-hall/",
+      "source": "Pitchfork Best New Albums",
       "topic": "music",
-      "publishedAt": "Wed, 07 Oct 2026 07:00:00 +0000",
-      "summary": "Charles Ponzi was down on his luck. In 1919, the Italian immigrant had spent a decade and a half in the U.S. He was looking for a way to get rich and tried his hand at everything - including bookkeeping, sign painting, grocery clerk, dishwasher, and librarian. He caught a lucky break in August, when he received a letter from Europe. In the envelope was an...",
-      "score": 1.72,
+      "publishedAt": "Fri, 09 Oct 2026 04:03:00 +0000",
+      "summary": "With new songs that rank among his very best, the Geese frontman's solo live album is an exquisite rendering of a had-to-be-there night and a work of real-time mythmaking.",
+      "score": 1.75,
       "tags": [
         "music",
-        "news",
+        "albums",
         "rss",
-        "npr"
+        "pitchfork"
       ]
     }
   ]
