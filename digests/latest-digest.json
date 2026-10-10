@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-09",
-  "builtAt": "2026-10-09T17:26:18.354Z",
-  "lastAttemptedAt": "2026-10-09T17:26:17.794Z",
+  "digestId": "2026-10-10",
+  "builtAt": "2026-10-10T16:13:56.647Z",
+  "lastAttemptedAt": "2026-10-10T16:13:55.390Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -47,6 +47,21 @@
       ]
     },
     {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33414",
+      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33414",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Sat, 10 Oct 2026 09:11:34 GMT",
+      "summary": "The Traffic Light Protocol (TLP)[ 1 ], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
+      "score": 2.45,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
       "title": "How Technology Empowers-and Imperils-Dictators",
       "url": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
@@ -61,43 +76,28 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33396",
-      "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33396",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Mon, 05 Oct 2026 00:15:00 GMT",
-      "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
-      "title": "Another Historic Cipher Falls to AI",
-      "url": "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
+      "title": "Friday Squid Blogging: I Caught a Squid",
+      "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-05T11:04:48Z",
-      "summary": "This one is from 1809, written by Napoleon's nephew.",
-      "score": 2.3,
+      "publishedAt": "2026-10-09T20:25:01Z",
+      "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And...I caught a squid! Near as I can tell, it's a longfin squid, sometimes called a Boston squid ( Doryteuthis (Amerigo) pealeii ). That night I cooked it over a...",
+      "score": 2.35,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "id": "hacker news:https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "title": "Bitwarden Dual License Model",
+      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 09 Oct 2026 11:03:48 +0000",
+      "publishedAt": "Sat, 10 Oct 2026 14:32:50 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -106,28 +106,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/film/2026/oct/09/the-new-darth-vader-how-tech-execs-became-the-film-villains-of-our-age",
-      "title": "The new Darth Vader: how tech execs became the film villains of our age",
-      "url": "https://www.theguardian.com/film/2026/oct/09/the-new-darth-vader-how-tech-execs-became-the-film-villains-of-our-age",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Fri, 09 Oct 2026 11:05:42 GMT",
-      "summary": "Jeremy Strong's portrayal of Mark Zuckerberg in The Social Reckoning shows how public opinion has changed around billionaire CEOs since The Social Network's release When The Social Network came out, Mark Zuckerberg organised a staff viewing of a film he described as \"fun\" . A group corporate outing to the sequel is unlikely.",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cr86z33pdy9vo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Prize-winning image which sparked backlash was AI-generated, Nikon rules",
-      "url": "https://www.bbc.co.uk/news/articles/cr86z33pdy9vo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cme3xl7d18z2o?at_medium=rss&amp;at_campaign=rss",
+      "title": "King warns malicious online actors are evolving tactics",
+      "url": "https://www.bbc.co.uk/news/articles/cme3xl7d18z2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Fri, 09 Oct 2026 15:32:30 GMT",
-      "summary": "The camera-maker says it is now re-evaluating the rules and procedures of its Small World in Motion contest.",
+      "publishedAt": "Sat, 10 Oct 2026 15:56:32 GMT",
+      "summary": "The King spoke of \"threats to our international order\" in a letter marking the 10th anniversary of the National Cyber Security Centre.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -135,14 +120,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
-      "title": "OpenAI projected to bring in $20bn less in revenue than expected",
-      "url": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+      "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
+      "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Fri, 09 Oct 2026 08:06:09 GMT",
-      "summary": "Questions raised over AI growth as ChatGPT maker forecasts this year's revenue at $50bn, way below the $70bn signalled before Business live - latest updates OpenAI has revealed that it is making about $20bn less in projected revenue than it had recently indicated to investors, raising questions about the break-neck growth rate in demand for AI. The...",
-      "score": 2.35,
+      "publishedAt": "Sat, 10 Oct 2026 10:00:55 GMT",
+      "summary": "George Williamson says 'national resilience' is key focus of ATI amid US and China's runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the head of the Alan Turing Institute. The country needs a stronger domestic...",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -150,13 +135,29 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Anthropic bans users from being 'cruel' to its AI systems",
-      "url": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
+      "id": "hacker news:https://github.com/rociiu/talorys",
+      "title": "Talorys - A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sat, 10 Oct 2026 10:52:09 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwm24n9v8rdeo?at_medium=rss&amp;at_campaign=rss",
+      "title": "How drones are hunting fires hidden beneath the Cairngorms",
+      "url": "https://www.bbc.co.uk/news/articles/cwm24n9v8rdeo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Fri, 09 Oct 2026 12:34:27 GMT",
-      "summary": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech.",
+      "publishedAt": "Sat, 10 Oct 2026 09:31:14 GMT",
+      "summary": "Dramatic flames from the huge Cairngorms wildfire in July have disappeared - but hot spots can continue to burn beneath the earth.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -164,14 +165,14 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/sophos",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
+      "id": "openai news:https://openai.com/index/asana-browser-agent",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
       "source": "OpenAI News",
       "topic": "ai",
       "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "summary": "Discover how Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "score": 2.4200000000000004,
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "score": 2.37,
       "tags": [
         "ai",
         "official",
@@ -196,13 +197,29 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm-3972825?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm",
-      "title": "Fontaines D.C. announce intimate London Roundhouse show next week to raise money for mental health charity CALM",
-      "url": "https://www.nme.com/news/music/fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm-3972825?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/stevie-wonder-songs-in-the-key-of-life-the-ep/",
+      "title": "Songs in the Key of Life - The EP",
+      "url": "https://pitchfork.com/reviews/albums/stevie-wonder-songs-in-the-key-of-life-the-ep/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Sat, 10 Oct 2026 04:00:00 +0000",
+      "summary": "A rare glimpse into the artist's legendary and largely untapped vault of unreleased music presents four stunning outtakes from a hot streak that remains unparalleled in pop history.",
+      "score": 2.1,
+      "tags": [
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/the-rolling-stones-are-back-in-the-studio-again-3972859?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-rolling-stones-are-back-in-the-studio-again",
+      "title": "The Rolling Stones are back in the studio again",
+      "url": "https://www.nme.com/news/music/the-rolling-stones-are-back-in-the-studio-again-3972859?utm_source=rss&utm_medium=rss&utm_campaign=the-rolling-stones-are-back-in-the-studio-again",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Fri, 09 Oct 2026 15:46:32 +0000",
-      "summary": "CALM CEO Simon Gunning said that the gig will both be a \"unique shared experience for fans\" and raise money that \"will undoubtedly save lives\" The post Fontaines D.C. announce intimate London Roundhouse show next week to raise money for mental health charity CALM appeared first on NME .",
+      "publishedAt": "Sat, 10 Oct 2026 10:43:15 +0000",
+      "summary": "Saxophonist Courtney Pine has revealed that he recently recorded with the band The post The Rolling Stones are back in the studio again appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -212,35 +229,19 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/remi-wolf-mud/",
-      "title": "Mud",
-      "url": "https://pitchfork.com/reviews/albums/remi-wolf-mud/",
-      "source": "Pitchfork Album Reviews",
+      "id": "npr music news:https://www.npr.org/2026/10/09/nx-s1-5996901/days-of-our-tariffs-refunds-video-games",
+      "title": "Should we all be getting tariff refunds right now?",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5996901/days-of-our-tariffs-refunds-video-games",
+      "source": "NPR Music News",
       "topic": "music",
-      "publishedAt": "Fri, 09 Oct 2026 04:01:00 +0000",
-      "summary": "The pop singer's dynamic but uneven third record provides a portrait of semi-reformed adulthood, powered mostly by her sheer charisma and impressive voice.",
-      "score": 1.9,
+      "publishedAt": "Fri, 09 Oct 2026 21:07:00 +0000",
+      "summary": "Companies are getting billions of dollars back. How about us? It seems simple, right? We paid higher prices for imported goods because of tariffs. Then the tariffs were ruled illegal. Courts said the money paid to the U.S. government had to be refunded. Companies are getting that money now. It would seem like we, the customers, should get paid back, too....",
+      "score": 1.8699999999999999,
       "tags": [
         "music",
-        "reviews",
+        "news",
         "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/cameron-winter-live-at-carnegie-hall/",
-      "title": "Live at Carnegie Hall",
-      "url": "https://pitchfork.com/reviews/albums/cameron-winter-live-at-carnegie-hall/",
-      "source": "Pitchfork Best New Albums",
-      "topic": "music",
-      "publishedAt": "Fri, 09 Oct 2026 04:03:00 +0000",
-      "summary": "With new songs that rank among his very best, the Geese frontman's solo live album is an exquisite rendering of a had-to-be-there night and a work of real-time mythmaking.",
-      "score": 1.75,
-      "tags": [
-        "music",
-        "albums",
-        "rss",
-        "pitchfork"
+        "npr"
       ]
     }
   ]
