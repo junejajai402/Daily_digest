@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-10",
-  "builtAt": "2026-10-10T16:13:56.647Z",
-  "lastAttemptedAt": "2026-10-10T16:13:55.390Z",
+  "digestId": "2026-10-11",
+  "builtAt": "2026-10-11T16:38:41.012Z",
+  "lastAttemptedAt": "2026-10-11T16:38:40.426Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 101,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -17,20 +17,6 @@
   },
   "sourceFailures": [],
   "items": [
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-      "title": "Apple's Verified Photography System",
-      "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-08T05:44:43Z",
-      "summary": "Apple just released a system called \"Reference Image.\" It can verify the image is exactly as taken by an iPhone-new models only-without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own...",
-      "score": 2.6,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
     {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33410",
       "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
@@ -47,18 +33,17 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33414",
-      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33414",
-      "source": "SANS ISC",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "title": "Apple's Verified Photography System",
+      "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "Sat, 10 Oct 2026 09:11:34 GMT",
-      "summary": "The Traffic Light Protocol (TLP)[ 1 ], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
-      "score": 2.45,
+      "publishedAt": "2026-10-08T05:44:43Z",
+      "summary": "Apple just released a system called \"Reference Image.\" It can verify the image is exactly as taken by an iPhone-new models only-without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own...",
+      "score": 2.5,
       "tags": [
         "security",
-        "rss",
-        "sans"
+        "feed"
       ]
     },
     {
@@ -69,33 +54,79 @@
       "topic": "security",
       "publishedAt": "2026-10-08T11:08:05Z",
       "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs . Two weeks after Moscow's full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor's head that read: \"Stop the war. Don't believe...",
-      "score": 2.4,
+      "score": 2.3,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
-      "title": "Friday Squid Blogging: I Caught a Squid",
-      "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33396",
+      "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33396",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Mon, 05 Oct 2026 00:15:00 GMT",
+      "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
+      "score": 2.3,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
+      "title": "Another Historic Cipher Falls to AI",
+      "url": "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-09T20:25:01Z",
-      "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And...I caught a squid! Near as I can tell, it's a longfin squid, sometimes called a Boston squid ( Doryteuthis (Amerigo) pealeii ). That night I cooked it over a...",
-      "score": 2.35,
+      "publishedAt": "2026-10-05T11:04:48Z",
+      "summary": "This one is from 1809, written by Napoleon's nephew.",
+      "score": 2.3,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
-      "title": "Bitwarden Dual License Model",
-      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "id": "hacker news:https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
+      "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
+      "url": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 10 Oct 2026 14:32:50 +0000",
+      "publishedAt": "Sun, 11 Oct 2026 14:28:39 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
+      "title": "Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Sun, 11 Oct 2026 09:00:22 GMT",
+      "summary": "This is no scoffing matter. The accelerating proliferation of advanced nuclear weapons is bringing 'end times' closer by the day Humankind has fearfully and sometimes joyfully anticipated the end of the world ever since it began. The Bible's Book of Revelation speaks of \"end times\", a period of tribulation, war, famine, plague, floods and environmental...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+      "title": "I paid people to try and follow my README",
+      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sun, 11 Oct 2026 11:47:29 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -113,55 +144,25 @@
       "topic": "tech",
       "publishedAt": "Sat, 10 Oct 2026 15:56:32 GMT",
       "summary": "The King spoke of \"threats to our international order\" in a letter marking the 10th anniversary of the National Cyber Security Centre.",
-      "score": 2.1500000000000004,
+      "score": 1.9000000000000001,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
-      "title": "UK must not be beholden to foreign AI, says head of Alan Turing Institute",
-      "url": "https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
+      "title": "OpenAI projected to bring in $20bn less in revenue than expected",
+      "url": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 10 Oct 2026 10:00:55 GMT",
-      "summary": "George Williamson says 'national resilience' is key focus of ATI amid US and China's runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the head of the Alan Turing Institute. The country needs a stronger domestic...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Fri, 09 Oct 2026 08:06:09 GMT",
+      "summary": "Questions raised over AI growth as ChatGPT maker forecasts this year's revenue at $50bn, way below the $70bn signalled before Business live - latest updates OpenAI has revealed that it is making about $20bn less in projected revenue than it had recently indicated to investors, raising questions about the break-neck growth rate in demand for AI. The...",
+      "score": 2.1,
       "tags": [
         "tech",
         "rss",
         "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://github.com/rociiu/talorys",
-      "title": "Talorys - A self-hosted personal AI agent on Cloudflare's free tier",
-      "url": "https://github.com/rociiu/talorys",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sat, 10 Oct 2026 10:52:09 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwm24n9v8rdeo?at_medium=rss&amp;at_campaign=rss",
-      "title": "How drones are hunting fires hidden beneath the Cairngorms",
-      "url": "https://www.bbc.co.uk/news/articles/cwm24n9v8rdeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Sat, 10 Oct 2026 09:31:14 GMT",
-      "summary": "Dramatic flames from the huge Cairngorms wildfire in July have disappeared - but hot spots can continue to burn beneath the earth.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
       ]
     },
     {
@@ -204,7 +205,7 @@
       "topic": "music",
       "publishedAt": "Sat, 10 Oct 2026 04:00:00 +0000",
       "summary": "A rare glimpse into the artist's legendary and largely untapped vault of unreleased music presents four stunning outtakes from a hot streak that remains unparalleled in pop history.",
-      "score": 2.1,
+      "score": 1.9500000000000002,
       "tags": [
         "music",
         "reviews",
@@ -213,13 +214,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/the-rolling-stones-are-back-in-the-studio-again-3972859?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-rolling-stones-are-back-in-the-studio-again",
-      "title": "The Rolling Stones are back in the studio again",
-      "url": "https://www.nme.com/news/music/the-rolling-stones-are-back-in-the-studio-again-3972859?utm_source=rss&utm_medium=rss&utm_campaign=the-rolling-stones-are-back-in-the-studio-again",
+      "id": "nme music news:https://www.nme.com/news/music/watch-sasha-keable-options-why-saturday-night-live-uk-3972894?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-sasha-keable-options-why-saturday-night-live-uk",
+      "title": "Watch Sasha Keable perform 'Options' and 'Why' on 'Saturday Night Live UK'",
+      "url": "https://www.nme.com/news/music/watch-sasha-keable-options-why-saturday-night-live-uk-3972894?utm_source=rss&utm_medium=rss&utm_campaign=watch-sasha-keable-options-why-saturday-night-live-uk",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sat, 10 Oct 2026 10:43:15 +0000",
-      "summary": "Saxophonist Courtney Pine has revealed that he recently recorded with the band The post The Rolling Stones are back in the studio again appeared first on NME .",
+      "publishedAt": "Sun, 11 Oct 2026 10:39:54 +0000",
+      "summary": "The British-Colombian singer appeared alongside host Danny Dyer in the latest episode of the show's second series The post Watch Sasha Keable perform 'Options' and 'Why' on 'Saturday Night Live UK' appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -236,7 +237,7 @@
       "topic": "music",
       "publishedAt": "Fri, 09 Oct 2026 21:07:00 +0000",
       "summary": "Companies are getting billions of dollars back. How about us? It seems simple, right? We paid higher prices for imported goods because of tariffs. Then the tariffs were ruled illegal. Courts said the money paid to the U.S. government had to be refunded. Companies are getting that money now. It would seem like we, the customers, should get paid back, too....",
-      "score": 1.8699999999999999,
+      "score": 1.72,
       "tags": [
         "music",
         "news",
