@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-11",
-  "builtAt": "2026-10-11T16:38:41.012Z",
-  "lastAttemptedAt": "2026-10-11T16:38:40.426Z",
+  "digestId": "2026-10-12",
+  "builtAt": "2026-10-12T20:17:09.123Z",
+  "lastAttemptedAt": "2026-10-12T20:17:08.594Z",
   "isStale": false,
   "counts": {
-    "rawItems": 103,
-    "dedupedItems": 102,
+    "rawItems": 102,
+    "dedupedItems": 100,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,6 +18,20 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "title": "FBI Arrests Suspect in FBI-Hacking Case",
+      "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-12T15:01:26Z",
+      "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster . Last week, the FBI arrested (alternate link ) someone associated with that crime.",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33410",
       "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
       "url": "https://isc.sans.edu/diary/rss/33410",
@@ -25,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Thu, 08 Oct 2026 16:52:53 GMT",
       "summary": "We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8Â of the most popular AI coding assistants andÂ agents including Claude Code, Codex, Gemini CLI, Cursor, Copilot, Warp, Windsurf, and Qwen Code. I've been using Claude Code and a little bit of...",
-      "score": 2.6,
+      "score": 2.5,
       "tags": [
         "security",
         "rss",
@@ -47,6 +61,21 @@
       ]
     },
     {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33414",
+      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33414",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Sat, 10 Oct 2026 09:11:34 GMT",
+      "summary": "The Traffic Light Protocol (TLP)[ 1 ], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
+      "score": 2.2,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
       "title": "How Technology Empowers-and Imperils-Dictators",
       "url": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
@@ -61,43 +90,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33396",
-      "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33396",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Mon, 05 Oct 2026 00:15:00 GMT",
-      "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
-      "title": "Another Historic Cipher Falls to AI",
-      "url": "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-05T11:04:48Z",
-      "summary": "This one is from 1809, written by Napoleon's nephew.",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "hacker news:https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
-      "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
-      "url": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
+      "id": "hacker news:https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 11 Oct 2026 14:28:39 +0000",
+      "publishedAt": "Mon, 12 Oct 2026 17:14:01 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.5,
       "tags": [
         "tech",
         "community",
@@ -106,14 +106,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
-      "title": "Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+      "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+      "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sun, 11 Oct 2026 09:00:22 GMT",
-      "summary": "This is no scoffing matter. The accelerating proliferation of advanced nuclear weapons is bringing 'end times' closer by the day Humankind has fearfully and sometimes joyfully anticipated the end of the world ever since it began. The Bible's Book of Revelation speaks of \"end times\", a period of tribulation, war, famine, plague, floods and environmental...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Mon, 12 Oct 2026 07:52:46 GMT",
+      "summary": "Brad Smith adds to calls for tougher rules for AI, including 'kill switches' and legal obligation to victims of rogue agents Business live - latest updates Artificial intelligence is less regulated than milk and washing machines, the president of Microsoft has said, as the tech industry warns over the safety of AI. Brad Smith said there should be more...",
+      "score": 2.45,
       "tags": [
         "tech",
         "rss",
@@ -121,48 +121,48 @@
       ]
     },
     {
-      "id": "hacker news:https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
-      "title": "I paid people to try and follow my README",
-      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sun, 11 Oct 2026 11:47:29 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cme3xl7d18z2o?at_medium=rss&amp;at_campaign=rss",
-      "title": "King warns malicious online actors are evolving tactics",
-      "url": "https://www.bbc.co.uk/news/articles/cme3xl7d18z2o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cr78pe09y05xo?at_medium=rss&amp;at_campaign=rss",
+      "title": "AI minister warns 'likely' UK's cyber defences will be breached",
+      "url": "https://www.bbc.co.uk/news/articles/cr78pe09y05xo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Sat, 10 Oct 2026 15:56:32 GMT",
-      "summary": "The King spoke of \"threats to our international order\" in a letter marking the 10th anniversary of the National Cyber Security Centre.",
-      "score": 1.9000000000000001,
+      "publishedAt": "Mon, 12 Oct 2026 15:03:42 GMT",
+      "summary": "Kanishka Narayan said the government will use advanced AI to strengthen the UK against cyber attacks.",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
-      "title": "OpenAI projected to bring in $20bn less in revenue than expected",
-      "url": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister",
+      "title": "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister",
+      "url": "https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Fri, 09 Oct 2026 08:06:09 GMT",
-      "summary": "Questions raised over AI growth as ChatGPT maker forecasts this year's revenue at $50bn, way below the $70bn signalled before Business live - latest updates OpenAI has revealed that it is making about $20bn less in projected revenue than it had recently indicated to investors, raising questions about the break-neck growth rate in demand for AI. The...",
-      "score": 2.1,
+      "publishedAt": "Mon, 12 Oct 2026 13:52:55 GMT",
+      "summary": "Kanishka Narayan, concerned by Australian incident, says British cyber defences could be bypassed by artificial intelligence agent UK politics live - latest updates An AI-driven cyber-attack similar to the OpenAI breach of Australia's healthcare system is likely, \"if not inevitable\", in the UK, according to a senior minister. Kanishka Narayan, the UK AI...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
         "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://news.ycombinator.com/item?id=50059096",
+      "title": "Launch HN: Agent37 (YC F26) - Low-cost agent sandboxes for running agents",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Mon, 12 Oct 2026 16:46:34 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
       ]
     },
     {
@@ -173,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "score": 2.37,
+      "score": 2.27,
       "tags": [
         "ai",
         "official",
@@ -198,6 +198,22 @@
       ]
     },
     {
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/marina-herlop-dja-dja/",
+      "title": "Dja Dja",
+      "url": "https://pitchfork.com/reviews/albums/marina-herlop-dja-dja/",
+      "source": "Pitchfork Best New Albums",
+      "topic": "music",
+      "publishedAt": "Mon, 12 Oct 2026 04:03:00 +0000",
+      "summary": "Modeled after the literary concept of the hero's journey, the Catalan composer's latest album is her most ambitious yet: It's weirder, wilder, and more dazzling than anything she's done to date.",
+      "score": 2.15,
+      "tags": [
+        "music",
+        "albums",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
       "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/stevie-wonder-songs-in-the-key-of-life-the-ep/",
       "title": "Songs in the Key of Life - The EP",
       "url": "https://pitchfork.com/reviews/albums/stevie-wonder-songs-in-the-key-of-life-the-ep/",
@@ -214,35 +230,19 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/watch-sasha-keable-options-why-saturday-night-live-uk-3972894?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-sasha-keable-options-why-saturday-night-live-uk",
-      "title": "Watch Sasha Keable perform 'Options' and 'Why' on 'Saturday Night Live UK'",
-      "url": "https://www.nme.com/news/music/watch-sasha-keable-options-why-saturday-night-live-uk-3972894?utm_source=rss&utm_medium=rss&utm_campaign=watch-sasha-keable-options-why-saturday-night-live-uk",
+      "id": "nme music news:https://www.nme.com/news/music/the-wombats-announce-guide-to-love-loss-desperation-20th-anniversary-tour-tickets-3972927?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-wombats-announce-guide-to-love-loss-desperation-20th-anniversary-tour-tickets",
+      "title": "The Wombats announce 'A Guide To Love, Loss & Desperation' 20th anniversary UK and European tour",
+      "url": "https://www.nme.com/news/music/the-wombats-announce-guide-to-love-loss-desperation-20th-anniversary-tour-tickets-3972927?utm_source=rss&utm_medium=rss&utm_campaign=the-wombats-announce-guide-to-love-loss-desperation-20th-anniversary-tour-tickets",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sun, 11 Oct 2026 10:39:54 +0000",
-      "summary": "The British-Colombian singer appeared alongside host Danny Dyer in the latest episode of the show's second series The post Watch Sasha Keable perform 'Options' and 'Why' on 'Saturday Night Live UK' appeared first on NME .",
+      "publishedAt": "Mon, 12 Oct 2026 08:39:31 +0000",
+      "summary": "\"When we realised our debut album was turning 20 in 2027 we decided it was only fair to throw a bit of a party to celebrate\" The post The Wombats announce 'A Guide To Love, Loss & Desperation' 20th anniversary UK and European tour appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
-      ]
-    },
-    {
-      "id": "npr music news:https://www.npr.org/2026/10/09/nx-s1-5996901/days-of-our-tariffs-refunds-video-games",
-      "title": "Should we all be getting tariff refunds right now?",
-      "url": "https://www.npr.org/2026/10/09/nx-s1-5996901/days-of-our-tariffs-refunds-video-games",
-      "source": "NPR Music News",
-      "topic": "music",
-      "publishedAt": "Fri, 09 Oct 2026 21:07:00 +0000",
-      "summary": "Companies are getting billions of dollars back. How about us? It seems simple, right? We paid higher prices for imported goods because of tariffs. Then the tariffs were ruled illegal. Courts said the money paid to the U.S. government had to be refunded. Companies are getting that money now. It would seem like we, the customers, should get paid back, too....",
-      "score": 1.72,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "npr"
       ]
     }
   ]
