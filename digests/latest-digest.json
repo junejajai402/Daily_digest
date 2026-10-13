@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-12",
-  "builtAt": "2026-10-12T20:17:09.123Z",
-  "lastAttemptedAt": "2026-10-12T20:17:08.594Z",
+  "digestId": "2026-10-13",
+  "builtAt": "2026-10-13T18:17:16.411Z",
+  "lastAttemptedAt": "2026-10-13T18:17:15.680Z",
   "isStale": false,
   "counts": {
     "rawItems": 102,
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
-      "title": "FBI Arrests Suspect in FBI-Hacking Case",
-      "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "title": "Apple's Verified Photography System",
+      "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-12T15:01:26Z",
-      "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster . Last week, the FBI arrested (alternate link ) someone associated with that crime.",
-      "score": 2.65,
+      "publishedAt": "2026-10-08T05:44:43Z",
+      "summary": "Apple just released a system called \"Reference Image.\" It can verify the image is exactly as taken by an iPhone-new models only-without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own...",
+      "score": 2.5,
       "tags": [
         "security",
         "feed"
@@ -47,14 +47,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-      "title": "Apple's Verified Photography System",
-      "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "title": "FBI Arrests Suspect in FBI-Hacking Case",
+      "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-08T05:44:43Z",
-      "summary": "Apple just released a system called \"Reference Image.\" It can verify the image is exactly as taken by an iPhone-new models only-without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own...",
-      "score": 2.5,
+      "publishedAt": "2026-10-12T15:01:26Z",
+      "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster . Last week, the FBI arrested (alternate link ) someone associated with that crime.",
+      "score": 2.4,
       "tags": [
         "security",
         "feed"
@@ -68,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Sat, 10 Oct 2026 09:11:34 GMT",
       "summary": "The Traffic Light Protocol (TLP)[ 1 ], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
-      "score": 2.2,
+      "score": 2.1,
       "tags": [
         "security",
         "rss",
@@ -90,72 +90,26 @@
       ]
     },
     {
-      "id": "hacker news:https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "title": "AI coding agents generate more code, but not more software",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Mon, 12 Oct 2026 17:14:01 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
-      "title": "AI less regulated than milk, Microsoft president says in warning over safety",
-      "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Mon, 12 Oct 2026 07:52:46 GMT",
-      "summary": "Brad Smith adds to calls for tougher rules for AI, including 'kill switches' and legal obligation to victims of rogue agents Business live - latest updates Artificial intelligence is less regulated than milk and washing machines, the president of Microsoft has said, as the tech industry warns over the safety of AI. Brad Smith said there should be more...",
-      "score": 2.45,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cr78pe09y05xo?at_medium=rss&amp;at_campaign=rss",
-      "title": "AI minister warns 'likely' UK's cyber defences will be breached",
-      "url": "https://www.bbc.co.uk/news/articles/cr78pe09y05xo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwly38gjkejko?at_medium=rss&amp;at_campaign=rss",
+      "title": "Phase Eight and Hobbs owner hit by cyber-attack, as H&M probes separate hack claim",
+      "url": "https://www.bbc.co.uk/news/articles/cwly38gjkejko?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Mon, 12 Oct 2026 15:03:42 GMT",
-      "summary": "Kanishka Narayan said the government will use advanced AI to strengthen the UK against cyber attacks.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Tue, 13 Oct 2026 09:34:43 GMT",
+      "summary": "TFG London has apologised to customers for disruption after it identified a \"cybersecurity incident\" on Sunday.",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister",
-      "title": "Cyber-attack similar to OpenAI Medicare breach seems likely in UK, says minister",
-      "url": "https://www.theguardian.com/technology/2026/oct/12/cyber-attack-like-openai-medicare-breach-seems-likely-in-uk-says-minister",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Mon, 12 Oct 2026 13:52:55 GMT",
-      "summary": "Kanishka Narayan, concerned by Australian incident, says British cyber defences could be bypassed by artificial intelligence agent UK politics live - latest updates An AI-driven cyber-attack similar to the OpenAI breach of Australia's healthcare system is likely, \"if not inevitable\", in the UK, according to a senior minister. Kanishka Narayan, the UK AI...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://news.ycombinator.com/item?id=50059096",
-      "title": "Launch HN: Agent37 (YC F26) - Low-cost agent sandboxes for running agents",
-      "url": "https://news.ycombinator.com/item?id=50059096",
+      "id": "hacker news:https://eg2.haku.sh/",
+      "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+      "url": "https://eg2.haku.sh/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 12 Oct 2026 16:46:34 +0000",
+      "publishedAt": "Tue, 13 Oct 2026 11:27:14 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -163,6 +117,68 @@
         "community",
         "rss",
         "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/ng-interactive/2026/oct/13/ai-chatbot-death-plans",
+      "title": "The people who don't want their AI chatbots to die when they do: 'I can't have the switch turned off'",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/13/ai-chatbot-death-plans",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Tue, 13 Oct 2026 10:00:04 GMT",
+      "summary": "Humans bonded to AI companions are contemplating ways to keep their bots going - often in defiance of companies' terms and services Death has always been around Alaina Winters. Her father and sister both have passed away, as did her wife, in 2023, after a years-long battle with cancer. So Winters, who is 59 and lives in Pittsburgh, is comfortable thinking...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
+      "title": "AI godfather Geoffrey Hinton: 'We're creating alien beings. I'm willing to be selfish and choose humans'",
+      "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Tue, 13 Oct 2026 09:00:20 GMT",
+      "summary": "The pioneering computer scientist on why Trump is using 'superintelligence' wrong, whether AI could wipe out humanity - and how our biggest challenge will be accepting we're not the only intelligent beings Donald Trump is a \"corrupt, senile felon\" whose fixation on the term superintelligence proves he knows nothing about AI , said Geoffrey Hinton ,...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://deepmind.google/models/gemini/",
+      "title": "Gemini 4 Argon",
+      "url": "https://deepmind.google/models/gemini/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Tue, 13 Oct 2026 16:03:16 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.1,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "google ai:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI",
+      "topic": "ai",
+      "publishedAt": "Tue, 13 Oct 2026 16:00:00 +0000",
+      "summary": "We're giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "score": 2.7800000000000002,
+      "tags": [
+        "ai",
+        "official",
+        "google",
+        "rss"
       ]
     },
     {
@@ -182,19 +198,19 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "title": "The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "source": "Google AI",
-      "topic": "ai",
-      "publishedAt": "Fri, 02 Oct 2026 15:00:00 +0000",
-      "summary": "Here are Google's latest AI updates from September 2026",
-      "score": 2.23,
+      "id": "nme music news:https://www.nme.com/news/music/kacey-musgraves-brutally-hits-back-at-kristi-noems-criticism-3973060?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kacey-musgraves-brutally-hits-back-at-kristi-noems-criticism",
+      "title": "Kacey Musgraves brutally hits back at Kristi Noem's criticism",
+      "url": "https://www.nme.com/news/music/kacey-musgraves-brutally-hits-back-at-kristi-noems-criticism-3973060?utm_source=rss&utm_medium=rss&utm_campaign=kacey-musgraves-brutally-hits-back-at-kristi-noems-criticism",
+      "source": "NME Music News",
+      "topic": "music",
+      "publishedAt": "Tue, 13 Oct 2026 15:47:39 +0000",
+      "summary": "The former Secretary of Homeland Security shared a tweet, pitting her against Ella Langley The post Kacey Musgraves brutally hits back at Kristi Noem's criticism appeared first on NME .",
+      "score": 2.13,
       "tags": [
-        "ai",
-        "official",
-        "google",
-        "rss"
+        "music",
+        "news",
+        "rss",
+        "nme"
       ]
     },
     {
@@ -205,7 +221,7 @@
       "topic": "music",
       "publishedAt": "Mon, 12 Oct 2026 04:03:00 +0000",
       "summary": "Modeled after the literary concept of the hero's journey, the Catalan composer's latest album is her most ambitious yet: It's weirder, wilder, and more dazzling than anything she's done to date.",
-      "score": 2.15,
+      "score": 2,
       "tags": [
         "music",
         "albums",
@@ -214,35 +230,19 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/stevie-wonder-songs-in-the-key-of-life-the-ep/",
-      "title": "Songs in the Key of Life - The EP",
-      "url": "https://pitchfork.com/reviews/albums/stevie-wonder-songs-in-the-key-of-life-the-ep/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/space-afrika-quiet-storm/",
+      "title": "Quiet Storm",
+      "url": "https://pitchfork.com/reviews/albums/space-afrika-quiet-storm/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Sat, 10 Oct 2026 04:00:00 +0000",
-      "summary": "A rare glimpse into the artist's legendary and largely untapped vault of unreleased music presents four stunning outtakes from a hot streak that remains unparalleled in pop history.",
-      "score": 1.9500000000000002,
+      "publishedAt": "Tue, 13 Oct 2026 04:01:00 +0000",
+      "summary": "Born as the score to a surreal short film set on Manchester's empty streets, the ambient duo's latest album folds classical instrumentation and field recordings into a mood of deep introspection.",
+      "score": 1.9,
       "tags": [
         "music",
         "reviews",
         "rss",
         "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/the-wombats-announce-guide-to-love-loss-desperation-20th-anniversary-tour-tickets-3972927?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-wombats-announce-guide-to-love-loss-desperation-20th-anniversary-tour-tickets",
-      "title": "The Wombats announce 'A Guide To Love, Loss & Desperation' 20th anniversary UK and European tour",
-      "url": "https://www.nme.com/news/music/the-wombats-announce-guide-to-love-loss-desperation-20th-anniversary-tour-tickets-3972927?utm_source=rss&utm_medium=rss&utm_campaign=the-wombats-announce-guide-to-love-loss-desperation-20th-anniversary-tour-tickets",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Mon, 12 Oct 2026 08:39:31 +0000",
-      "summary": "\"When we realised our debut album was turning 20 in 2027 we decided it was only fair to throw a bit of a party to celebrate\" The post The Wombats announce 'A Guide To Love, Loss & Desperation' 20th anniversary UK and European tour appeared first on NME .",
-      "score": 1.93,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
       ]
     }
   ]
