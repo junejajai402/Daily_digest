@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-13",
-  "builtAt": "2026-10-13T18:17:16.411Z",
-  "lastAttemptedAt": "2026-10-13T18:17:15.680Z",
+  "digestId": "2026-10-14",
+  "builtAt": "2026-10-14T15:49:15.850Z",
+  "lastAttemptedAt": "2026-10-14T15:49:15.062Z",
   "isStale": false,
   "counts": {
-    "rawItems": 102,
-    "dedupedItems": 100,
+    "rawItems": 103,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,43 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-      "title": "Apple's Verified Photography System",
-      "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
+      "title": "The Future of AI Cryptanalysis",
+      "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-08T05:44:43Z",
-      "summary": "Apple just released a system called \"Reference Image.\" It can verify the image is exactly as taken by an iPhone-new models only-without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own...",
-      "score": 2.5,
+      "publishedAt": "2026-10-14T14:24:18Z",
+      "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33422",
+      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33422",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Tue, 13 Oct 2026 19:25:52 GMT",
+      "summary": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today's patch Tuesday, and one is already exploited.",
+      "score": 2.55,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+      "title": "Cyberattack on Connected Fridges in France",
+      "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-14T14:10:22Z",
+      "summary": "Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [...] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise...",
+      "score": 2.65,
       "tags": [
         "security",
         "feed"
@@ -47,69 +76,41 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
-      "title": "FBI Arrests Suspect in FBI-Hacking Case",
-      "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "title": "Apple's Verified Photography System",
+      "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-12T15:01:26Z",
-      "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster . Last week, the FBI arrested (alternate link ) someone associated with that crime.",
-      "score": 2.4,
+      "publishedAt": "2026-10-08T05:44:43Z",
+      "summary": "Apple just released a system called \"Reference Image.\" It can verify the image is exactly as taken by an iPhone-new models only-without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own...",
+      "score": 2.5,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33414",
-      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33414",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Sat, 10 Oct 2026 09:11:34 GMT",
-      "summary": "The Traffic Light Protocol (TLP)[ 1 ], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
-      "score": 2.1,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
-      "title": "How Technology Empowers-and Imperils-Dictators",
-      "url": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-08T11:08:05Z",
-      "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs . Two weeks after Moscow's full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor's head that read: \"Stop the war. Don't believe...",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwly38gjkejko?at_medium=rss&amp;at_campaign=rss",
-      "title": "Phase Eight and Hobbs owner hit by cyber-attack, as H&M probes separate hack claim",
-      "url": "https://www.bbc.co.uk/news/articles/cwly38gjkejko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
+      "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
+      "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
+      "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 13 Oct 2026 09:34:43 GMT",
-      "summary": "TFG London has apologised to customers for disruption after it identified a \"cybersecurity incident\" on Sunday.",
-      "score": 2.35,
+      "publishedAt": "Wed, 14 Oct 2026 10:10:37 GMT",
+      "summary": "Pledge spanning five years from world's most valuable firm comes as concerns about AI agents have risen Business live - latest updates The $5.5tn (£4.1tn) US chipmaker Nvidia is donating $250m worth of computing power to the UK to support AI safety research. The donation from the world's most valuable company comes as the UK government confirmed its AI...",
+      "score": 2.5500000000000003,
       "tags": [
         "tech",
-        "rss"
+        "rss",
+        "guardian"
       ]
     },
     {
-      "id": "hacker news:https://eg2.haku.sh/",
-      "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
-      "url": "https://eg2.haku.sh/",
+      "id": "hacker news:https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+      "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+      "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 13 Oct 2026 11:27:14 +0000",
+      "publishedAt": "Wed, 14 Oct 2026 14:38:55 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -120,14 +121,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/ng-interactive/2026/oct/13/ai-chatbot-death-plans",
-      "title": "The people who don't want their AI chatbots to die when they do: 'I can't have the switch turned off'",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/13/ai-chatbot-death-plans",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
+      "title": "Saudi OpenAI employee arrested after recording device found in headquarters",
+      "url": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 13 Oct 2026 10:00:04 GMT",
-      "summary": "Humans bonded to AI companions are contemplating ways to keep their bots going - often in defiance of companies' terms and services Death has always been around Alaina Winters. Her father and sister both have passed away, as did her wife, in 2023, after a years-long battle with cancer. So Winters, who is 59 and lives in Pittsburgh, is comfortable thinking...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Tue, 13 Oct 2026 22:59:55 GMT",
+      "summary": "Discovery of 'sophisticated' gadget adds to company's list of privacy concerns after hackings by rogue agents OpenAI said it has found a hidden recording device in one of its offices and has referred the matter to the FBI. One of its employees has been arrested. In a statement on Tuesday, the San Francisco-based AI company said it discovered the...",
+      "score": 2.45,
       "tags": [
         "tech",
         "rss",
@@ -135,34 +136,49 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
-      "title": "AI godfather Geoffrey Hinton: 'We're creating alien beings. I'm willing to be selfish and choose humans'",
-      "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
-      "source": "The Guardian Tech",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=rss&amp;at_campaign=rss",
+      "title": "'I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire",
+      "url": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Tue, 13 Oct 2026 09:00:20 GMT",
-      "summary": "The pioneering computer scientist on why Trump is using 'superintelligence' wrong, whether AI could wipe out humanity - and how our biggest challenge will be accepting we're not the only intelligent beings Donald Trump is a \"corrupt, senile felon\" whose fixation on the term superintelligence proves he knows nothing about AI , said Geoffrey Hinton ,...",
+      "publishedAt": "Wed, 14 Oct 2026 08:27:17 GMT",
+      "summary": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
-        "rss",
-        "guardian"
+        "rss"
       ]
     },
     {
-      "id": "hacker news:https://deepmind.google/models/gemini/",
-      "title": "Gemini 4 Argon",
-      "url": "https://deepmind.google/models/gemini/",
+      "id": "hacker news:https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+      "title": "TV4 postpones show after AI agent erases edited material",
+      "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 13 Oct 2026 16:03:16 +0000",
+      "publishedAt": "Wed, 14 Oct 2026 10:28:26 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
         "rss",
         "hacker-news"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/third-moment-research",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "score": 2.8200000000000003,
+      "tags": [
+        "ai",
+        "official",
+        "openai",
+        "rss"
       ]
     },
     {
@@ -173,7 +189,7 @@
       "topic": "ai",
       "publishedAt": "Tue, 13 Oct 2026 16:00:00 +0000",
       "summary": "We're giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "score": 2.7800000000000002,
+      "score": 2.68,
       "tags": [
         "ai",
         "official",
@@ -182,29 +198,29 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/asana-browser-agent",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "score": 2.27,
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/ovrkast-striking/",
+      "title": "STRIKING",
+      "url": "https://pitchfork.com/reviews/albums/ovrkast-striking/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Wed, 14 Oct 2026 04:02:00 +0000",
+      "summary": "The Bay Area rapper's latest record boasts vivid scenes and careful character studies, backed by live instrumentation and occasionally staid samples.",
+      "score": 2.1999999999999997,
       "tags": [
-        "ai",
-        "official",
-        "openai",
-        "rss"
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/kacey-musgraves-brutally-hits-back-at-kristi-noems-criticism-3973060?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kacey-musgraves-brutally-hits-back-at-kristi-noems-criticism",
-      "title": "Kacey Musgraves brutally hits back at Kristi Noem's criticism",
-      "url": "https://www.nme.com/news/music/kacey-musgraves-brutally-hits-back-at-kristi-noems-criticism-3973060?utm_source=rss&utm_medium=rss&utm_campaign=kacey-musgraves-brutally-hits-back-at-kristi-noems-criticism",
+      "id": "nme music news:https://www.nme.com/news/music/american-football-cover-cure-boys-dont-cry-praise-from-robert-smith-acoustic-performance-3973139?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=american-football-cover-cure-boys-dont-cry-praise-from-robert-smith-acoustic-performance",
+      "title": "Hailed by Robert Smith as \"one of the most heartfelt and beautiful Cure covers I have heard,\" American Football officially release their stripped-back take on 'Boys Don't Cry'",
+      "url": "https://www.nme.com/news/music/american-football-cover-cure-boys-dont-cry-praise-from-robert-smith-acoustic-performance-3973139?utm_source=rss&utm_medium=rss&utm_campaign=american-football-cover-cure-boys-dont-cry-praise-from-robert-smith-acoustic-performance",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Tue, 13 Oct 2026 15:47:39 +0000",
-      "summary": "The former Secretary of Homeland Security shared a tweet, pitting her against Ella Langley The post Kacey Musgraves brutally hits back at Kristi Noem's criticism appeared first on NME .",
+      "publishedAt": "Wed, 14 Oct 2026 14:00:55 +0000",
+      "summary": "\"The Cure has not only been fundamental to my growth as a songwriter, but also to my development as a man,\" said frontman Mike Kinsella The post Hailed by Robert Smith as \"one of the most heartfelt and beautiful Cure covers I have heard,\" American Football officially release their stripped-back take on 'Boys Don't Cry' appeared first on NME .",
       "score": 2.13,
       "tags": [
         "music",
@@ -225,22 +241,6 @@
       "tags": [
         "music",
         "albums",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/space-afrika-quiet-storm/",
-      "title": "Quiet Storm",
-      "url": "https://pitchfork.com/reviews/albums/space-afrika-quiet-storm/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Tue, 13 Oct 2026 04:01:00 +0000",
-      "summary": "Born as the score to a surreal short film set on Manchester's empty streets, the ambient duo's latest album folds classical instrumentation and field recordings into a mood of deep introspection.",
-      "score": 1.9,
-      "tags": [
-        "music",
-        "reviews",
         "rss",
         "pitchfork"
       ]
