@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-14",
-  "builtAt": "2026-10-14T15:49:15.850Z",
-  "lastAttemptedAt": "2026-10-14T15:49:15.062Z",
+  "digestId": "2026-10-15",
+  "builtAt": "2026-10-15T15:35:27.952Z",
+  "lastAttemptedAt": "2026-10-15T15:35:25.977Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -23,38 +23,9 @@
       "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-14T14:24:18Z",
+      "publishedAt": "2026-10-14T21:59:16Z",
       "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33422",
-      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33422",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 13 Oct 2026 19:25:52 GMT",
-      "summary": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today's patch Tuesday, and one is already exploited.",
       "score": 2.55,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-      "title": "Cyberattack on Connected Fridges in France",
-      "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-14T14:10:22Z",
-      "summary": "Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [...] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise...",
-      "score": 2.65,
       "tags": [
         "security",
         "feed"
@@ -90,27 +61,41 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
-      "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
-      "url": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Wed, 14 Oct 2026 10:10:37 GMT",
-      "summary": "Pledge spanning five years from world's most valuable firm comes as concerns about AI agents have risen Business live - latest updates The $5.5tn (£4.1tn) US chipmaker Nvidia is donating $250m worth of computing power to the UK to support AI safety research. The donation from the world's most valuable company comes as the UK government confirmed its AI...",
-      "score": 2.5500000000000003,
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33422",
+      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33422",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Tue, 13 Oct 2026 19:25:52 GMT",
+      "summary": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today's patch Tuesday, and one is already exploited.",
+      "score": 2.4,
       "tags": [
-        "tech",
+        "security",
         "rss",
-        "guardian"
+        "sans"
       ]
     },
     {
-      "id": "hacker news:https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-      "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
-      "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html",
+      "title": "Upcoming Speaking Engagements",
+      "url": "https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-15T06:17:50Z",
+      "summary": "This is a current list of where and when I am scheduled to speak: I'm speaking at ATTENTION: Democracy, Rebuilt in Montreal, Quebec, Canada. The event runs October 21-23, 2026, and my talk is on Wednesday, October 21. I'm speaking at the University of Toronto in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026. I'm speaking at [un]prompted in San...",
+      "score": 2.45,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "hacker news:https://libreboot.org/news/libreboot2610.html",
+      "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
+      "url": "https://libreboot.org/news/libreboot2610.html",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Wed, 14 Oct 2026 14:38:55 +0000",
+      "publishedAt": "Thu, 15 Oct 2026 12:52:16 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -121,14 +106,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
-      "title": "Saudi OpenAI employee arrested after recording device found in headquarters",
-      "url": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
+      "title": "OpenAI accuses employee who left for Apple of leaking plans for unreleased device",
+      "url": "https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 13 Oct 2026 22:59:55 GMT",
-      "summary": "Discovery of 'sophisticated' gadget adds to company's list of privacy concerns after hackings by rogue agents OpenAI said it has found a hidden recording device in one of its offices and has referred the matter to the FBI. One of its employees has been arrested. In a statement on Tuesday, the San Francisco-based AI company said it discovered the...",
-      "score": 2.45,
+      "publishedAt": "Wed, 14 Oct 2026 20:31:15 GMT",
+      "summary": "Hours before Apple and the ChatGPT maker were due to face off in court, a new allegation delayed the showdown An ⁠ OpenAI employee who left the ChatGPT maker for Apple sent more than 100 files about an unreleased product to a personal ⁠account and later ⁠made a presentation ​about the unreleased product to senior Apple leadership, a new filing in the...",
+      "score": 2.25,
       "tags": [
         "tech",
         "rss",
@@ -136,13 +121,13 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=rss&amp;at_campaign=rss",
-      "title": "'I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire",
-      "url": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9q20djz4wno?at_medium=rss&amp;at_campaign=rss",
+      "title": "GTA 6 - all you need to know about Rockstar's blockbuster game",
+      "url": "https://www.bbc.co.uk/news/articles/c9q20djz4wno?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Wed, 14 Oct 2026 08:27:17 GMT",
-      "summary": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.",
+      "publishedAt": "Thu, 15 Oct 2026 14:25:48 GMT",
+      "summary": "A new launch trailer for Grand Theft Auto VI reveals more details about what's set to be the biggest game of the year.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -150,12 +135,12 @@
       ]
     },
     {
-      "id": "hacker news:https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
-      "title": "TV4 postpones show after AI agent erases edited material",
-      "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+      "id": "hacker news:https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
+      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Wed, 14 Oct 2026 10:28:26 +0000",
+      "publishedAt": "Thu, 15 Oct 2026 14:58:48 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -166,14 +151,28 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/third-moment-research",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "url": "https://openai.com/index/third-moment-research",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=rss&amp;at_campaign=rss",
+      "title": "AI giant Anthropic woos potential investors ahead of stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Thu, 15 Oct 2026 11:34:55 GMT",
+      "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/amp-beyond-coding",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "score": 2.8200000000000003,
+      "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "score": 2.5700000000000003,
       "tags": [
         "ai",
         "official",
@@ -189,7 +188,7 @@
       "topic": "ai",
       "publishedAt": "Tue, 13 Oct 2026 16:00:00 +0000",
       "summary": "We're giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "score": 2.68,
+      "score": 2.5300000000000002,
       "tags": [
         "ai",
         "official",
@@ -198,14 +197,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/ovrkast-striking/",
-      "title": "STRIKING",
-      "url": "https://pitchfork.com/reviews/albums/ovrkast-striking/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/errol-holden-supreme-magnetic-3/",
+      "title": "SUPREME MAGNETIC 3",
+      "url": "https://pitchfork.com/reviews/albums/errol-holden-supreme-magnetic-3/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Wed, 14 Oct 2026 04:02:00 +0000",
-      "summary": "The Bay Area rapper's latest record boasts vivid scenes and careful character studies, backed by live instrumentation and occasionally staid samples.",
-      "score": 2.1999999999999997,
+      "publishedAt": "Thu, 15 Oct 2026 04:01:00 +0000",
+      "summary": "On his latest release, the prolific Harlem rapper burrows deep into the minutiae of his memories, pairing thrilling, detailed vignettes with ominous beats.",
+      "score": 2.4,
       "tags": [
         "music",
         "reviews",
@@ -214,13 +213,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/american-football-cover-cure-boys-dont-cry-praise-from-robert-smith-acoustic-performance-3973139?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=american-football-cover-cure-boys-dont-cry-praise-from-robert-smith-acoustic-performance",
-      "title": "Hailed by Robert Smith as \"one of the most heartfelt and beautiful Cure covers I have heard,\" American Football officially release their stripped-back take on 'Boys Don't Cry'",
-      "url": "https://www.nme.com/news/music/american-football-cover-cure-boys-dont-cry-praise-from-robert-smith-acoustic-performance-3973139?utm_source=rss&utm_medium=rss&utm_campaign=american-football-cover-cure-boys-dont-cry-praise-from-robert-smith-acoustic-performance",
+      "id": "nme music news:https://www.nme.com/news/music/fontaines-dcs-grian-chatten-planning-lively-solo-album-break-go-away-for-a-while-3973191?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fontaines-dcs-grian-chatten-planning-lively-solo-album-break-go-away-for-a-while",
+      "title": "Fontaines D.C.'s Grian Chatten planning another solo album: \"It'd be a lot more lively and a bit more kind of festival-ready\"",
+      "url": "https://www.nme.com/news/music/fontaines-dcs-grian-chatten-planning-lively-solo-album-break-go-away-for-a-while-3973191?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-dcs-grian-chatten-planning-lively-solo-album-break-go-away-for-a-while",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Wed, 14 Oct 2026 14:00:55 +0000",
-      "summary": "\"The Cure has not only been fundamental to my growth as a songwriter, but also to my development as a man,\" said frontman Mike Kinsella The post Hailed by Robert Smith as \"one of the most heartfelt and beautiful Cure covers I have heard,\" American Football officially release their stripped-back take on 'Boys Don't Cry' appeared first on NME .",
+      "publishedAt": "Thu, 15 Oct 2026 10:22:22 +0000",
+      "summary": "He also said that after the release of 'Dopamine Chamber' he thinks \"the best place we can go from here is away for a while\" The post Fontaines D.C.'s Grian Chatten planning another solo album: \"It'd be a lot more lively and a bit more kind of festival-ready\" appeared first on NME .",
       "score": 2.13,
       "tags": [
         "music",
@@ -237,7 +236,7 @@
       "topic": "music",
       "publishedAt": "Mon, 12 Oct 2026 04:03:00 +0000",
       "summary": "Modeled after the literary concept of the hero's journey, the Catalan composer's latest album is her most ambitious yet: It's weirder, wilder, and more dazzling than anything she's done to date.",
-      "score": 2,
+      "score": 1.9,
       "tags": [
         "music",
         "albums",
