@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-15",
-  "builtAt": "2026-10-15T15:35:27.952Z",
-  "lastAttemptedAt": "2026-10-15T15:35:25.977Z",
+  "digestId": "2026-10-16",
+  "builtAt": "2026-10-16T15:22:04.739Z",
+  "lastAttemptedAt": "2026-10-16T15:22:02.593Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 103,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,28 +18,28 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
-      "title": "The Future of AI Cryptanalysis",
-      "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "title": "Backdooring Open-Weight AI Models",
+      "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-14T21:59:16Z",
-      "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.",
-      "score": 2.55,
+      "publishedAt": "2026-10-16T11:05:50Z",
+      "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it's the most popular reason people download modified weights without verifying what's inside. Abliteration is a cheap fine-tune that takes...",
+      "score": 2.85,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33410",
-      "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
-      "url": "https://isc.sans.edu/diary/rss/33410",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33430",
+      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33430",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Thu, 08 Oct 2026 16:52:53 GMT",
-      "summary": "We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8Â of the most popular AI coding assistants andÂ agents including Claude Code, Codex, Gemini CLI, Cursor, Copilot, Warp, Windsurf, and Qwen Code. I've been using Claude Code and a little bit of...",
-      "score": 2.5,
+      "publishedAt": "Fri, 16 Oct 2026 00:46:35 GMT",
+      "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
+      "score": 2.75,
       "tags": [
         "security",
         "rss",
@@ -47,14 +47,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-      "title": "Apple's Verified Photography System",
-      "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
+      "title": "The Future of AI Cryptanalysis",
+      "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-08T05:44:43Z",
-      "summary": "Apple just released a system called \"Reference Image.\" It can verify the image is exactly as taken by an iPhone-new models only-without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own...",
-      "score": 2.5,
+      "publishedAt": "2026-10-14T21:59:16Z",
+      "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.",
+      "score": 2.4,
       "tags": [
         "security",
         "feed"
@@ -76,44 +76,28 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html",
-      "title": "Upcoming Speaking Engagements",
-      "url": "https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+      "title": "Cyberattack on Connected Fridges in France",
+      "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-15T06:17:50Z",
-      "summary": "This is a current list of where and when I am scheduled to speak: I'm speaking at ATTENTION: Democracy, Rebuilt in Montreal, Quebec, Canada. The event runs October 21-23, 2026, and my talk is on Wednesday, October 21. I'm speaking at the University of Toronto in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026. I'm speaking at [un]prompted in San...",
-      "score": 2.45,
+      "publishedAt": "2026-10-14T14:10:22Z",
+      "summary": "Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [...] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise...",
+      "score": 2.4,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://libreboot.org/news/libreboot2610.html",
-      "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
-      "url": "https://libreboot.org/news/libreboot2610.html",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Thu, 15 Oct 2026 12:52:16 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
-      "title": "OpenAI accuses employee who left for Apple of leaking plans for unreleased device",
-      "url": "https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model",
+      "title": "Meta releases Muse Spark Open, a new 'open-weight' AI model",
+      "url": "https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Wed, 14 Oct 2026 20:31:15 GMT",
-      "summary": "Hours before Apple and the ChatGPT maker were due to face off in court, a new allegation delayed the showdown An ⁠ OpenAI employee who left the ChatGPT maker for Apple sent more than 100 files about an unreleased product to a personal ⁠account and later ⁠made a presentation ​about the unreleased product to senior Apple leadership, a new filing in the...",
-      "score": 2.25,
+      "publishedAt": "Fri, 16 Oct 2026 00:34:28 GMT",
+      "summary": "Meta says Muse excels at 'multi-step reasoning' and 'complex software engineering' as it races to catch up to Chinese rivals Meta on Thursday launched a new open-weight AI model which it claims rivals, and in some cases outperforms, similar products from leading Chinese developers. Muse Spark Open \"is the most capable US open-weight model to date,\" Meta's...",
+      "score": 2.6500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -121,28 +105,29 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9q20djz4wno?at_medium=rss&amp;at_campaign=rss",
-      "title": "GTA 6 - all you need to know about Rockstar's blockbuster game",
-      "url": "https://www.bbc.co.uk/news/articles/c9q20djz4wno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex",
+      "title": "Elon Musk reveals 'world's first flying car' at Tesla event",
+      "url": "https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex",
+      "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 15 Oct 2026 14:25:48 GMT",
-      "summary": "A new launch trailer for Grand Theft Auto VI reveals more details about what's set to be the biggest game of the year.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Fri, 16 Oct 2026 11:53:04 GMT",
+      "summary": "The Tesla Roadster 2 drove up a curved ramp before using SpaceX rocket thrusters to fly, flip and land Elon Musk has revealed Tesla's latest model, which he claims will be the world's first flying car, using technology from his aerospace company SpaceX to \"basically fly like a rocket\". The billionaire, who hosted a demonstration of the Tesla Roadster 2 at...",
+      "score": 2.5500000000000003,
       "tags": [
         "tech",
-        "rss"
+        "rss",
+        "guardian"
       ]
     },
     {
-      "id": "hacker news:https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
-      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "id": "hacker news:https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+      "title": "I Love Software Rendering",
+      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 15 Oct 2026 14:58:48 +0000",
+      "publishedAt": "Fri, 16 Oct 2026 12:52:08 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -151,17 +136,32 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=rss&amp;at_campaign=rss",
-      "title": "AI giant Anthropic woos potential investors ahead of stock market debut",
-      "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq33xd6j1dv5o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Snapchat and Instagram grooming becoming 'easier'",
+      "url": "https://www.bbc.co.uk/news/articles/cq33xd6j1dv5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 15 Oct 2026 11:34:55 GMT",
-      "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Fri, 16 Oct 2026 05:12:48 GMT",
+      "summary": "Online grooming is rising, with children as young as five targeted, prompting calls for reform.",
+      "score": 1.9500000000000002,
       "tags": [
         "tech",
         "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/uk-news/2026/oct/16/london-driverless-robotaxis-uber-drivers-wayve-tfl-licences",
+      "title": "'We should all be worried': calls grow to limit London rollout of robotaxis",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/16/london-driverless-robotaxis-uber-drivers-wayve-tfl-licences",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Fri, 16 Oct 2026 11:00:46 GMT",
+      "summary": "Protest planned at Wayve HQ as Uber drivers fear for their future and city's politicians demand TfL should have power over licences For passengers in Britain who want to try the latest ride, robotaxis are eagerly awaited: more than 100,000 are on Uber's waitlist in London after the first UK services started in September. Others view them with trepidation....",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
       ]
     },
     {
@@ -204,7 +204,7 @@
       "topic": "music",
       "publishedAt": "Thu, 15 Oct 2026 04:01:00 +0000",
       "summary": "On his latest release, the prolific Harlem rapper burrows deep into the minutiae of his memories, pairing thrilling, detailed vignettes with ominous beats.",
-      "score": 2.4,
+      "score": 2.1500000000000004,
       "tags": [
         "music",
         "reviews",
@@ -213,14 +213,14 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/fontaines-dcs-grian-chatten-planning-lively-solo-album-break-go-away-for-a-while-3973191?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fontaines-dcs-grian-chatten-planning-lively-solo-album-break-go-away-for-a-while",
-      "title": "Fontaines D.C.'s Grian Chatten planning another solo album: \"It'd be a lot more lively and a bit more kind of festival-ready\"",
-      "url": "https://www.nme.com/news/music/fontaines-dcs-grian-chatten-planning-lively-solo-album-break-go-away-for-a-while-3973191?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-dcs-grian-chatten-planning-lively-solo-album-break-go-away-for-a-while",
+      "id": "nme music news:https://www.nme.com/news/music/fontaines-d-c-roundhouse-dopamine-chambger-photos-footage-setlist-3973312?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fontaines-d-c-roundhouse-dopamine-chambger-photos-footage-setlist",
+      "title": "Fontaines D.C. talk \"very tough year\" and launch 'Dopamine Chamber' at intimate Roundhouse gig",
+      "url": "https://www.nme.com/news/music/fontaines-d-c-roundhouse-dopamine-chambger-photos-footage-setlist-3973312?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-d-c-roundhouse-dopamine-chambger-photos-footage-setlist",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 15 Oct 2026 10:22:22 +0000",
-      "summary": "He also said that after the release of 'Dopamine Chamber' he thinks \"the best place we can go from here is away for a while\" The post Fontaines D.C.'s Grian Chatten planning another solo album: \"It'd be a lot more lively and a bit more kind of festival-ready\" appeared first on NME .",
-      "score": 2.13,
+      "publishedAt": "Fri, 16 Oct 2026 13:42:24 +0000",
+      "summary": "The band performed fan favourites and new album tracks - including the live debut of 'You Miss Me' - in aid of mental health charity CALM The post Fontaines D.C. talk \"very tough year\" and launch 'Dopamine Chamber' at intimate Roundhouse gig appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
         "news",
