@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-16",
-  "builtAt": "2026-10-16T15:22:04.739Z",
-  "lastAttemptedAt": "2026-10-16T15:22:02.593Z",
+  "digestId": "2026-10-17",
+  "builtAt": "2026-10-17T14:12:27.756Z",
+  "lastAttemptedAt": "2026-10-17T14:12:23.601Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -25,7 +25,7 @@
       "topic": "security",
       "publishedAt": "2026-10-16T11:05:50Z",
       "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it's the most popular reason people download modified weights without verifying what's inside. Abliteration is a cheap fine-tune that takes...",
-      "score": 2.85,
+      "score": 2.6,
       "tags": [
         "security",
         "feed"
@@ -39,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Fri, 16 Oct 2026 00:46:35 GMT",
       "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
-      "score": 2.75,
+      "score": 2.6,
       "tags": [
         "security",
         "rss",
@@ -68,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Tue, 13 Oct 2026 19:25:52 GMT",
       "summary": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today's patch Tuesday, and one is already exploited.",
-      "score": 2.4,
+      "score": 2.3,
       "tags": [
         "security",
         "rss",
@@ -76,28 +76,44 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-      "title": "Cyberattack on Connected Fridges in France",
-      "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
+      "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
+      "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-14T14:10:22Z",
-      "summary": "Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [...] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise...",
-      "score": 2.4,
+      "publishedAt": "2026-10-16T21:06:47Z",
+      "summary": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event. As usual, you can also use this squid post to talk about the security stories in the news that I haven't covered. Blog moderation policy.",
+      "score": 2.35,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model",
-      "title": "Meta releases Muse Spark Open, a new 'open-weight' AI model",
-      "url": "https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model",
+      "id": "hacker news:https://github.com/cobanov/ps5lm",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Fri, 16 Oct 2026 18:32:35 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.4,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/17/russia-threat-uk-former-foreign-office-head-lord-peter-ricketts",
+      "title": "Ministers must be honest about Russian threat to UK, says former Foreign Office head",
+      "url": "https://www.theguardian.com/technology/2026/oct/17/russia-threat-uk-former-foreign-office-head-lord-peter-ricketts",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Fri, 16 Oct 2026 00:34:28 GMT",
-      "summary": "Meta says Muse excels at 'multi-step reasoning' and 'complex software engineering' as it races to catch up to Chinese rivals Meta on Thursday launched a new open-weight AI model which it claims rivals, and in some cases outperforms, similar products from leading Chinese developers. Muse Spark Open \"is the most capable US open-weight model to date,\" Meta's...",
-      "score": 2.6500000000000004,
+      "publishedAt": "Sat, 17 Oct 2026 10:19:32 GMT",
+      "summary": "Peter Ricketts calls for more resilience in protecting banking, energy and water systems from cyber-assaults Ministers need to be honest with the British public about the immediate threat posed by Russia, which could soon lead to lives being lost, a former national security adviser has said. Peter Ricketts, who advised David Cameron when he was prime...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -112,7 +128,7 @@
       "topic": "tech",
       "publishedAt": "Fri, 16 Oct 2026 11:53:04 GMT",
       "summary": "The Tesla Roadster 2 drove up a curved ramp before using SpaceX rocket thrusters to fly, flip and land Elon Musk has revealed Tesla's latest model, which he claims will be the world's first flying car, using technology from his aerospace company SpaceX to \"basically fly like a rocket\". The billionaire, who hosted a demonstration of the Tesla Roadster 2 at...",
-      "score": 2.5500000000000003,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "rss",
@@ -120,12 +136,26 @@
       ]
     },
     {
-      "id": "hacker news:https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
-      "title": "I Love Software Rendering",
-      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Russian man linked to deadly London hospitals hack arrested",
+      "url": "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Fri, 16 Oct 2026 15:31:33 GMT",
+      "summary": "The 28-year-old detained by German police is accused of being part of the cyber-crime gang that hacked blood-test firm Synnovis in 2024.",
+      "score": 2.0500000000000003,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 16 Oct 2026 12:52:08 +0000",
+      "publishedAt": "Sat, 17 Oct 2026 08:37:46 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.1,
       "tags": [
@@ -136,35 +166,6 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq33xd6j1dv5o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Snapchat and Instagram grooming becoming 'easier'",
-      "url": "https://www.bbc.co.uk/news/articles/cq33xd6j1dv5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Fri, 16 Oct 2026 05:12:48 GMT",
-      "summary": "Online grooming is rising, with children as young as five targeted, prompting calls for reform.",
-      "score": 1.9500000000000002,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/uk-news/2026/oct/16/london-driverless-robotaxis-uber-drivers-wayve-tfl-licences",
-      "title": "'We should all be worried': calls grow to limit London rollout of robotaxis",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/16/london-driverless-robotaxis-uber-drivers-wayve-tfl-licences",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Fri, 16 Oct 2026 11:00:46 GMT",
-      "summary": "Protest planned at Wayve HQ as Uber drivers fear for their future and city's politicians demand TfL should have power over licences For passengers in Britain who want to try the latest ride, robotaxis are eagerly awaited: more than 100,000 are on Uber's waitlist in London after the first UK services started in September. Others view them with trepidation....",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
       "id": "openai news:https://openai.com/index/amp-beyond-coding",
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
       "url": "https://openai.com/index/amp-beyond-coding",
@@ -172,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "score": 2.5700000000000003,
+      "score": 2.47,
       "tags": [
         "ai",
         "official",
@@ -188,7 +189,7 @@
       "topic": "ai",
       "publishedAt": "Tue, 13 Oct 2026 16:00:00 +0000",
       "summary": "We're giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "score": 2.5300000000000002,
+      "score": 2.43,
       "tags": [
         "ai",
         "official",
@@ -213,13 +214,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/fontaines-d-c-roundhouse-dopamine-chambger-photos-footage-setlist-3973312?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fontaines-d-c-roundhouse-dopamine-chambger-photos-footage-setlist",
-      "title": "Fontaines D.C. talk \"very tough year\" and launch 'Dopamine Chamber' at intimate Roundhouse gig",
-      "url": "https://www.nme.com/news/music/fontaines-d-c-roundhouse-dopamine-chambger-photos-footage-setlist-3973312?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-d-c-roundhouse-dopamine-chambger-photos-footage-setlist",
+      "id": "nme music news:https://www.nme.com/news/music/liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour-3973414?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour",
+      "title": "Liam Gallagher says Fontaines D.C. \"are not good enough\" to open for Oasis on their 'Live '27' tour",
+      "url": "https://www.nme.com/news/music/liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour-3973414?utm_source=rss&utm_medium=rss&utm_campaign=liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Fri, 16 Oct 2026 13:42:24 +0000",
-      "summary": "The band performed fan favourites and new album tracks - including the live debut of 'You Miss Me' - in aid of mental health charity CALM The post Fontaines D.C. talk \"very tough year\" and launch 'Dopamine Chamber' at intimate Roundhouse gig appeared first on NME .",
+      "publishedAt": "Sat, 17 Oct 2026 09:07:26 +0000",
+      "summary": "The Irish band launched their new album 'Dopamine Chamber' yesterday (October 16) The post Liam Gallagher says Fontaines D.C. \"are not good enough\" to open for Oasis on their 'Live '27' tour appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
