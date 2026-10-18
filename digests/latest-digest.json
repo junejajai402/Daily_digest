@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-17",
-  "builtAt": "2026-10-17T14:12:27.756Z",
-  "lastAttemptedAt": "2026-10-17T14:12:23.601Z",
+  "digestId": "2026-10-18",
+  "builtAt": "2026-10-18T14:33:36.170Z",
+  "lastAttemptedAt": "2026-10-18T14:33:33.737Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -47,28 +47,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
-      "title": "The Future of AI Cryptanalysis",
-      "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-14T21:59:16Z",
-      "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.",
-      "score": 2.4,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33422",
-      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33422",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33434",
+      "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33434",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Tue, 13 Oct 2026 19:25:52 GMT",
-      "summary": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today's patch Tuesday, and one is already exploited.",
-      "score": 2.3,
+      "publishedAt": "Sun, 18 Oct 2026 12:59:30 GMT",
+      "summary": "Here is the YARA rule I used to detect \" Orphaned VBA Projects Inside DWG Files \".",
+      "score": 2.45,
       "tags": [
         "security",
         "rss",
@@ -76,28 +62,57 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
-      "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
-      "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
+      "title": "The Future of AI Cryptanalysis",
+      "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-16T21:06:47Z",
-      "summary": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event. As usual, you can also use this squid post to talk about the security stories in the news that I haven't covered. Blog moderation policy.",
-      "score": 2.35,
+      "publishedAt": "2026-10-14T21:59:16Z",
+      "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.",
+      "score": 2.3,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://github.com/cobanov/ps5lm",
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "url": "https://github.com/cobanov/PS5LM",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+      "title": "Cyberattack on Connected Fridges in France",
+      "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-14T14:10:22Z",
+      "summary": "Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [...] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise...",
+      "score": 2.3,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
+      "title": "Why Britain should reject the lure of cheap - and scary - Chinese AI",
+      "url": "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Sat, 17 Oct 2026 15:00:33 GMT",
+      "summary": "In the west the technology comes with at least some effort to provide security and a benign intent - not so from China There is much to fear from artificial intelligence developed in China and handed to businesses and governments in the west almost free of charge. Every month Chinese AI developers such as DeepSeek and Xiaomi dispatch the latest versions of...",
+      "score": 2.45,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://sphinx-six-theta.vercel.app/",
+      "title": "Show HN: Sphinx - A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 16 Oct 2026 18:32:35 +0000",
+      "publishedAt": "Sun, 18 Oct 2026 04:33:49 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.4,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -106,13 +121,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/17/russia-threat-uk-former-foreign-office-head-lord-peter-ricketts",
-      "title": "Ministers must be honest about Russian threat to UK, says former Foreign Office head",
-      "url": "https://www.theguardian.com/technology/2026/oct/17/russia-threat-uk-former-foreign-office-head-lord-peter-ricketts",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies",
+      "title": "World Bank says 'small AI' could transform developing countries",
+      "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 17 Oct 2026 10:19:32 GMT",
-      "summary": "Peter Ricketts calls for more resilience in protecting banking, energy and water systems from cyber-assaults Ministers need to be honest with the British public about the immediate threat posed by Russia, which could soon lead to lives being lost, a former national security adviser has said. Peter Ricketts, who advised David Cameron when he was prime...",
+      "publishedAt": "Sun, 18 Oct 2026 10:00:56 GMT",
+      "summary": "Bank's chief knowledge officer says the tech could speed up economic development from centuries to decades The World Bank is urging developing countries to kickstart the creation of \"small AI\" models, which can run on a mobile phone with low connectivity, to reap the full benefits of artificial intelligence. While Silicon Valley big tech firms are focused...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -121,28 +136,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex",
-      "title": "Elon Musk reveals 'world's first flying car' at Tesla event",
-      "url": "https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Fri, 16 Oct 2026 11:53:04 GMT",
-      "summary": "The Tesla Roadster 2 drove up a curved ramp before using SpaceX rocket thrusters to fly, flip and land Elon Musk has revealed Tesla's latest model, which he claims will be the world's first flying car, using technology from his aerospace company SpaceX to \"basically fly like a rocket\". The billionaire, who hosted a demonstration of the Tesla Roadster 2 at...",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Russian man linked to deadly London hospitals hack arrested",
-      "url": "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cv8ez40yz950o?at_medium=rss&amp;at_campaign=rss",
+      "title": "No further action against government adviser's wife over Palestine Action post, police say",
+      "url": "https://www.bbc.co.uk/news/articles/cv8ez40yz950o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Fri, 16 Oct 2026 15:31:33 GMT",
-      "summary": "The 28-year-old detained by German police is accused of being part of the cyber-crime gang that hacked blood-test firm Synnovis in 2024.",
+      "publishedAt": "Sat, 17 Oct 2026 20:24:32 GMT",
+      "summary": "Sarah Helm, who is married to Jonathan Powell, was responding to a discussion about the author Sally Rooney.",
       "score": 2.0500000000000003,
       "tags": [
         "tech",
@@ -150,19 +150,18 @@
       ]
     },
     {
-      "id": "hacker news:https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-      "source": "Hacker News",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries",
+      "title": "What are self-replicating 'AI worms', and why is Anthropic worried about them?",
+      "url": "https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries",
+      "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 17 Oct 2026 08:37:46 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
+      "publishedAt": "Sun, 18 Oct 2026 13:30:00 GMT",
+      "summary": "The tech company says successful AI worms need more capability on less powerful devices, but current trends make that feasible by the end of the year Warnings about what artificial intelligence might do in the future - together with alarming reports of what it has gotten up to already - are being issued so quickly that even security experts have difficulty...",
+      "score": 2.35,
       "tags": [
         "tech",
-        "community",
         "rss",
-        "hacker-news"
+        "guardian"
       ]
     },
     {
@@ -198,29 +197,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/errol-holden-supreme-magnetic-3/",
-      "title": "SUPREME MAGNETIC 3",
-      "url": "https://pitchfork.com/reviews/albums/errol-holden-supreme-magnetic-3/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Thu, 15 Oct 2026 04:01:00 +0000",
-      "summary": "On his latest release, the prolific Harlem rapper burrows deep into the minutiae of his memories, pairing thrilling, detailed vignettes with ominous beats.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour-3973414?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour",
-      "title": "Liam Gallagher says Fontaines D.C. \"are not good enough\" to open for Oasis on their 'Live '27' tour",
-      "url": "https://www.nme.com/news/music/liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour-3973414?utm_source=rss&utm_medium=rss&utm_campaign=liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour",
+      "id": "nme music news:https://www.nme.com/news/music/iron-maiden-announce-surprise-2027-north-american-tour-3973442?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=iron-maiden-announce-surprise-2027-north-american-tour",
+      "title": "Iron Maiden announce surprise 2027 North American tour",
+      "url": "https://www.nme.com/news/music/iron-maiden-announce-surprise-2027-north-american-tour-3973442?utm_source=rss&utm_medium=rss&utm_campaign=iron-maiden-announce-surprise-2027-north-american-tour",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sat, 17 Oct 2026 09:07:26 +0000",
-      "summary": "The Irish band launched their new album 'Dopamine Chamber' yesterday (October 16) The post Liam Gallagher says Fontaines D.C. \"are not good enough\" to open for Oasis on their 'Live '27' tour appeared first on NME .",
+      "publishedAt": "Sun, 18 Oct 2026 07:38:33 +0000",
+      "summary": "The metal legends had planned to take a break next year, but have now added a final run of shows to their 50th anniversary tour The post Iron Maiden announce surprise 2027 North American tour appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -241,6 +224,22 @@
       "tags": [
         "music",
         "albums",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/spacemen-3-the-perfect-prescription/",
+      "title": "The Perfect Prescription",
+      "url": "https://pitchfork.com/reviews/albums/spacemen-3-the-perfect-prescription/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Sun, 18 Oct 2026 04:00:00 +0000",
+      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we investigate J Spaceman and Sonic Boom's 1987 psychedelic rock album, a mythically drugged-out method of divine transport.",
+      "score": 1.7999999999999998,
+      "tags": [
+        "music",
+        "reviews",
         "rss",
         "pitchfork"
       ]
