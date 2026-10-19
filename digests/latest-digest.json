@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-18",
-  "builtAt": "2026-10-18T14:33:36.170Z",
-  "lastAttemptedAt": "2026-10-18T14:33:33.737Z",
+  "digestId": "2026-10-19",
+  "builtAt": "2026-10-19T17:28:12.740Z",
+  "lastAttemptedAt": "2026-10-19T17:28:11.758Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 101,
+    "dedupedItems": 99,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
-      "title": "Backdooring Open-Weight AI Models",
-      "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
+      "title": "Training AIs to Solve CAPTCHAs",
+      "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-16T11:05:50Z",
-      "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it's the most popular reason people download modified weights without verifying what's inside. Abliteration is a cheap fine-tune that takes...",
-      "score": 2.6,
+      "publishedAt": "2026-10-19T11:08:01Z",
+      "summary": "Interesting research : Abstract : Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in...",
+      "score": 3.05,
       "tags": [
         "security",
         "feed"
@@ -39,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Fri, 16 Oct 2026 00:46:35 GMT",
       "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
-      "score": 2.6,
+      "score": 2.5,
       "tags": [
         "security",
         "rss",
@@ -47,14 +47,28 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33434",
-      "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33434",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "title": "Backdooring Open-Weight AI Models",
+      "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-16T11:05:50Z",
+      "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it's the most popular reason people download modified weights without verifying what's inside. Abliteration is a cheap fine-tune that takes...",
+      "score": 2.5,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33422",
+      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33422",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sun, 18 Oct 2026 12:59:30 GMT",
-      "summary": "Here is the YARA rule I used to detect \" Orphaned VBA Projects Inside DWG Files \".",
-      "score": 2.45,
+      "publishedAt": "Tue, 13 Oct 2026 19:25:52 GMT",
+      "summary": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today's patch Tuesday, and one is already exploited.",
+      "score": 2.3,
       "tags": [
         "security",
         "rss",
@@ -76,43 +90,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-      "title": "Cyberattack on Connected Fridges in France",
-      "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-14T14:10:22Z",
-      "summary": "Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [...] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise...",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
-      "title": "Why Britain should reject the lure of cheap - and scary - Chinese AI",
-      "url": "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Sat, 17 Oct 2026 15:00:33 GMT",
-      "summary": "In the west the technology comes with at least some effort to provide security and a benign intent - not so from China There is much to fear from artificial intelligence developed in China and handed to businesses and governments in the west almost free of charge. Every month Chinese AI developers such as DeepSeek and Xiaomi dispatch the latest versions of...",
-      "score": 2.45,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://sphinx-six-theta.vercel.app/",
-      "title": "Show HN: Sphinx - A hook that quizzes you on your AI's code before shipping",
-      "url": "https://sphinx-six-theta.vercel.app/",
+      "id": "hacker news:https://mistral.ai/news/timestral/",
+      "title": "Timestral: Mistral release time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 18 Oct 2026 04:33:49 +0000",
+      "publishedAt": "Mon, 19 Oct 2026 09:59:32 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.5,
       "tags": [
         "tech",
         "community",
@@ -121,13 +106,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies",
-      "title": "World Bank says 'small AI' could transform developing countries",
-      "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff",
+      "title": "Calls to strengthen workplace privacy in Australia as employers turn to AI to track staff",
+      "url": "https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sun, 18 Oct 2026 10:00:56 GMT",
-      "summary": "Bank's chief knowledge officer says the tech could speed up economic development from centuries to decades The World Bank is urging developing countries to kickstart the creation of \"small AI\" models, which can run on a mobile phone with low connectivity, to reap the full benefits of artificial intelligence. While Silicon Valley big tech firms are focused...",
+      "publishedAt": "Mon, 19 Oct 2026 14:00:03 GMT",
+      "summary": "Monitoring tools common in a range of workplaces, including factories, office jobs, delivery work and in retail - often without employees being informed Get our breaking news email , free app or daily news podcast Employers are increasingly using technology, from CCTV to keystroke monitoring, to track workers' moves and it is being accelerated by the use...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -136,32 +121,47 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cv8ez40yz950o?at_medium=rss&amp;at_campaign=rss",
-      "title": "No further action against government adviser's wife over Palestine Action post, police say",
-      "url": "https://www.bbc.co.uk/news/articles/cv8ez40yz950o?at_medium=RSS&at_campaign=rss",
+      "id": "hacker news:https://news.ycombinator.com/item?id=50154029",
+      "title": "Launch HN: Laminar (YC S24) - We trained a model to catch silent agent failures",
+      "url": "https://news.ycombinator.com/item?id=50154029",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Mon, 19 Oct 2026 16:00:18 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.5,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cv5ynp1j45x2o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Uber wins bid to throw out £200m black cab claims",
+      "url": "https://www.bbc.co.uk/news/articles/cv5ynp1j45x2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Sat, 17 Oct 2026 20:24:32 GMT",
-      "summary": "Sarah Helm, who is married to Jonathan Powell, was responding to a discussion about the author Sally Rooney.",
-      "score": 2.0500000000000003,
+      "publishedAt": "Mon, 19 Oct 2026 12:58:39 GMT",
+      "summary": "Claims that Uber misled TfL over its licence were thrown out because they were brought too late.",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries",
-      "title": "What are self-replicating 'AI worms', and why is Anthropic worried about them?",
-      "url": "https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries",
-      "source": "The Guardian Tech",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=rss&amp;at_campaign=rss",
+      "title": "China's growth accelerates as AI boom helps boost exports",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Sun, 18 Oct 2026 13:30:00 GMT",
-      "summary": "The tech company says successful AI worms need more capability on less powerful devices, but current trends make that feasible by the end of the year Warnings about what artificial intelligence might do in the future - together with alarming reports of what it has gotten up to already - are being issued so quickly that even security experts have difficulty...",
-      "score": 2.35,
+      "publishedAt": "Mon, 19 Oct 2026 06:08:02 GMT",
+      "summary": "Exports have helped offset weak spending at home, but trade tensions and AI doubts cloud its outlook.",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
-        "rss",
-        "guardian"
+        "rss"
       ]
     },
     {
@@ -197,13 +197,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/iron-maiden-announce-surprise-2027-north-american-tour-3973442?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=iron-maiden-announce-surprise-2027-north-american-tour",
-      "title": "Iron Maiden announce surprise 2027 North American tour",
-      "url": "https://www.nme.com/news/music/iron-maiden-announce-surprise-2027-north-american-tour-3973442?utm_source=rss&utm_medium=rss&utm_campaign=iron-maiden-announce-surprise-2027-north-american-tour",
+      "id": "nme music news:https://www.nme.com/news/music/sleaford-mods-share-the-demise-of-planet-x-expanded-edition-with-nine-unreleased-songs-3973542?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sleaford-mods-share-the-demise-of-planet-x-expanded-edition-with-nine-unreleased-songs",
+      "title": "Sleaford Mods share 'The Demise Of Planet X' expanded edition with nine unreleased songs",
+      "url": "https://www.nme.com/news/music/sleaford-mods-share-the-demise-of-planet-x-expanded-edition-with-nine-unreleased-songs-3973542?utm_source=rss&utm_medium=rss&utm_campaign=sleaford-mods-share-the-demise-of-planet-x-expanded-edition-with-nine-unreleased-songs",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sun, 18 Oct 2026 07:38:33 +0000",
-      "summary": "The metal legends had planned to take a break next year, but have now added a final run of shows to their 50th anniversary tour The post Iron Maiden announce surprise 2027 North American tour appeared first on NME .",
+      "publishedAt": "Mon, 19 Oct 2026 15:30:16 +0000",
+      "summary": "One of the new songs, 'Cato', sees them rejoin forces with Life Without Buildings' Sue Tompkins, who the duo want to \"join the band\" The post Sleaford Mods share 'The Demise Of Planet X' expanded edition with nine unreleased songs appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -229,14 +229,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/spacemen-3-the-perfect-prescription/",
-      "title": "The Perfect Prescription",
-      "url": "https://pitchfork.com/reviews/albums/spacemen-3-the-perfect-prescription/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/they-are-gutting-a-body-of-water-kool-faith-loosies-ii/",
+      "title": "KOOL FAITH / LOOSIES II",
+      "url": "https://pitchfork.com/reviews/albums/they-are-gutting-a-body-of-water-kool-faith-loosies-ii/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Sun, 18 Oct 2026 04:00:00 +0000",
-      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we investigate J Spaceman and Sonic Boom's 1987 psychedelic rock album, a mythically drugged-out method of divine transport.",
-      "score": 1.7999999999999998,
+      "publishedAt": "Mon, 19 Oct 2026 04:02:00 +0000",
+      "summary": "The Philly shoegaze band calls on friends from across genres for a wide-spanning compilation that's equal parts label sampler, B-sides showcase, and assembly of rising stars.",
+      "score": 1.9,
       "tags": [
         "music",
         "reviews",
