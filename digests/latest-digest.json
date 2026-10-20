@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-19",
-  "builtAt": "2026-10-19T17:28:12.740Z",
-  "lastAttemptedAt": "2026-10-19T17:28:11.758Z",
+  "digestId": "2026-10-20",
+  "builtAt": "2026-10-20T15:38:51.887Z",
+  "lastAttemptedAt": "2026-10-20T15:38:51.270Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 99,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,6 +18,20 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+      "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-20T11:03:58Z",
+      "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the \"advanced unlocking services\" they've marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [...] According to Cellebrite, AU: is a...",
+      "score": 2.85,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
       "title": "Training AIs to Solve CAPTCHAs",
       "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
@@ -25,7 +39,7 @@
       "topic": "security",
       "publishedAt": "2026-10-19T11:08:01Z",
       "summary": "Interesting research : Abstract : Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in...",
-      "score": 3.05,
+      "score": 2.8,
       "tags": [
         "security",
         "feed"
@@ -47,20 +61,6 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
-      "title": "Backdooring Open-Weight AI Models",
-      "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-16T11:05:50Z",
-      "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it's the most popular reason people download modified weights without verifying what's inside. Abliteration is a cheap fine-tune that takes...",
-      "score": 2.5,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33422",
       "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
       "url": "https://isc.sans.edu/diary/rss/33422",
@@ -76,43 +76,27 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
-      "title": "The Future of AI Cryptanalysis",
-      "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "title": "Backdooring Open-Weight AI Models",
+      "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-14T21:59:16Z",
-      "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.",
-      "score": 2.3,
+      "publishedAt": "2026-10-16T11:05:50Z",
+      "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it's the most popular reason people download modified weights without verifying what's inside. Abliteration is a cheap fine-tune that takes...",
+      "score": 2.5,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://mistral.ai/news/timestral/",
-      "title": "Timestral: Mistral release time-series foundation models",
-      "url": "https://mistral.ai/news/timestral/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Mon, 19 Oct 2026 09:59:32 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff",
-      "title": "Calls to strengthen workplace privacy in Australia as employers turn to AI to track staff",
-      "url": "https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff",
+      "id": "the guardian tech:https://www.theguardian.com/business/2026/oct/20/revolut-down-app-cards-service-disruption",
+      "title": "Google cloud failure hits millions as UK courts and banks knocked offline",
+      "url": "https://www.theguardian.com/business/2026/oct/20/revolut-down-app-cards-service-disruption",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 19 Oct 2026 14:00:03 GMT",
-      "summary": "Monitoring tools common in a range of workplaces, including factories, office jobs, delivery work and in retail - often without employees being informed Get our breaking news email , free app or daily news podcast Employers are increasingly using technology, from CCTV to keystroke monitoring, to track workers' moves and it is being accelerated by the use...",
+      "publishedAt": "Tue, 20 Oct 2026 09:45:39 GMT",
+      "summary": "Services restored for most users, but power fault stalled hearings and left Revolut, Lloyds and HSBC customers unable to pay or move money Business live - latest updates An outage at Google's cloud services in the UK has caused widespread disruption, hitting courts and leaving millions of customers unable to access or send cash at banks including Lloyds,...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -121,14 +105,14 @@
       ]
     },
     {
-      "id": "hacker news:https://news.ycombinator.com/item?id=50154029",
-      "title": "Launch HN: Laminar (YC S24) - We trained a model to catch silent agent failures",
-      "url": "https://news.ycombinator.com/item?id=50154029",
+      "id": "hacker news:https://news.ycombinator.com/item?id=50167583",
+      "title": "Launch HN: Respan (YC W24) - Open-source Rust AI gateway built around plugins",
+      "url": "https://news.ycombinator.com/item?id=50167583",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 19 Oct 2026 16:00:18 +0000",
+      "publishedAt": "Tue, 20 Oct 2026 15:09:29 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -137,31 +121,47 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cv5ynp1j45x2o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Uber wins bid to throw out £200m black cab claims",
-      "url": "https://www.bbc.co.uk/news/articles/cv5ynp1j45x2o?at_medium=RSS&at_campaign=rss",
+      "id": "the guardian tech:https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
+      "title": "US bans use of China's DeepSeek AI tools by government agencies",
+      "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Tue, 20 Oct 2026 12:33:27 GMT",
+      "summary": "Use of tools 'may result in the transfer of sensitive data' to China, defense department says The US government on Monday ordered its agencies to stop using artificial intelligence (AI) tools from the Chinese startup DeepSeek , as the countries race for dominance in the fast-moving sector. A notice from the Department of Homeland Security (DHS) announced...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
+      "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Mon, 19 Oct 2026 12:58:39 GMT",
-      "summary": "Claims that Uber misled TfL over its licence were thrown out because they were brought too late.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Mon, 19 Oct 2026 21:12:30 GMT",
+      "summary": "Abdulrahman Alfozan, who is accused of planting a recording device, has been denied bail.",
+      "score": 2.0500000000000003,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=rss&amp;at_campaign=rss",
-      "title": "China's growth accelerates as AI boom helps boost exports",
-      "url": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "id": "the guardian tech:https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
+      "title": "'These risks are real': the threat of AI bioweapons - podcast",
+      "url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
+      "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 19 Oct 2026 06:08:02 GMT",
-      "summary": "Exports have helped offset weak spending at home, but trade tensions and AI doubts cloud its outlook.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Tue, 20 Oct 2026 04:00:15 GMT",
+      "summary": "In his annual speech on threats to the nation, Sir Ken McCallum, the head of the UK's intelligence service, MI5 , warned that AI had the potential to 'change the stakes' on existing and even new bioweapons. To find out why, and how, Ian Sample speaks to Dr Tom Inglesby, director of the Johns Hopkins Center for Health Security and the Bloomberg School of...",
+      "score": 2.35,
       "tags": [
         "tech",
-        "rss"
+        "rss",
+        "guardian"
       ]
     },
     {
@@ -197,14 +197,14 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/sleaford-mods-share-the-demise-of-planet-x-expanded-edition-with-nine-unreleased-songs-3973542?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sleaford-mods-share-the-demise-of-planet-x-expanded-edition-with-nine-unreleased-songs",
-      "title": "Sleaford Mods share 'The Demise Of Planet X' expanded edition with nine unreleased songs",
-      "url": "https://www.nme.com/news/music/sleaford-mods-share-the-demise-of-planet-x-expanded-edition-with-nine-unreleased-songs-3973542?utm_source=rss&utm_medium=rss&utm_campaign=sleaford-mods-share-the-demise-of-planet-x-expanded-edition-with-nine-unreleased-songs",
+      "id": "nme music news:https://www.nme.com/news/music/the-rolling-stones-surprise-release-breezy-new-single-who-you-callin-crazy-3973619?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-rolling-stones-surprise-release-breezy-new-single-who-you-callin-crazy",
+      "title": "The Rolling Stones surprise release breezy new single 'Who You Callin' Crazy'",
+      "url": "https://www.nme.com/news/music/the-rolling-stones-surprise-release-breezy-new-single-who-you-callin-crazy-3973619?utm_source=rss&utm_medium=rss&utm_campaign=the-rolling-stones-surprise-release-breezy-new-single-who-you-callin-crazy",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Mon, 19 Oct 2026 15:30:16 +0000",
-      "summary": "One of the new songs, 'Cato', sees them rejoin forces with Life Without Buildings' Sue Tompkins, who the duo want to \"join the band\" The post Sleaford Mods share 'The Demise Of Planet X' expanded edition with nine unreleased songs appeared first on NME .",
-      "score": 1.93,
+      "publishedAt": "Tue, 20 Oct 2026 14:51:40 +0000",
+      "summary": "The playful single features jazz saxophonist Courtney Pine and is the latest preview of the deluxe edition of 'Foreign Tongues' The post The Rolling Stones surprise release breezy new single 'Who You Callin' Crazy' appeared first on NME .",
+      "score": 2.13,
       "tags": [
         "music",
         "news",
@@ -229,14 +229,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/they-are-gutting-a-body-of-water-kool-faith-loosies-ii/",
-      "title": "KOOL FAITH / LOOSIES II",
-      "url": "https://pitchfork.com/reviews/albums/they-are-gutting-a-body-of-water-kool-faith-loosies-ii/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/the-avalanches-no-bad-memories/",
+      "title": "No Bad Memories",
+      "url": "https://pitchfork.com/reviews/albums/the-avalanches-no-bad-memories/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Mon, 19 Oct 2026 04:02:00 +0000",
-      "summary": "The Philly shoegaze band calls on friends from across genres for a wide-spanning compilation that's equal parts label sampler, B-sides showcase, and assembly of rising stars.",
-      "score": 1.9,
+      "publishedAt": "Tue, 20 Oct 2026 04:03:00 +0000",
+      "summary": "Patching in audio logos and advertising dialog without interrupting the dreamlike sampledelic flow, the Australian band's new album summons nostalgia for the era of truly mass media.",
+      "score": 1.7999999999999998,
       "tags": [
         "music",
         "reviews",
