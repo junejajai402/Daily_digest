@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-20",
-  "builtAt": "2026-10-20T15:38:51.887Z",
-  "lastAttemptedAt": "2026-10-20T15:38:51.270Z",
+  "digestId": "2026-10-21",
+  "builtAt": "2026-10-21T15:56:48.603Z",
+  "lastAttemptedAt": "2026-10-21T15:56:46.860Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,17 +18,18 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
-      "title": "Possible new Cellebrite iPhone Radio Zero-Day",
-      "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
-      "source": "Schneier on Security",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33440",
+      "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33440",
+      "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "2026-10-20T11:03:58Z",
-      "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the \"advanced unlocking services\" they've marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [...] According to Cellebrite, AU: is a...",
+      "publishedAt": "Wed, 21 Oct 2026 15:12:02 GMT",
+      "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits ahead of the patch becoming available.",
       "score": 2.85,
       "tags": [
         "security",
-        "feed"
+        "rss",
+        "sans"
       ]
     },
     {
@@ -40,6 +41,20 @@
       "publishedAt": "2026-10-19T11:08:01Z",
       "summary": "Interesting research : Abstract : Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in...",
       "score": 2.8,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+      "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-20T11:03:58Z",
+      "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the \"advanced unlocking services\" they've marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [...] According to Cellebrite, AU: is a...",
+      "score": 2.6,
       "tags": [
         "security",
         "feed"
@@ -61,21 +76,6 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33422",
-      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33422",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 13 Oct 2026 19:25:52 GMT",
-      "summary": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today's patch Tuesday, and one is already exploited.",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
       "title": "Backdooring Open-Weight AI Models",
       "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
@@ -90,14 +90,44 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/business/2026/oct/20/revolut-down-app-cards-service-disruption",
-      "title": "Google cloud failure hits millions as UK courts and banks knocked offline",
-      "url": "https://www.theguardian.com/business/2026/oct/20/revolut-down-app-cards-service-disruption",
+      "id": "hacker news:https://news-web.php.net/php.announce/509",
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "url": "https://news-web.php.net/php.announce/509",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Tue, 20 Oct 2026 20:15:50 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.4,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Websites taken down worldwide as critical cyber-security update issued",
+      "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Wed, 21 Oct 2026 15:47:13 GMT",
+      "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/21/a-difficult-line-meet-the-editors-tackling-wikipedias-arms-trade-pages",
+      "title": "'A difficult line': meet the editors tackling Wikipedia's arms trade pages",
+      "url": "https://www.theguardian.com/technology/2026/oct/21/a-difficult-line-meet-the-editors-tackling-wikipedias-arms-trade-pages",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 20 Oct 2026 09:45:39 GMT",
-      "summary": "Services restored for most users, but power fault stalled hearings and left Revolut, Lloyds and HSBC customers unable to pay or move money Business live - latest updates An outage at Google's cloud services in the UK has caused widespread disruption, hitting courts and leaving millions of customers unable to access or send cash at banks including Lloyds,...",
-      "score": 2.35,
+      "publishedAt": "Wed, 21 Oct 2026 05:00:05 GMT",
+      "summary": "Volunteers and new recruits come together for 'wikithon' to put more detail about industry into public domain \"Anyone can edit Wikipedia,\" the adage goes. But, it turns out, a relatively small number actually do. What is worthy of a digital page in the world's largest and most-read encyclopedia is decided by roughly 270,000 active volunteers, enthusiasts...",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -105,12 +135,12 @@
       ]
     },
     {
-      "id": "hacker news:https://news.ycombinator.com/item?id=50167583",
-      "title": "Launch HN: Respan (YC W24) - Open-source Rust AI gateway built around plugins",
-      "url": "https://news.ycombinator.com/item?id=50167583",
+      "id": "hacker news:https://www.wiz.io/blog/php2shell-php-rce",
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 20 Oct 2026 15:09:29 +0000",
+      "publishedAt": "Wed, 21 Oct 2026 13:43:19 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -121,58 +151,28 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
-      "title": "US bans use of China's DeepSeek AI tools by government agencies",
-      "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Tue, 20 Oct 2026 12:33:27 GMT",
-      "summary": "Use of tools 'may result in the transfer of sensitive data' to China, defense department says The US government on Monday ordered its agencies to stop using artificial intelligence (AI) tools from the Chinese startup DeepSeek , as the countries race for dominance in the fast-moving sector. A notice from the Department of Homeland Security (DHS) announced...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-      "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c370pzdkw77jo?at_medium=rss&amp;at_campaign=rss",
+      "title": "The tech helping crack decades-old cold cases",
+      "url": "https://www.bbc.co.uk/news/articles/c370pzdkw77jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Mon, 19 Oct 2026 21:12:30 GMT",
-      "summary": "Abdulrahman Alfozan, who is accused of planting a recording device, has been denied bail.",
-      "score": 2.0500000000000003,
+      "publishedAt": "Tue, 20 Oct 2026 23:13:24 GMT",
+      "summary": "Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.",
+      "score": 2.25,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
-      "title": "'These risks are real': the threat of AI bioweapons - podcast",
-      "url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Tue, 20 Oct 2026 04:00:15 GMT",
-      "summary": "In his annual speech on threats to the nation, Sir Ken McCallum, the head of the UK's intelligence service, MI5 , warned that AI had the potential to 'change the stakes' on existing and even new bioweapons. To find out why, and how, Ian Sample speaks to Dr Tom Inglesby, director of the Johns Hopkins Center for Health Security and the Bloomberg School of...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "openai news:https://openai.com/index/amp-beyond-coding",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
+      "id": "openai news:https://openai.com/index/openai-models-google-cloud",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "score": 2.47,
+      "publishedAt": "Wed, 21 Oct 2026 12:00:00 GMT",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini's Model Garden, available through Google Cloud Marketplace.",
+      "score": 2.62,
       "tags": [
         "ai",
         "official",
@@ -197,14 +197,30 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/the-rolling-stones-surprise-release-breezy-new-single-who-you-callin-crazy-3973619?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-rolling-stones-surprise-release-breezy-new-single-who-you-callin-crazy",
-      "title": "The Rolling Stones surprise release breezy new single 'Who You Callin' Crazy'",
-      "url": "https://www.nme.com/news/music/the-rolling-stones-surprise-release-breezy-new-single-who-you-callin-crazy-3973619?utm_source=rss&utm_medium=rss&utm_campaign=the-rolling-stones-surprise-release-breezy-new-single-who-you-callin-crazy",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/seventhirtyatmorning-antiones-son/",
+      "title": "Antione's Son",
+      "url": "https://pitchfork.com/reviews/albums/seventhirtyatmorning-antiones-son/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Wed, 21 Oct 2026 04:01:00 +0000",
+      "summary": "The core elements-airy melodies, drug talk, copious ad-libs-are old hat, but frank tales of suburban ennui and romantic strife give the Minneapolis rapper's latest album a refreshingly personal air.",
+      "score": 2.1999999999999997,
+      "tags": [
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/gaming-news/daft-punk-grand-theft-auto-6-soundtrack-reunion-justice-3973742?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=daft-punk-grand-theft-auto-6-soundtrack-reunion-justice",
+      "title": "Daft Punk reportedly turned down 'GTA 6' soundtrack offer before Justice said yes",
+      "url": "https://www.nme.com/news/gaming-news/daft-punk-grand-theft-auto-6-soundtrack-reunion-justice-3973742?utm_source=rss&utm_medium=rss&utm_campaign=daft-punk-grand-theft-auto-6-soundtrack-reunion-justice",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Tue, 20 Oct 2026 14:51:40 +0000",
-      "summary": "The playful single features jazz saxophonist Courtney Pine and is the latest preview of the deluxe edition of 'Foreign Tongues' The post The Rolling Stones surprise release breezy new single 'Who You Callin' Crazy' appeared first on NME .",
-      "score": 2.13,
+      "publishedAt": "Wed, 21 Oct 2026 11:33:54 +0000",
+      "summary": "The rumour claims the dance titans were offered an almost unlimited budget to reunite The post Daft Punk reportedly turned down 'GTA 6' soundtrack offer before Justice said yes appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
         "news",
@@ -224,22 +240,6 @@
       "tags": [
         "music",
         "albums",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/the-avalanches-no-bad-memories/",
-      "title": "No Bad Memories",
-      "url": "https://pitchfork.com/reviews/albums/the-avalanches-no-bad-memories/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Tue, 20 Oct 2026 04:03:00 +0000",
-      "summary": "Patching in audio logos and advertising dialog without interrupting the dreamlike sampledelic flow, the Australian band's new album summons nostalgia for the era of truly mass media.",
-      "score": 1.7999999999999998,
-      "tags": [
-        "music",
-        "reviews",
         "rss",
         "pitchfork"
       ]
