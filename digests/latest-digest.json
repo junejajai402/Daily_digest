@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-21",
-  "builtAt": "2026-10-21T15:56:48.603Z",
-  "lastAttemptedAt": "2026-10-21T15:56:46.860Z",
+  "digestId": "2026-10-22",
+  "builtAt": "2026-10-22T15:52:30.812Z",
+  "lastAttemptedAt": "2026-10-22T15:52:30.098Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 101,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,28 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "title": "New Serious PHP Vulnerabilities Released and Patched",
+      "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-22T14:36:29Z",
+      "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php,...",
+      "score": 2.85,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33440",
       "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
       "url": "https://isc.sans.edu/diary/rss/33440",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Wed, 21 Oct 2026 15:12:02 GMT",
-      "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits ahead of the patch becoming available.",
-      "score": 2.85,
+      "publishedAt": "Wed, 21 Oct 2026 21:02:43 GMT",
+      "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the patch became available.",
+      "score": 2.75,
       "tags": [
         "security",
         "rss",
@@ -40,21 +54,7 @@
       "topic": "security",
       "publishedAt": "2026-10-19T11:08:01Z",
       "summary": "Interesting research : Abstract : Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in...",
-      "score": 2.8,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
-      "title": "Possible new Cellebrite iPhone Radio Zero-Day",
-      "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-20T11:03:58Z",
-      "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the \"advanced unlocking services\" they've marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [...] According to Cellebrite, AU: is a...",
-      "score": 2.6,
+      "score": 2.7,
       "tags": [
         "security",
         "feed"
@@ -76,26 +76,26 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
-      "title": "Backdooring Open-Weight AI Models",
-      "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+      "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-16T11:05:50Z",
-      "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it's a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it's the most popular reason people download modified weights without verifying what's inside. Abliteration is a cheap fine-tune that takes...",
-      "score": 2.5,
+      "publishedAt": "2026-10-20T11:03:58Z",
+      "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the \"advanced unlocking services\" they've marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [...] According to Cellebrite, AU: is a...",
+      "score": 2.6,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://news-web.php.net/php.announce/509",
-      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-      "url": "https://news-web.php.net/php.announce/509",
+      "id": "hacker news:https://simedw.com/2026/10/21/world-model-terminal/",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 20 Oct 2026 20:15:50 +0000",
+      "publishedAt": "Thu, 22 Oct 2026 02:18:41 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.4,
       "tags": [
@@ -106,13 +106,13 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Websites taken down worldwide as critical cyber-security update issued",
-      "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=rss&amp;at_campaign=rss",
+      "title": "What is PHP and why did it spark a global cyber-security scramble?",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Wed, 21 Oct 2026 15:47:13 GMT",
-      "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
+      "publishedAt": "Thu, 22 Oct 2026 11:15:58 GMT",
+      "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
       "score": 2.35,
       "tags": [
         "tech",
@@ -120,14 +120,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/21/a-difficult-line-meet-the-editors-tackling-wikipedias-arms-trade-pages",
-      "title": "'A difficult line': meet the editors tackling Wikipedia's arms trade pages",
-      "url": "https://www.theguardian.com/technology/2026/oct/21/a-difficult-line-meet-the-editors-tackling-wikipedias-arms-trade-pages",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw",
+      "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
+      "url": "https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Wed, 21 Oct 2026 05:00:05 GMT",
-      "summary": "Volunteers and new recruits come together for 'wikithon' to put more detail about industry into public domain \"Anyone can edit Wikipedia,\" the adage goes. But, it turns out, a relatively small number actually do. What is worthy of a digital page in the world's largest and most-read encyclopedia is decided by roughly 270,000 active volunteers, enthusiasts...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Thu, 22 Oct 2026 12:40:10 GMT",
+      "summary": "Problem in language that underpins 70% of sites has led governments and companies to pull sites offline to patch fault Tell us: have you been affected by the PHP code flaw? Websites around the world have been hit by millions of attempts to exploit a recently discovered vulnerability in their code, cybersecurity companies have said, as the US National...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -135,12 +135,27 @@
       ]
     },
     {
-      "id": "hacker news:https://www.wiz.io/blog/php2shell-php-rce",
-      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
-      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "id": "the guardian tech:https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
+      "title": "Barclays to cut 5,000 jobs as bank's bosses hail AI productivity advances",
+      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Thu, 22 Oct 2026 14:39:29 GMT",
+      "summary": "Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profits Business live - latest updates Barclays is cutting 5,000 jobs as part of wider cost-saving plans that its bosses say are being driven by advances in AI. The job cuts will mean losing about 5% of the bank's 93,000 global staff, with executives...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "title": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Wed, 21 Oct 2026 13:43:19 +0000",
+      "publishedAt": "Thu, 22 Oct 2026 08:01:52 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -151,28 +166,14 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c370pzdkw77jo?at_medium=rss&amp;at_campaign=rss",
-      "title": "The tech helping crack decades-old cold cases",
-      "url": "https://www.bbc.co.uk/news/articles/c370pzdkw77jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Tue, 20 Oct 2026 23:13:24 GMT",
-      "summary": "Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.",
-      "score": 2.25,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "openai news:https://openai.com/index/openai-models-google-cloud",
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud",
+      "id": "openai news:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 21 Oct 2026 12:00:00 GMT",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini's Model Garden, available through Google Cloud Marketplace.",
-      "score": 2.62,
+      "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "score": 2.5700000000000003,
       "tags": [
         "ai",
         "official",
@@ -204,7 +205,7 @@
       "topic": "music",
       "publishedAt": "Wed, 21 Oct 2026 04:01:00 +0000",
       "summary": "The core elements-airy melodies, drug talk, copious ad-libs-are old hat, but frank tales of suburban ennui and romantic strife give the Minneapolis rapper's latest album a refreshingly personal air.",
-      "score": 2.1999999999999997,
+      "score": 1.9500000000000002,
       "tags": [
         "music",
         "reviews",
@@ -213,13 +214,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/gaming-news/daft-punk-grand-theft-auto-6-soundtrack-reunion-justice-3973742?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=daft-punk-grand-theft-auto-6-soundtrack-reunion-justice",
-      "title": "Daft Punk reportedly turned down 'GTA 6' soundtrack offer before Justice said yes",
-      "url": "https://www.nme.com/news/gaming-news/daft-punk-grand-theft-auto-6-soundtrack-reunion-justice-3973742?utm_source=rss&utm_medium=rss&utm_campaign=daft-punk-grand-theft-auto-6-soundtrack-reunion-justice",
+      "id": "nme music news:https://www.nme.com/news/music/cliff-richard-says-hes-learning-reggae-for-new-version-of-the-lord-is-my-shepherd-for-christmas-single-3973872?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cliff-richard-says-hes-learning-reggae-for-new-version-of-the-lord-is-my-shepherd-for-christmas-single",
+      "title": "Cliff Richard says he's \"learning reggae\" for new version of 'The Lord Is My Shepherd' for Christmas single",
+      "url": "https://www.nme.com/news/music/cliff-richard-says-hes-learning-reggae-for-new-version-of-the-lord-is-my-shepherd-for-christmas-single-3973872?utm_source=rss&utm_medium=rss&utm_campaign=cliff-richard-says-hes-learning-reggae-for-new-version-of-the-lord-is-my-shepherd-for-christmas-single",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Wed, 21 Oct 2026 11:33:54 +0000",
-      "summary": "The rumour claims the dance titans were offered an almost unlimited budget to reunite The post Daft Punk reportedly turned down 'GTA 6' soundtrack offer before Justice said yes appeared first on NME .",
+      "publishedAt": "Thu, 22 Oct 2026 15:46:39 +0000",
+      "summary": "One music fan said the idea \"sounds so wrong\", while another dubbed him \"Spliff Richard\" The post Cliff Richard says he's \"learning reggae\" for new version of 'The Lord Is My Shepherd' for Christmas single appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
