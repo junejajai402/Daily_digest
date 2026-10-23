@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-22",
-  "builtAt": "2026-10-22T15:52:30.812Z",
-  "lastAttemptedAt": "2026-10-22T15:52:30.098Z",
+  "digestId": "2026-10-23",
+  "builtAt": "2026-10-23T15:44:08.990Z",
+  "lastAttemptedAt": "2026-10-23T15:44:08.141Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -17,35 +17,6 @@
   },
   "sourceFailures": [],
   "items": [
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-      "title": "New Serious PHP Vulnerabilities Released and Patched",
-      "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-22T14:36:29Z",
-      "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php,...",
-      "score": 2.85,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33440",
-      "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33440",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Wed, 21 Oct 2026 21:02:43 GMT",
-      "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the patch became available.",
-      "score": 2.75,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
     {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
       "title": "Training AIs to Solve CAPTCHAs",
@@ -61,14 +32,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33430",
-      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33430",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33450",
+      "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33450",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Fri, 16 Oct 2026 00:46:35 GMT",
-      "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
-      "score": 2.5,
+      "publishedAt": "Fri, 23 Oct 2026 13:43:20 GMT",
+      "summary": "This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to \"business as usual\".",
+      "score": 2.65,
       "tags": [
         "security",
         "rss",
@@ -76,33 +47,46 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
-      "title": "Possible new Cellebrite iPhone Radio Zero-Day",
-      "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
+      "title": "Compromised TLS Certificates",
+      "url": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-20T11:03:58Z",
-      "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the \"advanced unlocking services\" they've marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [...] According to Cellebrite, AU: is a...",
-      "score": 2.6,
+      "publishedAt": "2026-10-23T11:05:16Z",
+      "summary": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that's challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing...",
+      "score": 2.65,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://simedw.com/2026/10/21/world-model-terminal/",
-      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Thu, 22 Oct 2026 02:18:41 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.4,
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33440",
+      "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33440",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Wed, 21 Oct 2026 21:02:43 GMT",
+      "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the patch became available.",
+      "score": 2.6,
       "tags": [
-        "tech",
-        "community",
+        "security",
         "rss",
-        "hacker-news"
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "title": "New Serious PHP Vulnerabilities Released and Patched",
+      "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-22T14:36:29Z",
+      "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php,...",
+      "score": 2.6,
+      "tags": [
+        "security",
+        "feed"
       ]
     },
     {
@@ -111,7 +95,7 @@
       "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 22 Oct 2026 11:15:58 GMT",
+      "publishedAt": "Fri, 23 Oct 2026 12:24:17 GMT",
       "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
       "score": 2.35,
       "tags": [
@@ -120,42 +104,12 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw",
-      "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
-      "url": "https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Thu, 22 Oct 2026 12:40:10 GMT",
-      "summary": "Problem in language that underpins 70% of sites has led governments and companies to pull sites offline to patch fault Tell us: have you been affected by the PHP code flaw? Websites around the world have been hit by millions of attempts to exploit a recently discovered vulnerability in their code, cybersecurity companies have said, as the US National...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
-      "title": "Barclays to cut 5,000 jobs as bank's bosses hail AI productivity advances",
-      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Thu, 22 Oct 2026 14:39:29 GMT",
-      "summary": "Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profits Business live - latest updates Barclays is cutting 5,000 jobs as part of wider cost-saving plans that its bosses say are being driven by advances in AI. The job cuts will mean losing about 5% of the bank's 93,000 global staff, with executives...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
-      "title": "Jailbreaking the Switch 2",
-      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "id": "hacker news:https://www.tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026/",
+      "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
+      "url": "https://www.tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 22 Oct 2026 08:01:52 +0000",
+      "publishedAt": "Fri, 23 Oct 2026 08:21:29 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -163,6 +117,50 @@
         "community",
         "rss",
         "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
+      "title": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Fri, 23 Oct 2026 14:00:28 GMT",
+      "summary": "Anthropic claims AI will shift how work gets done and labor demand - but some experts are skeptical of the vision Last year, Anthropic CEO Dario Amodei warned that artificial intelligence could eliminate half of entry-level white-collar jobs and that in six months it would be writing 90% of code . Neither of those predictions came to pass. Now, in a report...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Race to update services' computer systems after cyber-security flaw found",
+      "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Thu, 22 Oct 2026 17:12:51 GMT",
+      "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+      "score": 2.25,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/23/apple-watch-ultra-4-review-longer-battery-life-health-tracking",
+      "title": "Apple Watch Ultra 4 review: longer battery life but still awaiting new features",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/apple-watch-ultra-4-review-longer-battery-life-health-tracking",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Fri, 23 Oct 2026 06:00:01 GMT",
+      "summary": "Biggest Apple smartwatch gets better health tracking and new readiness tools with a battery and chip boost in preparation for controversial audio AI As the Ultra enters its fourth year as Apple's biggest and beefiest smartwatch it gets the best kind of spec upgrade - longer battery life - while waiting for something potentially more transformative. That's...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
       ]
     },
     {
@@ -198,14 +196,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/seventhirtyatmorning-antiones-son/",
-      "title": "Antione's Son",
-      "url": "https://pitchfork.com/reviews/albums/seventhirtyatmorning-antiones-son/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/various-artists-beirut-city-pop/",
+      "title": "Beirut City Pop",
+      "url": "https://pitchfork.com/reviews/albums/various-artists-beirut-city-pop/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Wed, 21 Oct 2026 04:01:00 +0000",
-      "summary": "The core elements-airy melodies, drug talk, copious ad-libs-are old hat, but frank tales of suburban ennui and romantic strife give the Minneapolis rapper's latest album a refreshingly personal air.",
-      "score": 1.9500000000000002,
+      "publishedAt": "Fri, 23 Oct 2026 04:00:00 +0000",
+      "summary": "Habibi Funk's latest compilation shines a spotlight on the vintage soul, disco, and jazz that sprang up as a homegrown response to Lebanon's brutal civil war.",
+      "score": 1.9999999999999998,
       "tags": [
         "music",
         "reviews",
@@ -214,13 +212,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/cliff-richard-says-hes-learning-reggae-for-new-version-of-the-lord-is-my-shepherd-for-christmas-single-3973872?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cliff-richard-says-hes-learning-reggae-for-new-version-of-the-lord-is-my-shepherd-for-christmas-single",
-      "title": "Cliff Richard says he's \"learning reggae\" for new version of 'The Lord Is My Shepherd' for Christmas single",
-      "url": "https://www.nme.com/news/music/cliff-richard-says-hes-learning-reggae-for-new-version-of-the-lord-is-my-shepherd-for-christmas-single-3973872?utm_source=rss&utm_medium=rss&utm_campaign=cliff-richard-says-hes-learning-reggae-for-new-version-of-the-lord-is-my-shepherd-for-christmas-single",
+      "id": "nme music news:https://www.nme.com/news/music/u2-bono-elon-musk-doge-cuts-unconscionable-republican-party-hijacked-3974078?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=u2-bono-elon-musk-doge-cuts-unconscionable-republican-party-hijacked",
+      "title": "U2's Bono hits out at Elon Musk's DOGE cuts as \"unconscionable\", says Republican Party has been \"hijacked\"",
+      "url": "https://www.nme.com/news/music/u2-bono-elon-musk-doge-cuts-unconscionable-republican-party-hijacked-3974078?utm_source=rss&utm_medium=rss&utm_campaign=u2-bono-elon-musk-doge-cuts-unconscionable-republican-party-hijacked",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 22 Oct 2026 15:46:39 +0000",
-      "summary": "One music fan said the idea \"sounds so wrong\", while another dubbed him \"Spliff Richard\" The post Cliff Richard says he's \"learning reggae\" for new version of 'The Lord Is My Shepherd' for Christmas single appeared first on NME .",
+      "publishedAt": "Fri, 23 Oct 2026 15:29:23 +0000",
+      "summary": "The singer questioned how people of faith could support international aid cuts that researchers warn could cost millions of lives The post U2's Bono hits out at Elon Musk's DOGE cuts as \"unconscionable\", says Republican Party has been \"hijacked\" appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
