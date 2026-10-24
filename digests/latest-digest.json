@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-23",
-  "builtAt": "2026-10-23T15:44:08.990Z",
-  "lastAttemptedAt": "2026-10-23T15:44:08.141Z",
+  "digestId": "2026-10-24",
+  "builtAt": "2026-10-24T14:31:09.610Z",
+  "lastAttemptedAt": "2026-10-24T14:31:09.003Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -26,35 +26,6 @@
       "publishedAt": "2026-10-19T11:08:01Z",
       "summary": "Interesting research : Abstract : Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in...",
       "score": 2.7,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33450",
-      "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
-      "url": "https://isc.sans.edu/diary/rss/33450",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Fri, 23 Oct 2026 13:43:20 GMT",
-      "summary": "This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to \"business as usual\".",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
-      "title": "Compromised TLS Certificates",
-      "url": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-23T11:05:16Z",
-      "summary": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that's challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing...",
-      "score": 2.65,
       "tags": [
         "security",
         "feed"
@@ -90,28 +61,72 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=rss&amp;at_campaign=rss",
-      "title": "What is PHP and why did it spark a global cyber-security scramble?",
-      "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33430",
+      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33430",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Fri, 16 Oct 2026 00:46:35 GMT",
+      "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
+      "score": 2.5,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+      "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-20T11:03:58Z",
+      "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the \"advanced unlocking services\" they've marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [...] According to Cellebrite, AU: is a...",
+      "score": 2.5,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
+      "title": "The datacentre next door: on the frontline of tech's latest David v Goliath battle",
+      "url": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Sat, 24 Oct 2026 11:00:32 GMT",
+      "summary": "The AI boom is pitting local residents against corporate giants seeking to power their energy-hungry networks - but one Welsh city is fighting back Dale Johnston opens the gate to his neat suburban garden on the western fringes of Newport in South Wales. There's a trampoline and a slide on the lawn for his grandchildren, and chairs for him and his wife. He...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=rss&amp;at_campaign=rss",
+      "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+      "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Fri, 23 Oct 2026 12:24:17 GMT",
-      "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
-      "score": 2.35,
+      "publishedAt": "Sat, 24 Oct 2026 00:05:45 GMT",
+      "summary": "The chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
+      "score": 2.25,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "hacker news:https://www.tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026/",
-      "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
-      "url": "https://www.tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026/",
+      "id": "hacker news:https://github.com/jared-woodruff/omf-2097-remastered/",
+      "title": "One Must Fall 2097 Remastered",
+      "url": "https://github.com/Jared-woodruff/OMF-2097-Remastered/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 23 Oct 2026 08:21:29 +0000",
+      "publishedAt": "Sat, 24 Oct 2026 13:47:07 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -120,62 +135,31 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
-      "title": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
-      "url": "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
+      "title": "'Black October': cybersecurity experts sound the alarm over new era of AI-enabled hacking",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Fri, 23 Oct 2026 14:00:28 GMT",
-      "summary": "Anthropic claims AI will shift how work gets done and labor demand - but some experts are skeptical of the vision Last year, Anthropic CEO Dario Amodei warned that artificial intelligence could eliminate half of entry-level white-collar jobs and that in six months it would be writing 90% of code . Neither of those predictions came to pass. Now, in a report...",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Race to update services' computer systems after cyber-security flaw found",
-      "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Thu, 22 Oct 2026 17:12:51 GMT",
-      "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+      "publishedAt": "Fri, 23 Oct 2026 18:48:48 GMT",
+      "summary": "After discovery of severe bug in the PHP programming language, executives warn of 'vulnerability tsunami' Leaders in cybersecurity are sounding the alarm after the discovery of a major vulnerability this week. They are predicting that artificial intelligence tools will expose more fundamental weaknesses in global internet infrastructure in the months to...",
       "score": 2.25,
       "tags": [
         "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/23/apple-watch-ultra-4-review-longer-battery-life-health-tracking",
-      "title": "Apple Watch Ultra 4 review: longer battery life but still awaiting new features",
-      "url": "https://www.theguardian.com/technology/2026/oct/23/apple-watch-ultra-4-review-longer-battery-life-health-tracking",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Fri, 23 Oct 2026 06:00:01 GMT",
-      "summary": "Biggest Apple smartwatch gets better health tracking and new readiness tools with a battery and chip boost in preparation for controversial audio AI As the Ultra enters its fourth year as Apple's biggest and beefiest smartwatch it gets the best kind of spec upgrade - longer battery life - while waiting for something potentially more transformative. That's...",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
         "rss",
         "guardian"
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "score": 2.5700000000000003,
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=rss&amp;at_campaign=rss",
+      "title": "What is PHP and why did it spark a global cyber-security scramble?",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Fri, 23 Oct 2026 12:24:17 GMT",
+      "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+      "score": 2.1,
       "tags": [
-        "ai",
-        "official",
-        "openai",
+        "tech",
         "rss"
       ]
     },
@@ -196,13 +180,29 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/various-artists-beirut-city-pop/",
-      "title": "Beirut City Pop",
-      "url": "https://pitchfork.com/reviews/albums/various-artists-beirut-city-pop/",
+      "id": "openai news:https://openai.com/index/securing-our-frontier-model-training-environment",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Fri, 23 Oct 2026 10:00:00 GMT",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "score": 2.37,
+      "tags": [
+        "ai",
+        "official",
+        "openai",
+        "rss"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/amy-winehouse-back-to-black-20th-anniversary-edition/",
+      "title": "Back to Black (20th Anniversary Edition)",
+      "url": "https://pitchfork.com/reviews/albums/amy-winehouse-back-to-black-20th-anniversary-edition/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Fri, 23 Oct 2026 04:00:00 +0000",
-      "summary": "Habibi Funk's latest compilation shines a spotlight on the vintage soul, disco, and jazz that sprang up as a homegrown response to Lebanon's brutal civil war.",
+      "publishedAt": "Sat, 24 Oct 2026 04:00:00 +0000",
+      "summary": "Even with unreleased demos on the tracklist, there's hardly anything to add to Amy Winehouse's 2006 blockbuster, one of the all-time great breakup albums.",
       "score": 1.9999999999999998,
       "tags": [
         "music",
@@ -212,13 +212,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/u2-bono-elon-musk-doge-cuts-unconscionable-republican-party-hijacked-3974078?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=u2-bono-elon-musk-doge-cuts-unconscionable-republican-party-hijacked",
-      "title": "U2's Bono hits out at Elon Musk's DOGE cuts as \"unconscionable\", says Republican Party has been \"hijacked\"",
-      "url": "https://www.nme.com/news/music/u2-bono-elon-musk-doge-cuts-unconscionable-republican-party-hijacked-3974078?utm_source=rss&utm_medium=rss&utm_campaign=u2-bono-elon-musk-doge-cuts-unconscionable-republican-party-hijacked",
+      "id": "nme music news:https://www.nme.com/news/music/watch-noel-gallagher-talk-oasis-reunion-on-chicken-shop-date-3974092?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-noel-gallagher-talk-oasis-reunion-on-chicken-shop-date",
+      "title": "Watch Noel Gallagher talk Oasis reunion and \"compromise\" of working with Liam on 'Chicken Shop Date'",
+      "url": "https://www.nme.com/news/music/watch-noel-gallagher-talk-oasis-reunion-on-chicken-shop-date-3974092?utm_source=rss&utm_medium=rss&utm_campaign=watch-noel-gallagher-talk-oasis-reunion-on-chicken-shop-date",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Fri, 23 Oct 2026 15:29:23 +0000",
-      "summary": "The singer questioned how people of faith could support international aid cuts that researchers warn could cost millions of lives The post U2's Bono hits out at Elon Musk's DOGE cuts as \"unconscionable\", says Republican Party has been \"hijacked\" appeared first on NME .",
+      "publishedAt": "Sat, 24 Oct 2026 08:11:32 +0000",
+      "summary": "\"You've just got to hope that you can do whatever it is you're trying to do as well as you once did it,\" said Gallagher, who also discussed being a \"low-key\" rock star, his friendship with Paul McCartney, and more The post Watch Noel Gallagher talk Oasis reunion and \"compromise\" of working with Liam on 'Chicken Shop Date' appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
