@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-24",
-  "builtAt": "2026-10-24T14:31:09.610Z",
-  "lastAttemptedAt": "2026-10-24T14:31:09.003Z",
+  "digestId": "2026-10-25",
+  "builtAt": "2026-10-25T14:56:48.616Z",
+  "lastAttemptedAt": "2026-10-25T14:56:47.763Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -39,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Wed, 21 Oct 2026 21:02:43 GMT",
       "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the patch became available.",
-      "score": 2.6,
+      "score": 2.5,
       "tags": [
         "security",
         "rss",
@@ -54,7 +54,7 @@
       "topic": "security",
       "publishedAt": "2026-10-22T14:36:29Z",
       "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php,...",
-      "score": 2.6,
+      "score": 2.5,
       "tags": [
         "security",
         "feed"
@@ -90,14 +90,30 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
-      "title": "The datacentre next door: on the frontline of tech's latest David v Goliath battle",
-      "url": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
+      "id": "hacker news:https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sun, 25 Oct 2026 01:33:49 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.4,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie",
+      "title": "Neighbours is being recut into a microdrama focused on Margot Robbie - and her co-stars aren't happy",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 24 Oct 2026 11:00:32 GMT",
-      "summary": "The AI boom is pitting local residents against corporate giants seeking to power their energy-hungry networks - but one Welsh city is fighting back Dale Johnston opens the gate to his neat suburban garden on the western fringes of Newport in South Wales. There's a trampoline and a slide on the lawn for his grandchildren, and chairs for him and his wife. He...",
-      "score": 2.35,
+      "publishedAt": "Sun, 25 Oct 2026 14:00:06 GMT",
+      "summary": "Robbie's storylines in the famous soap will be recut into vertical micro-episodes to be watched on phones - but her fellow cast members say they haven't been consulted The long-running Australian soap opera Neighbours is being recut with AI into a microdrama designed to be watched on phones, sparking a debate among the show's actors and the industry over...",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -112,41 +128,26 @@
       "topic": "tech",
       "publishedAt": "Sat, 24 Oct 2026 00:05:45 GMT",
       "summary": "The chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
-      "score": 2.25,
+      "score": 2.1,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "hacker news:https://github.com/jared-woodruff/omf-2097-remastered/",
-      "title": "One Must Fall 2097 Remastered",
-      "url": "https://github.com/Jared-woodruff/OMF-2097-Remastered/",
+      "id": "hacker news:https://twitter.com/mike64_t/status/2114150399406202896",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+      "url": "https://twitter.com/mike64_t/status/2114150399406202896",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 24 Oct 2026 13:47:07 +0000",
+      "publishedAt": "Sun, 25 Oct 2026 10:42:01 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
         "rss",
         "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
-      "title": "'Black October': cybersecurity experts sound the alarm over new era of AI-enabled hacking",
-      "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Fri, 23 Oct 2026 18:48:48 GMT",
-      "summary": "After discovery of severe bug in the PHP programming language, executives warn of 'vulnerability tsunami' Leaders in cybersecurity are sounding the alarm after the discovery of a major vulnerability this week. They are predicting that artificial intelligence tools will expose more fundamental weaknesses in global internet infrastructure in the months to...",
-      "score": 2.25,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
       ]
     },
     {
@@ -196,29 +197,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/amy-winehouse-back-to-black-20th-anniversary-edition/",
-      "title": "Back to Black (20th Anniversary Edition)",
-      "url": "https://pitchfork.com/reviews/albums/amy-winehouse-back-to-black-20th-anniversary-edition/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Sat, 24 Oct 2026 04:00:00 +0000",
-      "summary": "Even with unreleased demos on the tracklist, there's hardly anything to add to Amy Winehouse's 2006 blockbuster, one of the all-time great breakup albums.",
-      "score": 1.9999999999999998,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/watch-noel-gallagher-talk-oasis-reunion-on-chicken-shop-date-3974092?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-noel-gallagher-talk-oasis-reunion-on-chicken-shop-date",
-      "title": "Watch Noel Gallagher talk Oasis reunion and \"compromise\" of working with Liam on 'Chicken Shop Date'",
-      "url": "https://www.nme.com/news/music/watch-noel-gallagher-talk-oasis-reunion-on-chicken-shop-date-3974092?utm_source=rss&utm_medium=rss&utm_campaign=watch-noel-gallagher-talk-oasis-reunion-on-chicken-shop-date",
+      "id": "nme music news:https://www.nme.com/news/music/elvis-presley-rightsholders-sue-anthropic-copyright-infringement-274-songs-3974178?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=elvis-presley-rightsholders-sue-anthropic-copyright-infringement-274-songs",
+      "title": "Elvis Presley rightsholders sue AI company Anthropic over alleged copyright infringement of 274 songs",
+      "url": "https://www.nme.com/news/music/elvis-presley-rightsholders-sue-anthropic-copyright-infringement-274-songs-3974178?utm_source=rss&utm_medium=rss&utm_campaign=elvis-presley-rightsholders-sue-anthropic-copyright-infringement-274-songs",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sat, 24 Oct 2026 08:11:32 +0000",
-      "summary": "\"You've just got to hope that you can do whatever it is you're trying to do as well as you once did it,\" said Gallagher, who also discussed being a \"low-key\" rock star, his friendship with Paul McCartney, and more The post Watch Noel Gallagher talk Oasis reunion and \"compromise\" of working with Liam on 'Chicken Shop Date' appeared first on NME .",
+      "publishedAt": "Sun, 25 Oct 2026 11:44:17 +0000",
+      "summary": "The company behind Claude could face more than $40million in damages over the alleged unauthorised use of the singer's catalogue The post Elvis Presley rightsholders sue AI company Anthropic over alleged copyright infringement of 274 songs appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -239,6 +224,22 @@
       "tags": [
         "music",
         "albums",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/ne-yo-in-my-own-words/",
+      "title": "In My Own Words",
+      "url": "https://pitchfork.com/reviews/albums/ne-yo-in-my-own-words/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Sun, 25 Oct 2026 04:00:00 +0000",
+      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the 2006 debut from Ne-Yo, a gifted young songwriter whose suave, supportive love songs put ladies first.",
+      "score": 1.7999999999999998,
+      "tags": [
+        "music",
+        "reviews",
         "rss",
         "pitchfork"
       ]
