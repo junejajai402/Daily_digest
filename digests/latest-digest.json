@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-26",
-  "builtAt": "2026-10-26T17:22:20.040Z",
-  "lastAttemptedAt": "2026-10-26T17:22:18.718Z",
+  "digestId": "2026-10-27",
+  "builtAt": "2026-10-27T16:36:36.058Z",
+  "lastAttemptedAt": "2026-10-27T16:36:35.556Z",
   "isStale": false,
   "counts": {
-    "rawItems": 103,
-    "dedupedItems": 100,
+    "rawItems": 104,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,13 +18,13 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
-      "title": "Bias in Qwen3-Coder Model",
-      "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "title": "Hiding Capabilities in AI Models",
+      "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-26T11:04:03Z",
-      "summary": "Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model's weights, and that removing the model's CCP alignment removes it. One word tilts the...",
+      "publishedAt": "2026-10-27T11:01:32Z",
+      "summary": "Interesting research: \" AI Models Can Provably Hide Arbitrary Capabilities \" Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor...",
       "score": 2.85,
       "tags": [
         "security",
@@ -32,13 +32,13 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33454",
-      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33454",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33458",
+      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33458",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sun, 25 Oct 2026 19:57:53 GMT",
-      "summary": "YARA-X's 1.22.0 release brings 11 improvements and 9 bugfixes.",
+      "publishedAt": "Tue, 27 Oct 2026 02:09:55 GMT",
+      "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
       "score": 2.55,
       "tags": [
         "security",
@@ -76,28 +76,44 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-      "title": "New Serious PHP Vulnerabilities Released and Patched",
-      "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+      "title": "Bias in Qwen3-Coder Model",
+      "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-22T14:36:29Z",
-      "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php,...",
-      "score": 2.5,
+      "publishedAt": "2026-10-26T11:04:03Z",
+      "summary": "Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model's weights, and that removing the model's CCP alignment removes it. One word tilts the...",
+      "score": 2.6,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
-      "title": "Anthropic's Claude AI model accessed Georgia voter data in US",
-      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
+      "id": "hacker news:https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Mon, 26 Oct 2026 22:41:48 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.4,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
+      "title": "'Meaningless as a laptop screensaver': reviewers slate Musk's AI-made Odyssey film",
+      "url": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 26 Oct 2026 11:03:33 GMT",
-      "summary": "Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project Anthropic sued for allegedly using 274 Elvis songs to train AI models Anthropic's Claude model accessed voter data in the US state of Georgia, the AI company has confirmed, in the latest example of unauthorised behaviour by the technology....",
-      "score": 2.5500000000000003,
+      "publishedAt": "Tue, 27 Oct 2026 14:08:41 GMT",
+      "summary": "Tesla tycoon launched Grok project after criticising Christoper Nolan's diverse casting for his Homeric blockbuster Elon Musk has released an AI-generated rival to Christopher Nolan's The Odyssey after pledging to make a version \"true to the art of Homer\". Having criticised the hit movie in the summer, the tycoon said he would use Grok Imagine to make a...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -112,41 +128,12 @@
       "topic": "tech",
       "publishedAt": "Mon, 26 Oct 2026 15:11:59 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
+      "score": 2.25,
       "tags": [
         "tech",
         "community",
         "rss",
         "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Anthropic's blockbuster share listing - 5 surprising details",
-      "url": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Mon, 26 Oct 2026 17:20:54 GMT",
-      "summary": "Anthropic's IPO prospectus is 355 pages and full of never before disclosed company information.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns",
-      "title": "Australians should prepare for online services to go down unexpectedly as threats rise, cyber agency warns",
-      "url": "https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Mon, 26 Oct 2026 11:30:40 GMT",
-      "summary": "Australian Signals Directorate chief says advanced AI tools are needed to defend against 'AI-enabled attackers' Get our daily political email , free app or daily news podcast Australians should prepare for more basic and important online services to go offline unexpectedly, the nation's signals intelligence agency has warned, urging that \"system security...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
       ]
     },
     {
@@ -157,37 +144,36 @@
       "topic": "tech",
       "publishedAt": "Sat, 24 Oct 2026 00:05:45 GMT",
       "summary": "The chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
-      "score": 2.1,
+      "score": 2,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "google ai:https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "source": "Google AI",
-      "topic": "ai",
-      "publishedAt": "Mon, 26 Oct 2026 16:00:00 +0000",
-      "summary": "Learn AI literacy via Google's latest AI Quests lesson on neuroscience, \"Polar Peaks.\"",
-      "score": 2.58,
+      "id": "the guardian tech:https://www.theguardian.com/global/2026/oct/26/anthropic-accelerates-ai",
+      "title": "Anthropic accelerates - for the rest of us, the speed of growth spells precarity",
+      "url": "https://www.theguardian.com/global/2026/oct/26/anthropic-accelerates-ai",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Tue, 27 Oct 2026 15:15:20 GMT",
+      "summary": "The AI industry is still defined by a careening intensity that's taking the world's finances along for the ride This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here . Today in tech, we're discussing Anthropic 's astronomic growth, how a settlement over social media safety dented Meta's...",
+      "score": 2.1500000000000004,
       "tags": [
-        "ai",
-        "official",
-        "google",
-        "rss"
+        "tech",
+        "rss",
+        "guardian"
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/fanatics-streamline-fan-experience",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "id": "openai news:https://openai.com/index/greptile-code-review-codex-astra",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "score": 2.4200000000000004,
+      "publishedAt": "Mon, 26 Oct 2026 22:00:00 GMT",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "score": 2.52,
       "tags": [
         "ai",
         "official",
@@ -196,29 +182,29 @@
       ]
     },
     {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
-      "title": "cantu of the sower EP",
-      "url": "https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
-      "source": "Pitchfork Best New Albums",
-      "topic": "music",
-      "publishedAt": "Mon, 26 Oct 2026 04:03:00 +0000",
-      "summary": "An album-length EP by the 20-year-old producer is a dizzying and boundless collage of collages, using free-jazz logic and digital overload to chart new emotional terrain.",
-      "score": 1.95,
+      "id": "google ai:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI",
+      "topic": "ai",
+      "publishedAt": "Tue, 13 Oct 2026 16:00:00 +0000",
+      "summary": "We're giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "score": 2.43,
       "tags": [
-        "music",
-        "albums",
-        "rss",
-        "pitchfork"
+        "ai",
+        "official",
+        "google",
+        "rss"
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/billy-corgan-on-his-respect-for-olivia-rodrigo-shes-not-afraid-3974291?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=billy-corgan-on-his-respect-for-olivia-rodrigo-shes-not-afraid",
-      "title": "Billy Corgan on his respect for Olivia Rodrigo: \"She's not afraid\"",
-      "url": "https://www.nme.com/news/music/billy-corgan-on-his-respect-for-olivia-rodrigo-shes-not-afraid-3974291?utm_source=rss&utm_medium=rss&utm_campaign=billy-corgan-on-his-respect-for-olivia-rodrigo-shes-not-afraid",
+      "id": "nme music news:https://www.nme.com/news/music/kings-of-leon-announce-uk-european-exclusive-london-show-buy-tickets-3974370?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kings-of-leon-announce-uk-european-exclusive-london-show-buy-tickets",
+      "title": "Kings Of Leon announce UK and European exclusive one-off London show",
+      "url": "https://www.nme.com/news/music/kings-of-leon-announce-uk-european-exclusive-london-show-buy-tickets-3974370?utm_source=rss&utm_medium=rss&utm_campaign=kings-of-leon-announce-uk-european-exclusive-london-show-buy-tickets",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Mon, 26 Oct 2026 17:03:02 +0000",
-      "summary": "\"She's figured out that the way to break free is to be free\" The post Billy Corgan on his respect for Olivia Rodrigo: \"She's not afraid\" appeared first on NME .",
+      "publishedAt": "Tue, 27 Oct 2026 13:54:25 +0000",
+      "summary": "The show takes place shortly after the Tennessee rockers release their 10th album 'O My Beloved' The post Kings Of Leon announce UK and European exclusive one-off London show appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -228,13 +214,29 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/caroline-rose-gentling-the-horse-at-the-walt-whitman-mall/",
-      "title": "Gentling the Horse at the Walt Whitman Mall",
-      "url": "https://pitchfork.com/reviews/albums/caroline-rose-gentling-the-horse-at-the-walt-whitman-mall/",
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/marina-herlop-dja-dja/",
+      "title": "Dja Dja",
+      "url": "https://pitchfork.com/reviews/albums/marina-herlop-dja-dja/",
+      "source": "Pitchfork Best New Albums",
+      "topic": "music",
+      "publishedAt": "Mon, 12 Oct 2026 04:03:00 +0000",
+      "summary": "Modeled after the literary concept of the hero's journey, the Catalan composer's latest album is her most ambitious yet: It's weirder, wilder, and more dazzling than anything she's done to date.",
+      "score": 1.9,
+      "tags": [
+        "music",
+        "albums",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/loidis-from-the-toolkit-of-lovers/",
+      "title": "From the Toolkit of Lovers",
+      "url": "https://pitchfork.com/reviews/albums/loidis-from-the-toolkit-of-lovers/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Mon, 26 Oct 2026 04:02:00 +0000",
-      "summary": "The singer-songwriter's seventh album is their wackiest and funniest to date, with a madcap gleam coursing through its portraits of lovable weirdos and suburban dread.",
+      "publishedAt": "Tue, 27 Oct 2026 04:03:00 +0000",
+      "summary": "The artist better known as Huerco S. nudges the minimal-house revival toward new extremes-of detail, duration, sensuousness-on a sprawling triple LP of hypnotic, late-night grooves.",
       "score": 1.9,
       "tags": [
         "music",
