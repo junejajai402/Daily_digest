@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-27",
-  "builtAt": "2026-10-27T16:36:36.058Z",
-  "lastAttemptedAt": "2026-10-27T16:36:35.556Z",
+  "digestId": "2026-10-28",
+  "builtAt": "2026-10-28T17:09:29.223Z",
+  "lastAttemptedAt": "2026-10-28T17:09:28.720Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 102,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,6 +18,21 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33466",
+      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
+      "url": "https://isc.sans.edu/diary/rss/33466",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Wed, 28 Oct 2026 16:07:03 GMT",
+      "summary": "Security write-up worth reviewing in the full digest.",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
       "title": "Hiding Capabilities in AI Models",
       "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
@@ -25,54 +40,10 @@
       "topic": "security",
       "publishedAt": "2026-10-27T11:01:32Z",
       "summary": "Interesting research: \" AI Models Can Provably Hide Arbitrary Capabilities \" Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor...",
-      "score": 2.85,
+      "score": 2.6,
       "tags": [
         "security",
         "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33458",
-      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
-      "url": "https://isc.sans.edu/diary/rss/33458",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 27 Oct 2026 02:09:55 GMT",
-      "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
-      "score": 2.55,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
-      "title": "Training AIs to Solve CAPTCHAs",
-      "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-19T11:08:01Z",
-      "summary": "Interesting research : Abstract : Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in...",
-      "score": 2.7,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33440",
-      "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33440",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Wed, 21 Oct 2026 21:02:43 GMT",
-      "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the patch became available.",
-      "score": 2.5,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
       ]
     },
     {
@@ -90,14 +61,43 @@
       ]
     },
     {
-      "id": "hacker news:https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33458",
+      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33458",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Tue, 27 Oct 2026 02:09:55 GMT",
+      "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
+      "score": 2.4,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "title": "New Serious PHP Vulnerabilities Released and Patched",
+      "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-22T14:36:29Z",
+      "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php,...",
+      "score": 2.5,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "hacker news:https://surgehq.ai/blog/dayjob-tax",
+      "title": "Dayjob: Tax - evaluating AI agents on 50 professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 26 Oct 2026 22:41:48 +0000",
+      "publishedAt": "Wed, 28 Oct 2026 15:46:30 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.4,
+      "score": 2.5,
       "tags": [
         "tech",
         "community",
@@ -106,14 +106,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
-      "title": "'Meaningless as a laptop screensaver': reviewers slate Musk's AI-made Odyssey film",
-      "url": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
+      "id": "the guardian tech:https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
+      "title": "'Elonville': US residents say Musk's xAI offered to buy homes if they don't sue over datacenter noise",
+      "url": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 27 Oct 2026 14:08:41 GMT",
-      "summary": "Tesla tycoon launched Grok project after criticising Christoper Nolan's diverse casting for his Homeric blockbuster Elon Musk has released an AI-generated rival to Christopher Nolan's The Odyssey after pledging to make a version \"true to the art of Homer\". Having criticised the hit movie in the summer, the tycoon said he would use Grok Imagine to make a...",
-      "score": 2.35,
+      "publishedAt": "Wed, 28 Oct 2026 15:32:41 GMT",
+      "summary": "Several Mississippi homes have been purchased near datacenters and one resident said realtor outlined target to buy more than 400 People in a Mississippi neighborhood, many of whom dislike a nearby power plant central to Elon Musk 's artificial intelligence ambitions, have received a stark offer - to sell their houses to his company and make way. Real...",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -121,14 +121,14 @@
       ]
     },
     {
-      "id": "hacker news:https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
-      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "id": "hacker news:https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 26 Oct 2026 15:11:59 +0000",
+      "publishedAt": "Wed, 28 Oct 2026 13:41:30 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.25,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -151,14 +151,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/global/2026/oct/26/anthropic-accelerates-ai",
-      "title": "Anthropic accelerates - for the rest of us, the speed of growth spells precarity",
-      "url": "https://www.theguardian.com/global/2026/oct/26/anthropic-accelerates-ai",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
+      "title": "'Meaningless as a laptop screensaver': reviewers slate Musk's AI-made Odyssey film",
+      "url": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 27 Oct 2026 15:15:20 GMT",
-      "summary": "The AI industry is still defined by a careening intensity that's taking the world's finances along for the ride This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here . Today in tech, we're discussing Anthropic 's astronomic growth, how a settlement over social media safety dented Meta's...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Tue, 27 Oct 2026 14:08:41 GMT",
+      "summary": "Tesla tycoon launched Grok project after criticising Christoper Nolan's diverse casting for his Homeric blockbuster Elon Musk has released an AI-generated rival to Christopher Nolan's The Odyssey after pledging to make a version \"true to the art of Homer\". Having criticised the hit movie in the summer, the tycoon said he would use Grok Imagine to make a...",
+      "score": 2.1,
       "tags": [
         "tech",
         "rss",
@@ -166,14 +166,14 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/greptile-code-review-codex-astra",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "id": "openai news:https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Mon, 26 Oct 2026 22:00:00 GMT",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "score": 2.52,
+      "publishedAt": "Wed, 28 Oct 2026 09:30:00 GMT",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "score": 2.62,
       "tags": [
         "ai",
         "official",
@@ -198,19 +198,35 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/kings-of-leon-announce-uk-european-exclusive-london-show-buy-tickets-3974370?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kings-of-leon-announce-uk-european-exclusive-london-show-buy-tickets",
-      "title": "Kings Of Leon announce UK and European exclusive one-off London show",
-      "url": "https://www.nme.com/news/music/kings-of-leon-announce-uk-european-exclusive-london-show-buy-tickets-3974370?utm_source=rss&utm_medium=rss&utm_campaign=kings-of-leon-announce-uk-european-exclusive-london-show-buy-tickets",
+      "id": "nme music news:https://www.nme.com/news/music/ozzy-osbourne-black-sabbath-back-to-the-beginning-soundtrack-film-set-for-release-3974453?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ozzy-osbourne-black-sabbath-back-to-the-beginning-soundtrack-film-set-for-release",
+      "title": "Ozzy Osbourne and Black Sabbath's 'Back To The Beginning' soundtrack and film set for release",
+      "url": "https://www.nme.com/news/music/ozzy-osbourne-black-sabbath-back-to-the-beginning-soundtrack-film-set-for-release-3974453?utm_source=rss&utm_medium=rss&utm_campaign=ozzy-osbourne-black-sabbath-back-to-the-beginning-soundtrack-film-set-for-release",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Tue, 27 Oct 2026 13:54:25 +0000",
-      "summary": "The show takes place shortly after the Tennessee rockers release their 10th album 'O My Beloved' The post Kings Of Leon announce UK and European exclusive one-off London show appeared first on NME .",
-      "score": 1.93,
+      "publishedAt": "Wed, 28 Oct 2026 14:58:21 +0000",
+      "summary": "The release features 4K footage from the iconic show, behind-the-scenes moments, video tributes from Dolly Parton and Ricky Gervais, and more The post Ozzy Osbourne and Black Sabbath's 'Back To The Beginning' soundtrack and film set for release appeared first on NME .",
+      "score": 2.13,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
+      ]
+    },
+    {
+      "id": "npr music news:https://www.npr.org/2026/10/28/nx-s1-6019535/connecticut-citizen-assembly-property-tax-lottery",
+      "title": "Politicians are afraid to fix taxes. So 100 citizens tried.",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6019535/connecticut-citizen-assembly-property-tax-lottery",
+      "source": "NPR Music News",
+      "topic": "music",
+      "publishedAt": "Wed, 28 Oct 2026 12:57:50 +0000",
+      "summary": "Connecticut's property tax system has been broken for decades and the politicians have failed to fix the problem. So now, they're trying something new: a citizens assembly. (Citizens assemblies are also old. They go back to Ancient Greece, when lawmakers were chosen not through elections, but through random lotteries.) Today on the show, Connecticut's...",
+      "score": 1.97,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "npr"
       ]
     },
     {
@@ -225,22 +241,6 @@
       "tags": [
         "music",
         "albums",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/loidis-from-the-toolkit-of-lovers/",
-      "title": "From the Toolkit of Lovers",
-      "url": "https://pitchfork.com/reviews/albums/loidis-from-the-toolkit-of-lovers/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Tue, 27 Oct 2026 04:03:00 +0000",
-      "summary": "The artist better known as Huerco S. nudges the minimal-house revival toward new extremes-of detail, duration, sensuousness-on a sprawling triple LP of hypnotic, late-night grooves.",
-      "score": 1.9,
-      "tags": [
-        "music",
-        "reviews",
         "rss",
         "pitchfork"
       ]
