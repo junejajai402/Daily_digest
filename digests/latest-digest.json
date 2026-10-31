@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-30",
-  "builtAt": "2026-10-30T17:00:20.586Z",
-  "lastAttemptedAt": "2026-10-30T17:00:19.902Z",
+  "digestId": "2026-10-31",
+  "builtAt": "2026-10-31T16:05:12.961Z",
+  "lastAttemptedAt": "2026-10-31T16:05:12.023Z",
   "isStale": false,
   "counts": {
-    "rawItems": 103,
-    "dedupedItems": 102,
+    "rawItems": 104,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -17,6 +17,21 @@
   },
   "sourceFailures": [],
   "items": [
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33476",
+      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33476",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Sat, 31 Oct 2026 10:52:53 GMT",
+      "summary": "Wireshark Release Candidate 5.0.0 was published : soon we can expect a new major version of Wireshark.",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
     {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
       "title": "Hiding Capabilities in AI Models",
@@ -32,14 +47,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33466",
-      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33466",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33474",
+      "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33474",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Thu, 29 Oct 2026 00:42:15 GMT",
-      "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.4,
+      "publishedAt": "Sat, 31 Oct 2026 10:48:17 GMT",
+      "summary": "YARA-X's 1.22.1 is a bugfix version, it brings 2 bugfixes.",
+      "score": 2.65,
       "tags": [
         "security",
         "rss",
@@ -61,14 +76,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33458",
-      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
-      "url": "https://isc.sans.edu/diary/rss/33458",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33454",
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33454",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Tue, 27 Oct 2026 02:09:55 GMT",
-      "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
-      "score": 2.3,
+      "publishedAt": "Sat, 31 Oct 2026 10:45:40 GMT",
+      "summary": "YARA-X's 1.22.0 release brings 11 improvements and 9 bugfixes.",
+      "score": 2.65,
       "tags": [
         "security",
         "rss",
@@ -76,40 +91,12 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-      "title": "New Serious PHP Vulnerabilities Released and Patched",
-      "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-22T14:36:29Z",
-      "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php,...",
-      "score": 2.5,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Details of thousands of US immigration agents leaked in major hack",
-      "url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Thu, 29 Oct 2026 01:30:43 GMT",
-      "summary": "A group called the Department of Peace released information on more than 41,000 DHS staff.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-      "title": "AI Isn't Replacing SREs. It's Deskilling Them",
-      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "id": "hacker news:https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+      "title": "Serbia just elected the world's brainiest parliament",
+      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 30 Oct 2026 15:52:18 +0000",
+      "publishedAt": "Sat, 31 Oct 2026 10:21:30 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -120,14 +107,28 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
-      "title": "North Korea is likely culprit behind $6.3bn crypto hack, 'largest heist in history'",
-      "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=rss&amp;at_campaign=rss",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Fri, 30 Oct 2026 20:34:46 GMT",
+      "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+      "score": 2.0500000000000003,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/global/video/2026/oct/30/anthropic-92-page-risk-factor-document-ipo-filing-video-explainer",
+      "title": "I read Anthropic's 92-page risk factor document, so you don't have to - video explainer",
+      "url": "https://www.theguardian.com/global/video/2026/oct/30/anthropic-92-page-risk-factor-document-ipo-filing-video-explainer",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Fri, 30 Oct 2026 16:35:44 GMT",
-      "summary": "Binance exchange says it will cover customer losses as it scrambles to freeze affected assets, with about $3bn located so far Q&A: How big a deal is the $6.3bn crypto heist? Tell us: have you been affected by the Binance hack? Business live - latest updates The world's largest cryptocurrency exchange has been hit by a record $6.3bn (£4.7bn) hack described...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Fri, 30 Oct 2026 19:57:13 GMT",
+      "summary": "Anthropic, the creator of Claude, filed to go public on the US stock market on 26 October. The company's filing statement contains a 92-page risk factor document in which it acknowledges the dangers that AI poses to society and human beings, and factors that could negatively affect Anthropic's business. Johana Bhuiyan, senior tech reporter for the...",
+      "score": 2.0500000000000003,
       "tags": [
         "tech",
         "rss",
@@ -135,14 +136,14 @@
       ]
     },
     {
-      "id": "hacker news:https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
-      "title": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
-      "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+      "id": "hacker news:https://piefed.world/post/1503394",
+      "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+      "url": "https://piefed.world/post/1503394",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 30 Oct 2026 12:08:00 +0000",
+      "publishedAt": "Sat, 31 Oct 2026 10:23:41 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -158,7 +159,7 @@
       "topic": "tech",
       "publishedAt": "Fri, 30 Oct 2026 12:04:02 GMT",
       "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
-      "score": 2.1500000000000004,
+      "score": 1.9000000000000001,
       "tags": [
         "tech",
         "rss"
@@ -172,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Wed, 28 Oct 2026 13:15:00 GMT",
       "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "score": 2.5700000000000003,
+      "score": 2.47,
       "tags": [
         "ai",
         "official",
@@ -197,29 +198,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/water-damage-repair/",
-      "title": "Repair",
-      "url": "https://pitchfork.com/reviews/albums/water-damage-repair/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Thu, 29 Oct 2026 04:00:00 +0000",
-      "summary": "The Austin ensemble makes minimalism feel enveloping and unruly on its latest record, where new melodic details are always emerging from a swarming mass of sound.",
-      "score": 1.9500000000000002,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/wunderhorse-guitarist-harry-fowler-surprise-releases-debut-album-blankets-3974686?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=wunderhorse-guitarist-harry-fowler-surprise-releases-debut-album-blankets",
-      "title": "Wunderhorse guitarist Harry Fowler surprise releases debut album 'Blankets'",
-      "url": "https://www.nme.com/news/music/wunderhorse-guitarist-harry-fowler-surprise-releases-debut-album-blankets-3974686?utm_source=rss&utm_medium=rss&utm_campaign=wunderhorse-guitarist-harry-fowler-surprise-releases-debut-album-blankets",
+      "id": "nme music news:https://www.nme.com/news/music/greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale-3974723?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale",
+      "title": "Greta Thunberg, Paloma Faith and Nemahsis join Macklemore at London 'Free Palestine' tour finale",
+      "url": "https://www.nme.com/news/music/greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale-3974723?utm_source=rss&utm_medium=rss&utm_campaign=greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Fri, 30 Oct 2026 15:32:18 +0000",
-      "summary": "The solo record is made up of songs Fowler has accumulated since his teenage years The post Wunderhorse guitarist Harry Fowler surprise releases debut album 'Blankets' appeared first on NME .",
+      "publishedAt": "Sat, 31 Oct 2026 09:33:07 +0000",
+      "summary": "The sold-out Wembley concert also featured speeches from Holocaust survivor Stephen Kapos and Palestinian activist Arab Barghouthi The post Greta Thunberg, Paloma Faith and Nemahsis join Macklemore at London 'Free Palestine' tour finale appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -242,6 +227,22 @@
         "albums",
         "rss",
         "pitchfork"
+      ]
+    },
+    {
+      "id": "npr music news:https://www.npr.org/2026/10/30/nx-s1-6023794/france-protests-students-bonds-debt",
+      "title": "Is this how the great international borrowing spree ends?",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6023794/france-protests-students-bonds-debt",
+      "source": "NPR Music News",
+      "topic": "music",
+      "publishedAt": "Sat, 31 Oct 2026 00:15:00 +0000",
+      "summary": "In recent months, there have been serious whispers about an outrageous possibility: that one day soon, France - the seventh largest economy in the world - might not be able to pay back its debts. Right now, protesters in France are complaining about crumbling schools, the lack of teachers, and the overall high cost of living. But the government is...",
+      "score": 1.8699999999999999,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "npr"
       ]
     }
   ]
