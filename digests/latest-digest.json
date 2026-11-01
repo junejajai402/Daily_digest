@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-10-31",
-  "builtAt": "2026-10-31T16:05:12.961Z",
-  "lastAttemptedAt": "2026-10-31T16:05:12.023Z",
+  "digestId": "2026-11-01",
+  "builtAt": "2026-11-01T17:55:29.209Z",
+  "lastAttemptedAt": "2026-11-01T17:55:28.445Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 103,
+    "dedupedItems": 104,
     "digestItems": 15
   },
   "topicCounts": {
@@ -17,21 +17,6 @@
   },
   "sourceFailures": [],
   "items": [
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33476",
-      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-      "url": "https://isc.sans.edu/diary/rss/33476",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Sat, 31 Oct 2026 10:52:53 GMT",
-      "summary": "Wireshark Release Candidate 5.0.0 was published : soon we can expect a new major version of Wireshark.",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
     {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
       "title": "Hiding Capabilities in AI Models",
@@ -47,14 +32,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33474",
-      "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
-      "url": "https://isc.sans.edu/diary/rss/33474",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33478",
+      "title": "OneNote File Extraction, (Sun, Nov 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33478",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sat, 31 Oct 2026 10:48:17 GMT",
-      "summary": "YARA-X's 1.22.1 is a bugfix version, it brings 2 bugfixes.",
-      "score": 2.65,
+      "publishedAt": "Sun, 01 Nov 2026 09:12:23 GMT",
+      "summary": "Recently, I had to extract embedded files from a set of OneNote files (extension .one).",
+      "score": 2.45,
       "tags": [
         "security",
         "rss",
@@ -76,14 +61,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33454",
-      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33454",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33476",
+      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33476",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sat, 31 Oct 2026 10:45:40 GMT",
-      "summary": "YARA-X's 1.22.0 release brings 11 improvements and 9 bugfixes.",
-      "score": 2.65,
+      "publishedAt": "Sat, 31 Oct 2026 10:52:53 GMT",
+      "summary": "Wireshark Release Candidate 5.0.0 was published : soon we can expect a new major version of Wireshark.",
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -91,14 +76,73 @@
       ]
     },
     {
-      "id": "hacker news:https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-      "title": "Serbia just elected the world's brainiest parliament",
-      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "title": "New Serious PHP Vulnerabilities Released and Patched",
+      "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-22T14:36:29Z",
+      "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php,...",
+      "score": 2.5,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+      "title": "Frontier Airlines Likely Breached",
+      "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 31 Oct 2026 10:21:30 +0000",
+      "publishedAt": "Sun, 01 Nov 2026 16:46:33 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
+      "title": "AI is stealing Indigenous Australian art and churning out 'Temu slop', artist says",
+      "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Sun, 01 Nov 2026 14:00:13 GMT",
+      "summary": "Chair of National Gallery's First Nations advisory group says the technology is undermining artists' agency and the authenticity of their work Get our breaking news email , free app or daily news podcast AI is taking First Nations art and turning it into \"Temu slop\", the Pitjantjatjara artist Sally Scales has said. Scales, the chair of the National Gallery...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=rss&amp;at_campaign=rss",
+      "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+      "url": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Sun, 01 Nov 2026 01:37:26 GMT",
+      "summary": "The amount of debt held by data centres is measured in the tens of billions of pounds.",
+      "score": 2.0500000000000003,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://hackerbooks.org",
+      "title": "Show HN: HackerBooks - HackerTube, but for books recommended on HN",
+      "url": "https://hackerbooks.org",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sun, 01 Nov 2026 15:58:28 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -114,51 +158,6 @@
       "topic": "tech",
       "publishedAt": "Fri, 30 Oct 2026 20:34:46 GMT",
       "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
-      "score": 2.0500000000000003,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/global/video/2026/oct/30/anthropic-92-page-risk-factor-document-ipo-filing-video-explainer",
-      "title": "I read Anthropic's 92-page risk factor document, so you don't have to - video explainer",
-      "url": "https://www.theguardian.com/global/video/2026/oct/30/anthropic-92-page-risk-factor-document-ipo-filing-video-explainer",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Fri, 30 Oct 2026 19:57:13 GMT",
-      "summary": "Anthropic, the creator of Claude, filed to go public on the US stock market on 26 October. The company's filing statement contains a 92-page risk factor document in which it acknowledges the dangers that AI poses to society and human beings, and factors that could negatively affect Anthropic's business. Johana Bhuiyan, senior tech reporter for the...",
-      "score": 2.0500000000000003,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://piefed.world/post/1503394",
-      "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
-      "url": "https://piefed.world/post/1503394",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sat, 31 Oct 2026 10:23:41 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Google value plunges by $500bn as its own AI search hits ad sales",
-      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Fri, 30 Oct 2026 12:04:02 GMT",
-      "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
       "score": 1.9000000000000001,
       "tags": [
         "tech",
@@ -198,13 +197,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale-3974723?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale",
-      "title": "Greta Thunberg, Paloma Faith and Nemahsis join Macklemore at London 'Free Palestine' tour finale",
-      "url": "https://www.nme.com/news/music/greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale-3974723?utm_source=rss&utm_medium=rss&utm_campaign=greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale",
+      "id": "nme music news:https://www.nme.com/news/music/watch-gracie-abrams-channel-romeo-juliet-for-performances-of-hit-the-wall-and-here-you-come-there-you-go-on-snl-3974753?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=watch-gracie-abrams-channel-romeo-juliet-for-performances-of-hit-the-wall-and-here-you-come-there-you-go-on-snl",
+      "title": "Watch Gracie Abrams channel 'Romeo + Juliet' for performances of 'Hit The Wall' and 'Here You Come, There You Go' on 'SNL'",
+      "url": "https://www.nme.com/news/music/watch-gracie-abrams-channel-romeo-juliet-for-performances-of-hit-the-wall-and-here-you-come-there-you-go-on-snl-3974753?utm_source=rss&utm_medium=rss&utm_campaign=watch-gracie-abrams-channel-romeo-juliet-for-performances-of-hit-the-wall-and-here-you-come-there-you-go-on-snl",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sat, 31 Oct 2026 09:33:07 +0000",
-      "summary": "The sold-out Wembley concert also featured speeches from Holocaust survivor Stephen Kapos and Palestinian activist Arab Barghouthi The post Greta Thunberg, Paloma Faith and Nemahsis join Macklemore at London 'Free Palestine' tour finale appeared first on NME .",
+      "publishedAt": "Sun, 01 Nov 2026 11:43:44 +0000",
+      "summary": "The singer-songwriter releases the deluxe edition of 'Daughter From Hell' on November 20 The post Watch Gracie Abrams channel 'Romeo + Juliet' for performances of 'Hit The Wall' and 'Here You Come, There You Go' on 'SNL' appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -237,7 +236,7 @@
       "topic": "music",
       "publishedAt": "Sat, 31 Oct 2026 00:15:00 +0000",
       "summary": "In recent months, there have been serious whispers about an outrageous possibility: that one day soon, France - the seventh largest economy in the world - might not be able to pay back its debts. Right now, protesters in France are complaining about crumbling schools, the lack of teachers, and the overall high cost of living. But the government is...",
-      "score": 1.8699999999999999,
+      "score": 1.72,
       "tags": [
         "music",
         "news",
