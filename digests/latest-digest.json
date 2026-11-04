@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-03",
-  "builtAt": "2026-11-03T19:28:44.716Z",
-  "lastAttemptedAt": "2026-11-03T19:28:43.803Z",
+  "digestId": "2026-11-04",
+  "builtAt": "2026-11-04T19:43:43.907Z",
+  "lastAttemptedAt": "2026-11-04T19:43:42.355Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 103,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,28 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-      "title": "AIs Hacking the Law",
-      "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-03T12:01:01Z",
-      "summary": "In both a 2021 essay and my 2022 book, A Hacker's Mind , I talk about AIs finding vulnerabilities and exploits-hacking-the legal system. Here's some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite...",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33476",
-      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-      "url": "https://isc.sans.edu/diary/rss/33476",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33488",
+      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33488",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sat, 31 Oct 2026 10:52:53 GMT",
-      "summary": "Wireshark Release Candidate 5.0.0 was published : soon we can expect a new major version of Wireshark.",
-      "score": 2.3,
+      "publishedAt": "Wed, 04 Nov 2026 13:24:13 GMT",
+      "summary": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\" address and were heavily abused by...",
+      "score": 2.65,
       "tags": [
         "security",
         "rss",
@@ -61,21 +47,6 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33474",
-      "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
-      "url": "https://isc.sans.edu/diary/rss/33474",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Sat, 31 Oct 2026 10:48:17 GMT",
-      "summary": "YARA-X's 1.22.1 is a bugfix version, it brings 2 bugfixes.",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
       "title": "Bias in Qwen3-Coder Model",
       "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
@@ -90,29 +61,42 @@
       ]
     },
     {
-      "id": "hacker news:https://news.ycombinator.com/item?id=50352757",
-      "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
-      "url": "https://news.ycombinator.com/item?id=50352757",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Tue, 03 Nov 2026 14:53:41 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33476",
+      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33476",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Sat, 31 Oct 2026 10:52:53 GMT",
+      "summary": "Wireshark Release Candidate 5.0.0 was published : soon we can expect a new major version of Wireshark.",
+      "score": 2.3,
       "tags": [
-        "tech",
-        "community",
+        "security",
         "rss",
-        "hacker-news"
+        "sans"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/03/uk-meat-processing-firms-fridges-heat-up-cyber-attacks",
-      "title": "Food suppliers in UK hit by cyber-attacks after freezers targeted in Europe",
-      "url": "https://www.theguardian.com/technology/2026/nov/03/uk-meat-processing-firms-fridges-heat-up-cyber-attacks",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+      "title": "AIs Hacking the Law",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-03T12:01:01Z",
+      "summary": "In both a 2021 essay and my 2022 book, A Hacker's Mind , I talk about AIs finding vulnerabilities and exploits-hacking-the legal system. Here's some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite...",
+      "score": 2.4,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/04/france-national-blood-service-hack-cyber-attack-europe",
+      "title": "French blood banks hacked in latest cyber-attack on Europe",
+      "url": "https://www.theguardian.com/technology/2026/nov/04/france-national-blood-service-hack-cyber-attack-europe",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 03 Nov 2026 17:28:49 GMT",
-      "summary": "Cybersecurity experts say national impact 'minimal' but incidents may represent the 'foothills' of a wider threat Food suppliers in the UK have been hit by cyber-attacks after hackers raised the temperatures of supermarket freezers across Europe. The UK's National Cyber Security Centre (NSCS) said it was working with the affected companies but the national...",
+      "publishedAt": "Wed, 04 Nov 2026 13:22:28 GMT",
+      "summary": "Temperature and defrosting thresholds raised to 'very high levels' at three cold stores stocking vital blood products France's national blood service has said hackers accessed control systems and boosted temperatures at three cold stores stocking vital blood products, in an apparent escalation of recent cyber-attacks on fridges and freezers across Europe....",
       "score": 2.35,
       "tags": [
         "tech",
@@ -121,41 +105,12 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=rss&amp;at_campaign=rss",
-      "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
-      "url": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Tue, 03 Nov 2026 11:10:37 GMT",
-      "summary": "The tech giant reports strong sales but admits \"constraints\" are affecting supplies of the iPhone Duo.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/business/2026/nov/03/uk-drax-power-station-ai-datacentre",
-      "title": "UK's most polluting power plant could power country's largest AI datacentre",
-      "url": "https://www.theguardian.com/business/2026/nov/03/uk-drax-power-station-ai-datacentre",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Tue, 03 Nov 2026 11:55:28 GMT",
-      "summary": "Drax's FTSE 250 owner strikes £20bn deal to build infrastructure in what it says is site's 'next chapter' Business live - latest updates Britain's most polluting power plant could soon power the country's largest datacentre under a £20bn deal to build AI infrastructure on the site of the Drax power plant in North Yorkshire. The power plant's FTSE 250 owner...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://github.com/postmanlabs/postman-app-support/issues/14370",
-      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "id": "hacker news:https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 03 Nov 2026 17:22:37 +0000",
+      "publishedAt": "Wed, 04 Nov 2026 11:52:17 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -163,6 +118,67 @@
         "community",
         "rss",
         "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=rss&amp;at_campaign=rss",
+      "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
+      "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Wed, 04 Nov 2026 15:51:37 GMT",
+      "summary": "The billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.anthropic.com/research/provable-inference",
+      "title": "Progress on provable inference for large language models",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Wed, 04 Nov 2026 17:17:46 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
+      "title": "Albanese government warned it's 'sleepwalking into another robodebt scenario' over use of algorithms and AI",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Wed, 04 Nov 2026 14:00:37 GMT",
+      "summary": "Centre for Public Integrity report says mandatory audit and public register of all automated decision-making needed Get our breaking news email , free app or daily news podcast The federal government is \"sleepwalking its way into another robodebt\" scandal amid a lack of transparency and legislation around use of algorithms and artificial intelligence in...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/cisco-cyber",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "score": 2.5700000000000003,
+      "tags": [
+        "ai",
+        "official",
+        "openai",
+        "rss"
       ]
     },
     {
@@ -182,19 +198,35 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "title": "Accelerating engineering for the physical world",
-      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Tue, 03 Nov 2026 12:00:00 GMT",
-      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "score": 2.4200000000000004,
+      "id": "nme music news:https://www.nme.com/news/music/christine-the-queens-releases-new-single-rendez-vous-avec-toi-listen-3975012?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=christine-the-queens-releases-new-single-rendez-vous-avec-toi-listen",
+      "title": "Christine And The The Queens makes funky return with new single 'Rendez-vous Avec Toi': \"The electricity remains eternally mysterious\"",
+      "url": "https://www.nme.com/news/music/christine-the-queens-releases-new-single-rendez-vous-avec-toi-listen-3975012?utm_source=rss&utm_medium=rss&utm_campaign=christine-the-queens-releases-new-single-rendez-vous-avec-toi-listen",
+      "source": "NME Music News",
+      "topic": "music",
+      "publishedAt": "Wed, 04 Nov 2026 16:42:52 +0000",
+      "summary": "The French singer will return to the stage next month, promising fans \"a first listen to unreleased songs from the next album\" The post Christine And The The Queens makes funky return with new single 'Rendez-vous Avec Toi': \"The electricity remains eternally mysterious\" appeared first on NME .",
+      "score": 2.13,
       "tags": [
-        "ai",
-        "official",
-        "openai",
-        "rss"
+        "music",
+        "news",
+        "rss",
+        "nme"
+      ]
+    },
+    {
+      "id": "npr music news:https://www.npr.org/2026/11/04/nx-s1-6027986/william-nordhaus-yale-nobel-obituary-history-light",
+      "title": "The history of light (classic)",
+      "url": "https://www.npr.org/2026/11/04/nx-s1-6027986/william-nordhaus-yale-nobel-obituary-history-light",
+      "source": "NPR Music News",
+      "topic": "music",
+      "publishedAt": "Wed, 04 Nov 2026 08:00:00 +0000",
+      "summary": "How do you measure human progress? Light is the answer. For thousands of years, getting light was a huge hassle. You had to make candles from scratch. This is not as romantic as it sounds. You had to get a cow, raise the cow, feed the cow, kill the cow, get the fat out of the cow, cook the fat, dip wicks into the fat. All that - for not very much light....",
+      "score": 1.97,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "npr"
       ]
     },
     {
@@ -205,42 +237,10 @@
       "topic": "music",
       "publishedAt": "Tue, 03 Nov 2026 05:01:00 +0000",
       "summary": "The perennially unserious duo's embrace of AI is the least of the problems weighing down its latest album (and 55-track bonus compendium) of post-ironic club pop.",
-      "score": 2.1,
+      "score": 1.9500000000000002,
       "tags": [
         "music",
         "reviews",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/pixies-share-unearthed-classic-tracks-from-bossanova-and-trompe-le-monde-eras-3974914?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=pixies-share-unearthed-classic-tracks-from-bossanova-and-trompe-le-monde-eras",
-      "title": "Pixies share unearthed classic tracks from 'Bossanova' and 'Trompe le Monde' eras",
-      "url": "https://www.nme.com/news/music/pixies-share-unearthed-classic-tracks-from-bossanova-and-trompe-le-monde-eras-3974914?utm_source=rss&utm_medium=rss&utm_campaign=pixies-share-unearthed-classic-tracks-from-bossanova-and-trompe-le-monde-eras",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Tue, 03 Nov 2026 17:02:43 +0000",
-      "summary": "They date back to 1987 and have been released on streaming platforms for the first time The post Pixies share unearthed classic tracks from 'Bossanova' and 'Trompe le Monde' eras appeared first on NME .",
-      "score": 1.93,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
-      ]
-    },
-    {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/marina-herlop-dja-dja/",
-      "title": "Dja Dja",
-      "url": "https://pitchfork.com/reviews/albums/marina-herlop-dja-dja/",
-      "source": "Pitchfork Best New Albums",
-      "topic": "music",
-      "publishedAt": "Mon, 12 Oct 2026 04:03:00 +0000",
-      "summary": "Modeled after the literary concept of the hero's journey, the Catalan composer's latest album is her most ambitious yet: It's weirder, wilder, and more dazzling than anything she's done to date.",
-      "score": 1.9,
-      "tags": [
-        "music",
-        "albums",
         "rss",
         "pitchfork"
       ]
