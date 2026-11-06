@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-05",
-  "builtAt": "2026-11-05T19:55:46.406Z",
-  "lastAttemptedAt": "2026-11-05T19:55:45.824Z",
+  "digestId": "2026-11-06",
+  "builtAt": "2026-11-06T19:23:07.231Z",
+  "lastAttemptedAt": "2026-11-06T19:23:06.616Z",
   "isStale": false,
   "counts": {
-    "rawItems": 104,
-    "dedupedItems": 103,
+    "rawItems": 103,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,43 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
-      "title": "Hiding Capabilities in AI Models",
-      "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html",
+      "title": "Pinpointing Location of Videos from Background Airplane Sounds",
+      "url": "https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-10-27T11:01:32Z",
-      "summary": "Interesting research: \" AI Models Can Provably Hide Arbitrary Capabilities \" Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor...",
-      "score": 2.5,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33492",
-      "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-      "url": "https://isc.sans.edu/diary/rss/33492",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Thu, 05 Nov 2026 15:29:08 GMT",
-      "summary": "This morning, I was browsing our honeypot data for any new and existing PHP exploit attempts. Instead, I first ran into some GeoServer exploits, but found them to be too boring to write up. This Cisco IOS exploit attempt was a bit more interesting. Still nothing new. I suspect this is for CVE-2023-20198.",
-      "score": 2.45,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
-      "title": "Bias in Qwen3-Coder Model",
-      "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-10-26T11:04:03Z",
-      "summary": "Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model's weights, and that removing the model's CCP alignment removes it. One word tilts the...",
-      "score": 2.5,
+      "publishedAt": "2026-11-06T16:28:27Z",
+      "summary": "This is fascinating : The video describes a technique that can reveal where an otherwise unidentifiable recording was made by analyzing its audio for the faint sounds of passing aircraft. The technique is both fascinating and frightening. It works by looking at Doppler curves, which plot the way a plane's sound changes as it passes overhead because of the...",
+      "score": 2.65,
       "tags": [
         "security",
         "feed"
@@ -76,28 +47,102 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-      "title": "AIs Hacking the Law",
-      "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "title": "Hiding Capabilities in AI Models",
+      "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-03T12:01:01Z",
-      "summary": "In both a 2021 essay and my 2022 book, A Hacker's Mind , I talk about AIs finding vulnerabilities and exploits-hacking-the legal system. Here's some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite...",
-      "score": 2.4,
+      "publishedAt": "2026-10-27T11:01:32Z",
+      "summary": "Interesting research: \" AI Models Can Provably Hide Arbitrary Capabilities \" Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor...",
+      "score": 2.5,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
-      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
-      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33476",
+      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33476",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Sat, 31 Oct 2026 10:52:53 GMT",
+      "summary": "Wireshark Release Candidate 5.0.0 was published : soon we can expect a new major version of Wireshark.",
+      "score": 2.3,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+      "title": "Bias in Qwen3-Coder Model",
+      "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-10-26T11:04:03Z",
+      "summary": "Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model's weights, and that removing the model's CCP alignment removes it. One word tilts the...",
+      "score": 2.5,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.perplexity.ai/en-gb/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+      "title": "Perplexity launches AI agents for work",
+      "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 05 Nov 2026 14:44:20 +0000",
+      "publishedAt": "Fri, 06 Nov 2026 17:59:41 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.5,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/06/eu-charges-tiktok-failure-to-protect-users-mental-health",
+      "title": "EU charges TikTok with failing to protect users' mental health",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/eu-charges-tiktok-failure-to-protect-users-mental-health",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Fri, 06 Nov 2026 15:17:08 GMT",
+      "summary": "Regulator's initial ruling says algorithm 'can be harmful' and led young and vulnerable viewers 'down rabbit holes they can't easily escape' Business live - latest updates TikTok has been charged by the European Commission with failing to protect users' mental health by exposing them to a relentless stream of content that risks worsening eating disorders...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Why the US midterms sparked an AI stock selloff",
+      "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Fri, 06 Nov 2026 18:32:16 GMT",
+      "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Fri, 06 Nov 2026 04:00:28 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.2,
       "tags": [
         "tech",
         "community",
@@ -107,62 +152,16 @@
     },
     {
       "id": "bbc technology:https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+      "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
       "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 05 Nov 2026 17:57:57 GMT",
-      "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
+      "publishedAt": "Fri, 06 Nov 2026 13:25:50 GMT",
+      "summary": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/05/tech-barons-america-musk-bezos-zuckerberg",
-      "title": "Tech barons cozied up to Trump. What will they do in newly blue America?",
-      "url": "https://www.theguardian.com/technology/2026/nov/05/tech-barons-america-musk-bezos-zuckerberg",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Thu, 05 Nov 2026 09:00:02 GMT",
-      "summary": "Democrats' success was helped by popular anger over tech, AI and the super rich - life for billionaires could become much more difficult The photo of Silicon Valley centibillionaires at Donald Trump's inauguration - Musk, Bezos and Zuckerberg, front row and side by side - now looks like a hitlist for a blue Congress hellbent on making life difficult for...",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://github.com/rivet-dev/rivet",
-      "title": "Launch HN: Rivet (YC W23) - Scale and Orchestrate Agents on S3",
-      "url": "https://github.com/rivet-dev/rivet",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Thu, 05 Nov 2026 17:17:42 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/uk-news/2026/nov/04/uk-government-considers-smart-glasses-ban-over-secret-filming-concerns",
-      "title": "UK government considers smart glasses ban over secret filming concerns",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/04/uk-government-considers-smart-glasses-ban-over-secret-filming-concerns",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Thu, 05 Nov 2026 17:21:51 GMT",
-      "summary": "Minister hints at restriction on selling technology 'to certain users' amid worries over surreptitious filming of women The government is considering placing restrictions on smart glasses amid concerns the technology is being used to surreptitiously film women, a minister has said. Speaking in the House of Commons, the safeguarding minister, Satvir Kaur,...",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
       ]
     },
     {
@@ -173,7 +172,7 @@
       "topic": "ai",
       "publishedAt": "Thu, 05 Nov 2026 09:00:00 GMT",
       "summary": "Introducing GPT‑6 Cyber, OpenAI's cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-      "score": 3.0200000000000005,
+      "score": 2.7700000000000005,
       "tags": [
         "ai",
         "official",
@@ -198,13 +197,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/ozzfest-announces-details-of-uk-return-for-2027-at-milton-keynes-bowl-3975117?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ozzfest-announces-details-of-uk-return-for-2027-at-milton-keynes-bowl",
-      "title": "Ozzfest announces details of UK return for 2027 at Milton Keynes Bowl",
-      "url": "https://www.nme.com/news/music/ozzfest-announces-details-of-uk-return-for-2027-at-milton-keynes-bowl-3975117?utm_source=rss&utm_medium=rss&utm_campaign=ozzfest-announces-details-of-uk-return-for-2027-at-milton-keynes-bowl",
+      "id": "nme music news:https://www.nme.com/news/music/angine-de-poitrine-debut-new-third-alien-member-on-triangle-play-new-song-watch-3975294?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=angine-de-poitrine-debut-new-third-alien-member-on-triangle-play-new-song-watch",
+      "title": "Angine De Poitrine debut new third alien member on triangle on new song",
+      "url": "https://www.nme.com/news/music/angine-de-poitrine-debut-new-third-alien-member-on-triangle-play-new-song-watch-3975294?utm_source=rss&utm_medium=rss&utm_campaign=angine-de-poitrine-debut-new-third-alien-member-on-triangle-play-new-song-watch",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 05 Nov 2026 15:00:14 +0000",
-      "summary": "Tickets go on sale tomorrow (November 6) The post Ozzfest announces details of UK return for 2027 at Milton Keynes Bowl appeared first on NME .",
+      "publishedAt": "Fri, 06 Nov 2026 16:08:59 +0000",
+      "summary": "The extra musician helped premiere a funky unreleased song in Canada The post Angine De Poitrine debut new third alien member on triangle on new song appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -214,14 +213,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/niagara-catedral-gotica/",
-      "title": "Catedral Gótica",
-      "url": "https://pitchfork.com/reviews/albums/niagara-catedral-gotica/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/laila-well-never-be-this-young-again/",
+      "title": "We'll Never Be This Young Again",
+      "url": "https://pitchfork.com/reviews/albums/laila-well-never-be-this-young-again/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Wed, 04 Nov 2026 05:02:00 +0000",
-      "summary": "The Lisbon trio trades the laid-back feel of its earlier, more disco-indebted work for skeletal machine minimalism, twisted sequencer fugues, and lo-fi ambient that conceals more than it reveals.",
-      "score": 1.75,
+      "publishedAt": "Fri, 06 Nov 2026 05:02:00 +0000",
+      "summary": "The New York songwriter and producer's second album meditates on the passage of time, with immersive, lush songs that balance the optimism and anxiety of young adulthood.",
+      "score": 1.9,
       "tags": [
         "music",
         "reviews",
