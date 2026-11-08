@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-07",
-  "builtAt": "2026-11-07T17:44:16.107Z",
-  "lastAttemptedAt": "2026-11-07T17:44:15.512Z",
+  "digestId": "2026-11-08",
+  "builtAt": "2026-11-08T17:55:11.900Z",
+  "lastAttemptedAt": "2026-11-08T17:55:11.307Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -32,14 +32,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33488",
-      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33488",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33498",
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33498",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Wed, 04 Nov 2026 13:24:13 GMT",
-      "summary": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\" address and were heavily abused by...",
-      "score": 2.3,
+      "publishedAt": "Sun, 08 Nov 2026 15:44:33 GMT",
+      "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual...",
+      "score": 2.45,
       "tags": [
         "security",
         "rss",
@@ -61,13 +61,13 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33476",
-      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-      "url": "https://isc.sans.edu/diary/rss/33476",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33488",
+      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33488",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sat, 31 Oct 2026 10:52:53 GMT",
-      "summary": "Wireshark Release Candidate 5.0.0 was published : soon we can expect a new major version of Wireshark.",
+      "publishedAt": "Wed, 04 Nov 2026 13:24:13 GMT",
+      "summary": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\" address and were heavily abused by...",
       "score": 2.3,
       "tags": [
         "security",
@@ -76,26 +76,57 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html",
-      "title": "Friday Squid Blogging: New Jurassic Squid Predecessors",
-      "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+      "title": "AIs Hacking the Law",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-06T22:05:29Z",
-      "summary": "News story: \" Scientists discover a bizarre Jurassic 'squid' unlike anything ever seen .\" Scientists have identified the \"fattest\" belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming's ancient seas 160 million years ago. The exceptionally rare fossils reveal a creature unlike anything previously known, potentially a...",
-      "score": 2.35,
+      "publishedAt": "2026-11-03T12:01:01Z",
+      "summary": "In both a 2021 essay and my 2022 book, A Hacker's Mind , I talk about AIs finding vulnerabilities and exploits-hacking-the legal system. Here's some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite...",
+      "score": 2.3,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://mceglowski.substack.com/p/how-long-can-life-wait",
-      "title": "How Long Can Life Wait?",
-      "url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
+      "id": "hacker news:https://goldstein.lol/posts/deno-security/",
+      "title": "I'm not a fan of Deno's security model (2024)",
+      "url": "https://goldstein.lol/posts/deno-security/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 07 Nov 2026 16:22:59 +0000",
+      "publishedAt": "Sun, 08 Nov 2026 14:42:38 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.5,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
+      "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Sun, 08 Nov 2026 06:00:33 GMT",
+      "summary": "As AI exposes flaws in IT systems and geopolitics plays out on the cyber frontline, some experts say the events of recent weeks could soon be a common occurrence Alex Pearce was doing the morning rounds at his fruit and vegetable wholesale business in London on Monday last week when he noticed something odd. The defrost light on refrigeration unit 2 was...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "title": "OpenAI raises $11B at a $1.25T valuation",
+      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Sun, 08 Nov 2026 14:49:23 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -106,28 +137,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/07/tiktok-sex-industry-girls-onlyfans",
-      "title": "TikTok accused of helping to promote sex industry to girls",
-      "url": "https://www.theguardian.com/technology/2026/nov/07/tiktok-sex-industry-girls-onlyfans",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Sat, 07 Nov 2026 09:00:07 GMT",
-      "summary": "Researchers say popular performers covertly market OnlyFans content and tell followers about wealthy lifestyle TikTok is helping to promote and normalise the sex industry, allowing \"sexfluencers\" to post videos aimed at marketing pornographic content they have uploaded elsewhere on sites such as OnlyFans, a report indicates. After studying non-explicit...",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-      "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Can the Zelda remake capture the magic of the original?",
+      "url": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Fri, 06 Nov 2026 21:49:50 GMT",
-      "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+      "publishedAt": "Sun, 08 Nov 2026 00:37:45 GMT",
+      "summary": "Nintendo has released its remake of what is considered one of the best games ever made - the BBC's Tom Gerken gives his verdict.",
       "score": 2.0500000000000003,
       "tags": [
         "tech",
@@ -135,34 +151,18 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/politics/2026/nov/07/reform-uk-councillor-promoted-alleged-ponzi-scheme-hyperverse",
-      "title": "Reform UK councillor promoted collapsed $1.9bn 'Ponzi scheme' HyperVerse that left victims suicidal",
-      "url": "https://www.theguardian.com/politics/2026/nov/07/reform-uk-councillor-promoted-alleged-ponzi-scheme-hyperverse",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
+      "title": "'AI clog': UK public bodies battle onslaught of chatbot-generated complaints",
+      "url": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 07 Nov 2026 07:00:04 GMT",
-      "summary": "Susan Lawrence, elected to Wolverhampton city council, sits on committee overseeing financial reporting of multimillion-pound budget A woman who promoted a notorious cryptocurrency scam has been elected as a Reform UK councillor and now sits on the audit and risk committee of a major city council. Susan Lawrence was one of the main UK promoters of the...",
+      "publishedAt": "Sun, 08 Nov 2026 08:00:36 GMT",
+      "summary": "MPs, local authorities, lawyers, schools and more are receiving floods of grievances, requests and legal challenges, often complex to read and respond to \"It started as a trickle in 2024 and now it's an onslaught.\" Hollie Wickens, a senior caseworker in a Labour MP's office, is explaining the daily reality of dealing with surging volumes of artificial...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss",
         "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
-      "title": "The $8 Linux Computer (2022)",
-      "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sat, 07 Nov 2026 14:00:20 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
       ]
     },
     {
@@ -173,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Thu, 05 Nov 2026 09:00:00 GMT",
       "summary": "Introducing GPT‑6 Cyber, OpenAI's cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-      "score": 2.7700000000000005,
+      "score": 2.67,
       "tags": [
         "ai",
         "official",
@@ -198,13 +198,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/u2-ed-sheeran-macklemore-no-billionaire-promoter-owner-has-right-censor-anybody-3975357?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=u2-ed-sheeran-macklemore-no-billionaire-promoter-owner-has-right-censor-anybody",
-      "title": "U2 on the Ed Sheeran Macklemore row: \"No billionaire, no promoter, no owner has the right to censor anybody\"",
-      "url": "https://www.nme.com/news/music/u2-ed-sheeran-macklemore-no-billionaire-promoter-owner-has-right-censor-anybody-3975357?utm_source=rss&utm_medium=rss&utm_campaign=u2-ed-sheeran-macklemore-no-billionaire-promoter-owner-has-right-censor-anybody",
+      "id": "nme music news:https://www.nme.com/news/music/rosalia-celebrates-one-year-lux-1000-song-playlist-anniversary-box-set-3975386?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rosalia-celebrates-one-year-lux-1000-song-playlist-anniversary-box-set",
+      "title": "Rosalía celebrates one year of 'Lux' with 1,000-song playlist and anniversary box set",
+      "url": "https://www.nme.com/news/music/rosalia-celebrates-one-year-lux-1000-song-playlist-anniversary-box-set-3975386?utm_source=rss&utm_medium=rss&utm_campaign=rosalia-celebrates-one-year-lux-1000-song-playlist-anniversary-box-set",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sat, 07 Nov 2026 10:30:46 +0000",
-      "summary": "The Edge has defended Macklemore's right to speak out, while insisting that Sheeran should not be vilified over the controversy The post U2 on the Ed Sheeran Macklemore row: \"No billionaire, no promoter, no owner has the right to censor anybody\" appeared first on NME .",
+      "publishedAt": "Sun, 08 Nov 2026 11:49:56 +0000",
+      "summary": "The Spanish star has reflected on the making of her acclaimed fourth album: \"I was thinking about cathedrals\" The post Rosalía celebrates one year of 'Lux' with 1,000-song playlist and anniversary box set appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
