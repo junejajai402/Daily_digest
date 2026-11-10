@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-09",
-  "builtAt": "2026-11-09T22:19:18.383Z",
-  "lastAttemptedAt": "2026-11-09T22:19:17.818Z",
+  "digestId": "2026-11-10",
+  "builtAt": "2026-11-10T19:42:22.932Z",
+  "lastAttemptedAt": "2026-11-10T19:42:22.276Z",
   "isStale": false,
   "counts": {
-    "rawItems": 103,
-    "dedupedItems": 102,
+    "rawItems": 104,
+    "dedupedItems": 104,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,13 +18,13 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ai-security.html",
-      "title": "AI Security",
-      "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
+      "title": "New OpenSSH Vulnerability",
+      "url": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-09T12:06:34Z",
-      "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It's important for researchers to understand which one...",
+      "publishedAt": "2026-11-10T12:02:46Z",
+      "summary": "It's a bad one , and it's been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed \"*sshole,\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. \"Oversized\" means longer than 256 bytes. Details . Slashdot...",
       "score": 2.65,
       "tags": [
         "security",
@@ -32,18 +32,47 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33502",
-      "title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
-      "url": "https://isc.sans.edu/diary/rss/33502",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33508",
+      "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33508",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Mon, 09 Nov 2026 18:18:15 GMT",
-      "summary": "Just saw a new (to me) URL in our honeypot data today:",
+      "publishedAt": "Tue, 10 Nov 2026 19:09:32 GMT",
+      "summary": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33506",
+      "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33506",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Tue, 10 Nov 2026 12:48:55 GMT",
+      "summary": "Security write-up worth reviewing in the full digest.",
       "score": 2.45,
       "tags": [
         "security",
         "rss",
         "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+      "title": "AI Security",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-09T12:06:34Z",
+      "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It's important for researchers to understand which one...",
+      "score": 2.4,
+      "tags": [
+        "security",
+        "feed"
       ]
     },
     {
@@ -61,42 +90,13 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33488",
-      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33488",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Wed, 04 Nov 2026 13:24:13 GMT",
-      "summary": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\" address and were heavily abused by...",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-      "title": "AIs Hacking the Law",
-      "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-03T12:01:01Z",
-      "summary": "In both a 2021 essay and my 2022 book, A Hacker's Mind , I talk about AIs finding vulnerabilities and exploits-hacking-the legal system. Here's some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite...",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=rss&amp;at_campaign=rss",
-      "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
-      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Mon, 09 Nov 2026 15:46:20 GMT",
-      "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+      "publishedAt": "Tue, 10 Nov 2026 09:23:55 GMT",
+      "summary": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
       "score": 2.35,
       "tags": [
         "tech",
@@ -104,13 +104,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/09/revealed-palantir-lobbied-minister-to-stretch-ai-tools-reach-to-nhs-gp-records",
-      "title": "Revealed: Palantir lobbied minister to stretch AI tools' reach to NHS GP records",
-      "url": "https://www.theguardian.com/technology/2026/nov/09/revealed-palantir-lobbied-minister-to-stretch-ai-tools-reach-to-nhs-gp-records",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
+      "title": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
+      "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 09 Nov 2026 17:58:05 GMT",
-      "summary": "Exclusive: WhatsApp messages show firm pressuring Zubir Ahmed MP to help bring sensitive data into its platform UK politics live - latest updates Palantir lobbied a health minister to consider extending its AI technology into GP records, stretching its reach into the NHS in a way doctors fear could undermine trust with patients. The US company, co-founded...",
+      "publishedAt": "Tue, 10 Nov 2026 12:45:54 GMT",
+      "summary": "California lawsuit comes as Donald Trump says FBI is investigating tech CEO's links with Alice Huang Business live - latest updates Nvidia's board needs to do some succession planning - sharpish Nvidia and its chief executive, Jensen Huang, have been accused of misleading shareholders in a lawsuit over the Chinese spying scandal engulfing the $4.3tn...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -119,12 +119,12 @@
       ]
     },
     {
-      "id": "hacker news:https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
-      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
-      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "id": "hacker news:https://lwn.net/subscriberlink/1102549/acbc92e00cee3a3f/",
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 09 Nov 2026 16:00:45 +0000",
+      "publishedAt": "Tue, 10 Nov 2026 18:02:02 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -135,13 +135,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security",
-      "title": "The AI poster boy, the 'Chinese spy' and Trump: how an affair may have harmed US security",
-      "url": "https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/10/flying-cars-china-next-summer-xpeng",
+      "title": "'Flying cars' could launch in China next summer, maker of two-seat model says",
+      "url": "https://www.theguardian.com/technology/2026/nov/10/flying-cars-china-next-summer-xpeng",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 09 Nov 2026 20:01:05 GMT",
-      "summary": "Jensen Huang's close relationship with president means Nvidia CEO's affair with woman alleged to be working for Beijing is under intense scrutiny A hand on the back, a kiss on the cheek; the footage of Alice Huang's interaction with Jensen Huang in a Taipei venue last year does not seem particularly remarkable at first glance. But the Nvidia chief...",
+      "publishedAt": "Tue, 10 Nov 2026 16:14:50 GMT",
+      "summary": "XPeng says its $300k low-altitude device will soon be ready for emergency services and recreational use in rural areas People could start taking trips in so-called flying cars in China as soon as next summer, the manufacturer of a two-seater vehicle with autopilot model has said. Deli Zhao, the chief executive of the Chinese flying car company XPeng, said...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -150,12 +150,12 @@
       ]
     },
     {
-      "id": "hacker news:https://github.com/thisisme6598/gemini_files/",
-      "title": "Google Gemini routes personal Drive files and emails to human annotators",
-      "url": "https://github.com/thisisme6598/gemini_files/",
+      "id": "hacker news:https://www.blender.org/download/releases/5-3/",
+      "title": "Blender 5.3 released with Gaussian Splat support",
+      "url": "https://www.blender.org/download/releases/5-3/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 09 Nov 2026 18:24:38 +0000",
+      "publishedAt": "Tue, 10 Nov 2026 16:15:43 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -173,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Mon, 09 Nov 2026 13:00:00 GMT",
       "summary": "Learn how OpenAI's Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "score": 2.8200000000000003,
+      "score": 2.5700000000000003,
       "tags": [
         "ai",
         "official",
@@ -198,14 +198,14 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/watch-deftones-play-unreleased-eros-rarity-melanie-first-time-since-2008-dia-de-los-deftones-3975452",
-      "title": "Watch Deftones play unreleased 'Eros' rarity 'Melanie' for first time since 2008 at Dia De Los Deftones: \"This song doesn't exist\"",
-      "url": "https://www.nme.com/news/music/watch-deftones-play-unreleased-eros-rarity-melanie-first-time-since-2008-dia-de-los-deftones-3975452",
+      "id": "nme music news:https://www.nme.com/news/music/paul-mccartney-and-ringo-starr-to-reunite-for-one-off-2027-las-vegas-show-3975595",
+      "title": "Paul McCartney and Ringo Starr to reunite for one-off 2027 Las Vegas show",
+      "url": "https://www.nme.com/news/music/paul-mccartney-and-ringo-starr-to-reunite-for-one-off-2027-las-vegas-show-3975595",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Mon, 09 Nov 2026 12:42:02 +0000",
-      "summary": "The 2008 album was recorded at the time their late bassist Chi Cheng was involved in a car crash, and has remained unreleased since The post Watch Deftones play unreleased 'Eros' rarity 'Melanie' for first time since 2008 at Dia De Los Deftones: \"This song doesn't exist\" appeared first on NME .",
-      "score": 2.13,
+      "publishedAt": "Tue, 10 Nov 2026 17:10:33 +0000",
+      "summary": "The Killers, The War On Drugs and St. Vincent are also on the bill for Eagles guitarist Joe Walsh's VetsAid music festival The post Paul McCartney and Ringo Starr to reunite for one-off 2027 Las Vegas show appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
         "news",
@@ -214,13 +214,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/skepta-the-fork-and-knife/",
-      "title": "The Fork and Knife",
-      "url": "https://pitchfork.com/reviews/albums/skepta-the-fork-and-knife/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/corridos-ketamina-cktriz/",
+      "title": "Cktriz",
+      "url": "https://pitchfork.com/reviews/albums/corridos-ketamina-cktriz/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Mon, 09 Nov 2026 05:03:00 +0000",
-      "summary": "After a slightly creaky start, Skepta's first album in seven years takes shape as a mature reflection on legacy from an icon of UK grime and a face of modern Britain.",
+      "publishedAt": "Tue, 10 Nov 2026 05:02:00 +0000",
+      "summary": "The Pomona/Phoenix duo's latest record meshes corridos tumbados with rap, emo, and slow-burning guitar ballads, balancing unabashed sex talk with candid reflections on fame and identity.",
       "score": 1.9,
       "tags": [
         "music",
