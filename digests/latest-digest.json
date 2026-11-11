@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-10",
-  "builtAt": "2026-11-10T19:42:22.932Z",
-  "lastAttemptedAt": "2026-11-10T19:42:22.276Z",
+  "digestId": "2026-11-11",
+  "builtAt": "2026-11-11T19:34:50.061Z",
+  "lastAttemptedAt": "2026-11-11T19:34:49.268Z",
   "isStale": false,
   "counts": {
-    "rawItems": 104,
-    "dedupedItems": 104,
+    "rawItems": 103,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
-      "title": "New OpenSSH Vulnerability",
-      "url": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+      "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+      "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-10T12:02:46Z",
-      "summary": "It's a bad one , and it's been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed \"*sshole,\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. \"Oversized\" means longer than 256 bytes. Details . Slashdot...",
-      "score": 2.65,
+      "publishedAt": "2026-11-11T12:06:21Z",
+      "summary": "It's hard to believe how lucrative this crime can be: According to a press release from the United States attorney's office for the southern district of New York, three men Jacob Soall, Sharon Hazan, and Guy Sheetrit were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to...",
+      "score": 2.85,
       "tags": [
         "security",
         "feed"
@@ -33,17 +33,31 @@
     },
     {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33508",
-      "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
+      "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
       "url": "https://isc.sans.edu/diary/rss/33508",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Tue, 10 Nov 2026 19:09:32 GMT",
+      "publishedAt": "Wed, 11 Nov 2026 18:28:43 GMT",
       "summary": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.",
       "score": 2.65,
       "tags": [
         "security",
         "rss",
         "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
+      "title": "New OpenSSH Vulnerability",
+      "url": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-10T12:02:46Z",
+      "summary": "It's a bad one , and it's been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed \"*sshole,\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. \"Oversized\" means longer than 256 bytes. Details . Slashdot...",
+      "score": 2.4,
+      "tags": [
+        "security",
+        "feed"
       ]
     },
     {
@@ -54,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Tue, 10 Nov 2026 12:48:55 GMT",
       "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.45,
+      "score": 2.2,
       "tags": [
         "security",
         "rss",
@@ -76,27 +90,29 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html",
-      "title": "Pinpointing Location of Videos from Background Airplane Sounds",
-      "url": "https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-06T16:28:27Z",
-      "summary": "This is fascinating : The video describes a technique that can reveal where an otherwise unidentifiable recording was made by analyzing its audio for the faint sounds of passing aircraft. The technique is both fascinating and frightening. It works by looking at Doppler curves, which plot the way a plane's sound changes as it passes overhead because of the...",
-      "score": 2.3,
+      "id": "hacker news:https://pietromiotti.com/latest/maya-site/?maya",
+      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "url": "https://pietromiotti.com/latest/maya-site/?maya",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Wed, 11 Nov 2026 12:05:22 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.5,
       "tags": [
-        "security",
-        "feed"
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
-      "url": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=rss&amp;at_campaign=rss",
+      "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Tue, 10 Nov 2026 09:23:55 GMT",
-      "summary": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
+      "publishedAt": "Wed, 11 Nov 2026 07:44:24 GMT",
+      "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
       "score": 2.35,
       "tags": [
         "tech",
@@ -104,13 +120,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
-      "title": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
-      "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
+      "id": "the guardian tech:https://www.theguardian.com/world/2026/nov/11/germany-bans-chinese-drones-military-bases-spying-security",
+      "title": "Germany reportedly bans Chinese drones at military bases over security concerns",
+      "url": "https://www.theguardian.com/world/2026/nov/11/germany-bans-chinese-drones-military-bases-spying-security",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 10 Nov 2026 12:45:54 GMT",
-      "summary": "California lawsuit comes as Donald Trump says FBI is investigating tech CEO's links with Alice Huang Business live - latest updates Nvidia's board needs to do some succession planning - sharpish Nvidia and its chief executive, Jensen Huang, have been accused of misleading shareholders in a lawsuit over the Chinese spying scandal engulfing the $4.3tn...",
+      "publishedAt": "Wed, 11 Nov 2026 09:41:05 GMT",
+      "summary": "Western military forces increasingly worried Chinese-made technology ⁠could send ‌sensitive information to Beijing Germany has banned commercially available Chinese-made drones ⁠from its military bases and training grounds due to security concerns, ⁠according to reports. Western military forces have grown increasingly concerned that Chinese-made technology...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -119,12 +135,12 @@
       ]
     },
     {
-      "id": "hacker news:https://lwn.net/subscriberlink/1102549/acbc92e00cee3a3f/",
-      "title": "Synaptics patent claims stop work on DisplayLink drivers",
-      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "id": "hacker news:https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "title": "AWS Emulator and the engineer's job when agents write the code",
+      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 10 Nov 2026 18:02:02 +0000",
+      "publishedAt": "Wed, 11 Nov 2026 18:28:31 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -135,61 +151,28 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/10/flying-cars-china-next-summer-xpeng",
-      "title": "'Flying cars' could launch in China next summer, maker of two-seat model says",
-      "url": "https://www.theguardian.com/technology/2026/nov/10/flying-cars-china-next-summer-xpeng",
-      "source": "The Guardian Tech",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=rss&amp;at_campaign=rss",
+      "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
+      "url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Tue, 10 Nov 2026 16:14:50 GMT",
-      "summary": "XPeng says its $300k low-altitude device will soon be ready for emergency services and recreational use in rural areas People could start taking trips in so-called flying cars in China as soon as next summer, the manufacturer of a two-seater vehicle with autopilot model has said. Deli Zhao, the chief executive of the Chinese flying car company XPeng, said...",
-      "score": 2.35,
+      "publishedAt": "Wed, 11 Nov 2026 11:33:24 GMT",
+      "summary": "The Tamil Nadu government has ordered an internal audit of library collections across the state.",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://www.blender.org/download/releases/5-3/",
-      "title": "Blender 5.3 released with Gaussian Splat support",
-      "url": "https://www.blender.org/download/releases/5-3/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Tue, 10 Nov 2026 16:15:43 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "openai news:https://openai.com/index/control-room",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "url": "https://openai.com/index/control-room",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Mon, 09 Nov 2026 13:00:00 GMT",
-      "summary": "Learn how OpenAI's Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "score": 2.5700000000000003,
-      "tags": [
-        "ai",
-        "official",
-        "openai",
         "rss"
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Tue, 13 Oct 2026 16:00:00 +0000",
-      "summary": "We're giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "score": 2.43,
+      "publishedAt": "Wed, 11 Nov 2026 18:00:00 +0000",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "score": 2.58,
       "tags": [
         "ai",
         "official",
@@ -198,13 +181,45 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/paul-mccartney-and-ringo-starr-to-reunite-for-one-off-2027-las-vegas-show-3975595",
-      "title": "Paul McCartney and Ringo Starr to reunite for one-off 2027 Las Vegas show",
-      "url": "https://www.nme.com/news/music/paul-mccartney-and-ringo-starr-to-reunite-for-one-off-2027-las-vegas-show-3975595",
+      "id": "openai news:https://openai.com/index/gilbert-tobin-sam-nickless",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Thu, 12 Nov 2026 00:00:00 GMT",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "score": 2.4200000000000004,
+      "tags": [
+        "ai",
+        "official",
+        "openai",
+        "rss"
+      ]
+    },
+    {
+      "id": "npr music news:https://www.npr.org/2026/11/11/nx-s1-6036839/yemeni-coffee-house-bodega-immigrant-entrepreneur",
+      "title": "How bodegas led to the Yemeni coffeehouse explosion",
+      "url": "https://www.npr.org/2026/11/11/nx-s1-6036839/yemeni-coffee-house-bodega-immigrant-entrepreneur",
+      "source": "NPR Music News",
+      "topic": "music",
+      "publishedAt": "Wed, 11 Nov 2026 13:03:29 +0000",
+      "summary": "There is a long-standing tradition of different immigrant groups arriving in the U.S. and specializing in one particular type of business. Think, nail salons run by people from Vietnam or Gujarati Indians owning motels and hotels. Yemenis are another immigrant community that has largely clustered around one industry, in their case, bodegas and small...",
+      "score": 1.97,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "npr"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/u2-interview-carnaval-de-luz-bono-the-edge-new-music-tour-3975696",
+      "title": "U2: \"You have to up your game when people step into the room like Fontaines D.C.\"",
+      "url": "https://www.nme.com/news/music/u2-interview-carnaval-de-luz-bono-the-edge-new-music-tour-3975696",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Tue, 10 Nov 2026 17:10:33 +0000",
-      "summary": "The Killers, The War On Drugs and St. Vincent are also on the bill for Eagles guitarist Joe Walsh's VetsAid music festival The post Paul McCartney and Ringo Starr to reunite for one-off 2027 Las Vegas show appeared first on NME .",
+      "publishedAt": "Wed, 11 Nov 2026 16:00:26 +0000",
+      "summary": "Bono and The Edge sit down with NME to talk us through the secret to survival after 50 years, the \"defiant joy\" of new album 'Carnaval de Luz', America finally \"waking up\", and how their love of Geese, Wolf Alice and Lambrini Girls keeps them on their toes The post U2: \"You have to up your game when people step into the room like Fontaines D.C.\" appeared...",
       "score": 1.93,
       "tags": [
         "music",
@@ -221,26 +236,10 @@
       "topic": "music",
       "publishedAt": "Tue, 10 Nov 2026 05:02:00 +0000",
       "summary": "The Pomona/Phoenix duo's latest record meshes corridos tumbados with rap, emo, and slow-burning guitar ballads, balancing unabashed sex talk with candid reflections on fame and identity.",
-      "score": 1.9,
+      "score": 1.75,
       "tags": [
         "music",
         "reviews",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
-      "title": "cantu of the sower EP",
-      "url": "https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
-      "source": "Pitchfork Best New Albums",
-      "topic": "music",
-      "publishedAt": "Mon, 26 Oct 2026 04:03:00 +0000",
-      "summary": "An album-length EP by the 20-year-old producer is a dizzying and boundless collage of collages, using free-jazz logic and digital overload to chart new emotional terrain.",
-      "score": 1.7,
-      "tags": [
-        "music",
-        "albums",
         "rss",
         "pitchfork"
       ]
