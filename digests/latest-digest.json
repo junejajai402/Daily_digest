@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-11",
-  "builtAt": "2026-11-11T19:34:50.061Z",
-  "lastAttemptedAt": "2026-11-11T19:34:49.268Z",
+  "digestId": "2026-11-12",
+  "builtAt": "2026-11-12T19:52:41.736Z",
+  "lastAttemptedAt": "2026-11-12T19:52:40.968Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 103,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,6 +18,35 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33514",
+      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "url": "https://isc.sans.edu/diary/rss/33514",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Thu, 12 Nov 2026 11:56:24 GMT",
+      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the...",
+      "score": 2.85,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
+      "title": "Another Way Police Are Locating People from Their Smartphones",
+      "url": "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-12T12:03:10Z",
+      "summary": "Penlink's Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It's sold to the police. The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been...",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
       "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
       "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
@@ -25,7 +54,7 @@
       "topic": "security",
       "publishedAt": "2026-11-11T12:06:21Z",
       "summary": "It's hard to believe how lucrative this crime can be: According to a press release from the United States attorney's office for the southern district of New York, three men Jacob Soall, Sharon Hazan, and Guy Sheetrit were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to...",
-      "score": 2.85,
+      "score": 2.6,
       "tags": [
         "security",
         "feed"
@@ -39,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Wed, 11 Nov 2026 18:28:43 GMT",
       "summary": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.",
-      "score": 2.65,
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -61,43 +90,43 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33506",
-      "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33506",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 10 Nov 2026 12:48:55 GMT",
-      "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.2,
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
+      "title": "Jensen Huang resigns as Nvidia CEO after alleged affairs",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Thu, 12 Nov 2026 16:57:34 GMT",
+      "summary": "Move follows admission of affair with woman alleged to be Chinese spy and reported relationship with employee Business live - latest updates From washing dishes at Denny's to rockstar of AI: the rise and fall of Jensen Huang Jensen Huang has resigned as chief executive of Nvidia after reports of extramarital affairs with an alleged Chinese spy and a...",
+      "score": 2.35,
       "tags": [
-        "security",
+        "tech",
         "rss",
-        "sans"
+        "guardian"
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ai-security.html",
-      "title": "AI Security",
-      "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-09T12:06:34Z",
-      "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It's important for researchers to understand which one...",
-      "score": 2.4,
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Zoe Kleinman: How AI visionary Jensen Huang was undone by his own bad decisions",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Thu, 12 Nov 2026 16:43:36 GMT",
+      "summary": "Zoe Kleinman explains how the man who built Nvidia from the ground up lost everything in a matter of days.",
+      "score": 2.1500000000000004,
       "tags": [
-        "security",
-        "feed"
+        "tech",
+        "rss"
       ]
     },
     {
-      "id": "hacker news:https://pietromiotti.com/latest/maya-site/?maya",
-      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
-      "url": "https://pietromiotti.com/latest/maya-site/?maya",
+      "id": "hacker news:https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "title": "Jensen Huang resigns",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Wed, 11 Nov 2026 12:05:22 +0000",
+      "publishedAt": "Thu, 12 Nov 2026 13:52:29 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -107,57 +136,12 @@
     },
     {
       "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=rss&amp;at_campaign=rss",
-      "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+      "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
       "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Wed, 11 Nov 2026 07:44:24 GMT",
-      "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/world/2026/nov/11/germany-bans-chinese-drones-military-bases-spying-security",
-      "title": "Germany reportedly bans Chinese drones at military bases over security concerns",
-      "url": "https://www.theguardian.com/world/2026/nov/11/germany-bans-chinese-drones-military-bases-spying-security",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Wed, 11 Nov 2026 09:41:05 GMT",
-      "summary": "Western military forces increasingly worried Chinese-made technology ⁠could send ‌sensitive information to Beijing Germany has banned commercially available Chinese-made drones ⁠from its military bases and training grounds due to security concerns, ⁠according to reports. Western military forces have grown increasingly concerned that Chinese-made technology...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-      "title": "AWS Emulator and the engineer's job when agents write the code",
-      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Wed, 11 Nov 2026 18:28:31 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=rss&amp;at_campaign=rss",
-      "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
-      "url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Wed, 11 Nov 2026 11:33:24 GMT",
-      "summary": "The Tamil Nadu government has ordered an internal audit of library collections across the state.",
+      "publishedAt": "Thu, 12 Nov 2026 15:26:39 GMT",
+      "summary": "The billionaire tech executive has left the company following reports of a second extramarital affair.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -165,14 +149,45 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools",
+      "title": "NHS England deletes 'misleading' claim 137 trusts benefiting from Palantir AI tools",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Thu, 12 Nov 2026 11:00:47 GMT",
+      "summary": "Exclusive: The Guardian revealed 29 hospital trusts were not or hardly using the controversial patient data tech NHS England has deleted a claim from its website stating 137 hospital trusts are benefiting from Palantir's AI health data system after the Guardian revealed 29 of them were not using all or most of the controversial technology. Health bosses...",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/business/customer-stories/holidays-extras-codex",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Thu, 12 Nov 2026 09:30:00 GMT",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "score": 2.4200000000000004,
+      "tags": [
+        "ai",
+        "official",
+        "openai",
+        "rss"
+      ]
+    },
+    {
+      "id": "google ai:https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Wed, 11 Nov 2026 18:00:00 +0000",
-      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "score": 2.58,
+      "publishedAt": "Thu, 12 Nov 2026 18:00:00 +0000",
+      "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+      "score": 2.3800000000000003,
       "tags": [
         "ai",
         "official",
@@ -181,19 +196,19 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/gilbert-tobin-sam-nickless",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Thu, 12 Nov 2026 00:00:00 GMT",
-      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "score": 2.4200000000000004,
+      "id": "nme music news:https://www.nme.com/news/music/gang-of-youths-announce-new-album-companero-with-single-bennys-video-tour-3975794",
+      "title": "Gang Of Youths announce new album 'Compañero' with captivating single 'Benny's Video'",
+      "url": "https://www.nme.com/news/music/gang-of-youths-announce-new-album-companero-with-single-bennys-video-tour-3975794",
+      "source": "NME Music News",
+      "topic": "music",
+      "publishedAt": "Thu, 12 Nov 2026 15:47:55 +0000",
+      "summary": "The singer explained that the record stemmed from the \"realisation that I didn't need to channel all this brutality anymore\" The post Gang Of Youths announce new album 'Compañero' with captivating single 'Benny's Video' appeared first on NME .",
+      "score": 1.93,
       "tags": [
-        "ai",
-        "official",
-        "openai",
-        "rss"
+        "music",
+        "news",
+        "rss",
+        "nme"
       ]
     },
     {
@@ -204,7 +219,7 @@
       "topic": "music",
       "publishedAt": "Wed, 11 Nov 2026 13:03:29 +0000",
       "summary": "There is a long-standing tradition of different immigrant groups arriving in the U.S. and specializing in one particular type of business. Think, nail salons run by people from Vietnam or Gujarati Indians owning motels and hotels. Yemenis are another immigrant community that has largely clustered around one industry, in their case, bodegas and small...",
-      "score": 1.97,
+      "score": 1.72,
       "tags": [
         "music",
         "news",
@@ -213,33 +228,17 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/u2-interview-carnaval-de-luz-bono-the-edge-new-music-tour-3975696",
-      "title": "U2: \"You have to up your game when people step into the room like Fontaines D.C.\"",
-      "url": "https://www.nme.com/news/music/u2-interview-carnaval-de-luz-bono-the-edge-new-music-tour-3975696",
-      "source": "NME Music News",
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
+      "title": "cantu of the sower EP",
+      "url": "https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
+      "source": "Pitchfork Best New Albums",
       "topic": "music",
-      "publishedAt": "Wed, 11 Nov 2026 16:00:26 +0000",
-      "summary": "Bono and The Edge sit down with NME to talk us through the secret to survival after 50 years, the \"defiant joy\" of new album 'Carnaval de Luz', America finally \"waking up\", and how their love of Geese, Wolf Alice and Lambrini Girls keeps them on their toes The post U2: \"You have to up your game when people step into the room like Fontaines D.C.\" appeared...",
-      "score": 1.93,
+      "publishedAt": "Mon, 26 Oct 2026 04:03:00 +0000",
+      "summary": "An album-length EP by the 20-year-old producer is a dizzying and boundless collage of collages, using free-jazz logic and digital overload to chart new emotional terrain.",
+      "score": 1.7,
       "tags": [
         "music",
-        "news",
-        "rss",
-        "nme"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/corridos-ketamina-cktriz/",
-      "title": "Cktriz",
-      "url": "https://pitchfork.com/reviews/albums/corridos-ketamina-cktriz/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Tue, 10 Nov 2026 05:02:00 +0000",
-      "summary": "The Pomona/Phoenix duo's latest record meshes corridos tumbados with rap, emo, and slow-burning guitar ballads, balancing unabashed sex talk with candid reflections on fame and identity.",
-      "score": 1.75,
-      "tags": [
-        "music",
-        "reviews",
+        "albums",
         "rss",
         "pitchfork"
       ]
