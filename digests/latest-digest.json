@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-12",
-  "builtAt": "2026-11-12T19:52:41.736Z",
-  "lastAttemptedAt": "2026-11-12T19:52:40.968Z",
+  "digestId": "2026-11-13",
+  "builtAt": "2026-11-13T19:39:36.491Z",
+  "lastAttemptedAt": "2026-11-13T19:39:35.802Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 98,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,6 +18,20 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "title": "AI Doesn't Have to Go Rogue to Break the World",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-13T12:03:44Z",
+      "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop . I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two...",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
       "id": "sans isc:https://isc.sans.edu/diary/rss/33514",
       "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
       "url": "https://isc.sans.edu/diary/rss/33514",
@@ -25,25 +39,11 @@
       "topic": "security",
       "publishedAt": "Thu, 12 Nov 2026 11:56:24 GMT",
       "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the...",
-      "score": 2.85,
+      "score": 2.6,
       "tags": [
         "security",
         "rss",
         "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
-      "title": "Another Way Police Are Locating People from Their Smartphones",
-      "url": "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-12T12:03:10Z",
-      "summary": "Penlink's Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It's sold to the police. The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been...",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "feed"
       ]
     },
     {
@@ -61,14 +61,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33508",
-      "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33508",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33518",
+      "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33518",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Wed, 11 Nov 2026 18:28:43 GMT",
-      "summary": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.",
-      "score": 2.4,
+      "publishedAt": "Fri, 13 Nov 2026 03:41:41 GMT",
+      "summary": "Security write-up worth reviewing in the full digest.",
+      "score": 2.55,
       "tags": [
         "security",
         "rss",
@@ -76,13 +76,13 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
-      "title": "New OpenSSH Vulnerability",
-      "url": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
+      "title": "Another Way Police Are Locating People from Their Smartphones",
+      "url": "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-10T12:02:46Z",
-      "summary": "It's a bad one , and it's been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed \"*sshole,\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. \"Oversized\" means longer than 256 bytes. Details . Slashdot...",
+      "publishedAt": "2026-11-12T12:03:10Z",
+      "summary": "Penlink's Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It's sold to the police. The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been...",
       "score": 2.4,
       "tags": [
         "security",
@@ -90,43 +90,14 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
-      "title": "Jensen Huang resigns as Nvidia CEO after alleged affairs",
-      "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Thu, 12 Nov 2026 16:57:34 GMT",
-      "summary": "Move follows admission of affair with woman alleged to be Chinese spy and reported relationship with employee Business live - latest updates From washing dishes at Denny's to rockstar of AI: the rise and fall of Jensen Huang Jensen Huang has resigned as chief executive of Nvidia after reports of extramarital affairs with an alleged Chinese spy and a...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Zoe Kleinman: How AI visionary Jensen Huang was undone by his own bad decisions",
-      "url": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Thu, 12 Nov 2026 16:43:36 GMT",
-      "summary": "Zoe Kleinman explains how the man who built Nvidia from the ground up lost everything in a matter of days.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "title": "Jensen Huang resigns",
-      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "id": "hacker news:https://haddyalchaer.com/jepa",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 12 Nov 2026 13:52:29 +0000",
+      "publishedAt": "Fri, 13 Nov 2026 17:55:28 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -135,13 +106,13 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=rss&amp;at_campaign=rss",
-      "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
-      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
+      "url": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 12 Nov 2026 15:26:39 GMT",
-      "summary": "The billionaire tech executive has left the company following reports of a second extramarital affair.",
+      "publishedAt": "Fri, 13 Nov 2026 17:38:19 GMT",
+      "summary": "Microsoft has apologised for the issue, which it said was due to a technical failure.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -149,13 +120,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools",
-      "title": "NHS England deletes 'misleading' claim 137 trusts benefiting from Palantir AI tools",
-      "url": "https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools",
+      "id": "the guardian tech:https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+      "title": "Microsoft outage live: company 'deeply sorry' for disruption affecting millions and says it's 'not related to cyber or AI'",
+      "url": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 12 Nov 2026 11:00:47 GMT",
-      "summary": "Exclusive: The Guardian revealed 29 hospital trusts were not or hardly using the controversial patient data tech NHS England has deleted a claim from its website stating 137 hospital trusts are benefiting from Palantir's AI health data system after the Guardian revealed 29 of them were not using all or most of the controversial technology. Health bosses...",
+      "publishedAt": "Fri, 13 Nov 2026 19:15:32 GMT",
+      "summary": "Microsoft says services are improving after millions of customers around the world suffered disruption Tell us: have you been affected by the Microsoft outage? Microsoft struggles to fix huge outage affecting Outlook and Teams What happened and when will it be fixed? There are plenty of essential services that remain unaffected by the outage, which is...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -164,14 +135,44 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/business/customer-stories/holidays-extras-codex",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "id": "hacker news:https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+      "title": "Models can now transmit viruses in weight-space",
+      "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Fri, 13 Nov 2026 18:33:35 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=rss&amp;at_campaign=rss",
+      "title": "NHS, schools and police forces hit by Microsoft outage",
+      "url": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Fri, 13 Nov 2026 13:41:25 GMT",
+      "summary": "Major airports and intelligence services are unaffected, while the government is still assessing the impact.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/business/customer-stories/amplitude",
+      "title": "How Amplitude ships product improvements in 1-2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Thu, 12 Nov 2026 09:30:00 GMT",
-      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "score": 2.4200000000000004,
+      "publishedAt": "Thu, 12 Nov 2026 20:00:00 GMT",
+      "summary": "Built primarily on OpenAI models, Amplitude's proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "score": 2.72,
       "tags": [
         "ai",
         "official",
@@ -180,29 +181,45 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "source": "Google AI",
+      "id": "openai news:https://openai.com/index/introducing-chatgpt-wallet",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Thu, 12 Nov 2026 18:00:00 +0000",
-      "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-      "score": 2.3800000000000003,
+      "publishedAt": "Fri, 13 Nov 2026 15:00:00 GMT",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "score": 2.62,
       "tags": [
         "ai",
         "official",
-        "google",
+        "openai",
         "rss"
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/gang-of-youths-announce-new-album-companero-with-single-bennys-video-tour-3975794",
-      "title": "Gang Of Youths announce new album 'Compañero' with captivating single 'Benny's Video'",
-      "url": "https://www.nme.com/news/music/gang-of-youths-announce-new-album-companero-with-single-bennys-video-tour-3975794",
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
+      "title": "Snakes & Ladders",
+      "url": "https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
+      "source": "Pitchfork Best New Albums",
+      "topic": "music",
+      "publishedAt": "Fri, 13 Nov 2026 05:03:00 +0000",
+      "summary": "It's a marathon and the New York duo keeps the faith, delivering another lyrical masterclass over engrossing beats from the indie rap all-stars whose work they've cultivated.",
+      "score": 1.95,
+      "tags": [
+        "music",
+        "albums",
+        "rss",
+        "pitchfork"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/queens-of-the-stone-ages-nsfw-from-the-cliff-video-josh-homme-3975920",
+      "title": "Watch Queens Of The Stone Age's NSFW 'From The Cliff' video, co-written by Josh Homme",
+      "url": "https://www.nme.com/news/music/queens-of-the-stone-ages-nsfw-from-the-cliff-video-josh-homme-3975920",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 12 Nov 2026 15:47:55 +0000",
-      "summary": "The singer explained that the record stemmed from the \"realisation that I didn't need to channel all this brutality anymore\" The post Gang Of Youths announce new album 'Compañero' with captivating single 'Benny's Video' appeared first on NME .",
+      "publishedAt": "Fri, 13 Nov 2026 16:42:35 +0000",
+      "summary": "The frontman stars in the bloody short film, the latest accompaniment to their chart-topping album 'Perfecth' The post Watch Queens Of The Stone Age's NSFW 'From The Cliff' video, co-written by Josh Homme appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -212,33 +229,17 @@
       ]
     },
     {
-      "id": "npr music news:https://www.npr.org/2026/11/11/nx-s1-6036839/yemeni-coffee-house-bodega-immigrant-entrepreneur",
-      "title": "How bodegas led to the Yemeni coffeehouse explosion",
-      "url": "https://www.npr.org/2026/11/11/nx-s1-6036839/yemeni-coffee-house-bodega-immigrant-entrepreneur",
-      "source": "NPR Music News",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/grumpy-unfindable-ring/",
+      "title": "Unfindable Ring",
+      "url": "https://pitchfork.com/reviews/albums/grumpy-unfindable-ring/",
+      "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Wed, 11 Nov 2026 13:03:29 +0000",
-      "summary": "There is a long-standing tradition of different immigrant groups arriving in the U.S. and specializing in one particular type of business. Think, nail salons run by people from Vietnam or Gujarati Indians owning motels and hotels. Yemenis are another immigrant community that has largely clustered around one industry, in their case, bodegas and small...",
-      "score": 1.72,
+      "publishedAt": "Fri, 13 Nov 2026 05:00:00 +0000",
+      "summary": "The Brooklyn group prizes playfulness over conformity on its latest album, plumbing country, folk, indie rock, art pop, and more for an album of giddy love songs and existential gender trouble.",
+      "score": 1.9,
       "tags": [
         "music",
-        "news",
-        "rss",
-        "npr"
-      ]
-    },
-    {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
-      "title": "cantu of the sower EP",
-      "url": "https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
-      "source": "Pitchfork Best New Albums",
-      "topic": "music",
-      "publishedAt": "Mon, 26 Oct 2026 04:03:00 +0000",
-      "summary": "An album-length EP by the 20-year-old producer is a dizzying and boundless collage of collages, using free-jazz logic and digital overload to chart new emotional terrain.",
-      "score": 1.7,
-      "tags": [
-        "music",
-        "albums",
+        "reviews",
         "rss",
         "pitchfork"
       ]
