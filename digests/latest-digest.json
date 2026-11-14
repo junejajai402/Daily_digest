@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-13",
-  "builtAt": "2026-11-13T19:39:36.491Z",
-  "lastAttemptedAt": "2026-11-13T19:39:35.802Z",
+  "digestId": "2026-11-14",
+  "builtAt": "2026-11-14T17:59:02.561Z",
+  "lastAttemptedAt": "2026-11-14T17:59:01.828Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 98,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,13 +18,13 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
-      "title": "AI Doesn't Have to Go Rogue to Break the World",
-      "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
+      "title": "Upcoming Speaking Engagements",
+      "url": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-13T12:03:44Z",
-      "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop . I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two...",
+      "publishedAt": "2026-11-14T17:02:46Z",
+      "summary": "This is a current list of where and when I am scheduled to speak: I'm speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026. I'm speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026. The list is maintained on this page .",
       "score": 2.65,
       "tags": [
         "security",
@@ -54,7 +54,7 @@
       "topic": "security",
       "publishedAt": "2026-11-11T12:06:21Z",
       "summary": "It's hard to believe how lucrative this crime can be: According to a press release from the United States attorney's office for the southern district of New York, three men Jacob Soall, Sharon Hazan, and Guy Sheetrit were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to...",
-      "score": 2.6,
+      "score": 2.5,
       "tags": [
         "security",
         "feed"
@@ -68,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Fri, 13 Nov 2026 03:41:41 GMT",
       "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.55,
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -76,13 +76,13 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
-      "title": "Another Way Police Are Locating People from Their Smartphones",
-      "url": "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "title": "AI Doesn't Have to Go Rogue to Break the World",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-12T12:03:10Z",
-      "summary": "Penlink's Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It's sold to the police. The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been...",
+      "publishedAt": "2026-11-13T12:03:44Z",
+      "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop . I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two...",
       "score": 2.4,
       "tags": [
         "security",
@@ -90,12 +90,12 @@
       ]
     },
     {
-      "id": "hacker news:https://haddyalchaer.com/jepa",
-      "title": "After 600 experiments, here's what I discovered about JEPA world models",
-      "url": "https://haddyalchaer.com/jepa",
+      "id": "hacker news:https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 13 Nov 2026 17:55:28 +0000",
+      "publishedAt": "Sat, 14 Nov 2026 15:40:52 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -106,27 +106,13 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
-      "url": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Fri, 13 Nov 2026 17:38:19 GMT",
-      "summary": "Microsoft has apologised for the issue, which it said was due to a technical failure.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
-      "title": "Microsoft outage live: company 'deeply sorry' for disruption affecting millions and says it's 'not related to cyber or AI'",
-      "url": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
+      "title": "Microsoft says services fully restored after global outage hits governments",
+      "url": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Fri, 13 Nov 2026 19:15:32 GMT",
-      "summary": "Microsoft says services are improving after millions of customers around the world suffered disruption Tell us: have you been affected by the Microsoft outage? Microsoft struggles to fix huge outage affecting Outlook and Teams What happened and when will it be fixed? There are plenty of essential services that remain unaffected by the outage, which is...",
+      "publishedAt": "Sat, 14 Nov 2026 11:54:31 GMT",
+      "summary": "Tech company says operations restored to all customers and regions affected by one of worst IT failures in years Microsoft has said its service has been fully restored after a massive outage that resulted in widespread disruption to governments, businesses and public services around the world. The technology company said on Saturday morning it had restored...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -135,12 +121,12 @@
       ]
     },
     {
-      "id": "hacker news:https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
-      "title": "Models can now transmit viruses in weight-space",
-      "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+      "id": "hacker news:https://www.crissyfield.de/research/lovable-en/",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 13 Nov 2026 18:33:35 +0000",
+      "publishedAt": "Sat, 14 Nov 2026 17:43:10 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -151,14 +137,28 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=rss&amp;at_campaign=rss",
-      "title": "NHS, schools and police forces hit by Microsoft outage",
-      "url": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Even Grand Theft Auto's original creators haven't been able to play GTA 6",
+      "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Fri, 13 Nov 2026 13:41:25 GMT",
-      "summary": "Major airports and intelligence services are unaffected, while the government is still assessing the impact.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Sat, 14 Nov 2026 00:37:01 GMT",
+      "summary": "The next title in the series is expected to be the biggest video game release ever.",
+      "score": 2.0500000000000003,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
+      "url": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Fri, 13 Nov 2026 21:15:41 GMT",
+      "summary": "Microsoft has apologised for the issue, which it said was due to a technical failure.",
+      "score": 2.0500000000000003,
       "tags": [
         "tech",
         "rss"
@@ -172,7 +172,7 @@
       "topic": "ai",
       "publishedAt": "Thu, 12 Nov 2026 20:00:00 GMT",
       "summary": "Built primarily on OpenAI models, Amplitude's proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "score": 2.72,
+      "score": 2.5700000000000003,
       "tags": [
         "ai",
         "official",
@@ -181,19 +181,35 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/introducing-chatgpt-wallet",
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "source": "OpenAI News",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Fri, 13 Nov 2026 15:00:00 GMT",
-      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "score": 2.62,
+      "publishedAt": "Wed, 11 Nov 2026 18:00:00 +0000",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "score": 2.33,
       "tags": [
         "ai",
         "official",
-        "openai",
+        "google",
         "rss"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/hiroshi-yoshimura-quiet-forest/",
+      "title": "Quiet Forest",
+      "url": "https://pitchfork.com/reviews/albums/hiroshi-yoshimura-quiet-forest/",
+      "source": "Pitchfork Album Reviews",
+      "topic": "music",
+      "publishedAt": "Sat, 14 Nov 2026 05:00:00 +0000",
+      "summary": "Inspired by a visit to the Pacific Northwest, this 1996 record was the final album-length work released during the composer's lifetime; it offers a rare glimpse of his most playful side.",
+      "score": 1.9,
+      "tags": [
+        "music",
+        "reviews",
+        "rss",
+        "pitchfork"
       ]
     },
     {
@@ -204,7 +220,7 @@
       "topic": "music",
       "publishedAt": "Fri, 13 Nov 2026 05:03:00 +0000",
       "summary": "It's a marathon and the New York duo keeps the faith, delivering another lyrical masterclass over engrossing beats from the indie rap all-stars whose work they've cultivated.",
-      "score": 1.95,
+      "score": 1.8,
       "tags": [
         "music",
         "albums",
@@ -213,35 +229,19 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/queens-of-the-stone-ages-nsfw-from-the-cliff-video-josh-homme-3975920",
-      "title": "Watch Queens Of The Stone Age's NSFW 'From The Cliff' video, co-written by Josh Homme",
-      "url": "https://www.nme.com/news/music/queens-of-the-stone-ages-nsfw-from-the-cliff-video-josh-homme-3975920",
+      "id": "nme music news:https://www.nme.com/news/music/kate-nash-lose-16000-current-tour-keeps-afloat-onlyfans-money-3975948",
+      "title": "Kate Nash to lose $16,000 from current tour as she keeps afloat with OnlyFans money",
+      "url": "https://www.nme.com/news/music/kate-nash-lose-16000-current-tour-keeps-afloat-onlyfans-money-3975948",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Fri, 13 Nov 2026 16:42:35 +0000",
-      "summary": "The frontman stars in the bloody short film, the latest accompaniment to their chart-topping album 'Perfecth' The post Watch Queens Of The Stone Age's NSFW 'From The Cliff' video, co-written by Josh Homme appeared first on NME .",
-      "score": 1.93,
+      "publishedAt": "Sat, 14 Nov 2026 11:37:51 +0000",
+      "summary": "\"The doors are quickly closing on who can access a career in music\" The post Kate Nash to lose $16,000 from current tour as she keeps afloat with OnlyFans money appeared first on NME .",
+      "score": 1.73,
       "tags": [
         "music",
         "news",
         "rss",
         "nme"
-      ]
-    },
-    {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/grumpy-unfindable-ring/",
-      "title": "Unfindable Ring",
-      "url": "https://pitchfork.com/reviews/albums/grumpy-unfindable-ring/",
-      "source": "Pitchfork Album Reviews",
-      "topic": "music",
-      "publishedAt": "Fri, 13 Nov 2026 05:00:00 +0000",
-      "summary": "The Brooklyn group prizes playfulness over conformity on its latest album, plumbing country, folk, indie rock, art pop, and more for an album of giddy love songs and existential gender trouble.",
-      "score": 1.9,
-      "tags": [
-        "music",
-        "reviews",
-        "rss",
-        "pitchfork"
       ]
     }
   ]
