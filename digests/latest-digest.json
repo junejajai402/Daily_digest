@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-14",
-  "builtAt": "2026-11-14T17:59:02.561Z",
-  "lastAttemptedAt": "2026-11-14T17:59:01.828Z",
+  "digestId": "2026-11-15",
+  "builtAt": "2026-11-15T18:49:48.235Z",
+  "lastAttemptedAt": "2026-11-15T18:49:47.782Z",
   "isStale": false,
   "counts": {
-    "rawItems": 103,
+    "rawItems": 104,
     "dedupedItems": 101,
     "digestItems": 15
   },
@@ -18,28 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
-      "title": "Upcoming Speaking Engagements",
-      "url": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-14T17:02:46Z",
-      "summary": "This is a current list of where and when I am scheduled to speak: I'm speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026. I'm speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026. The list is maintained on this page .",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33514",
-      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-      "url": "https://isc.sans.edu/diary/rss/33514",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33496",
+      "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+      "url": "https://isc.sans.edu/diary/rss/33496",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Thu, 12 Nov 2026 11:56:24 GMT",
-      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the...",
-      "score": 2.6,
+      "publishedAt": "Sun, 15 Nov 2026 18:17:27 GMT",
+      "summary": "YARA-X's 1.23.0 release brings 4 improvements and 16 bugfixes.",
+      "score": 2.65,
       "tags": [
         "security",
         "rss",
@@ -61,18 +47,32 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33518",
-      "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33518",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33514",
+      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "url": "https://isc.sans.edu/diary/rss/33514",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Fri, 13 Nov 2026 03:41:41 GMT",
-      "summary": "Security write-up worth reviewing in the full digest.",
-      "score": 2.4,
+      "publishedAt": "Thu, 12 Nov 2026 11:56:24 GMT",
+      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the...",
+      "score": 2.5,
       "tags": [
         "security",
         "rss",
         "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
+      "title": "Upcoming Speaking Engagements",
+      "url": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-14T17:02:46Z",
+      "summary": "This is a current list of where and when I am scheduled to speak: I'm speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026. I'm speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026. The list is maintained on this page .",
+      "score": 2.4,
+      "tags": [
+        "security",
+        "feed"
       ]
     },
     {
@@ -90,12 +90,12 @@
       ]
     },
     {
-      "id": "hacker news:https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "title": "PyPI's redesigned project pages with clearer security signals are now live",
-      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "id": "hacker news:https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 14 Nov 2026 15:40:52 +0000",
+      "publishedAt": "Sun, 15 Nov 2026 14:46:58 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -106,13 +106,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
-      "title": "Microsoft says services fully restored after global outage hits governments",
-      "url": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+      "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+      "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 14 Nov 2026 11:54:31 GMT",
-      "summary": "Tech company says operations restored to all customers and regions affected by one of worst IT failures in years Microsoft has said its service has been fully restored after a massive outage that resulted in widespread disruption to governments, businesses and public services around the world. The technology company said on Saturday morning it had restored...",
+      "publishedAt": "Sun, 15 Nov 2026 08:56:11 GMT",
+      "summary": "Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea's national exam for aspiring tax accountants this year seemed too good to be true. On Sunday, sceptics were ⁠proven right when he ⁠confessed to ​using generative AI to cheat. The scandal has...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -121,12 +121,12 @@
       ]
     },
     {
-      "id": "hacker news:https://www.crissyfield.de/research/lovable-en/",
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "id": "hacker news:https://www.youtube.com/watch?v=7_jf3etiav8",
+      "title": "A short explainer on how El Niño works [video]",
+      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 14 Nov 2026 17:43:10 +0000",
+      "publishedAt": "Sun, 15 Nov 2026 18:23:21 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -144,24 +144,26 @@
       "topic": "tech",
       "publishedAt": "Sat, 14 Nov 2026 00:37:01 GMT",
       "summary": "The next title in the series is expected to be the biggest video game release ever.",
-      "score": 2.0500000000000003,
+      "score": 1.9000000000000001,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
-      "url": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "id": "hacker news:https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 13 Nov 2026 21:15:41 GMT",
-      "summary": "Microsoft has apologised for the issue, which it said was due to a technical failure.",
-      "score": 2.0500000000000003,
+      "publishedAt": "Sun, 15 Nov 2026 17:53:31 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
-        "rss"
+        "community",
+        "rss",
+        "hacker-news"
       ]
     },
     {
@@ -188,7 +190,7 @@
       "topic": "ai",
       "publishedAt": "Wed, 11 Nov 2026 18:00:00 +0000",
       "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "score": 2.33,
+      "score": 2.23,
       "tags": [
         "ai",
         "official",
@@ -197,13 +199,29 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/hiroshi-yoshimura-quiet-forest/",
-      "title": "Quiet Forest",
-      "url": "https://pitchfork.com/reviews/albums/hiroshi-yoshimura-quiet-forest/",
+      "id": "nme music news:https://www.nme.com/news/music/travis-barker-cynthia-erivo-in-the-air-tonight-phil-collins-rock-roll-hall-fame-3976002",
+      "title": "Watch Travis Barker and Cynthia Erivo perform 'In The Air Tonight' as Phil Collins tells Rock & Roll Hall Of Fame: \"You haven't heard the last of me\"",
+      "url": "https://www.nme.com/news/music/travis-barker-cynthia-erivo-in-the-air-tonight-phil-collins-rock-roll-hall-fame-3976002",
+      "source": "NME Music News",
+      "topic": "music",
+      "publishedAt": "Sun, 15 Nov 2026 14:39:54 +0000",
+      "summary": "The former Genesis frontman became a two-time inductee at an emotional ceremony in Los Angeles, where he received a standing ovation The post Watch Travis Barker and Cynthia Erivo perform 'In The Air Tonight' as Phil Collins tells Rock & Roll Hall Of Fame: \"You haven't heard the last of me\" appeared first on NME .",
+      "score": 1.93,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "nme"
+      ]
+    },
+    {
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/pearl-jam-yield/",
+      "title": "Yield",
+      "url": "https://pitchfork.com/reviews/albums/pearl-jam-yield/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Sat, 14 Nov 2026 05:00:00 +0000",
-      "summary": "Inspired by a visit to the Pacific Northwest, this 1996 record was the final album-length work released during the composer's lifetime; it offers a rare glimpse of his most playful side.",
+      "publishedAt": "Sun, 15 Nov 2026 05:00:00 +0000",
+      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the outspoken grunge icons' daring and emotionally complicated fifth album, a test of faith after a series of controversies, tragedies, and failures.",
       "score": 1.9,
       "tags": [
         "music",
@@ -226,22 +244,6 @@
         "albums",
         "rss",
         "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/kate-nash-lose-16000-current-tour-keeps-afloat-onlyfans-money-3975948",
-      "title": "Kate Nash to lose $16,000 from current tour as she keeps afloat with OnlyFans money",
-      "url": "https://www.nme.com/news/music/kate-nash-lose-16000-current-tour-keeps-afloat-onlyfans-money-3975948",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Sat, 14 Nov 2026 11:37:51 +0000",
-      "summary": "\"The doors are quickly closing on who can access a career in music\" The post Kate Nash to lose $16,000 from current tour as she keeps afloat with OnlyFans money appeared first on NME .",
-      "score": 1.73,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
       ]
     }
   ]
