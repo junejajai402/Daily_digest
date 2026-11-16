@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-15",
-  "builtAt": "2026-11-15T18:49:48.235Z",
-  "lastAttemptedAt": "2026-11-15T18:49:47.782Z",
+  "digestId": "2026-11-16",
+  "builtAt": "2026-11-16T21:59:39.055Z",
+  "lastAttemptedAt": "2026-11-16T21:59:35.753Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 101,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,13 +18,27 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33496",
-      "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
-      "url": "https://isc.sans.edu/diary/rss/33496",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "title": "Usable Security at Luxury Hotels",
+      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-16T12:05:18Z",
+      "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why \"just don't click on links\" is bad advice. It can't work when answering strangers' emails is the job. Even worse, in this case...",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33522",
+      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33522",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Sun, 15 Nov 2026 18:17:27 GMT",
-      "summary": "YARA-X's 1.23.0 release brings 4 improvements and 16 bugfixes.",
+      "publishedAt": "Mon, 16 Nov 2026 13:11:04 GMT",
+      "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
       "score": 2.65,
       "tags": [
         "security",
@@ -76,26 +90,27 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
-      "title": "AI Doesn't Have to Go Rogue to Break the World",
-      "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-13T12:03:44Z",
-      "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop . I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two...",
-      "score": 2.4,
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+      "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+      "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Mon, 16 Nov 2026 11:30:35 GMT",
+      "summary": "CEO ousted after affair with suspected Chinese spy reportedly plans comeback, but US treasury secretary urges 'dramatic shake-up' Megaspeed says it's a 'legitimate and lawful business' Business live - latest updates Elon Musk and a host of other tech bosses have called for Jensen Huang's reinstatement at Nvidia, amid reports the former chief executive is...",
+      "score": 2.35,
       "tags": [
-        "security",
-        "feed"
+        "tech",
+        "rss",
+        "guardian"
       ]
     },
     {
-      "id": "hacker news:https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "title": "All AI-generated code should be Open Source",
-      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "id": "hacker news:https://www.spamhaus.org/sender-guidelines/",
+      "title": "Spamhaus new email sender requirements in November",
+      "url": "https://www.spamhaus.org/sender-guidelines/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 15 Nov 2026 14:46:58 +0000",
+      "publishedAt": "Mon, 16 Nov 2026 21:47:19 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -106,13 +121,27 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
-      "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
-      "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=rss&amp;at_campaign=rss",
+      "title": "GTA 6 hacker pleads guilty after release from secure hospital",
+      "url": "https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Mon, 16 Nov 2026 13:34:22 GMT",
+      "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
+      "title": "Albanese signs on to Trump's AI supply chain pact before leaders' meeting at Quad summit",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sun, 15 Nov 2026 08:56:11 GMT",
-      "summary": "Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea's national exam for aspiring tax accountants this year seemed too good to be true. On Sunday, sceptics were ⁠proven right when he ⁠confessed to ​using generative AI to cheat. The scandal has...",
+      "publishedAt": "Mon, 16 Nov 2026 21:00:21 GMT",
+      "summary": "Quad leaders' summit in Philippines is Trump's first, as Australia joins US and Japan to protect AI technologies in face of China's efforts to dominate Get our daily political email , free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the two leaders meet on Tuesday, as Australia...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -121,14 +150,14 @@
       ]
     },
     {
-      "id": "hacker news:https://www.youtube.com/watch?v=7_jf3etiav8",
-      "title": "A short explainer on how El Niño works [video]",
-      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+      "id": "hacker news:https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
+      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 15 Nov 2026 18:23:21 +0000",
+      "publishedAt": "Mon, 16 Nov 2026 18:31:30 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -137,44 +166,14 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Even Grand Theft Auto's original creators haven't been able to play GTA 6",
-      "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Sat, 14 Nov 2026 00:37:01 GMT",
-      "summary": "The next title in the series is expected to be the biggest video game release ever.",
-      "score": 1.9000000000000001,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
-      "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
-      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sun, 15 Nov 2026 17:53:31 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "openai news:https://openai.com/business/customer-stories/amplitude",
-      "title": "How Amplitude ships product improvements in 1-2 days with OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
+      "id": "openai news:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Thu, 12 Nov 2026 20:00:00 GMT",
-      "summary": "Built primarily on OpenAI models, Amplitude's proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "score": 2.5700000000000003,
+      "publishedAt": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "summary": "We're expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "score": 2.62,
       "tags": [
         "ai",
         "official",
@@ -183,29 +182,29 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "source": "Google AI",
+      "id": "openai news:https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Wed, 11 Nov 2026 18:00:00 +0000",
-      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "score": 2.23,
+      "publishedAt": "Mon, 16 Nov 2026 08:00:00 GMT",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "score": 2.52,
       "tags": [
         "ai",
         "official",
-        "google",
+        "openai",
         "rss"
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/travis-barker-cynthia-erivo-in-the-air-tonight-phil-collins-rock-roll-hall-fame-3976002",
-      "title": "Watch Travis Barker and Cynthia Erivo perform 'In The Air Tonight' as Phil Collins tells Rock & Roll Hall Of Fame: \"You haven't heard the last of me\"",
-      "url": "https://www.nme.com/news/music/travis-barker-cynthia-erivo-in-the-air-tonight-phil-collins-rock-roll-hall-fame-3976002",
+      "id": "nme music news:https://www.nme.com/news/music/watch-u2-surprise-opening-performance-2026-rock-roll-hall-of-fame-ceremony-3976104",
+      "title": "Watch U2's surprise opening performance to kick off 2026 Rock & Roll Hall of Fame induction ceremony",
+      "url": "https://www.nme.com/news/music/watch-u2-surprise-opening-performance-2026-rock-roll-hall-of-fame-ceremony-3976104",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Sun, 15 Nov 2026 14:39:54 +0000",
-      "summary": "The former Genesis frontman became a two-time inductee at an emotional ceremony in Los Angeles, where he received a standing ovation The post Watch Travis Barker and Cynthia Erivo perform 'In The Air Tonight' as Phil Collins tells Rock & Roll Hall Of Fame: \"You haven't heard the last of me\" appeared first on NME .",
+      "publishedAt": "Mon, 16 Nov 2026 13:43:40 +0000",
+      "summary": "They performed 'Pride (In the Name of Love)' and one new single from their recently released album 'Carnaval De Luz' The post Watch U2's surprise opening performance to kick off 2026 Rock & Roll Hall of Fame induction ceremony appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -215,13 +214,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/pearl-jam-yield/",
-      "title": "Yield",
-      "url": "https://pitchfork.com/reviews/albums/pearl-jam-yield/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/aesop-rock-blockhead-trouble-mountain/",
+      "title": "Trouble Mountain",
+      "url": "https://pitchfork.com/reviews/albums/aesop-rock-blockhead-trouble-mountain/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Sun, 15 Nov 2026 05:00:00 +0000",
-      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the outspoken grunge icons' daring and emotionally complicated fifth album, a test of faith after a series of controversies, tragedies, and failures.",
+      "publishedAt": "Mon, 16 Nov 2026 05:03:00 +0000",
+      "summary": "Aesop Rock is a maverick solo traveler in the craggy cartography of Blockhead's sample-rich beats on the duo's second full-length collaboration.",
       "score": 1.9,
       "tags": [
         "music",
@@ -238,7 +237,7 @@
       "topic": "music",
       "publishedAt": "Fri, 13 Nov 2026 05:03:00 +0000",
       "summary": "It's a marathon and the New York duo keeps the faith, delivering another lyrical masterclass over engrossing beats from the indie rap all-stars whose work they've cultivated.",
-      "score": 1.8,
+      "score": 1.7,
       "tags": [
         "music",
         "albums",
