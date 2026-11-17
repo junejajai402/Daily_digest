@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-16",
-  "builtAt": "2026-11-16T21:59:39.055Z",
-  "lastAttemptedAt": "2026-11-16T21:59:35.753Z",
+  "digestId": "2026-11-17",
+  "builtAt": "2026-11-17T20:53:22.464Z",
+  "lastAttemptedAt": "2026-11-17T20:53:21.915Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 102,
+    "dedupedItems": 103,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,13 +18,13 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
-      "title": "Usable Security at Luxury Hotels",
-      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+      "title": "Formal Verification of the Signal Protocol Using AI",
+      "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-16T12:05:18Z",
-      "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why \"just don't click on links\" is bad advice. It can't work when answering strangers' emails is the job. Even worse, in this case...",
+      "publishedAt": "2026-11-17T12:06:37Z",
+      "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or \"formally verify,\" a number of the Signal protocol's key cryptographic guaranteesa landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways....",
       "score": 2.65,
       "tags": [
         "security",
@@ -32,13 +32,13 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33522",
-      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33522",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33526",
+      "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33526",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Mon, 16 Nov 2026 13:11:04 GMT",
-      "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication [Horizon3]",
+      "publishedAt": "Tue, 17 Nov 2026 10:56:38 GMT",
+      "summary": "Iâve mentioned before in some of my diaries that it can be instructive to look at what appear to be âgenericâ phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past...",
       "score": 2.65,
       "tags": [
         "security",
@@ -76,13 +76,13 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
-      "title": "Upcoming Speaking Engagements",
-      "url": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "title": "Usable Security at Luxury Hotels",
+      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-14T17:02:46Z",
-      "summary": "This is a current list of where and when I am scheduled to speak: I'm speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026. I'm speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026. The list is maintained on this page .",
+      "publishedAt": "2026-11-16T12:05:18Z",
+      "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why \"just don't click on links\" is bad advice. It can't work when answering strangers' emails is the job. Even worse, in this case...",
       "score": 2.4,
       "tags": [
         "security",
@@ -90,27 +90,12 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
-      "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
-      "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Mon, 16 Nov 2026 11:30:35 GMT",
-      "summary": "CEO ousted after affair with suspected Chinese spy reportedly plans comeback, but US treasury secretary urges 'dramatic shake-up' Megaspeed says it's a 'legitimate and lawful business' Business live - latest updates Elon Musk and a host of other tech bosses have called for Jensen Huang's reinstatement at Nvidia, amid reports the former chief executive is...",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "hacker news:https://www.spamhaus.org/sender-guidelines/",
-      "title": "Spamhaus new email sender requirements in November",
-      "url": "https://www.spamhaus.org/sender-guidelines/",
+      "id": "hacker news:https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "title": "MAI Code 2 and Code 2 Flash",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 16 Nov 2026 21:47:19 +0000",
+      "publishedAt": "Tue, 17 Nov 2026 18:25:13 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -121,28 +106,14 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=rss&amp;at_campaign=rss",
-      "title": "GTA 6 hacker pleads guilty after release from secure hospital",
-      "url": "https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Mon, 16 Nov 2026 13:34:22 GMT",
-      "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
-      "title": "Albanese signs on to Trump's AI supply chain pact before leaders' meeting at Quad summit",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
+      "id": "the guardian tech:https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market",
+      "title": "Millionaire factory: Anthropic IPO set to fuel AI gold rush in London's high-end property market",
+      "url": "https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 16 Nov 2026 21:00:21 GMT",
-      "summary": "Quad leaders' summit in Philippines is Trump's first, as Australia joins US and Japan to protect AI technologies in face of China's efforts to dominate Get our daily political email , free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the two leaders meet on Tuesday, as Australia...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Tue, 17 Nov 2026 07:00:07 GMT",
+      "summary": "New tech wealth, amassed with remarkable speed, is now washing up on British shores Sporting hoodies and white trainers rather than the gilets of London's banker and lawyer class, tech bros can struggle to be taken seriously by the capital's luxury property agents. \"We worked with a young tech entrepreneur with a substantial budget, who agents assumed was...",
+      "score": 2.25,
       "tags": [
         "tech",
         "rss",
@@ -150,14 +121,28 @@
       ]
     },
     {
-      "id": "hacker news:https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-      "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
-      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=rss&amp;at_campaign=rss",
+      "title": "US government confirms investigation into tech firm Megaspeed",
+      "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Tue, 17 Nov 2026 11:17:32 GMT",
+      "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://phrack.org/issues/73/introduction_md",
+      "title": "Phrack 73 Released",
+      "url": "https://phrack.org/issues/73/introduction_md",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 16 Nov 2026 18:31:30 +0000",
+      "publishedAt": "Tue, 17 Nov 2026 18:31:25 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -166,14 +151,29 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "title": "Broadening access to AI for scientists",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+      "title": "California sues OpenAI over safety concerns after rogue agent hacking",
+      "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Mon, 16 Nov 2026 21:41:10 GMT",
+      "summary": "Lawsuit stems from earlier incident where tech company's products hacked into open-source platform Hugging Face California sued OpenAI on Monday, accusing the artificial intelligence titan of developing its technology without safety or the public's interest in mind. The lawsuit concerns an incident earlier this year where OpenAI agents - semi-autonomous AI...",
+      "score": 2.25,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/business/customer-stories/revolut",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Mon, 16 Nov 2026 17:00:00 GMT",
-      "summary": "We're expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "score": 2.62,
+      "publishedAt": "Mon, 16 Nov 2026 09:30:00 GMT",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30-60%, scale financial crime investigations, and innovate without compromising security.",
+      "score": 2.5700000000000003,
       "tags": [
         "ai",
         "official",
@@ -182,29 +182,29 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "title": "Our first phase of embedded assessments",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "source": "OpenAI News",
+      "id": "google ai:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Mon, 16 Nov 2026 08:00:00 GMT",
-      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "score": 2.52,
+      "publishedAt": "Tue, 17 Nov 2026 17:00:00 +0000",
+      "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+      "score": 2.3800000000000003,
       "tags": [
         "ai",
         "official",
-        "openai",
+        "google",
         "rss"
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/watch-u2-surprise-opening-performance-2026-rock-roll-hall-of-fame-ceremony-3976104",
-      "title": "Watch U2's surprise opening performance to kick off 2026 Rock & Roll Hall of Fame induction ceremony",
-      "url": "https://www.nme.com/news/music/watch-u2-surprise-opening-performance-2026-rock-roll-hall-of-fame-ceremony-3976104",
+      "id": "nme music news:https://www.nme.com/news/music/coldplays-chris-martin-and-jonny-buckland-announce-intimate-london-christmas-2026-charity-show-3976195",
+      "title": "Coldplay's Chris Martin and Jonny Buckland announce intimate London Christmas 2026 charity show",
+      "url": "https://www.nme.com/news/music/coldplays-chris-martin-and-jonny-buckland-announce-intimate-london-christmas-2026-charity-show-3976195",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Mon, 16 Nov 2026 13:43:40 +0000",
-      "summary": "They performed 'Pride (In the Name of Love)' and one new single from their recently released album 'Carnaval De Luz' The post Watch U2's surprise opening performance to kick off 2026 Rock & Roll Hall of Fame induction ceremony appeared first on NME .",
+      "publishedAt": "Tue, 17 Nov 2026 15:00:35 +0000",
+      "summary": "Tickets for the intimate show are available via a prize draw, and proceeds will be donated to Crisis and Choose Love The post Coldplay's Chris Martin and Jonny Buckland announce intimate London Christmas 2026 charity show appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -214,13 +214,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/aesop-rock-blockhead-trouble-mountain/",
-      "title": "Trouble Mountain",
-      "url": "https://pitchfork.com/reviews/albums/aesop-rock-blockhead-trouble-mountain/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/snoh-aalegra-legendary-love/",
+      "title": "Legendary Love",
+      "url": "https://pitchfork.com/reviews/albums/snoh-aalegra-legendary-love/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Mon, 16 Nov 2026 05:03:00 +0000",
-      "summary": "Aesop Rock is a maverick solo traveler in the craggy cartography of Blockhead's sample-rich beats on the duo's second full-length collaboration.",
+      "publishedAt": "Tue, 17 Nov 2026 05:03:00 +0000",
+      "summary": "On her most ambitious release yet, the Swedish Iranian R&B singer channels the Minneapolis sound in a set of slinky, decadent compositions about unfulfilled longing.",
       "score": 1.9,
       "tags": [
         "music",
