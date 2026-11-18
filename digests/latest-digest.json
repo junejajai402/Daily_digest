@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-17",
-  "builtAt": "2026-11-17T20:53:22.464Z",
-  "lastAttemptedAt": "2026-11-17T20:53:21.915Z",
+  "digestId": "2026-11-18",
+  "builtAt": "2026-11-18T20:29:04.084Z",
+  "lastAttemptedAt": "2026-11-18T20:29:03.748Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 103,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,43 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
-      "title": "Formal Verification of the Signal Protocol Using AI",
-      "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "title": "France Is Blaming Iran for the Fridge Cyberattack",
+      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-17T12:06:37Z",
-      "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or \"formally verify,\" a number of the Signal protocol's key cryptographic guaranteesa landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways....",
+      "publishedAt": "2026-11-18T12:06:34Z",
+      "summary": "Interesting : U.S. intelligence agencies have recently reached a \"\"ow confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
       "score": 2.65,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33526",
-      "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
-      "url": "https://isc.sans.edu/diary/rss/33526",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 17 Nov 2026 10:56:38 GMT",
-      "summary": "Iâve mentioned before in some of my diaries that it can be instructive to look at what appear to be âgenericâ phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past...",
-      "score": 2.65,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
-      "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
-      "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-11T12:06:21Z",
-      "summary": "It's hard to believe how lucrative this crime can be: According to a press release from the United States attorney's office for the southern district of New York, three men Jacob Soall, Sharon Hazan, and Guy Sheetrit were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to...",
-      "score": 2.5,
       "tags": [
         "security",
         "feed"
@@ -76,13 +47,42 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
-      "title": "Usable Security at Luxury Hotels",
-      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+      "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+      "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-16T12:05:18Z",
-      "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why \"just don't click on links\" is bad advice. It can't work when answering strangers' emails is the job. Even worse, in this case...",
+      "publishedAt": "2026-11-11T12:06:21Z",
+      "summary": "It's hard to believe how lucrative this crime can be: According to a press release from the United States attorney's office for the southern district of New York, three men Jacob Soall, Sharon Hazan, and Guy Sheetrit were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to...",
+      "score": 2.5,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33532",
+      "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33532",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Wed, 18 Nov 2026 19:54:50 GMT",
+      "summary": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and events that may also have scored high enough to trigger an Infocon \"Yellow\" [infocon]. In the last few days, we had a...",
+      "score": 2.45,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+      "title": "Formal Verification of the Signal Protocol Using AI",
+      "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-17T12:06:37Z",
+      "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or \"formally verify,\" a number of the Signal protocol's key cryptographic guaranteesa landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways....",
       "score": 2.4,
       "tags": [
         "security",
@@ -90,14 +90,14 @@
       ]
     },
     {
-      "id": "hacker news:https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-      "title": "MAI Code 2 and Code 2 Flash",
-      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "id": "hacker news:https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Tue, 17 Nov 2026 18:25:13 +0000",
+      "publishedAt": "Wed, 18 Nov 2026 15:49:34 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.5,
       "tags": [
         "tech",
         "community",
@@ -106,14 +106,28 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market",
-      "title": "Millionaire factory: Anthropic IPO set to fuel AI gold rush in London's high-end property market",
-      "url": "https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Security flaw found in Java, world's third-largest programming language",
+      "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Wed, 18 Nov 2026 08:47:06 GMT",
+      "summary": "The same tech start-up that discovered a PHP flaw used AI to uncover a critical software bug in one of the world's most popular computer language programs.",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
+      "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Tue, 17 Nov 2026 07:00:07 GMT",
-      "summary": "New tech wealth, amassed with remarkable speed, is now washing up on British shores Sporting hoodies and white trainers rather than the gilets of London's banker and lawyer class, tech bros can struggle to be taken seriously by the capital's luxury property agents. \"We worked with a young tech entrepreneur with a substantial budget, who agents assumed was...",
-      "score": 2.25,
+      "publishedAt": "Wed, 18 Nov 2026 17:25:00 GMT",
+      "summary": "As Democrats flag AI bank breaches and cyber-attacks in Japan, Jay Clayton says system failures happen US politics live - latest updates A bipartisan pair of US senators are calling on Jay Clayton, the director of national intelligence and AI czar, to identify and fix vulnerabilities in the US's infrastructure following nationwide outages at major...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -121,13 +135,29 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=rss&amp;at_campaign=rss",
-      "title": "US government confirms investigation into tech firm Megaspeed",
-      "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+      "id": "hacker news:https://openai.com/index/advancing-chip-design-with-our-models/",
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Wed, 18 Nov 2026 17:45:47 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.5,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=rss&amp;at_campaign=rss",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Tue, 17 Nov 2026 11:17:32 GMT",
-      "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
+      "publishedAt": "Wed, 18 Nov 2026 13:55:14 GMT",
+      "summary": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -135,45 +165,14 @@
       ]
     },
     {
-      "id": "hacker news:https://phrack.org/issues/73/introduction_md",
-      "title": "Phrack 73 Released",
-      "url": "https://phrack.org/issues/73/introduction_md",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Tue, 17 Nov 2026 18:31:25 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
-      "title": "California sues OpenAI over safety concerns after rogue agent hacking",
-      "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Mon, 16 Nov 2026 21:41:10 GMT",
-      "summary": "Lawsuit stems from earlier incident where tech company's products hacked into open-source platform Hugging Face California sued OpenAI on Monday, accusing the artificial intelligence titan of developing its technology without safety or the public's interest in mind. The lawsuit concerns an incident earlier this year where OpenAI agents - semi-autonomous AI...",
-      "score": 2.25,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
-      ]
-    },
-    {
-      "id": "openai news:https://openai.com/business/customer-stories/revolut",
-      "title": "How Revolut raises ambition without lowering the bar",
-      "url": "https://openai.com/business/customer-stories/revolut",
+      "id": "openai news:https://openai.com/index/managing-frontier-ai-risk",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Mon, 16 Nov 2026 09:30:00 GMT",
-      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30-60%, scale financial crime investigations, and innovate without compromising security.",
-      "score": 2.5700000000000003,
+      "publishedAt": "Wed, 18 Nov 2026 06:00:00 GMT",
+      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "score": 2.52,
       "tags": [
         "ai",
         "official",
@@ -182,13 +181,13 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "title": "Put Gemini to work for you",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "id": "google ai:https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Tue, 17 Nov 2026 17:00:00 +0000",
-      "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+      "publishedAt": "Wed, 18 Nov 2026 17:00:00 +0000",
+      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
       "score": 2.3800000000000003,
       "tags": [
         "ai",
@@ -198,13 +197,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/coldplays-chris-martin-and-jonny-buckland-announce-intimate-london-christmas-2026-charity-show-3976195",
-      "title": "Coldplay's Chris Martin and Jonny Buckland announce intimate London Christmas 2026 charity show",
-      "url": "https://www.nme.com/news/music/coldplays-chris-martin-and-jonny-buckland-announce-intimate-london-christmas-2026-charity-show-3976195",
+      "id": "nme music news:https://www.nme.com/news/music/james-blunt-legally-changes-name-to-ryan-air-after-scoring-number-one-album-3976308",
+      "title": "James Blunt legally changes name to 'Ryan Air' after scoring Number One album",
+      "url": "https://www.nme.com/news/music/james-blunt-legally-changes-name-to-ryan-air-after-scoring-number-one-album-3976308",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Tue, 17 Nov 2026 15:00:35 +0000",
-      "summary": "Tickets for the intimate show are available via a prize draw, and proceeds will be donated to Crisis and Choose Love The post Coldplay's Chris Martin and Jonny Buckland announce intimate London Christmas 2026 charity show appeared first on NME .",
+      "publishedAt": "Wed, 18 Nov 2026 11:03:27 +0000",
+      "summary": "\"This cost me £53.05\" The post James Blunt legally changes name to 'Ryan Air' after scoring Number One album appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -214,13 +213,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/snoh-aalegra-legendary-love/",
-      "title": "Legendary Love",
-      "url": "https://pitchfork.com/reviews/albums/snoh-aalegra-legendary-love/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/anna-butterss-john-raymond-ben-lumsdaine-beginningless/",
+      "title": "Beginningless",
+      "url": "https://pitchfork.com/reviews/anna-butterss-john-raymond-ben-lumsdaine-beginningless/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Tue, 17 Nov 2026 05:03:00 +0000",
-      "summary": "On her most ambitious release yet, the Swedish Iranian R&B singer channels the Minneapolis sound in a set of slinky, decadent compositions about unfulfilled longing.",
+      "publishedAt": "Wed, 18 Nov 2026 05:01:00 +0000",
+      "summary": "A group with ties to SML and Jeff Parker's ETA IVtet puts an atmospheric spin on the classic bass/drums/horn trio format, using subtle electronic detailing to play up the music's shifting textures.",
       "score": 1.9,
       "tags": [
         "music",
@@ -230,19 +229,19 @@
       ]
     },
     {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
-      "title": "Snakes & Ladders",
-      "url": "https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
-      "source": "Pitchfork Best New Albums",
+      "id": "npr music news:https://www.npr.org/2026/11/18/nx-s1-6044772/data-center-debt-deals-investment",
+      "title": "Two ways big bets on data centers might affect you (Two Indicators)",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6044772/data-center-debt-deals-investment",
+      "source": "NPR Music News",
       "topic": "music",
-      "publishedAt": "Fri, 13 Nov 2026 05:03:00 +0000",
-      "summary": "It's a marathon and the New York duo keeps the faith, delivering another lyrical masterclass over engrossing beats from the indie rap all-stars whose work they've cultivated.",
-      "score": 1.7,
+      "publishedAt": "Wed, 18 Nov 2026 08:00:00 +0000",
+      "summary": "Your money might be fueling the AI boom ... just as some AI data center bets are starting to look riskier. If you own stocks, that money is likely tied up in giant tech companies like Microsoft and Nvidia. And if your 401(k) has money invested in the US bond fund, you might be lending tech companies the money to build data centers. Today on the show, two...",
+      "score": 1.8699999999999999,
       "tags": [
         "music",
-        "albums",
+        "news",
         "rss",
-        "pitchfork"
+        "npr"
       ]
     }
   ]
