@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-18",
-  "builtAt": "2026-11-18T20:29:04.084Z",
-  "lastAttemptedAt": "2026-11-18T20:29:03.748Z",
+  "digestId": "2026-11-19",
+  "builtAt": "2026-11-19T20:33:39.040Z",
+  "lastAttemptedAt": "2026-11-19T20:33:38.467Z",
   "isStale": false,
   "counts": {
     "rawItems": 104,
-    "dedupedItems": 102,
+    "dedupedItems": 104,
     "digestItems": 15
   },
   "topicCounts": {
@@ -23,23 +23,23 @@
       "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-18T12:06:34Z",
-      "summary": "Interesting : U.S. intelligence agencies have recently reached a \"\"ow confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
-      "score": 2.65,
+      "publishedAt": "2026-11-19T03:15:04Z",
+      "summary": "Interesting : U.S. intelligence agencies have recently reached a \"low confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
+      "score": 2.55,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33514",
-      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-      "url": "https://isc.sans.edu/diary/rss/33514",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33534",
+      "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33534",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Thu, 12 Nov 2026 11:56:24 GMT",
-      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the...",
-      "score": 2.5,
+      "publishedAt": "Thu, 19 Nov 2026 01:53:48 GMT",
+      "summary": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
+      "score": 2.55,
       "tags": [
         "security",
         "rss",
@@ -61,14 +61,14 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33532",
-      "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33532",
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33526",
+      "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33526",
       "source": "SANS ISC",
       "topic": "security",
-      "publishedAt": "Wed, 18 Nov 2026 19:54:50 GMT",
-      "summary": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and events that may also have scored high enough to trigger an Infocon \"Yellow\" [infocon]. In the last few days, we had a...",
-      "score": 2.45,
+      "publishedAt": "Tue, 17 Nov 2026 10:56:38 GMT",
+      "summary": "Iâve mentioned before in some of my diaries that it can be instructive to look at what appear to be âgenericâ phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past...",
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -90,43 +90,13 @@
       ]
     },
     {
-      "id": "hacker news:https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-      "title": "AI agents ask better questions than KPMG accountants in audit trial",
-      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Wed, 18 Nov 2026 15:49:34 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Security flaw found in Java, world's third-largest programming language",
-      "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Wed, 18 Nov 2026 08:47:06 GMT",
-      "summary": "The same tech start-up that discovered a PHP flaw used AI to uncover a critical software bug in one of the world's most popular computer language programs.",
-      "score": 2.35,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
-      "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
-      "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
+      "id": "the guardian tech:https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
+      "title": "AI demand will push up interest rates around the world, IMF head warns",
+      "url": "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Wed, 18 Nov 2026 17:25:00 GMT",
-      "summary": "As Democrats flag AI bank breaches and cyber-attacks in Japan, Jay Clayton says system failures happen US politics live - latest updates A bipartisan pair of US senators are calling on Jay Clayton, the director of national intelligence and AI czar, to identify and fix vulnerabilities in the US's infrastructure following nationwide outages at major...",
+      "publishedAt": "Thu, 19 Nov 2026 15:15:14 GMT",
+      "summary": "Kristalina Georgieva says countries needed to be ready for tech rollout, adding: 'You snooze, you lose' Business live - latest updates Booming demand for artificial intelligence will force the world's most powerful central banks to raise interest rates, the head of the International Monetary Fund (IMF) has warned. Kristalina Georgieva, the managing...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -135,14 +105,14 @@
       ]
     },
     {
-      "id": "hacker news:https://openai.com/index/advancing-chip-design-with-our-models/",
-      "title": "Advancing chip design with OpenAI models",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "id": "hacker news:https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Wed, 18 Nov 2026 17:45:47 +0000",
+      "publishedAt": "Thu, 19 Nov 2026 18:35:17 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.5,
+      "score": 2.3000000000000003,
       "tags": [
         "tech",
         "community",
@@ -151,13 +121,13 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=rss&amp;at_campaign=rss",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Dutch watchdog tells people not to buy AI smart glasses",
+      "url": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Wed, 18 Nov 2026 13:55:14 GMT",
-      "summary": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
+      "publishedAt": "Thu, 19 Nov 2026 16:33:17 GMT",
+      "summary": "Tests of glasses showed some misread medicine instructions or pretended to have called an ambulance",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -165,30 +135,44 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/managing-frontier-ai-risk",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Wed, 18 Nov 2026 06:00:00 GMT",
-      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "score": 2.52,
+      "id": "hacker news:https://www.youtube.com/watch?v=lwfewyl7x0o",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Thu, 19 Nov 2026 18:47:16 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
       "tags": [
-        "ai",
-        "official",
-        "openai",
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Thu, 19 Nov 2026 15:58:58 GMT",
+      "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
         "rss"
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Wed, 18 Nov 2026 17:00:00 +0000",
-      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-      "score": 2.3800000000000003,
+      "publishedAt": "Thu, 19 Nov 2026 18:00:00 +0000",
+      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "score": 2.58,
       "tags": [
         "ai",
         "official",
@@ -197,13 +181,29 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/james-blunt-legally-changes-name-to-ryan-air-after-scoring-number-one-album-3976308",
-      "title": "James Blunt legally changes name to 'Ryan Air' after scoring Number One album",
-      "url": "https://www.nme.com/news/music/james-blunt-legally-changes-name-to-ryan-air-after-scoring-number-one-album-3976308",
+      "id": "openai news:https://openai.com/index/research-acceleration-jagged-frontier",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "score": 2.37,
+      "tags": [
+        "ai",
+        "official",
+        "openai",
+        "rss"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/chvrches-release-new-single-evil-announce-uk-album-launch-shows-buy-tickets-3976473",
+      "title": "Chvrches share tongue-in-cheek new single 'Evil' and announce UK album launch shows in churches",
+      "url": "https://www.nme.com/news/music/chvrches-release-new-single-evil-announce-uk-album-launch-shows-buy-tickets-3976473",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Wed, 18 Nov 2026 11:03:27 +0000",
-      "summary": "\"This cost me £53.05\" The post James Blunt legally changes name to 'Ryan Air' after scoring Number One album appeared first on NME .",
+      "publishedAt": "Thu, 19 Nov 2026 18:08:32 +0000",
+      "summary": "\"This song is sort of like taking the handbrake off the rage - leaning into all the things I wish I could say, with a wink and a smile,\" said Lauren Mayberry The post Chvrches share tongue-in-cheek new single 'Evil' and announce UK album launch shows in churches appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -213,13 +213,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/anna-butterss-john-raymond-ben-lumsdaine-beginningless/",
-      "title": "Beginningless",
-      "url": "https://pitchfork.com/reviews/anna-butterss-john-raymond-ben-lumsdaine-beginningless/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/ecco2k-echo/",
+      "title": "Echo",
+      "url": "https://pitchfork.com/reviews/albums/ecco2k-echo/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Wed, 18 Nov 2026 05:01:00 +0000",
-      "summary": "A group with ties to SML and Jeff Parker's ETA IVtet puts an atmospheric spin on the classic bass/drums/horn trio format, using subtle electronic detailing to play up the music's shifting textures.",
+      "publishedAt": "Thu, 19 Nov 2026 05:03:00 +0000",
+      "summary": "On his first new album in seven years, Drain Gang's Ecco2k collects field recordings and cloudgazing synth-rap, venturing through watery textures and fog in search of elusive connection.",
       "score": 1.9,
       "tags": [
         "music",
@@ -236,7 +236,7 @@
       "topic": "music",
       "publishedAt": "Wed, 18 Nov 2026 08:00:00 +0000",
       "summary": "Your money might be fueling the AI boom ... just as some AI data center bets are starting to look riskier. If you own stocks, that money is likely tied up in giant tech companies like Microsoft and Nvidia. And if your 401(k) has money invested in the US bond fund, you might be lending tech companies the money to build data centers. Today on the show, two...",
-      "score": 1.8699999999999999,
+      "score": 1.72,
       "tags": [
         "music",
         "news",
