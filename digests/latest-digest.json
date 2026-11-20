@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-19",
-  "builtAt": "2026-11-19T20:33:39.040Z",
-  "lastAttemptedAt": "2026-11-19T20:33:38.467Z",
+  "digestId": "2026-11-20",
+  "builtAt": "2026-11-20T20:13:37.142Z",
+  "lastAttemptedAt": "2026-11-20T20:13:36.466Z",
   "isStale": false,
   "counts": {
-    "rawItems": 104,
-    "dedupedItems": 104,
+    "rawItems": 103,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
-      "title": "France Is Blaming Iran for the Fridge Cyberattack",
-      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
+      "title": "Opening a 400-Year-Old Cryptex",
+      "url": "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-19T03:15:04Z",
-      "summary": "Interesting : U.S. intelligence agencies have recently reached a \"low confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
-      "score": 2.55,
+      "publishedAt": "2026-11-20T12:04:54Z",
+      "summary": "Researchers used CT scanning technology to recover the code and open a 400-year-old cryptex padlock. You can buy a USB-drive cryptex .",
+      "score": 2.45,
       "tags": [
         "security",
         "feed"
@@ -39,7 +39,7 @@
       "topic": "security",
       "publishedAt": "Thu, 19 Nov 2026 01:53:48 GMT",
       "summary": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
-      "score": 2.55,
+      "score": 2.4,
       "tags": [
         "security",
         "rss",
@@ -47,14 +47,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
-      "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
-      "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "title": "France Is Blaming Iran for the Fridge Cyberattack",
+      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-11T12:06:21Z",
-      "summary": "It's hard to believe how lucrative this crime can be: According to a press release from the United States attorney's office for the southern district of New York, three men Jacob Soall, Sharon Hazan, and Guy Sheetrit were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to...",
-      "score": 2.5,
+      "publishedAt": "2026-11-19T03:15:04Z",
+      "summary": "Interesting : U.S. intelligence agencies have recently reached a \"low confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
+      "score": 2.4,
       "tags": [
         "security",
         "feed"
@@ -68,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Tue, 17 Nov 2026 10:56:38 GMT",
       "summary": "Iâve mentioned before in some of my diaries that it can be instructive to look at what appear to be âgenericâ phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past...",
-      "score": 2.4,
+      "score": 2.3,
       "tags": [
         "security",
         "rss",
@@ -83,20 +83,20 @@
       "topic": "security",
       "publishedAt": "2026-11-17T12:06:37Z",
       "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or \"formally verify,\" a number of the Signal protocol's key cryptographic guaranteesa landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways....",
-      "score": 2.4,
+      "score": 2.3,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
-      "title": "AI demand will push up interest rates around the world, IMF head warns",
-      "url": "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
+      "id": "the guardian tech:https://www.theguardian.com/commentisfree/2026/nov/20/ai-internet-outages-apocalypse",
+      "title": "Will AI break the internet? | Garrison Lovely",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/20/ai-internet-outages-apocalypse",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 19 Nov 2026 15:15:14 GMT",
-      "summary": "Kristalina Georgieva says countries needed to be ready for tech rollout, adding: 'You snooze, you lose' Business live - latest updates Booming demand for artificial intelligence will force the world's most powerful central banks to raise interest rates, the head of the International Monetary Fund (IMF) has warned. Kristalina Georgieva, the managing...",
+      "publishedAt": "Fri, 20 Nov 2026 10:00:31 GMT",
+      "summary": "Frontier models can exploit software flaws faster than the world can fix them. And the risks extend far beyond the cyber realm You're not crazy to feel the world is coming apart at the seams. Within the last week, outages took down core services at Microsoft , United Airlines and JPMorgan Chase . On Friday, all US domestic departures were grounded for the...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -105,12 +105,12 @@
       ]
     },
     {
-      "id": "hacker news:https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
-      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
-      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+      "id": "hacker news:https://alpo.ge/remark.pdf",
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 19 Nov 2026 18:35:17 +0000",
+      "publishedAt": "Fri, 20 Nov 2026 14:16:21 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -121,13 +121,13 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Dutch watchdog tells people not to buy AI smart glasses",
-      "url": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=rss&amp;at_campaign=rss",
+      "title": "White House removes cyber-security chief after series of tech outages",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 19 Nov 2026 16:33:17 GMT",
-      "summary": "Tests of glasses showed some misread medicine instructions or pretended to have called an ambulance",
+      "publishedAt": "Fri, 20 Nov 2026 19:03:56 GMT",
+      "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -135,12 +135,12 @@
       ]
     },
     {
-      "id": "hacker news:https://www.youtube.com/watch?v=lwfewyl7x0o",
-      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
-      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "id": "hacker news:https://arxiv.org/abs/2611.21885",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 19 Nov 2026 18:47:16 +0000",
+      "publishedAt": "Fri, 20 Nov 2026 16:29:06 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -151,16 +151,32 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Anthropic raises $81bn in record-breaking stock market debut",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=rss&amp;at_campaign=rss",
+      "title": "GTA 6 drives spike in download demand, as estimated sales top $2.3bn",
+      "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Thu, 19 Nov 2026 15:58:58 GMT",
-      "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
+      "publishedAt": "Fri, 20 Nov 2026 13:08:30 GMT",
+      "summary": "Rockstar Games ended a 13-year wait with what is expected to be the biggest entertainment launch ever.",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "openai news:https://openai.com/index/combatting-adversarial-distillation",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI News",
+      "topic": "ai",
+      "publishedAt": "Fri, 20 Nov 2026 10:00:00 GMT",
+      "summary": "OpenAI's layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "score": 2.62,
+      "tags": [
+        "ai",
+        "official",
+        "openai",
         "rss"
       ]
     },
@@ -172,7 +188,7 @@
       "topic": "ai",
       "publishedAt": "Thu, 19 Nov 2026 18:00:00 +0000",
       "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "score": 2.58,
+      "score": 2.33,
       "tags": [
         "ai",
         "official",
@@ -181,29 +197,13 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/research-acceleration-jagged-frontier",
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "source": "OpenAI News",
-      "topic": "ai",
-      "publishedAt": "Wed, 18 Nov 2026 08:00:00 GMT",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "score": 2.37,
-      "tags": [
-        "ai",
-        "official",
-        "openai",
-        "rss"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/chvrches-release-new-single-evil-announce-uk-album-launch-shows-buy-tickets-3976473",
-      "title": "Chvrches share tongue-in-cheek new single 'Evil' and announce UK album launch shows in churches",
-      "url": "https://www.nme.com/news/music/chvrches-release-new-single-evil-announce-uk-album-launch-shows-buy-tickets-3976473",
+      "id": "nme music news:https://www.nme.com/news/music/music-venue-trust-and-fender-team-up-for-intimate-london-showcase-gig-with-unpeople-3976599",
+      "title": "Music Venue Trust and Fender team up for intimate London showcase gig with Unpeople",
+      "url": "https://www.nme.com/news/music/music-venue-trust-and-fender-team-up-for-intimate-london-showcase-gig-with-unpeople-3976599",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 19 Nov 2026 18:08:32 +0000",
-      "summary": "\"This song is sort of like taking the handbrake off the rage - leaning into all the things I wish I could say, with a wink and a smile,\" said Lauren Mayberry The post Chvrches share tongue-in-cheek new single 'Evil' and announce UK album launch shows in churches appeared first on NME .",
+      "publishedAt": "Fri, 20 Nov 2026 17:24:09 +0000",
+      "summary": "The venture aims to support the capital's grassroots music scene The post Music Venue Trust and Fender team up for intimate London showcase gig with Unpeople appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -213,13 +213,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/ecco2k-echo/",
-      "title": "Echo",
-      "url": "https://pitchfork.com/reviews/albums/ecco2k-echo/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/kim-deal-live-at-the-barbican/",
+      "title": "Live at the Barbican",
+      "url": "https://pitchfork.com/reviews/albums/kim-deal-live-at-the-barbican/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Thu, 19 Nov 2026 05:03:00 +0000",
-      "summary": "On his first new album in seven years, Drain Gang's Ecco2k collects field recordings and cloudgazing synth-rap, venturing through watery textures and fog in search of elusive connection.",
+      "publishedAt": "Fri, 20 Nov 2026 05:03:00 +0000",
+      "summary": "Two years after her long-awaited solo debut, the Pixes/Breeders/Amps singer-songwriter returns with an opulent concert album that pushes her abundant personality to the fore.",
       "score": 1.9,
       "tags": [
         "music",
