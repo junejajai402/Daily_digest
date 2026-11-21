@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-20",
-  "builtAt": "2026-11-20T20:13:37.142Z",
-  "lastAttemptedAt": "2026-11-20T20:13:36.466Z",
+  "digestId": "2026-11-21",
+  "builtAt": "2026-11-21T19:13:12.460Z",
+  "lastAttemptedAt": "2026-11-21T19:13:11.823Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 101,
+    "dedupedItems": 102,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
-      "title": "Opening a 400-Year-Old Cryptex",
-      "url": "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "title": "France Is Blaming Iran for the Fridge Cyberattack",
+      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-20T12:04:54Z",
-      "summary": "Researchers used CT scanning technology to recover the code and open a 400-year-old cryptex padlock. You can buy a USB-drive cryptex .",
-      "score": 2.45,
+      "publishedAt": "2026-11-19T03:15:04Z",
+      "summary": "Interesting : U.S. intelligence agencies have recently reached a \"low confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
+      "score": 2.4,
       "tags": [
         "security",
         "feed"
@@ -47,14 +47,14 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
-      "title": "France Is Blaming Iran for the Fridge Cyberattack",
-      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
+      "title": "Friday Squid Blogging: The Largest Squid Ever Filmed",
+      "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-19T03:15:04Z",
-      "summary": "Interesting : U.S. intelligence agencies have recently reached a \"low confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
-      "score": 2.4,
+      "publishedAt": "2026-11-20T22:04:30Z",
+      "summary": "This is the story of the largest squid ever filmed, in December 2006 near Japan's Ogasawara Islands. As usual, you can also use this squid post to talk about the security stories in the news that I haven't covered. Blog moderation policy.",
+      "score": 2.35,
       "tags": [
         "security",
         "feed"
@@ -90,14 +90,28 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/commentisfree/2026/nov/20/ai-internet-outages-apocalypse",
-      "title": "Will AI break the internet? | Garrison Lovely",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/20/ai-internet-outages-apocalypse",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Can AI really help spot Black Friday deals? We put it to the test",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Sat, 21 Nov 2026 00:06:11 GMT",
+      "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
+      "score": 2.25,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
+      "title": "'I was shaking, crying, having trouble breathing': the unchartered trauma of breaking up with AI companions",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Fri, 20 Nov 2026 10:00:31 GMT",
-      "summary": "Frontier models can exploit software flaws faster than the world can fix them. And the risks extend far beyond the cyber realm You're not crazy to feel the world is coming apart at the seams. Within the last week, outages took down core services at Microsoft , United Airlines and JPMorgan Chase . On Friday, all US domestic departures were grounded for the...",
-      "score": 2.35,
+      "publishedAt": "Sat, 21 Nov 2026 14:00:01 GMT",
+      "summary": "People are falling in love with AI systems like ChatGPT and Gemini - and some relationships are ending in ways that feel like the very human experience of being dumped Sónia Veenstra, a 48-year-old former clinical psychologist from Lisbon, Portugal, was with her boyfriend, Steve, for two years before things started to sour. Steve had started out as a \"fun...",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -105,14 +119,14 @@
       ]
     },
     {
-      "id": "hacker news:https://alpo.ge/remark.pdf",
-      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "url": "https://alpo.ge/remark.pdf",
+      "id": "hacker news:https://github.com/shinmegamiboson/lookatmyquant",
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 20 Nov 2026 14:16:21 +0000",
+      "publishedAt": "Sat, 21 Nov 2026 18:02:19 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -121,47 +135,34 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=rss&amp;at_campaign=rss",
-      "title": "White House removes cyber-security chief after series of tech outages",
-      "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Fri, 20 Nov 2026 19:03:56 GMT",
-      "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
+      "publishedAt": "Sat, 21 Nov 2026 16:39:49 GMT",
+      "summary": "Levent Alpöge says it took six weeks for him using the AI tool to solve the math problem involving prime numbers A mathematician at Anthropic is contending that the San Francisco -based artificial intelligence (AI) company's software has helped crack one of the most important unsolved problems in mathematics. Levent Alpöge, a Turkish American...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
-        "rss"
+        "rss",
+        "guardian"
       ]
     },
     {
-      "id": "hacker news:https://arxiv.org/abs/2611.21885",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "url": "https://arxiv.org/abs/2611.21885",
+      "id": "hacker news:https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "title": "Detonating a pile of lead azide",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Fri, 20 Nov 2026 16:29:06 +0000",
+      "publishedAt": "Sat, 21 Nov 2026 13:23:14 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
         "rss",
         "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=rss&amp;at_campaign=rss",
-      "title": "GTA 6 drives spike in download demand, as estimated sales top $2.3bn",
-      "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Fri, 20 Nov 2026 13:08:30 GMT",
-      "summary": "Rockstar Games ended a 13-year wait with what is expected to be the biggest entertainment launch ever.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
       ]
     },
     {
@@ -172,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Fri, 20 Nov 2026 10:00:00 GMT",
       "summary": "OpenAI's layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "score": 2.62,
+      "score": 2.37,
       "tags": [
         "ai",
         "official",
@@ -197,13 +198,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/music-venue-trust-and-fender-team-up-for-intimate-london-showcase-gig-with-unpeople-3976599",
-      "title": "Music Venue Trust and Fender team up for intimate London showcase gig with Unpeople",
-      "url": "https://www.nme.com/news/music/music-venue-trust-and-fender-team-up-for-intimate-london-showcase-gig-with-unpeople-3976599",
+      "id": "nme music news:https://www.nme.com/news/music/r-e-m-s-michael-stipe-shares-timeline-for-debut-solo-album-release-and-plans-for-the-future-i-already-have-ideas-about-what-i-want-to-do-next-3976636",
+      "title": "R.E.M.'s Michael Stipe shares timeline for debut solo album release and plans for the future: \"I already have ideas about what I want to do next\"",
+      "url": "https://www.nme.com/news/music/r-e-m-s-michael-stipe-shares-timeline-for-debut-solo-album-release-and-plans-for-the-future-i-already-have-ideas-about-what-i-want-to-do-next-3976636",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Fri, 20 Nov 2026 17:24:09 +0000",
-      "summary": "The venture aims to support the capital's grassroots music scene The post Music Venue Trust and Fender team up for intimate London showcase gig with Unpeople appeared first on NME .",
+      "publishedAt": "Sat, 21 Nov 2026 12:42:07 +0000",
+      "summary": "It comes as R.E.M.'s 2001 album 'Reveal' celebrates its 25th anniversary The post R.E.M.'s Michael Stipe shares timeline for debut solo album release and plans for the future: \"I already have ideas about what I want to do next\" appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -213,13 +214,13 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/kim-deal-live-at-the-barbican/",
-      "title": "Live at the Barbican",
-      "url": "https://pitchfork.com/reviews/albums/kim-deal-live-at-the-barbican/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/rem-reveal-25th-anniversary-edition/",
+      "title": "Reveal (25th Anniversary Edition)",
+      "url": "https://pitchfork.com/reviews/albums/rem-reveal-25th-anniversary-edition/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Fri, 20 Nov 2026 05:03:00 +0000",
-      "summary": "Two years after her long-awaited solo debut, the Pixes/Breeders/Amps singer-songwriter returns with an opulent concert album that pushes her abundant personality to the fore.",
+      "publishedAt": "Sat, 21 Nov 2026 05:00:00 +0000",
+      "summary": "The rock band's sunny synth-pop pivot remains an undersung gem. On a new reissue, it also feels like a touchstone for the sound of indie-pop in the 21st century.",
       "score": 1.9,
       "tags": [
         "music",
@@ -229,19 +230,19 @@
       ]
     },
     {
-      "id": "npr music news:https://www.npr.org/2026/11/18/nx-s1-6044772/data-center-debt-deals-investment",
-      "title": "Two ways big bets on data centers might affect you (Two Indicators)",
-      "url": "https://www.npr.org/2026/11/18/nx-s1-6044772/data-center-debt-deals-investment",
-      "source": "NPR Music News",
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
+      "title": "Snakes & Ladders",
+      "url": "https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
+      "source": "Pitchfork Best New Albums",
       "topic": "music",
-      "publishedAt": "Wed, 18 Nov 2026 08:00:00 +0000",
-      "summary": "Your money might be fueling the AI boom ... just as some AI data center bets are starting to look riskier. If you own stocks, that money is likely tied up in giant tech companies like Microsoft and Nvidia. And if your 401(k) has money invested in the US bond fund, you might be lending tech companies the money to build data centers. Today on the show, two...",
-      "score": 1.72,
+      "publishedAt": "Fri, 13 Nov 2026 05:03:00 +0000",
+      "summary": "It's a marathon and the New York duo keeps the faith, delivering another lyrical masterclass over engrossing beats from the indie rap all-stars whose work they've cultivated.",
+      "score": 1.7,
       "tags": [
         "music",
-        "news",
+        "albums",
         "rss",
-        "npr"
+        "pitchfork"
       ]
     }
   ]
