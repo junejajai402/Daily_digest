@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-21",
-  "builtAt": "2026-11-21T19:13:12.460Z",
-  "lastAttemptedAt": "2026-11-21T19:13:11.823Z",
+  "digestId": "2026-11-22",
+  "builtAt": "2026-11-22T19:36:34.055Z",
+  "lastAttemptedAt": "2026-11-22T19:36:32.806Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
@@ -18,6 +18,21 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33530",
+      "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33530",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Sun, 22 Nov 2026 18:40:18 GMT",
+      "summary": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
+      "score": 2.45,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
       "title": "France Is Blaming Iran for the Fridge Cyberattack",
       "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
@@ -25,54 +40,10 @@
       "topic": "security",
       "publishedAt": "2026-11-19T03:15:04Z",
       "summary": "Interesting : U.S. intelligence agencies have recently reached a \"low confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
-      "score": 2.4,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33534",
-      "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33534",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Thu, 19 Nov 2026 01:53:48 GMT",
-      "summary": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
-      "score": 2.4,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
-      "title": "Friday Squid Blogging: The Largest Squid Ever Filmed",
-      "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-20T22:04:30Z",
-      "summary": "This is the story of the largest squid ever filmed, in December 2006 near Japan's Ogasawara Islands. As usual, you can also use this squid post to talk about the security stories in the news that I haven't covered. Blog moderation policy.",
-      "score": 2.35,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33526",
-      "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
-      "url": "https://isc.sans.edu/diary/rss/33526",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 17 Nov 2026 10:56:38 GMT",
-      "summary": "Iâve mentioned before in some of my diaries that it can be instructive to look at what appear to be âgenericâ phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past...",
       "score": 2.3,
       "tags": [
         "security",
-        "rss",
-        "sans"
+        "feed"
       ]
     },
     {
@@ -90,27 +61,42 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Can AI really help spot Black Friday deals? We put it to the test",
-      "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Sat, 21 Nov 2026 00:06:11 GMT",
-      "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
-      "score": 2.25,
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33534",
+      "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33534",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Thu, 19 Nov 2026 01:53:48 GMT",
+      "summary": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
+      "score": 2.3,
       "tags": [
-        "tech",
-        "rss"
+        "security",
+        "rss",
+        "sans"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
-      "title": "'I was shaking, crying, having trouble breathing': the unchartered trauma of breaking up with AI companions",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "title": "Usable Security at Luxury Hotels",
+      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-16T12:05:18Z",
+      "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why \"just don't click on links\" is bad advice. It can't work when answering strangers' emails is the job. Even worse, in this case...",
+      "score": 2.3,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "title": "Two groups verify mathematician's claim that Claude helped prove mathematics problem",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 21 Nov 2026 14:00:01 GMT",
-      "summary": "People are falling in love with AI systems like ChatGPT and Gemini - and some relationships are ending in ways that feel like the very human experience of being dumped Sónia Veenstra, a 48-year-old former clinical psychologist from Lisbon, Portugal, was with her boyfriend, Steve, for two years before things started to sour. Steve had started out as a \"fun...",
+      "publishedAt": "Sun, 22 Nov 2026 17:55:27 GMT",
+      "summary": "Anthropic's Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco -based artificial intelligence (AI) company's software has helped crack one of the most important unsolved problems in mathematics - and experts say the claim checks out. Levent...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -119,12 +105,26 @@
       ]
     },
     {
-      "id": "hacker news:https://github.com/shinmegamiboson/lookatmyquant",
-      "title": "Inkling-2-Mini in 5.4 GB Memory",
-      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Can AI really help spot Black Friday deals? We put it to the test",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Sat, 21 Nov 2026 00:06:11 GMT",
+      "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
+      "score": 2.1,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/",
+      "title": "\"A government that 'gets it'\": Canada recommits to federal funding for news",
+      "url": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 21 Nov 2026 18:02:19 +0000",
+      "publishedAt": "Sun, 22 Nov 2026 19:10:38 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.1,
       "tags": [
@@ -135,13 +135,13 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
-      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
+      "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sat, 21 Nov 2026 16:39:49 GMT",
-      "summary": "Levent Alpöge says it took six weeks for him using the AI tool to solve the math problem involving prime numbers A mathematician at Anthropic is contending that the San Francisco -based artificial intelligence (AI) company's software has helped crack one of the most important unsolved problems in mathematics. Levent Alpöge, a Turkish American...",
+      "publishedAt": "Sun, 22 Nov 2026 19:00:34 GMT",
+      "summary": "Transparency International says Queensland's David Crisafulli was 'by far the most frequently accessed' state leader, with 13 meetings Get our breaking news email , free app or daily news podcast Bosses at 10 datacentre companies secured almost 120 meetings with premiers and ministers in five states over a three-year period, with experts declaring this is...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -150,12 +150,12 @@
       ]
     },
     {
-      "id": "hacker news:https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-      "title": "Detonating a pile of lead azide",
-      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "id": "hacker news:https://openai.com/index/perplexity-and-intelligence/",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sat, 21 Nov 2026 13:23:14 +0000",
+      "publishedAt": "Sun, 22 Nov 2026 17:06:27 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.1,
       "tags": [
@@ -189,28 +189,12 @@
       "topic": "ai",
       "publishedAt": "Thu, 19 Nov 2026 18:00:00 +0000",
       "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "score": 2.33,
+      "score": 2.23,
       "tags": [
         "ai",
         "official",
         "google",
         "rss"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/r-e-m-s-michael-stipe-shares-timeline-for-debut-solo-album-release-and-plans-for-the-future-i-already-have-ideas-about-what-i-want-to-do-next-3976636",
-      "title": "R.E.M.'s Michael Stipe shares timeline for debut solo album release and plans for the future: \"I already have ideas about what I want to do next\"",
-      "url": "https://www.nme.com/news/music/r-e-m-s-michael-stipe-shares-timeline-for-debut-solo-album-release-and-plans-for-the-future-i-already-have-ideas-about-what-i-want-to-do-next-3976636",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Sat, 21 Nov 2026 12:42:07 +0000",
-      "summary": "It comes as R.E.M.'s 2001 album 'Reveal' celebrates its 25th anniversary The post R.E.M.'s Michael Stipe shares timeline for debut solo album release and plans for the future: \"I already have ideas about what I want to do next\" appeared first on NME .",
-      "score": 1.93,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
       ]
     },
     {
@@ -221,12 +205,28 @@
       "topic": "music",
       "publishedAt": "Sat, 21 Nov 2026 05:00:00 +0000",
       "summary": "The rock band's sunny synth-pop pivot remains an undersung gem. On a new reissue, it also feels like a touchstone for the sound of indie-pop in the 21st century.",
-      "score": 1.9,
+      "score": 1.75,
       "tags": [
         "music",
         "reviews",
         "rss",
         "pitchfork"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/kelly-lee-owens-music-festival-wales-grassroots-venues-hometown-meltdown-3976656",
+      "title": "Kelly Lee Owens announces two-day music festival in Wales to celebrate grassroots venues as part of Hometown Meltdown",
+      "url": "https://www.nme.com/news/music/kelly-lee-owens-music-festival-wales-grassroots-venues-hometown-meltdown-3976656",
+      "source": "NME Music News",
+      "topic": "music",
+      "publishedAt": "Sun, 22 Nov 2026 11:38:10 +0000",
+      "summary": "The Welsh electronic musician will curate and perform at the inaugural event in Bethesda, with Gruff Rhys and a range of local artists also on the bill The post Kelly Lee Owens announces two-day music festival in Wales to celebrate grassroots venues as part of Hometown Meltdown appeared first on NME .",
+      "score": 1.73,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "nme"
       ]
     },
     {
