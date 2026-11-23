@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-22",
-  "builtAt": "2026-11-22T19:36:34.055Z",
-  "lastAttemptedAt": "2026-11-22T19:36:32.806Z",
+  "digestId": "2026-11-23",
+  "builtAt": "2026-11-23T23:51:32.458Z",
+  "lastAttemptedAt": "2026-11-23T23:51:31.878Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 102,
+    "dedupedItems": 101,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,43 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33530",
-      "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/33530",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Sun, 22 Nov 2026 18:40:18 GMT",
-      "summary": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
-      "score": 2.45,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
-      "title": "France Is Blaming Iran for the Fridge Cyberattack",
-      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
+      "title": "Humans Have Rights. Machines Do Not.",
+      "url": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-19T03:15:04Z",
-      "summary": "Interesting : U.S. intelligence agencies have recently reached a \"low confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
-      "title": "Formal Verification of the Signal Protocol Using AI",
-      "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-17T12:06:37Z",
-      "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or \"formally verify,\" a number of the Signal protocol's key cryptographic guaranteesa landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways....",
-      "score": 2.3,
+      "publishedAt": "2026-11-23T12:01:45Z",
+      "summary": "This essay originally appeared in Tech Policy Press . Last year, Character.AI asked a federal court in Florida to dismiss a wrongful-death suit, brought by the mother of a fourteen-year-old boy who had killed himself after months of conversation with its chatbot. The company made two arguments. One, that the chatbot's words were speech that its users had a...",
+      "score": 2.65,
       "tags": [
         "security",
         "feed"
@@ -76,13 +47,13 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
-      "title": "Usable Security at Luxury Hotels",
-      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "title": "France Is Blaming Iran for the Fridge Cyberattack",
+      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-16T12:05:18Z",
-      "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why \"just don't click on links\" is bad advice. It can't work when answering strangers' emails is the job. Even worse, in this case...",
+      "publishedAt": "2026-11-19T03:15:04Z",
+      "summary": "Interesting : U.S. intelligence agencies have recently reached a \"low confidence\" assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A \"low confidence\" assessment generally means that there is some intelligence that points in a certain...",
       "score": 2.3,
       "tags": [
         "security",
@@ -90,59 +61,57 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "title": "Two groups verify mathematician's claim that Claude helped prove mathematics problem",
-      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Sun, 22 Nov 2026 17:55:27 GMT",
-      "summary": "Anthropic's Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco -based artificial intelligence (AI) company's software has helped crack one of the most important unsolved problems in mathematics - and experts say the claim checks out. Levent...",
-      "score": 2.1500000000000004,
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33526",
+      "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33526",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Tue, 17 Nov 2026 10:56:38 GMT",
+      "summary": "Iâve mentioned before in some of my diaries that it can be instructive to look at what appear to be âgenericâ phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past...",
+      "score": 2.3,
       "tags": [
-        "tech",
+        "security",
         "rss",
-        "guardian"
+        "sans"
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=rss&amp;at_campaign=rss",
-      "title": "Can AI really help spot Black Friday deals? We put it to the test",
-      "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+      "title": "Formal Verification of the Signal Protocol Using AI",
+      "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-17T12:06:37Z",
+      "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or \"formally verify,\" a number of the Signal protocol's key cryptographic guaranteesa landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways....",
+      "score": 2.3,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=rss&amp;at_campaign=rss",
+      "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
+      "url": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Sat, 21 Nov 2026 00:06:11 GMT",
-      "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
-      "score": 2.1,
+      "publishedAt": "Mon, 23 Nov 2026 14:08:50 GMT",
+      "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss"
       ]
     },
     {
-      "id": "hacker news:https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/",
-      "title": "\"A government that 'gets it'\": Canada recommits to federal funding for news",
-      "url": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Sun, 22 Nov 2026 19:10:38 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
-      "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/23/child-safety-groups-urge-amazon-ebay-stop-selling-ai-toys-until-proved-safe",
+      "title": "Child safety groups urge Amazon and eBay to stop selling AI toys until proved safe",
+      "url": "https://www.theguardian.com/technology/2026/nov/23/child-safety-groups-urge-amazon-ebay-stop-selling-ai-toys-until-proved-safe",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Sun, 22 Nov 2026 19:00:34 GMT",
-      "summary": "Transparency International says Queensland's David Crisafulli was 'by far the most frequently accessed' state leader, with 13 meetings Get our breaking news email , free app or daily news podcast Bosses at 10 datacentre companies secured almost 120 meetings with premiers and ministers in five states over a three-year period, with experts declaring this is...",
-      "score": 2.1500000000000004,
+      "publishedAt": "Mon, 23 Nov 2026 17:18:06 GMT",
+      "summary": "Advocates from across the world voice concern over privacy issues and inappropriate communication to children More than 150 child safety groups and experts across six continents have urged Amazon and eBay to stop selling AI toys this Christmas until they are proved to be safe. In a letter sent to Amazon's president, Andy Jassy, and eBay's president, Jamie...",
+      "score": 2.35,
       "tags": [
         "tech",
         "rss",
@@ -150,12 +119,42 @@
       ]
     },
     {
-      "id": "hacker news:https://openai.com/index/perplexity-and-intelligence/",
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "id": "hacker news:https://twitter.com/ylecun/status/2124550037912920090",
+      "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
+      "url": "https://twitter.com/ylecun/status/2124550037912920090",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Sun, 22 Nov 2026 17:06:27 +0000",
+      "publishedAt": "Mon, 23 Nov 2026 17:07:26 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.3000000000000003,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=rss&amp;at_campaign=rss",
+      "title": "The rise and fall and rise again of Jensen Huang",
+      "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Mon, 23 Nov 2026 15:49:52 GMT",
+      "summary": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Mon, 23 Nov 2026 14:00:18 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.1,
       "tags": [
@@ -166,14 +165,14 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/index/combatting-adversarial-distillation",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "id": "openai news:https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Fri, 20 Nov 2026 10:00:00 GMT",
-      "summary": "OpenAI's layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "score": 2.37,
+      "publishedAt": "Mon, 23 Nov 2026 08:00:00 GMT",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "score": 2.52,
       "tags": [
         "ai",
         "official",
@@ -182,19 +181,51 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "id": "google ai:https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "title": "A more tailored Google Search that's uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Thu, 19 Nov 2026 18:00:00 +0000",
-      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "score": 2.23,
+      "publishedAt": "Mon, 23 Nov 2026 17:00:00 +0000",
+      "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "score": 2.3800000000000003,
       "tags": [
         "ai",
         "official",
         "google",
         "rss"
+      ]
+    },
+    {
+      "id": "nme music news:https://www.nme.com/news/music/portishead-join-no-music-for-genocide-campaign-as-music-disappears-from-platforms-in-israel-3976716",
+      "title": "Portishead join 'No Music For Genocide' campaign as music disappears from platforms in Israel",
+      "url": "https://www.nme.com/news/music/portishead-join-no-music-for-genocide-campaign-as-music-disappears-from-platforms-in-israel-3976716",
+      "source": "NME Music News",
+      "topic": "music",
+      "publishedAt": "Mon, 23 Nov 2026 12:56:55 +0000",
+      "summary": "Hundreds of artists have joined the movement including Massive Attack, Fontaines D.C., Amyl & The Sniffers, and Kneecap and more in recent months The post Portishead join 'No Music For Genocide' campaign as music disappears from platforms in Israel appeared first on NME .",
+      "score": 1.93,
+      "tags": [
+        "music",
+        "news",
+        "rss",
+        "nme"
+      ]
+    },
+    {
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/atlas-sound-thanatos/",
+      "title": "Thanatos",
+      "url": "https://pitchfork.com/reviews/albums/atlas-sound-thanatos/",
+      "source": "Pitchfork Best New Albums",
+      "topic": "music",
+      "publishedAt": "Mon, 23 Nov 2026 05:02:00 +0000",
+      "summary": "Bradford Cox's first solo album in 15 years is a haunted, autumnal meditation on all forms of decay: bodily, spiritual, political, and sonic.",
+      "score": 1.75,
+      "tags": [
+        "music",
+        "albums",
+        "rss",
+        "pitchfork"
       ]
     },
     {
@@ -209,38 +240,6 @@
       "tags": [
         "music",
         "reviews",
-        "rss",
-        "pitchfork"
-      ]
-    },
-    {
-      "id": "nme music news:https://www.nme.com/news/music/kelly-lee-owens-music-festival-wales-grassroots-venues-hometown-meltdown-3976656",
-      "title": "Kelly Lee Owens announces two-day music festival in Wales to celebrate grassroots venues as part of Hometown Meltdown",
-      "url": "https://www.nme.com/news/music/kelly-lee-owens-music-festival-wales-grassroots-venues-hometown-meltdown-3976656",
-      "source": "NME Music News",
-      "topic": "music",
-      "publishedAt": "Sun, 22 Nov 2026 11:38:10 +0000",
-      "summary": "The Welsh electronic musician will curate and perform at the inaugural event in Bethesda, with Gruff Rhys and a range of local artists also on the bill The post Kelly Lee Owens announces two-day music festival in Wales to celebrate grassroots venues as part of Hometown Meltdown appeared first on NME .",
-      "score": 1.73,
-      "tags": [
-        "music",
-        "news",
-        "rss",
-        "nme"
-      ]
-    },
-    {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
-      "title": "Snakes & Ladders",
-      "url": "https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
-      "source": "Pitchfork Best New Albums",
-      "topic": "music",
-      "publishedAt": "Fri, 13 Nov 2026 05:03:00 +0000",
-      "summary": "It's a marathon and the New York duo keeps the faith, delivering another lyrical masterclass over engrossing beats from the indie rap all-stars whose work they've cultivated.",
-      "score": 1.7,
-      "tags": [
-        "music",
-        "albums",
         "rss",
         "pitchfork"
       ]
