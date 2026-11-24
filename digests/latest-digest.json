@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-23",
-  "builtAt": "2026-11-23T23:51:32.458Z",
-  "lastAttemptedAt": "2026-11-23T23:51:31.878Z",
+  "digestId": "2026-11-24",
+  "builtAt": "2026-11-24T22:24:05.139Z",
+  "lastAttemptedAt": "2026-11-24T22:24:04.543Z",
   "isStale": false,
   "counts": {
     "rawItems": 103,
-    "dedupedItems": 101,
+    "dedupedItems": 99,
     "digestItems": 15
   },
   "topicCounts": {
@@ -18,6 +18,35 @@
   "sourceFailures": [],
   "items": [
     {
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
+      "title": "We Get the Infrastructure We Pay For",
+      "url": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
+      "source": "Schneier on Security",
+      "topic": "security",
+      "publishedAt": "2026-11-24T12:06:54Z",
+      "summary": "This essay originally appeared as part of a round table in The Free Press entitled \"Is America's Infrastructure Under Attack?\" Microsoft, the FAA, banks, United Airlines, the NSA-it's been a really bad week in cyberspace. But, amazing as it might seem, these are not related. As far as we know, they're not the result of cyberattacks. They're not even...",
+      "score": 2.65,
+      "tags": [
+        "security",
+        "feed"
+      ]
+    },
+    {
+      "id": "sans isc:https://isc.sans.edu/diary/rss/33550",
+      "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33550",
+      "source": "SANS ISC",
+      "topic": "security",
+      "publishedAt": "Tue, 24 Nov 2026 02:32:00 GMT",
+      "summary": "This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this subnet and it is still ongoing as of this writing.",
+      "score": 2.35,
+      "tags": [
+        "security",
+        "rss",
+        "sans"
+      ]
+    },
+    {
       "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
       "title": "Humans Have Rights. Machines Do Not.",
       "url": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
@@ -25,7 +54,7 @@
       "topic": "security",
       "publishedAt": "2026-11-23T12:01:45Z",
       "summary": "This essay originally appeared in Tech Policy Press . Last year, Character.AI asked a federal court in Florida to dismiss a wrongful-death suit, brought by the mother of a fourteen-year-old boy who had killed himself after months of conversation with its chatbot. The company made two arguments. One, that the chatbot's words were speech that its users had a...",
-      "score": 2.65,
+      "score": 2.4,
       "tags": [
         "security",
         "feed"
@@ -61,56 +90,29 @@
       ]
     },
     {
-      "id": "sans isc:https://isc.sans.edu/diary/rss/33526",
-      "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
-      "url": "https://isc.sans.edu/diary/rss/33526",
-      "source": "SANS ISC",
-      "topic": "security",
-      "publishedAt": "Tue, 17 Nov 2026 10:56:38 GMT",
-      "summary": "Iâve mentioned before in some of my diaries that it can be instructive to look at what appear to be âgenericâ phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past...",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "rss",
-        "sans"
-      ]
-    },
-    {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
-      "title": "Formal Verification of the Signal Protocol Using AI",
-      "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
-      "source": "Schneier on Security",
-      "topic": "security",
-      "publishedAt": "2026-11-17T12:06:37Z",
-      "summary": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or \"formally verify,\" a number of the Signal protocol's key cryptographic guaranteesa landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways....",
-      "score": 2.3,
-      "tags": [
-        "security",
-        "feed"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=rss&amp;at_campaign=rss",
-      "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
-      "url": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "id": "hacker news:https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 23 Nov 2026 14:08:50 GMT",
-      "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
-      "score": 2.35,
+      "publishedAt": "Tue, 24 Nov 2026 16:32:17 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.5,
       "tags": [
         "tech",
-        "rss"
+        "community",
+        "rss",
+        "hacker-news"
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/23/child-safety-groups-urge-amazon-ebay-stop-selling-ai-toys-until-proved-safe",
-      "title": "Child safety groups urge Amazon and eBay to stop selling AI toys until proved safe",
-      "url": "https://www.theguardian.com/technology/2026/nov/23/child-safety-groups-urge-amazon-ebay-stop-selling-ai-toys-until-proved-safe",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping",
+      "title": "Meta launches Muse in UK - the AI agent that can do your Christmas shopping",
+      "url": "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 23 Nov 2026 17:18:06 GMT",
-      "summary": "Advocates from across the world voice concern over privacy issues and inappropriate communication to children More than 150 child safety groups and experts across six continents have urged Amazon and eBay to stop selling AI toys this Christmas until they are proved to be safe. In a letter sent to Amazon's president, Andy Jassy, and eBay's president, Jamie...",
+      "publishedAt": "Tue, 24 Nov 2026 14:36:32 GMT",
+      "summary": "Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Have you downloaded Meta's AI assistant Muse or do you plan to? Want to avoid the Christmas shopping hordes? Then let your AI agent do the shopping for you. Mark Zuckerberg's Meta is launching its Muse AI assistant in the UK and is encouraging users to...",
       "score": 2.35,
       "tags": [
         "tech",
@@ -119,12 +121,26 @@
       ]
     },
     {
-      "id": "hacker news:https://twitter.com/ylecun/status/2124550037912920090",
-      "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
-      "url": "https://twitter.com/ylecun/status/2124550037912920090",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=rss&amp;at_campaign=rss",
+      "title": "Faisal Islam: Fears over the AI boom haven't gone away",
+      "url": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Tue, 24 Nov 2026 18:21:43 GMT",
+      "summary": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
+      "score": 2.1500000000000004,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://prismml.com/news/bonsai-2-5-27b",
+      "title": "Ternary Bonsai 2.5 27B",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Mon, 23 Nov 2026 17:07:26 +0000",
+      "publishedAt": "Tue, 24 Nov 2026 20:08:03 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.3000000000000003,
       "tags": [
@@ -135,43 +151,28 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=rss&amp;at_campaign=rss",
-      "title": "The rise and fall and rise again of Jensen Huang",
-      "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
+      "title": "Chinese media hail Huang's Nvidia return with warning over 'witch-hunts'",
+      "url": "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
+      "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Mon, 23 Nov 2026 15:49:52 GMT",
-      "summary": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
+      "publishedAt": "Tue, 24 Nov 2026 14:45:03 GMT",
+      "summary": "State-run Global Times says reports about CEO's affair with alleged Chinese spy were 'malicious' Trump made up to $15m on Nvidia stock after Huang's return Nvidia staff: what do you think of Jensen Huang's return as chief executive? Chinese media have reacted with glee to the dramatic reinstatement of Jensen Huang as the chief executive of Nvidia, with one...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "title": "Nvidia Reinstates Jensen Huang as CEO",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Mon, 23 Nov 2026 14:00:18 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
-      "tags": [
-        "tech",
-        "community",
         "rss",
-        "hacker-news"
+        "guardian"
       ]
     },
     {
-      "id": "openai news:https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-      "title": "Richpanel helps companies automate 50% of support in 30 days",
-      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "id": "openai news:https://openai.com/business/customer-stories/ifood",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
       "source": "OpenAI News",
       "topic": "ai",
-      "publishedAt": "Mon, 23 Nov 2026 08:00:00 GMT",
-      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "publishedAt": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "summary": "AI update worth opening for the full launch details or analysis.",
       "score": 2.52,
       "tags": [
         "ai",
@@ -181,13 +182,13 @@
       ]
     },
     {
-      "id": "google ai:https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "title": "A more tailored Google Search that's uniquely yours",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "id": "google ai:https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
       "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Mon, 23 Nov 2026 17:00:00 +0000",
-      "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "publishedAt": "Tue, 24 Nov 2026 16:00:00 +0000",
+      "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
       "score": 2.3800000000000003,
       "tags": [
         "ai",
@@ -197,13 +198,13 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/portishead-join-no-music-for-genocide-campaign-as-music-disappears-from-platforms-in-israel-3976716",
-      "title": "Portishead join 'No Music For Genocide' campaign as music disappears from platforms in Israel",
-      "url": "https://www.nme.com/news/music/portishead-join-no-music-for-genocide-campaign-as-music-disappears-from-platforms-in-israel-3976716",
+      "id": "nme music news:https://www.nme.com/news/music/ed-sheeran-fans-denied-entry-chile-concert-wearing-palestine-football-shirts-3976858",
+      "title": "Ed Sheeran fans claim they were denied entry to Chile concert for wearing Palestine-linked football shirts",
+      "url": "https://www.nme.com/news/music/ed-sheeran-fans-denied-entry-chile-concert-wearing-palestine-football-shirts-3976858",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Mon, 23 Nov 2026 12:56:55 +0000",
-      "summary": "Hundreds of artists have joined the movement including Massive Attack, Fontaines D.C., Amyl & The Sniffers, and Kneecap and more in recent months The post Portishead join 'No Music For Genocide' campaign as music disappears from platforms in Israel appeared first on NME .",
+      "publishedAt": "Tue, 24 Nov 2026 12:40:23 +0000",
+      "summary": "Chilean football club Palestino, founded by Palestinian immigrants, have condemned the alleged discrimination and offered legal assistance to the fans The post Ed Sheeran fans claim they were denied entry to Chile concert for wearing Palestine-linked football shirts appeared first on NME .",
       "score": 1.93,
       "tags": [
         "music",
@@ -213,33 +214,33 @@
       ]
     },
     {
-      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/atlas-sound-thanatos/",
-      "title": "Thanatos",
-      "url": "https://pitchfork.com/reviews/albums/atlas-sound-thanatos/",
-      "source": "Pitchfork Best New Albums",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/font-american-bully-xl/",
+      "title": "American Bully XL",
+      "url": "https://pitchfork.com/reviews/albums/font-american-bully-xl/",
+      "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Mon, 23 Nov 2026 05:02:00 +0000",
-      "summary": "Bradford Cox's first solo album in 15 years is a haunted, autumnal meditation on all forms of decay: bodily, spiritual, political, and sonic.",
-      "score": 1.75,
+      "publishedAt": "Tue, 24 Nov 2026 05:00:00 +0000",
+      "summary": "On its second album, the Texas quartet runs classic country influences through blasts of distortion, pairing its noisy palette with newly confessional lyrics.",
+      "score": 1.9,
       "tags": [
         "music",
-        "albums",
+        "reviews",
         "rss",
         "pitchfork"
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/rem-reveal-25th-anniversary-edition/",
-      "title": "Reveal (25th Anniversary Edition)",
-      "url": "https://pitchfork.com/reviews/albums/rem-reveal-25th-anniversary-edition/",
-      "source": "Pitchfork Album Reviews",
+      "id": "pitchfork best new albums:https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
+      "title": "Snakes & Ladders",
+      "url": "https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
+      "source": "Pitchfork Best New Albums",
       "topic": "music",
-      "publishedAt": "Sat, 21 Nov 2026 05:00:00 +0000",
-      "summary": "The rock band's sunny synth-pop pivot remains an undersung gem. On a new reissue, it also feels like a touchstone for the sound of indie-pop in the 21st century.",
-      "score": 1.75,
+      "publishedAt": "Fri, 13 Nov 2026 05:03:00 +0000",
+      "summary": "It's a marathon and the New York duo keeps the faith, delivering another lyrical masterclass over engrossing beats from the indie rap all-stars whose work they've cultivated.",
+      "score": 1.7,
       "tags": [
         "music",
-        "reviews",
+        "albums",
         "rss",
         "pitchfork"
       ]
