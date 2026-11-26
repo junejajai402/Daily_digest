@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-25",
-  "builtAt": "2026-11-25T21:39:39.409Z",
-  "lastAttemptedAt": "2026-11-25T21:39:39.072Z",
+  "digestId": "2026-11-26",
+  "builtAt": "2026-11-26T21:29:11.775Z",
+  "lastAttemptedAt": "2026-11-26T21:29:11.315Z",
   "isStale": false,
   "counts": {
     "rawItems": 102,
@@ -25,7 +25,7 @@
       "topic": "security",
       "publishedAt": "2026-11-25T12:08:12Z",
       "summary": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
-      "score": 2.65,
+      "score": 2.4,
       "tags": [
         "security",
         "feed"
@@ -83,37 +83,21 @@
       "topic": "security",
       "publishedAt": "2026-11-23T12:01:45Z",
       "summary": "This essay originally appeared in Tech Policy Press . Last year, Character.AI asked a federal court in Florida to dismiss a wrongful-death suit, brought by the mother of a fourteen-year-old boy who had killed himself after months of conversation with its chatbot. The company made two arguments. One, that the chatbot's words were speech that its users had a...",
-      "score": 2.4,
+      "score": 2.3,
       "tags": [
         "security",
         "feed"
       ]
     },
     {
-      "id": "hacker news:https://1password.com/blog/update-on-nov-2026-security-incident",
-      "title": "1Password Security Incident",
-      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Wed, 25 Nov 2026 17:18:26 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/business/2026/nov/25/china-battery-projects-uk-funding-security-warnings",
-      "title": "China-linked battery projects could receive UK funding despite security warnings",
-      "url": "https://www.theguardian.com/business/2026/nov/25/china-battery-projects-uk-funding-security-warnings",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Wed, 25 Nov 2026 06:00:07 GMT",
-      "summary": "China-made lithium-ion batteries, which are relatively low-cost, dominate Ofgem project shortlist A string of battery projects linked to China are expected to be granted UK state subsidies despite deepening fears over the risk of foreign interference they could pose to Europe's energy systems. Ofgem, Great Britain's energy regulator, published a...",
-      "score": 2.25,
+      "publishedAt": "Thu, 26 Nov 2026 12:19:37 GMT",
+      "summary": "Exclusive: Investigation finds at least 25 cases affected by AI-generated witness statements, fictitious case law and nonexistent statutes Undisclosed AI use has affected more than two dozen court cases this year, prompting judges to complain about AI-generated witness statements, fictitious case law and nonexistent statutes, an investigation has revealed....",
+      "score": 2.1500000000000004,
       "tags": [
         "tech",
         "rss",
@@ -121,28 +105,14 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=rss&amp;at_campaign=rss",
-      "title": "EA adds AI-generated John Motson to FC 27 video game",
-      "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Wed, 25 Nov 2026 10:11:34 GMT",
-      "summary": "The AI-generated Motson will appear in the game on 26 November, with the consent of his son and wife.",
-      "score": 2.1500000000000004,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://spectator.com/article/britains-ghost-stations-are-fascinating/",
-      "title": "Britain's ghost stations",
-      "url": "https://spectator.com/article/britains-ghost-stations-are-fascinating/",
+      "id": "hacker news:https://devnull.land/amd-specific-llama-cpp",
+      "title": "AMD Specific Patches for Llama.cpp",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Wed, 25 Nov 2026 17:43:46 +0000",
+      "publishedAt": "Thu, 26 Nov 2026 17:11:29 +0000",
       "summary": "Tech story worth opening for more context.",
-      "score": 2.3000000000000003,
+      "score": 2.1,
       "tags": [
         "tech",
         "community",
@@ -151,17 +121,48 @@
       ]
     },
     {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/c3rrgqj2zx5yo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Zoe Kleinman: Nobody is irreplaceable - unless you're Jensen Huang",
-      "url": "https://www.bbc.co.uk/news/articles/c3rrgqj2zx5yo?at_medium=RSS&at_campaign=rss",
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+      "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "topic": "tech",
-      "publishedAt": "Wed, 25 Nov 2026 10:03:12 GMT",
-      "summary": "The BBC's technology and AI editor on how Nvidia's boss made himself impossible to fire.",
-      "score": 2.1500000000000004,
+      "publishedAt": "Thu, 26 Nov 2026 09:27:44 GMT",
+      "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+      "score": 2.0500000000000003,
       "tags": [
         "tech",
         "rss"
+      ]
+    },
+    {
+      "id": "hacker news:https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Thu, 26 Nov 2026 17:47:45 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.1,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us",
+      "title": "Elon Musk pledges to give two SpaceX shares to every child in the US",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Thu, 26 Nov 2026 07:02:37 GMT",
+      "summary": "The total value of the shares could reach almost $18bn and comes as tech companies debate how to share the spoils of the AI boom Elon Musk, the world's richest person, has pledged to give every child in the US two shares in SpaceX, the space ⁠and AI company he ​runs, worth a total of almost $18bn. In a brief post on X, the social media platform that he...",
+      "score": 2.0500000000000003,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
       ]
     },
     {
@@ -197,14 +198,14 @@
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/getdown-services-announce-the-massive-champion-ship-curated-uk-2027-shows-tickets-3976947",
-      "title": "Getdown Services announce 'The Massive Champion Ship' curated UK Summer 2027 shows",
-      "url": "https://www.nme.com/news/music/getdown-services-announce-the-massive-champion-ship-curated-uk-2027-shows-tickets-3976947",
+      "id": "nme music news:https://www.nme.com/news/music/substance-at-don-toliver-coop-live-show-could-be-linked-to-jewellery-thefts-police-say-3977049",
+      "title": "Substance released at Don Toliver Co-Op live show could be linked to jewellery thefts and robberies, police say",
+      "url": "https://www.nme.com/news/music/substance-at-don-toliver-coop-live-show-could-be-linked-to-jewellery-thefts-police-say-3977049",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Wed, 25 Nov 2026 15:57:17 +0000",
-      "summary": "\"Think 'The Little Mermaid' meets 'The Greatest Showman' meets 'Alien: Romulus'\" The post Getdown Services announce 'The Massive Champion Ship' curated UK Summer 2027 shows appeared first on NME .",
-      "score": 1.93,
+      "publishedAt": "Thu, 26 Nov 2026 16:28:10 +0000",
+      "summary": "Officers said that \"similar robberies\" have been reported at two previous Don Toliver gigs The post Substance released at Don Toliver Co-Op live show could be linked to jewellery thefts and robberies, police say appeared first on NME .",
+      "score": 2.13,
       "tags": [
         "music",
         "news",
@@ -220,7 +221,7 @@
       "topic": "music",
       "publishedAt": "Wed, 25 Nov 2026 05:00:00 +0000",
       "summary": "Colombia's TraTraTrax label gathers unreleased tracks from a shadowy internet collective that's been making mischief on the fringes of the Brazilian funk scene for more than two decades.",
-      "score": 1.9,
+      "score": 1.75,
       "tags": [
         "music",
         "reviews",
