@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "digestId": "2026-11-26",
-  "builtAt": "2026-11-26T21:29:11.775Z",
-  "lastAttemptedAt": "2026-11-26T21:29:11.315Z",
+  "digestId": "2026-11-27",
+  "builtAt": "2026-11-27T21:14:19.544Z",
+  "lastAttemptedAt": "2026-11-27T21:14:18.932Z",
   "isStale": false,
   "counts": {
     "rawItems": 102,
@@ -18,14 +18,14 @@
   "sourceFailures": [],
   "items": [
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
-      "title": "Tracking Incidents of Hacking Using AI Tools",
-      "url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+      "title": "Recent Outages Have Economic Causes",
+      "url": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-25T12:08:12Z",
-      "summary": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
-      "score": 2.4,
+      "publishedAt": "2026-11-27T12:02:49Z",
+      "summary": "This essay originally appeared in The Guardian . It's an expanded version of the one I posted as \" We Get the Infrastructure We Pay For .\" It's been a bad week for our computerized infrastructure. We've seen outages at Microsoft , the FAA , a handful of banks , United Airlines , an unnamed classified NSA network , and Apple . People should be forgiven for...",
+      "score": 2.65,
       "tags": [
         "security",
         "feed"
@@ -47,13 +47,13 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
-      "title": "We Get the Infrastructure We Pay For",
-      "url": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+      "title": "Tracking Incidents of Hacking Using AI Tools",
+      "url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-24T12:06:54Z",
-      "summary": "This essay originally appeared as part of a round table in The Free Press entitled \"Is America's Infrastructure Under Attack?\" Microsoft, the FAA, banks, United Airlines, the NSA-it's been a really bad week in cyberspace. But, amazing as it might seem, these are not related. As far as we know, they're not the result of cyberattacks. They're not even...",
+      "publishedAt": "2026-11-25T12:08:12Z",
+      "summary": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
       "score": 2.4,
       "tags": [
         "security",
@@ -68,7 +68,7 @@
       "topic": "security",
       "publishedAt": "Tue, 24 Nov 2026 02:32:00 GMT",
       "summary": "This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this subnet and it is still ongoing as of this writing.",
-      "score": 2.2,
+      "score": 2.1,
       "tags": [
         "security",
         "rss",
@@ -76,13 +76,13 @@
       ]
     },
     {
-      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
-      "title": "Humans Have Rights. Machines Do Not.",
-      "url": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
+      "id": "schneier on security:https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
+      "title": "We Get the Infrastructure We Pay For",
+      "url": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
       "source": "Schneier on Security",
       "topic": "security",
-      "publishedAt": "2026-11-23T12:01:45Z",
-      "summary": "This essay originally appeared in Tech Policy Press . Last year, Character.AI asked a federal court in Florida to dismiss a wrongful-death suit, brought by the mother of a fourteen-year-old boy who had killed himself after months of conversation with its chatbot. The company made two arguments. One, that the chatbot's words were speech that its users had a...",
+      "publishedAt": "2026-11-24T12:06:54Z",
+      "summary": "This essay originally appeared as part of a round table in The Free Press entitled \"Is America's Infrastructure Under Attack?\" Microsoft, the FAA, banks, United Airlines, the NSA-it's been a really bad week in cyberspace. But, amazing as it might seem, these are not related. As far as we know, they're not the result of cyberattacks. They're not even...",
       "score": 2.3,
       "tags": [
         "security",
@@ -90,13 +90,58 @@
       ]
     },
     {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
-      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
-      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+      "title": "Hackers reportedly breach US air force's flagship cloud computing platform",
+      "url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
       "source": "The Guardian Tech",
       "topic": "tech",
-      "publishedAt": "Thu, 26 Nov 2026 12:19:37 GMT",
-      "summary": "Exclusive: Investigation finds at least 25 cases affected by AI-generated witness statements, fictitious case law and nonexistent statutes Undisclosed AI use has affected more than two dozen court cases this year, prompting judges to complain about AI-generated witness statements, fictitious case law and nonexistent statutes, an investigation has revealed....",
+      "publishedAt": "Fri, 27 Nov 2026 14:50:15 GMT",
+      "summary": "Intrusion into Cloud One platform could jeopardize security of sensitive tactical, personnel and logistics data Hackers are reported to have breached the US air force's flagship cloud computing platform, a break-in that comes days after reports that a CIA database was accessed. Reuters reported on Friday that the intrusion into the USAF's Cloud One...",
+      "score": 2.35,
+      "tags": [
+        "tech",
+        "rss",
+        "guardian"
+      ]
+    },
+    {
+      "id": "hacker news:https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "source": "Hacker News",
+      "topic": "tech",
+      "publishedAt": "Fri, 27 Nov 2026 15:40:31 +0000",
+      "summary": "Tech story worth opening for more context.",
+      "score": 2.1,
+      "tags": [
+        "tech",
+        "community",
+        "rss",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=rss&amp;at_campaign=rss",
+      "title": "Asia made a big AI bet on Nvidia. What happens now?",
+      "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "topic": "tech",
+      "publishedAt": "Thu, 26 Nov 2026 23:08:12 GMT",
+      "summary": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
+      "score": 2.0500000000000003,
+      "tags": [
+        "tech",
+        "rss"
+      ]
+    },
+    {
+      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+      "title": "Meta whistleblower calls on Burnham to go further with ban on NDAs",
+      "url": "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+      "source": "The Guardian Tech",
+      "topic": "tech",
+      "publishedAt": "Fri, 27 Nov 2026 12:30:08 GMT",
+      "summary": "Sarah Wynn-Williams says tech insiders with concerns about AI are being silenced in system reminiscent of George Orwell's 1984 The Meta whistleblower who made allegations about the social media company's treatment of teenagers has urged Andy Burnham to go further in banning non-disclosure agreements, warning that tech insiders with concerns about AI...",
       "score": 2.1500000000000004,
       "tags": [
         "tech",
@@ -105,12 +150,12 @@
       ]
     },
     {
-      "id": "hacker news:https://devnull.land/amd-specific-llama-cpp",
-      "title": "AMD Specific Patches for Llama.cpp",
-      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "id": "hacker news:https://github.com/convex/convex-backend-skill/issues/64",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
       "source": "Hacker News",
       "topic": "tech",
-      "publishedAt": "Thu, 26 Nov 2026 17:11:29 +0000",
+      "publishedAt": "Fri, 27 Nov 2026 18:02:45 +0000",
       "summary": "Tech story worth opening for more context.",
       "score": 2.1,
       "tags": [
@@ -118,51 +163,6 @@
         "community",
         "rss",
         "hacker-news"
-      ]
-    },
-    {
-      "id": "bbc technology:https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=rss&amp;at_campaign=rss",
-      "title": "Musk's plan to send a million SpaceX data satellites into space approved",
-      "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "topic": "tech",
-      "publishedAt": "Thu, 26 Nov 2026 09:27:44 GMT",
-      "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-      "score": 2.0500000000000003,
-      "tags": [
-        "tech",
-        "rss"
-      ]
-    },
-    {
-      "id": "hacker news:https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-      "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
-      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-      "source": "Hacker News",
-      "topic": "tech",
-      "publishedAt": "Thu, 26 Nov 2026 17:47:45 +0000",
-      "summary": "Tech story worth opening for more context.",
-      "score": 2.1,
-      "tags": [
-        "tech",
-        "community",
-        "rss",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "the guardian tech:https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us",
-      "title": "Elon Musk pledges to give two SpaceX shares to every child in the US",
-      "url": "https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us",
-      "source": "The Guardian Tech",
-      "topic": "tech",
-      "publishedAt": "Thu, 26 Nov 2026 07:02:37 GMT",
-      "summary": "The total value of the shares could reach almost $18bn and comes as tech companies debate how to share the spoils of the AI boom Elon Musk, the world's richest person, has pledged to give every child in the US two shares in SpaceX, the space ⁠and AI company he ​runs, worth a total of almost $18bn. In a brief post on X, the social media platform that he...",
-      "score": 2.0500000000000003,
-      "tags": [
-        "tech",
-        "rss",
-        "guardian"
       ]
     },
     {
@@ -173,7 +173,7 @@
       "topic": "ai",
       "publishedAt": "Tue, 24 Nov 2026 13:00:00 GMT",
       "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-      "score": 2.5700000000000003,
+      "score": 2.47,
       "tags": [
         "ai",
         "official",
@@ -182,30 +182,30 @@
       ]
     },
     {
-      "id": "openai news:https://openai.com/business/customer-stories/clay-plugins-openai",
-      "title": "Clay helps sales teams win with Codex and ChatGPT",
-      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
-      "source": "OpenAI News",
+      "id": "google ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI",
       "topic": "ai",
-      "publishedAt": "Tue, 24 Nov 2026 00:00:00 GMT",
-      "summary": "ChatGPT and Codex integrations help Clay's users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
-      "score": 2.5700000000000003,
+      "publishedAt": "Thu, 19 Nov 2026 18:00:00 +0000",
+      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "score": 2.23,
       "tags": [
         "ai",
         "official",
-        "openai",
+        "google",
         "rss"
       ]
     },
     {
-      "id": "nme music news:https://www.nme.com/news/music/substance-at-don-toliver-coop-live-show-could-be-linked-to-jewellery-thefts-police-say-3977049",
-      "title": "Substance released at Don Toliver Co-Op live show could be linked to jewellery thefts and robberies, police say",
-      "url": "https://www.nme.com/news/music/substance-at-don-toliver-coop-live-show-could-be-linked-to-jewellery-thefts-police-say-3977049",
+      "id": "nme music news:https://www.nme.com/news/music/watch-cage-the-elephants-stripped-back-cover-of-fontaines-d-c-and-rosalias-where-is-gone-3977128",
+      "title": "Watch Cage The Elephant's stripped-back cover of Fontaines D.C. and Rosalía's 'Where Is Gone?'",
+      "url": "https://www.nme.com/news/music/watch-cage-the-elephants-stripped-back-cover-of-fontaines-d-c-and-rosalias-where-is-gone-3977128",
       "source": "NME Music News",
       "topic": "music",
-      "publishedAt": "Thu, 26 Nov 2026 16:28:10 +0000",
-      "summary": "Officers said that \"similar robberies\" have been reported at two previous Don Toliver gigs The post Substance released at Don Toliver Co-Op live show could be linked to jewellery thefts and robberies, police say appeared first on NME .",
-      "score": 2.13,
+      "publishedAt": "Fri, 27 Nov 2026 14:49:09 +0000",
+      "summary": "The US band's next album, 'Dying In Reverse', arrives early next year The post Watch Cage The Elephant's stripped-back cover of Fontaines D.C. and Rosalía's 'Where Is Gone?' appeared first on NME .",
+      "score": 1.93,
       "tags": [
         "music",
         "news",
@@ -214,14 +214,14 @@
       ]
     },
     {
-      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/weird-baile-collected-rips-2004-2024/",
-      "title": "Collected Rips 2004-2024",
-      "url": "https://pitchfork.com/reviews/albums/weird-baile-collected-rips-2004-2024/",
+      "id": "pitchfork album reviews:https://pitchfork.com/reviews/albums/liz-harris-music-for-two-films-about-water/",
+      "title": "Music for Two Films About Water",
+      "url": "https://pitchfork.com/reviews/albums/liz-harris-music-for-two-films-about-water/",
       "source": "Pitchfork Album Reviews",
       "topic": "music",
-      "publishedAt": "Wed, 25 Nov 2026 05:00:00 +0000",
-      "summary": "Colombia's TraTraTrax label gathers unreleased tracks from a shadowy internet collective that's been making mischief on the fringes of the Brazilian funk scene for more than two decades.",
-      "score": 1.75,
+      "publishedAt": "Fri, 27 Nov 2026 05:00:00 +0000",
+      "summary": "On her first release under her own name, Liz Harris immerses us in the the ambient side of Grouper with two long-form instrumental compositions.",
+      "score": 1.9,
       "tags": [
         "music",
         "reviews",
